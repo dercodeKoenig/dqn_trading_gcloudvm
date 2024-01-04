@@ -1,6 +1,15 @@
 import os
 import time
 import random
+import sys
+
+try:
+    if sys.argv[1] == "github":
+        os.system("git pull")
+        os.system("git add *")
+        os.system("git commit -m .")
+        os.system("git push")
+except:pass
 
 while True:
     print("running update commands...")
