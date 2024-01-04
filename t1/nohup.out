@@ -3,3 +3,758 @@ To enable them in other operations, rebuild TensorFlow with the appropriate comp
 running update commands...
 2024-01-04 18:28:51.892230: I tensorflow/core/tpu/tpu_initializer_helper.cc:262] Libtpu path is: libtpu.so
 Already up to date.
+The following paths are ignored by one of your .gitignore files:
+t1/__pycache__
+t1/data
+t1/dqn_weights.h5
+Use -f if you really want to add them.
+[main bfd55f9] .
+ 1 file changed, 5 insertions(+), 1998 deletions(-)
+ rewrite t1/nohup.out (99%)
+To https://github.com/dercodeKoenig/dqn_trading_gcloudvm.git
+   eb4e49f..bfd55f9  main -> main
+Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/marvineckhardt04092003/.kaggle/kaggle.json'
+Starting upload for file dqn_training_tpu.py
+  0%|          | 0.00/10.5k [00:00<?, ?B/s]100%|██████████| 10.5k/10.5k [00:00<00:00, 15.6kB/s]
+Upload successful: dqn_training_tpu.py (11KB)
+Skipping folder: data; use '--dir-mode' to upload folders
+Starting upload for file qv.txt
+  0%|          | 0.00/3.34k [00:00<?, ?B/s]100%|██████████| 3.34k/3.34k [00:00<00:00, 4.89kB/s]I0104 18:28:56.941294895    4258 ev_epoll1_linux.cc:121]     grpc epoll fd: 7
+D0104 18:28:56.941331253    4258 ev_posix.cc:141]            Using polling engine: epoll1
+D0104 18:28:56.944243633    4258 lb_policy_registry.cc:43]   registering LB policy factory for "grpclb"
+D0104 18:28:56.944485928    4258 lb_policy_registry.cc:43]   registering LB policy factory for "rls_experimental"
+D0104 18:28:56.944805863    4258 lb_policy_registry.cc:43]   registering LB policy factory for "priority_experimental"
+D0104 18:28:56.944969777    4258 lb_policy_registry.cc:43]   registering LB policy factory for "weighted_target_experimental"
+D0104 18:28:56.944979964    4258 lb_policy_registry.cc:43]   registering LB policy factory for "pick_first"
+D0104 18:28:56.944988336    4258 lb_policy_registry.cc:43]   registering LB policy factory for "round_robin"
+D0104 18:28:56.945988441    4258 lb_policy_registry.cc:43]   registering LB policy factory for "ring_hash_experimental"
+D0104 18:28:56.946008092    4258 dns_resolver_ares.cc:831]   Using ares dns resolver
+D0104 18:28:56.947823554    4258 certificate_provider_registry.cc:39] registering certificate provider factory for "file_watcher"
+D0104 18:28:56.948021086    4258 lb_policy_registry.cc:43]   registering LB policy factory for "cds_experimental"
+D0104 18:28:56.948089451    4258 lb_policy_registry.cc:43]   registering LB policy factory for "xds_cluster_impl_experimental"
+D0104 18:28:56.948224964    4258 lb_policy_registry.cc:43]   registering LB policy factory for "xds_cluster_resolver_experimental"
+D0104 18:28:56.948234596    4258 lb_policy_registry.cc:43]   registering LB policy factory for "xds_cluster_manager_experimental"
+
+Upload successful: qv.txt (3KB)
+Skipping folder: __pycache__; use '--dir-mode' to upload folders
+Starting upload for file utils.py
+  0%|          | 0.00/12.8k [00:00<?, ?B/s]100%|██████████| 12.8k/12.8k [00:00<00:00, 19.0kB/s]
+Upload successful: utils.py (13KB)
+Starting upload for file nohup.out
+  0%|          | 0.00/3.29k [00:00<?, ?B/s]3.41kB [00:00, 23.4kB/s]                   
+Upload unsuccessful: nohup.out
+Starting upload for file dqn_weights.h5
+  0%|          | 0.00/21.8M [00:00<?, ?B/s]  2%|▏         | 368k/21.8M [00:00<00:06, 3.62MB/s]  8%|▊         | 1.73M/21.8M [00:00<00:02, 7.85MB/s] 22%|██▏       | 4.73M/21.8M [00:00<00:01, 14.0MB/s] 34%|███▍      | 7.48M/21.8M [00:00<00:00, 17.2MB/s] 47%|████▋     | 10.2M/21.8M [00:00<00:00, 20.6MB/s] 73%|███████▎  | 16.0M/21.8M [00:00<00:00, 28.6MB/s] 97%|█████████▋| 21.1M/21.8M [00:00<00:00, 33.8MB/s]100%|██████████| 21.8M/21.8M [00:01<00:00, 14.7MB/s]
+Upload successful: dqn_weights.h5 (22MB)
+Starting upload for file push_files_worker.py
+  0%|          | 0.00/391 [00:00<?, ?B/s]100%|██████████| 391/391 [00:00<00:00, 531B/s]
+Upload successful: push_files_worker.py (391B)
+Starting upload for file manager.py
+  0%|          | 0.00/33.5k [00:00<?, ?B/s]100%|██████████| 33.5k/33.5k [00:00<00:00, 49.4kB/s]
+Upload successful: manager.py (33KB)
+Starting upload for file loss.txt
+  0%|          | 0.00/3.82k [00:00<?, ?B/s]100%|██████████| 3.82k/3.82k [00:00<00:00, 5.39kB/s]
+Upload successful: loss.txt (4KB)
+Starting upload for file make_model.py
+  0%|          | 0.00/5.95k [00:00<?, ?B/s]100%|██████████| 5.95k/5.95k [00:00<00:00, 9.73kB/s]
+Upload successful: make_model.py (6KB)
+Dataset version is being created. Please check progress at https://www.kaggle.com/bpwqsdd/dqn-cloud-files-t1
+sleep for 13763 seconds
+0 - path: data/US500_1_inverted.o
+0 - cm: 0.4
+loading data/US500_1_inverted.o
+1 - path: data/US30_1_inverted.o
+1 - cm: 2.5
+loading data/US30_1_inverted.o
+2 - path: data/USTEC_1_inverted.o
+2 - cm: 2.5
+loading data/USTEC_1_inverted.o
+3 - path: data/USTEC_1.o
+3 - cm: 2.5
+loading data/USTEC_1.o
+4 - path: data/USTEC_1_inverted.o
+4 - cm: 2.5
+loading data/USTEC_1_inverted.o
+5 - path: data/US500_1_inverted.o
+5 - cm: 0.4
+loading data/US500_1_inverted.o
+6 - path: data/US30_1_inverted.o
+6 - cm: 2.5
+loading data/US30_1_inverted.o
+7 - path: data/US500_1.o
+7 - cm: 0.4
+loading data/US500_1.o
+8 - path: data/USTEC_1.o
+8 - cm: 2.5
+loading data/USTEC_1.o
+9 - path: data/US500_1.o
+9 - cm: 0.4
+loading data/US500_1.o
+10 - path: data/US30_1_inverted.o
+10 - cm: 2.5
+loading data/US30_1_inverted.o
+11 - path: data/USTEC_1_inverted.o
+11 - cm: 2.5
+loading data/USTEC_1_inverted.o
+12 - path: data/USTEC_1_inverted.o
+12 - cm: 2.5
+loading data/USTEC_1_inverted.o
+13 - path: data/USTEC_1.o
+13 - cm: 2.5
+loading data/USTEC_1.o
+14 - path: data/USTEC_1_inverted.o
+14 - cm: 2.5
+loading data/USTEC_1_inverted.o
+15 - path: data/US30_1_inverted.o
+15 - cm: 2.5
+loading data/US30_1_inverted.o
+16 - path: data/USTEC_1_inverted.o
+16 - cm: 2.5
+loading data/USTEC_1_inverted.o
+17 - path: data/US500_1.o
+17 - cm: 0.4
+loading data/US500_1.o
+18 - path: data/USTEC_1.o
+18 - cm: 2.5
+loading data/USTEC_1.o
+19 - path: data/US30_1_inverted.o
+19 - cm: 2.5
+loading data/US30_1_inverted.o
+20 - path: data/USTEC_1_inverted.o
+20 - cm: 2.5
+loading data/USTEC_1_inverted.o
+21 - path: data/US30_1_inverted.o
+21 - cm: 2.5
+loading data/US30_1_inverted.o
+22 - path: data/USTEC_1.o
+22 - cm: 2.5
+loading data/USTEC_1.o
+23 - path: data/USTEC_1_inverted.o
+23 - cm: 2.5
+loading data/USTEC_1_inverted.o
+data_get_func online
+0 - path: data/US500_1.o
+0 - cm: 0.4
+loading data/US500_1.o
+1 - path: data/US30_1_inverted.o
+1 - cm: 2.5
+loading data/US30_1_inverted.o
+2 - path: data/USTEC_1_inverted.o
+2 - cm: 2.5
+loading data/USTEC_1_inverted.o
+3 - path: data/US30_1.o
+3 - cm: 2.5
+loading data/US30_1.o
+4 - path: data/US30_1_inverted.o
+4 - cm: 2.5
+loading data/US30_1_inverted.o
+5 - path: data/USTEC_1.o
+5 - cm: 2.5
+loading data/USTEC_1.o
+6 - path: data/US500_1_inverted.o
+6 - cm: 0.4
+loading data/US500_1_inverted.o
+7 - path: data/US30_1_inverted.o
+7 - cm: 2.5
+loading data/US30_1_inverted.o
+8 - path: data/US500_1.o
+8 - cm: 0.4
+loading data/US500_1.o
+9 - path: data/US500_1.o
+9 - cm: 0.4
+loading data/US500_1.o
+10 - path: data/USTEC_1.o
+10 - cm: 2.5
+loading data/USTEC_1.o
+11 - path: data/USTEC_1_inverted.o
+11 - cm: 2.5
+loading data/USTEC_1_inverted.o
+12 - path: data/US30_1.o
+12 - cm: 2.5
+loading data/US30_1.o
+13 - path: data/USTEC_1.o
+13 - cm: 2.5
+loading data/USTEC_1.o
+14 - path: data/USTEC_1.o
+14 - cm: 2.5
+loading data/USTEC_1.o
+15 - path: data/USTEC_1_inverted.o
+15 - cm: 2.5
+loading data/USTEC_1_inverted.o
+16 - path: data/USTEC_1.o
+16 - cm: 2.5
+loading data/USTEC_1.o
+17 - path: data/US500_1.o
+17 - cm: 0.4
+loading data/US500_1.o
+18 - path: data/USTEC_1.o
+18 - cm: 2.5
+loading data/USTEC_1.o
+19 - path: data/USTEC_1_inverted.o
+19 - cm: 2.5
+loading data/USTEC_1_inverted.o
+20 - path: data/US500_1.o
+20 - cm: 0.4
+loading data/US500_1.o
+21 - path: data/US500_1_inverted.o
+21 - cm: 0.4
+loading data/US500_1_inverted.o
+22 - path: data/US30_1.o
+22 - cm: 2.5
+loading data/US30_1.o
+23 - path: data/USTEC_1_inverted.o
+23 - cm: 2.5
+loading data/USTEC_1_inverted.o
+data_get_func online
+0 - path: data/US30_1.o
+0 - cm: 2.5
+loading data/US30_1.o
+1 - path: data/USTEC_1.o
+1 - cm: 2.5
+loading data/USTEC_1.o
+2 - path: data/USTEC_1.o
+2 - cm: 2.5
+loading data/USTEC_1.o
+3 - path: data/US30_1_inverted.o
+3 - cm: 2.5
+loading data/US30_1_inverted.o
+4 - path: data/US500_1.o
+4 - cm: 0.4
+loading data/US500_1.o
+5 - path: data/USTEC_1.o
+5 - cm: 2.5
+loading data/USTEC_1.o
+6 - path: data/US30_1_inverted.o
+6 - cm: 2.5
+loading data/US30_1_inverted.o
+7 - path: data/US500_1_inverted.o
+7 - cm: 0.4
+loading data/US500_1_inverted.o
+8 - path: data/US500_1_inverted.o
+8 - cm: 0.4
+loading data/US500_1_inverted.o
+9 - path: data/US500_1.o
+9 - cm: 0.4
+loading data/US500_1.o
+10 - path: data/US30_1_inverted.o
+10 - cm: 2.5
+loading data/US30_1_inverted.o
+11 - path: data/USTEC_1.o
+11 - cm: 2.5
+loading data/USTEC_1.o
+12 - path: data/US30_1.o
+12 - cm: 2.5
+loading data/US30_1.o
+13 - path: data/US500_1.o
+13 - cm: 0.4
+loading data/US500_1.o
+14 - path: data/US500_1_inverted.o
+14 - cm: 0.4
+loading data/US500_1_inverted.o
+15 - path: data/USTEC_1_inverted.o
+15 - cm: 2.5
+loading data/USTEC_1_inverted.o
+16 - path: data/US30_1.o
+16 - cm: 2.5
+loading data/US30_1.o
+17 - path: data/USTEC_1.o
+17 - cm: 2.5
+loading data/USTEC_1.o
+18 - path: data/US500_1_inverted.o
+18 - cm: 0.4
+loading data/US500_1_inverted.o
+19 - path: data/US500_1_inverted.o
+19 - cm: 0.4
+loading data/US500_1_inverted.o
+20 - path: data/USTEC_1.o
+20 - cm: 2.5
+loading data/USTEC_1.o
+21 - path: data/US30_1.o
+21 - cm: 2.5
+loading data/US30_1.o
+22 - path: data/USTEC_1_inverted.o
+22 - cm: 2.5
+loading data/USTEC_1_inverted.o
+23 - path: data/USTEC_1.o
+23 - cm: 2.5
+loading data/USTEC_1.o
+data_get_func online
+0 - path: data/USTEC_1_inverted.o
+0 - cm: 2.5
+loading data/USTEC_1_inverted.o
+1 - path: data/US500_1.o
+1 - cm: 0.4
+loading data/US500_1.o
+2 - path: data/USTEC_1_inverted.o
+2 - cm: 2.5
+loading data/USTEC_1_inverted.o
+3 - path: data/USTEC_1_inverted.o
+3 - cm: 2.5
+loading data/USTEC_1_inverted.o
+4 - path: data/US30_1.o
+4 - cm: 2.5
+loading data/US30_1.o
+5 - path: data/US500_1_inverted.o
+5 - cm: 0.4
+loading data/US500_1_inverted.o
+6 - path: data/US30_1.o
+6 - cm: 2.5
+loading data/US30_1.o
+7 - path: data/USTEC_1.o
+7 - cm: 2.5
+loading data/USTEC_1.o
+8 - path: data/US500_1_inverted.o
+8 - cm: 0.4
+loading data/US500_1_inverted.o
+9 - path: data/US500_1_inverted.o
+9 - cm: 0.4
+loading data/US500_1_inverted.o
+10 - path: data/USTEC_1.o
+10 - cm: 2.5
+loading data/USTEC_1.o
+11 - path: data/US30_1_inverted.o
+11 - cm: 2.5
+loading data/US30_1_inverted.o
+12 - path: data/US500_1.o
+12 - cm: 0.4
+loading data/US500_1.o
+13 - path: data/USTEC_1.o
+13 - cm: 2.5
+loading data/USTEC_1.o
+14 - path: data/US500_1.o
+14 - cm: 0.4
+loading data/US500_1.o
+15 - path: data/US30_1_inverted.o
+15 - cm: 2.5
+loading data/US30_1_inverted.o
+16 - path: data/USTEC_1.o
+16 - cm: 2.5
+loading data/USTEC_1.o
+17 - path: data/US500_1.o
+17 - cm: 0.4
+loading data/US500_1.o
+18 - path: data/US500_1_inverted.o
+18 - cm: 0.4
+loading data/US500_1_inverted.o
+19 - path: data/US30_1.o
+19 - cm: 2.5
+loading data/US30_1.o
+20 - path: data/USTEC_1_inverted.o
+20 - cm: 2.5
+loading data/USTEC_1_inverted.o
+21 - path: data/US30_1.o
+21 - cm: 2.5
+loading data/US30_1.o
+22 - path: data/US30_1.o
+22 - cm: 2.5
+loading data/US30_1.o
+23 - path: data/US30_1_inverted.o
+23 - cm: 2.5
+loading data/US30_1_inverted.o
+data_get_func online
+2024-01-04 18:29:35.217935: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-01-04 18:29:44.716371: I tensorflow/compiler/xla/service/service.cc:173] XLA service 0x2809200 initialized for platform TPU (this does not guarantee that XLA will be used). Devices:
+2024-01-04 18:29:44.716542: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (0): TPU, 2a886c8
+2024-01-04 18:29:44.716559: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (1): TPU, 2a886c8
+2024-01-04 18:29:44.716571: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (2): TPU, 2a886c8
+2024-01-04 18:29:44.716582: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (3): TPU, 2a886c8
+2024-01-04 18:29:44.716596: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (4): TPU, 2a886c8
+2024-01-04 18:29:44.716610: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (5): TPU, 2a886c8
+2024-01-04 18:29:44.716624: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (6): TPU, 2a886c8
+2024-01-04 18:29:44.716642: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (7): TPU, 2a886c8
+11 - start at USTEC_1_inverted - 628457
+12 - start at USTEC_1_inverted - 1137639
+16 - start at USTEC_1_inverted - 212653
+5 - start at US500_1_inverted - 977623
+14 - start at USTEC_1_inverted - 894378
+2 - start at USTEC_1_inverted - 275410
+8 - start at USTEC_1 - 23719
+10 - start at US30_1_inverted - 410761
+0 - start at US500_1 - 1345818
+13 - start at USTEC_1 - 204905
+3 - start at USTEC_1 - 1479764
+4 - start at USTEC_1_inverted - 714379
+23 - start at USTEC_1_inverted - 1315421
+9 - start at US500_1 - 1357438
+1 - start at US30_1_inverted - 1112791
+0 - start at US500_1_inverted - 787328
+21 - start at US30_1_inverted - 1011973
+7 - start at US500_1 - 1674593
+6 - start at US30_1_inverted - 137664
+19 - start at US30_1_inverted - 210634
+15 - start at US30_1_inverted - 884423
+20 - start at USTEC_1_inverted - 478396
+5 - start at USTEC_1 - 221328
+4 - start at US30_1_inverted - 1326079
+22 - start at USTEC_1 - 1278211
+18 - start at USTEC_1 - 1320703
+1 - start at US30_1_inverted - 1199210
+3 - start at US30_1 - 598421
+8 - start at US500_1 - 941632
+17 - start at US500_1 - 858936
+2 - start at USTEC_1_inverted - 1253290
+9 - start at US500_1 - 10320
+7 - start at US30_1_inverted - 1356721
+6 - start at US500_1_inverted - 571451
+18 - start at USTEC_1 - 1220167
+10 - start at USTEC_1 - 101236
+13 - start at USTEC_1 - 917456
+12 - start at US30_1 - 114066
+17 - start at US500_1 - 535246
+21 - start at US500_1_inverted - 208845
+14 - start at USTEC_1 - 1588020
+23 - start at USTEC_1_inverted - 1576179
+22 - start at US30_1 - 1098874
+4 - start at US500_1 - 708387
+11 - start at USTEC_1_inverted - 311693
+15 - start at USTEC_1_inverted - 1313966
+1 - start at USTEC_1 - 162995
+19 - start at USTEC_1_inverted - 202344
+16 - start at USTEC_1 - 1313784
+0 - start at US30_1 - 839022
+20 - start at US500_1 - 1663119
+2 - start at USTEC_1 - 1608673
+5 - start at USTEC_1 - 1324619
+3 - start at US30_1_inverted - 61588
+7 - start at US500_1_inverted - 444162
+14 - start at US500_1_inverted - 1236906
+10 - start at US30_1_inverted - 1240735
+12 - start at US30_1 - 475425
+8 - start at US500_1_inverted - 240950
+9 - start at US500_1 - 45434
+6 - start at US30_1_inverted - 1614125
+20 - start at USTEC_1 - 91644
+16 - start at US30_1 - 136358
+11 - start at USTEC_1 - 1013148
+15 - start at USTEC_1_inverted - 1690059
+22 - start at USTEC_1_inverted - 243711
+21 - start at US30_1 - 1568688
+19 - start at US500_1_inverted - 1260478
+0 - start at USTEC_1_inverted - 364933
+17 - start at USTEC_1 - 579022
+18 - start at US500_1_inverted - 188250
+5 - start at US500_1_inverted - 583863
+23 - start at USTEC_1 - 1104509
+7 - start at USTEC_1 - 1611262
+6 - start at US30_1 - 1282853
+3 - start at USTEC_1_inverted - 1518250
+1 - start at US500_1 - 211805
+13 - start at US500_1 - 1483256
+4 - start at US30_1 - 103238
+13 - start at USTEC_1 - 821448
+16 - start at USTEC_1 - 992200
+12 - start at US500_1 - 725869
+2 - start at USTEC_1_inverted - 1404516
+8 - start at US500_1_inverted - 61854
+14 - start at US500_1 - 1246444
+15 - start at US30_1_inverted - 1006368
+19 - start at US30_1 - 1601465
+10 - start at USTEC_1 - 1297979
+17 - start at US500_1 - 575987
+20 - start at USTEC_1_inverted - 429415
+21 - start at US30_1 - 1349146
+22 - start at US30_1 - 376231
+18 - start at US500_1_inverted - 1417205
+23 - start at US30_1_inverted - 1201521
+11 - start at US30_1_inverted - 995767
+9 - start at US500_1_inverted - 333101
+2024-01-04 18:30:48.138328: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:268] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+2024-01-04 18:30:50.597346: I tensorflow/compiler/jit/xla_compilation_cache.cc:476] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+loading model weights...
+2024-01-04 18:31:34.018471: I tensorflow/core/tpu/graph_rewrite/encapsulate_tpu_computations_pass.cc:237] Subgraph fingerprint:4816730249098128619
+2024-01-04 18:31:35.163033: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:954] model_pruner failed: INVALID_ARGUMENT: Graph does not contain terminal node StatefulPartitionedCall.
+2024-01-04 18:31:36.142510: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:954] model_pruner failed: INVALID_ARGUMENT: Graph does not contain terminal node StatefulPartitionedCall.
+2024-01-04 18:31:37.679242: I tensorflow/core/tpu/kernels/tpu_compilation_cache_interface.cc:437] TPU host compilation cache miss: cache_key(8913985377907239937), session_name()
+2024-01-04 18:31:56.087517: I tensorflow/core/tpu/kernels/tpu_compile_op_common.cc:210] Compilation of 8913985377907239937 with session name  took 18.408114684s and succeeded
+2024-01-04 18:31:56.224005: I tensorflow/core/tpu/kernels/tpu_compilation_cache_interface.cc:470] TPU host compilation cache: compilation complete for cache_key(8913985377907239937), session_name(), subgraph_key(std::string(property.function_name) = "cluster_tpu_function_4816730249098128619", property.function_library_fingerprint = 17348953246024962450, property.mlir_module_fingerprint = 0, property.num_replicas = 8, topology.chip_bounds().x = 2, topology.chip_bounds().y = 2, topology.chip_bounds().z = 1, topology.wrap().x = false, topology.wrap().y = false, topology.wrap().z = false, topology.MissingChipCount() = 0, std::string(property.shapes_prefix) = "", property.guaranteed_constants_size = 0, embedding_partitions_fingerprint = "1688352644216761960")
+2024-01-04 18:31:56.224199: I tensorflow/core/tpu/kernels/tpu_compilation_cache_interface.cc:536] After adding entry for key 8913985377907239937 with session_name  cache is 1 entries (39449794 bytes),  marked for eviction 0 entries (0 bytes).
+loss: 0.08287853 - expected Q values: 3.689558 - time: 73.52496576309204
+loss: 0.08530751 - expected Q values: 3.7117481 - time: 30.58172607421875
+loss: 0.25500134 - expected Q values: 3.7720275 - time: 30.885406970977783
+loss: 0.1430649 - expected Q values: 3.7949076 - time: 30.180335760116577
+loss: 0.12545125 - expected Q values: 3.8117304 - time: 30.270288228988647
+loss: 0.112489074 - expected Q values: 3.808461 - time: 30.312989711761475
+loss: 0.1250297 - expected Q values: 3.7384527 - time: 29.973677396774292
+loss: 0.15632859 - expected Q values: 3.7599223 - time: 29.763140201568604
+loss: 0.10390057 - expected Q values: 3.9446402 - time: 30.506625652313232
+loss: 0.114686005 - expected Q values: 3.9800699 - time: 29.637731790542603
+loss: 0.09198615 - expected Q values: 3.911564 - time: 30.76099443435669
+loss: 0.08217445 - expected Q values: 3.9122915 - time: 29.59657335281372
+loss: 0.10398116 - expected Q values: 3.970135 - time: 30.415846824645996
+loss: 0.12678774 - expected Q values: 3.9368386 - time: 30.457914113998413
+loss: 0.112216085 - expected Q values: 3.913889 - time: 29.89907169342041
+loss: 0.0888611 - expected Q values: 3.9537024 - time: 29.486856937408447
+loss: 0.088287145 - expected Q values: 3.9619076 - time: 29.640120029449463
+loss: 0.08390357 - expected Q values: 3.994621 - time: 29.719587087631226
+loss: 0.072095655 - expected Q values: 3.9258437 - time: 29.696152448654175
+loss: 0.13070902 - expected Q values: 3.996341 - time: 30.738878965377808
+loss: 0.09555216 - expected Q values: 3.956918 - time: 30.44079828262329
+loss: 0.095979735 - expected Q values: 3.9565651 - time: 30.462656497955322
+loss: 0.104418375 - expected Q values: 3.9093385 - time: 30.162319660186768
+loss: 0.094162665 - expected Q values: 3.9177463 - time: 30.284350156784058
+loss: 0.10475531 - expected Q values: 3.9718518 - time: 29.81400418281555
+loss: 0.11444698 - expected Q values: 4.038049 - time: 30.194523096084595
+loss: 0.11165735 - expected Q values: 4.0351396 - time: 30.88760733604431
+loss: 0.102866925 - expected Q values: 4.0031185 - time: 30.173682928085327
+loss: 0.105327405 - expected Q values: 3.9893758 - time: 30.451656341552734
+loss: 0.103543654 - expected Q values: 3.8946998 - time: 30.37879180908203
+loss: 0.10030256 - expected Q values: 3.9678469 - time: 30.385223865509033
+loss: 0.089336455 - expected Q values: 3.9274697 - time: 30.14129638671875
+loss: 0.10900363 - expected Q values: 3.9181595 - time: 30.23024821281433
+loss: 0.10477292 - expected Q values: 3.9428225 - time: 30.849578142166138
+loss: 0.09892975 - expected Q values: 4.005557 - time: 31.43904757499695
+loss: 0.093748525 - expected Q values: 3.914279 - time: 31.008994579315186
+loss: 0.080555975 - expected Q values: 3.8130312 - time: 30.835519552230835
+loss: 0.09723913 - expected Q values: 3.854147 - time: 30.266981601715088
+loss: 0.107357904 - expected Q values: 3.8064055 - time: 30.631874084472656
+loss: 0.09870314 - expected Q values: 3.8548298 - time: 30.972923278808594
+loss: 0.09531767 - expected Q values: 3.771563 - time: 30.509067058563232
+loss: 0.08708144 - expected Q values: 3.7025158 - time: 30.76095724105835
+loss: 0.09310217 - expected Q values: 3.7493036 - time: 30.018694639205933
+loss: 0.11754773 - expected Q values: 3.786085 - time: 29.885531663894653
+loss: 0.120875895 - expected Q values: 3.9020798 - time: 30.05293893814087
+loss: 0.09695741 - expected Q values: 3.8351836 - time: 30.80238103866577
+loss: 0.12070308 - expected Q values: 3.849639 - time: 31.408132791519165
+loss: 0.11556076 - expected Q values: 3.9526422 - time: 31.199355363845825
+loss: 0.10951243 - expected Q values: 3.9523726 - time: 30.06969141960144
+loss: 0.10834027 - expected Q values: 4.0218587 - time: 30.08694338798523
+loss: 0.10617923 - expected Q values: 3.997636 - time: 30.809940576553345
+loss: 0.10077321 - expected Q values: 3.9974728 - time: 30.046461820602417
+loss: 0.11267484 - expected Q values: 4.0287533 - time: 31.579988479614258
+loss: 0.10592082 - expected Q values: 4.049669 - time: 32.49277639389038
+loss: 0.13201068 - expected Q values: 4.084158 - time: 30.853306531906128
+loss: 0.09619781 - expected Q values: 4.052629 - time: 31.08888339996338
+loss: 0.11358296 - expected Q values: 4.064819 - time: 31.233607292175293
+loss: 0.118151896 - expected Q values: 4.1009364 - time: 31.96394109725952
+loss: 0.11648169 - expected Q values: 4.1001573 - time: 30.60741877555847
+loss: 0.11055013 - expected Q values: 4.056079 - time: 31.529175996780396
+loss: 0.09307614 - expected Q values: 4.074158 - time: 30.468138694763184
+loss: 0.13539888 - expected Q values: 4.0832157 - time: 30.46289372444153
+loss: 0.09396024 - expected Q values: 4.0288253 - time: 30.739315032958984
+loss: 0.10259592 - expected Q values: 4.035414 - time: 30.9322452545166
+loss: 0.102156125 - expected Q values: 4.0697484 - time: 30.153373956680298
+loss: 0.12021695 - expected Q values: 4.1519847 - time: 30.357384204864502
+loss: 0.12541492 - expected Q values: 4.1479235 - time: 30.36472249031067
+loss: 0.08833034 - expected Q values: 4.120392 - time: 30.030502557754517
+loss: 0.093839385 - expected Q values: 4.2061653 - time: 29.878187656402588
+loss: 0.08705869 - expected Q values: 4.106653 - time: 30.47057318687439
+loss: 0.09469743 - expected Q values: 4.1688137 - time: 31.992486715316772
+loss: 0.085242465 - expected Q values: 4.2432394 - time: 30.452386617660522
+loss: 0.10202809 - expected Q values: 4.198191 - time: 29.93078851699829
+loss: 0.09138069 - expected Q values: 4.17121 - time: 30.563558101654053
+loss: 0.1173346 - expected Q values: 4.1531997 - time: 31.991007804870605
+loss: 0.08564589 - expected Q values: 4.1286483 - time: 30.70645833015442
+loss: 0.10865679 - expected Q values: 4.2401085 - time: 29.4854793548584
+loss: 0.092572324 - expected Q values: 4.193764 - time: 29.829856157302856
+loss: 0.11719384 - expected Q values: 4.2030287 - time: 30.395161390304565
+loss: 0.10919103 - expected Q values: 4.2416997 - time: 30.1367130279541
+loss: 0.10661395 - expected Q values: 4.201922 - time: 30.409239292144775
+loss: 0.085086845 - expected Q values: 4.2272964 - time: 30.494876861572266
+loss: 0.08522389 - expected Q values: 4.295878 - time: 30.233819723129272
+loss: 0.12264958 - expected Q values: 4.211463 - time: 30.104445934295654
+loss: 0.11000839 - expected Q values: 4.4426775 - time: 31.0377254486084
+loss: 0.12945573 - expected Q values: 4.2852187 - time: 30.760529041290283
+loss: 0.119509995 - expected Q values: 4.242193 - time: 29.412964820861816
+loss: 0.103985205 - expected Q values: 4.295198 - time: 30.92484712600708
+loss: 0.109171174 - expected Q values: 4.360469 - time: 30.919080018997192
+loss: 0.106904805 - expected Q values: 4.3412805 - time: 30.259116888046265
+loss: 0.1521737 - expected Q values: 4.3703313 - time: 30.011566400527954
+loss: 0.09687091 - expected Q values: 4.427341 - time: 29.695537567138672
+loss: 0.093834646 - expected Q values: 4.463443 - time: 30.230873823165894
+loss: 0.11391562 - expected Q values: 4.5416865 - time: 30.670947313308716
+loss: 0.088690035 - expected Q values: 4.4422784 - time: 29.572458505630493
+loss: 0.09814723 - expected Q values: 4.4450417 - time: 29.649444818496704
+loss: 0.11319258 - expected Q values: 4.525742 - time: 30.052181005477905
+loss: 0.10480044 - expected Q values: 4.393306 - time: 30.352518320083618
+loss: 0.116300546 - expected Q values: 4.4214516 - time: 30.48284912109375
+loss: 0.12059883 - expected Q values: 4.378352 - time: 29.688270092010498
+loss: 0.13503663 - expected Q values: 4.492296 - time: 30.60719585418701
+loss: 0.13406868 - expected Q values: 4.457914 - time: 29.65277934074402
+loss: 0.11480479 - expected Q values: 4.392397 - time: 29.64803957939148
+loss: 0.19246072 - expected Q values: 4.5154724 - time: 29.61681580543518
+loss: 0.104252 - expected Q values: 4.534433 - time: 29.809234619140625
+loss: 0.14826627 - expected Q values: 4.5865 - time: 29.71099543571472
+loss: 0.11311841 - expected Q values: 4.513874 - time: 29.622138023376465
+loss: 0.095829695 - expected Q values: 4.4478664 - time: 29.305020332336426
+loss: 0.11419984 - expected Q values: 4.4730687 - time: 29.42553448677063
+loss: 0.084222294 - expected Q values: 4.3649797 - time: 29.87541961669922
+loss: 0.08305403 - expected Q values: 4.474145 - time: 29.998229265213013
+loss: 0.15905242 - expected Q values: 4.486106 - time: 29.562134265899658
+loss: 0.07850878 - expected Q values: 4.547766 - time: 29.557079792022705
+loss: 0.16530472 - expected Q values: 4.6566854 - time: 29.744203090667725
+loss: 0.12671538 - expected Q values: 4.3908377 - time: 29.144712209701538
+loss: 0.07944743 - expected Q values: 4.3870635 - time: 30.40827465057373
+loss: 0.10460063 - expected Q values: 4.31198 - time: 30.3546621799469
+loss: 0.0819343 - expected Q values: 4.379244 - time: 29.025187492370605
+loss: 0.1104015 - expected Q values: 4.3287063 - time: 28.934097290039062
+loss: 0.11568412 - expected Q values: 4.325639 - time: 29.653303623199463
+loss: 0.12173571 - expected Q values: 4.4732223 - time: 29.569624662399292
+loss: 0.12689792 - expected Q values: 4.441465 - time: 29.510998487472534
+loss: 0.10323488 - expected Q values: 4.5425596 - time: 29.524726629257202
+loss: 0.12000762 - expected Q values: 4.536419 - time: 29.514190673828125
+loss: 0.13578032 - expected Q values: 4.5600786 - time: 29.308799505233765
+loss: 0.10794845 - expected Q values: 4.6548357 - time: 29.706328630447388
+loss: 0.10226595 - expected Q values: 4.7196684 - time: 29.410861492156982
+loss: 0.09976197 - expected Q values: 4.578947 - time: 29.864623546600342
+loss: 0.14195688 - expected Q values: 4.798219 - time: 29.24799942970276
+loss: 0.12194851 - expected Q values: 4.6434755 - time: 29.425527095794678
+loss: 0.14639996 - expected Q values: 4.861462 - time: 30.041325092315674
+loss: 0.12233817 - expected Q values: 4.764574 - time: 29.781681060791016
+loss: 0.11854689 - expected Q values: 4.599436 - time: 29.128997325897217
+loss: 0.11657693 - expected Q values: 4.567899 - time: 29.306056022644043
+loss: 0.106096834 - expected Q values: 4.61019 - time: 29.268731117248535
+loss: 0.11517558 - expected Q values: 4.635115 - time: 28.554723024368286
+loss: 0.11577364 - expected Q values: 4.6542015 - time: 29.425854682922363
+loss: 0.11441551 - expected Q values: 4.532405 - time: 29.663572311401367
+loss: 0.11315919 - expected Q values: 4.617042 - time: 30.07865619659424
+loss: 0.10526924 - expected Q values: 4.51707 - time: 29.30834126472473
+loss: 0.16163345 - expected Q values: 4.4819016 - time: 29.577564001083374
+loss: 0.108131304 - expected Q values: 4.427445 - time: 29.08163356781006
+loss: 0.111338586 - expected Q values: 4.2778044 - time: 29.47927737236023
+loss: 0.11146759 - expected Q values: 4.395172 - time: 29.558374881744385
+loss: 0.09761767 - expected Q values: 4.2324696 - time: 29.249593496322632
+loss: 0.11716016 - expected Q values: 4.3170967 - time: 29.421146869659424
+loss: 0.10779235 - expected Q values: 4.2747364 - time: 30.25725483894348
+loss: 0.11368598 - expected Q values: 4.2148724 - time: 29.552050352096558
+loss: 0.10579185 - expected Q values: 4.2964063 - time: 30.078083276748657
+loss: 0.09578453 - expected Q values: 4.126178 - time: 29.66951584815979
+loss: 0.11385133 - expected Q values: 4.18642 - time: 30.481361627578735
+loss: 0.10460234 - expected Q values: 4.201898 - time: 30.035475969314575
+loss: 0.11898186 - expected Q values: 4.12788 - time: 29.370949268341064
+loss: 0.12120949 - expected Q values: 4.1464367 - time: 29.83039402961731
+loss: 0.12697393 - expected Q values: 4.1272864 - time: 29.810517072677612
+loss: 0.120014496 - expected Q values: 4.151002 - time: 29.336983919143677
+loss: 0.09155746 - expected Q values: 4.1137705 - time: 29.66662049293518
+loss: 0.10652197 - expected Q values: 4.2150416 - time: 29.43132448196411
+loss: 0.1228036 - expected Q values: 4.1558785 - time: 29.854673862457275
+loss: 0.1287593 - expected Q values: 4.1875324 - time: 29.521636247634888
+loss: 0.100733 - expected Q values: 4.213238 - time: 30.325879335403442
+loss: 0.09966803 - expected Q values: 4.147665 - time: 30.094370365142822
+loss: 0.16208096 - expected Q values: 4.0006347 - time: 30.610589742660522
+loss: 0.09742557 - expected Q values: 4.0447035 - time: 29.44830060005188
+loss: 0.15621461 - expected Q values: 3.997296 - time: 30.523332834243774
+loss: 0.1019682 - expected Q values: 4.006332 - time: 30.204118490219116
+loss: 0.09325293 - expected Q values: 4.03651 - time: 29.683131456375122
+loss: 0.10405496 - expected Q values: 4.049038 - time: 29.447293996810913
+loss: 0.08846352 - expected Q values: 4.055328 - time: 29.591976642608643
+loss: 0.10798035 - expected Q values: 4.055171 - time: 30.230955362319946
+loss: 0.09112267 - expected Q values: 4.164011 - time: 29.859490633010864
+loss: 0.08294452 - expected Q values: 4.109974 - time: 29.774207592010498
+loss: 0.10098764 - expected Q values: 4.0526347 - time: 29.24690556526184
+loss: 0.100044176 - expected Q values: 4.1077867 - time: 30.378315448760986
+loss: 0.091069825 - expected Q values: 3.938115 - time: 29.138939380645752
+loss: 0.092013635 - expected Q values: 4.0353074 - time: 29.514101028442383
+loss: 0.086306006 - expected Q values: 4.0172744 - time: 29.90873408317566
+loss: 0.08244459 - expected Q values: 4.0549245 - time: 29.550857543945312
+loss: 0.0900316 - expected Q values: 4.0210824 - time: 29.53895926475525
+loss: 0.08074504 - expected Q values: 3.9550276 - time: 30.997162103652954
+loss: 0.09511474 - expected Q values: 4.0807147 - time: 29.895158052444458
+loss: 0.09724274 - expected Q values: 4.0071406 - time: 29.772664546966553
+loss: 0.08831776 - expected Q values: 3.9754543 - time: 29.9308602809906
+loss: 0.080804795 - expected Q values: 3.9657803 - time: 29.229506254196167
+loss: 0.087531544 - expected Q values: 4.0296884 - time: 30.011048793792725
+loss: 0.12867169 - expected Q values: 4.0370307 - time: 29.476024389266968
+loss: 0.09531311 - expected Q values: 4.0441194 - time: 29.907389879226685
+loss: 0.09732522 - expected Q values: 3.9699247 - time: 29.127843618392944
+loss: 0.08776586 - expected Q values: 4.005181 - time: 30.28073215484619
+loss: 0.08416497 - expected Q values: 3.990967 - time: 29.795244693756104
+loss: 0.08755912 - expected Q values: 3.973385 - time: 29.595322847366333
+loss: 0.09684998 - expected Q values: 3.9297357 - time: 30.29418635368347
+loss: 0.10080904 - expected Q values: 3.9368234 - time: 29.250650644302368
+loss: 0.095848635 - expected Q values: 3.985817 - time: 30.307907819747925
+loss: 0.093228966 - expected Q values: 4.0201373 - time: 30.105332374572754
+loss: 0.094751075 - expected Q values: 4.0342183 - time: 30.258989095687866
+loss: 0.08891883 - expected Q values: 3.8963983 - time: 29.836979150772095
+loss: 0.08919356 - expected Q values: 3.9604986 - time: 30.005098342895508
+loss: 0.08964342 - expected Q values: 3.955098 - time: 30.182251453399658
+loss: 0.112770416 - expected Q values: 3.8987427 - time: 29.332905054092407
+loss: 0.10336278 - expected Q values: 3.8484864 - time: 29.4515643119812
+loss: 0.093943775 - expected Q values: 3.872641 - time: 29.309645891189575
+loss: 0.08652973 - expected Q values: 3.8918111 - time: 29.88615345954895
+loss: 0.087350994 - expected Q values: 3.8578103 - time: 29.223017930984497
+loss: 0.10889991 - expected Q values: 3.8991396 - time: 29.166935443878174
+loss: 0.08273318 - expected Q values: 3.8783677 - time: 29.353087663650513
+loss: 0.09557544 - expected Q values: 3.8425066 - time: 29.69508671760559
+loss: 0.097380504 - expected Q values: 3.8295987 - time: 29.97900366783142
+loss: 0.092776194 - expected Q values: 3.879355 - time: 29.56715154647827
+loss: 0.107696526 - expected Q values: 3.9240866 - time: 29.436554670333862
+loss: 0.092043184 - expected Q values: 3.850078 - time: 29.15307641029358
+loss: 0.08566553 - expected Q values: 3.8862185 - time: 28.787642002105713
+loss: 0.099612884 - expected Q values: 3.9094324 - time: 30.022833347320557
+loss: 0.084943704 - expected Q values: 3.9007068 - time: 29.73715090751648
+loss: 0.11260605 - expected Q values: 3.8770857 - time: 29.192412614822388
+loss: 0.084248714 - expected Q values: 3.8130472 - time: 29.104839324951172
+loss: 0.09535285 - expected Q values: 3.8353028 - time: 29.290015935897827
+loss: 0.10482812 - expected Q values: 3.7895918 - time: 29.355605840682983
+loss: 0.082388274 - expected Q values: 3.8716536 - time: 29.65013337135315
+loss: 0.08666155 - expected Q values: 3.887829 - time: 29.858805894851685
+loss: 0.093785934 - expected Q values: 3.885777 - time: 30.31762433052063
+loss: 0.08361125 - expected Q values: 3.8191671 - time: 30.08658266067505
+loss: 0.102228396 - expected Q values: 3.855525 - time: 29.62862515449524
+loss: 0.10572199 - expected Q values: 3.8379898 - time: 28.75862693786621
+loss: 0.094498396 - expected Q values: 3.8533945 - time: 29.897412538528442
+loss: 0.095964104 - expected Q values: 3.760668 - time: 29.249006748199463
+loss: 0.090224676 - expected Q values: 3.797491 - time: 29.56837248802185
+loss: 0.08244317 - expected Q values: 3.7243958 - time: 29.785377740859985
+loss: 0.07958348 - expected Q values: 3.7655344 - time: 29.293871641159058
+loss: 0.10483568 - expected Q values: 3.7524347 - time: 29.129072904586792
+loss: 0.083256446 - expected Q values: 3.6963239 - time: 29.30544114112854
+loss: 0.08749251 - expected Q values: 3.6905134 - time: 29.153907537460327
+loss: 0.08300495 - expected Q values: 3.7250652 - time: 29.097232580184937
+loss: 0.08833726 - expected Q values: 3.7189372 - time: 29.98693013191223
+loss: 0.09226312 - expected Q values: 3.7942462 - time: 29.10518741607666
+loss: 0.095682286 - expected Q values: 3.731111 - time: 29.232020616531372
+loss: 0.0873389 - expected Q values: 3.6252007 - time: 30.462156534194946
+loss: 0.09494569 - expected Q values: 3.6739185 - time: 29.27167582511902
+loss: 0.11978929 - expected Q values: 3.7204165 - time: 29.087843418121338
+loss: 0.094621204 - expected Q values: 3.742948 - time: 30.07132649421692
+loss: 0.1024519 - expected Q values: 3.7790473 - time: 29.628818035125732
+loss: 0.11850238 - expected Q values: 3.7997465 - time: 30.248624324798584
+loss: 0.090626754 - expected Q values: 3.8685663 - time: 29.311252117156982
+loss: 0.08509976 - expected Q values: 3.7161667 - time: 29.409403800964355
+loss: 0.113309346 - expected Q values: 3.7599304 - time: 29.60241174697876
+loss: 0.08740988 - expected Q values: 3.7631574 - time: 29.94196128845215
+loss: 0.086723864 - expected Q values: 3.7219708 - time: 31.144705533981323
+loss: 0.09875777 - expected Q values: 3.7749 - time: 29.104679107666016
+loss: 0.09558886 - expected Q values: 3.7485645 - time: 30.12712574005127
+loss: 0.10051829 - expected Q values: 3.7983212 - time: 29.502848148345947
+loss: 0.10943021 - expected Q values: 3.7779953 - time: 29.53447198867798
+loss: 0.11915233 - expected Q values: 3.7729375 - time: 29.672194480895996
+loss: 0.10229039 - expected Q values: 3.8327231 - time: 29.191604137420654
+loss: 0.11379943 - expected Q values: 3.782157 - time: 30.104689598083496
+loss: 0.110708386 - expected Q values: 3.70565 - time: 29.713173389434814
+loss: 0.1253166 - expected Q values: 3.74861 - time: 28.37620234489441
+loss: 0.099665254 - expected Q values: 3.7791913 - time: 29.932987689971924
+loss: 0.120926045 - expected Q values: 3.775885 - time: 30.315830945968628
+loss: 0.12828301 - expected Q values: 3.7692995 - time: 29.43131399154663
+loss: 0.10931928 - expected Q values: 3.8407104 - time: 29.558937072753906
+loss: 0.09021267 - expected Q values: 3.7356765 - time: 29.99164867401123
+loss: 0.09857764 - expected Q values: 3.7492642 - time: 29.73087763786316
+loss: 0.09876912 - expected Q values: 3.7777896 - time: 30.028777837753296
+loss: 0.10365582 - expected Q values: 3.7141135 - time: 29.869523763656616
+loss: 0.096152656 - expected Q values: 3.7636368 - time: 29.577675819396973
+loss: 0.11794459 - expected Q values: 3.723031 - time: 29.693623781204224
+loss: 0.104655884 - expected Q values: 3.7308068 - time: 30.081878662109375
+loss: 0.09574639 - expected Q values: 3.7660096 - time: 30.32885718345642
+loss: 0.11790726 - expected Q values: 3.7400942 - time: 30.69708490371704
+loss: 0.10308595 - expected Q values: 3.727204 - time: 30.518568515777588
+loss: 0.11117671 - expected Q values: 3.7455513 - time: 31.143338203430176
+loss: 0.103609584 - expected Q values: 3.722801 - time: 30.503206491470337
+loss: 0.33209065 - expected Q values: 3.7099009 - time: 29.741427898406982
+loss: 0.11370079 - expected Q values: 3.7344193 - time: 30.128663301467896
+loss: 0.09885938 - expected Q values: 3.7495959 - time: 29.867907762527466
+loss: 0.10716366 - expected Q values: 3.7184186 - time: 29.16337251663208
+loss: 0.10614272 - expected Q values: 3.6139152 - time: 30.314938068389893
+loss: 0.10740577 - expected Q values: 3.688158 - time: 29.786325216293335
+loss: 0.10056004 - expected Q values: 3.659378 - time: 28.989581823349
+loss: 0.10156576 - expected Q values: 3.593479 - time: 30.531031370162964
+loss: 0.11668744 - expected Q values: 3.6794302 - time: 29.472163677215576
+loss: 0.10128348 - expected Q values: 3.603408 - time: 29.259793281555176
+loss: 0.12841986 - expected Q values: 3.6224093 - time: 29.508387804031372
+loss: 0.11892602 - expected Q values: 3.5586042 - time: 29.482024669647217
+loss: 0.0867801 - expected Q values: 3.625396 - time: 29.476147413253784
+loss: 0.106735505 - expected Q values: 3.5829227 - time: 28.878231048583984
+loss: 0.15200773 - expected Q values: 3.6380286 - time: 29.689409017562866
+loss: 0.10293572 - expected Q values: 3.6022608 - time: 29.344006776809692
+loss: 0.09139797 - expected Q values: 3.487889 - time: 29.30700969696045
