@@ -1,0 +1,35 @@
+2024-01-04 17:22:59.116553: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-01-04 17:22:59.307104: I tensorflow/core/tpu/tpu_initializer_helper.cc:262] Libtpu path is: libtpu.so
+I0104 17:22:59.410245101   19250 ev_epoll1_linux.cc:121]     grpc epoll fd: 7
+D0104 17:22:59.410269152   19250 ev_posix.cc:141]            Using polling engine: epoll1
+D0104 17:22:59.410303543   19250 lb_policy_registry.cc:43]   registering LB policy factory for "grpclb"
+D0104 17:22:59.410326490   19250 lb_policy_registry.cc:43]   registering LB policy factory for "rls_experimental"
+D0104 17:22:59.410354503   19250 lb_policy_registry.cc:43]   registering LB policy factory for "priority_experimental"
+D0104 17:22:59.410363990   19250 lb_policy_registry.cc:43]   registering LB policy factory for "weighted_target_experimental"
+D0104 17:22:59.410368781   19250 lb_policy_registry.cc:43]   registering LB policy factory for "pick_first"
+D0104 17:22:59.410373332   19250 lb_policy_registry.cc:43]   registering LB policy factory for "round_robin"
+D0104 17:22:59.410382840   19250 lb_policy_registry.cc:43]   registering LB policy factory for "ring_hash_experimental"
+D0104 17:22:59.410391151   19250 dns_resolver_ares.cc:831]   Using ares dns resolver
+D0104 17:22:59.410418104   19250 certificate_provider_registry.cc:39] registering certificate provider factory for "file_watcher"
+D0104 17:22:59.410427670   19250 lb_policy_registry.cc:43]   registering LB policy factory for "cds_experimental"
+D0104 17:22:59.410436723   19250 lb_policy_registry.cc:43]   registering LB policy factory for "xds_cluster_impl_experimental"
+D0104 17:22:59.410442514   19250 lb_policy_registry.cc:43]   registering LB policy factory for "xds_cluster_resolver_experimental"
+D0104 17:22:59.410447207   19250 lb_policy_registry.cc:43]   registering LB policy factory for "xds_cluster_manager_experimental"
+2024-01-04 17:23:07.531547: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-01-04 17:23:21.664337: I tensorflow/compiler/xla/service/service.cc:173] XLA service 0x2c15200 initialized for platform TPU (this does not guarantee that XLA will be used). Devices:
+2024-01-04 17:23:21.664446: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (0): TPU, 2a886c8
+2024-01-04 17:23:21.664466: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (1): TPU, 2a886c8
+2024-01-04 17:23:21.664481: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (2): TPU, 2a886c8
+2024-01-04 17:23:21.664496: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (3): TPU, 2a886c8
+2024-01-04 17:23:21.664512: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (4): TPU, 2a886c8
+2024-01-04 17:23:21.664525: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (5): TPU, 2a886c8
+2024-01-04 17:23:21.664540: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (6): TPU, 2a886c8
+2024-01-04 17:23:21.664554: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (7): TPU, 2a886c8
+2024-01-04 17:23:33.562070: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:268] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+2024-01-04 17:23:33.692051: I tensorflow/compiler/jit/xla_compilation_cache.cc:476] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+2024-01-04 17:24:24.562219: I tensorflow/core/tpu/graph_rewrite/encapsulate_tpu_computations_pass.cc:237] Subgraph fingerprint:17602236802276620947
+2024-01-04 17:24:25.468280: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:954] model_pruner failed: INVALID_ARGUMENT: Graph does not contain terminal node StatefulPartitionedCall.
+2024-01-04 17:24:26.251389: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:954] model_pruner failed: INVALID_ARGUMENT: Graph does not contain terminal node StatefulPartitionedCall.
+2024-01-04 17:24:27.555581: I tensorflow/core/tpu/kernels/tpu_compilation_cache_interface.cc:437] TPU host compilation cache miss: cache_key(2839390364359171500), session_name()
