@@ -9,6 +9,7 @@ try:
         os.system("git add *")
         os.system("git commit -m .")
         os.system("git push")
+        exit()
 except:pass
 
 while True:
