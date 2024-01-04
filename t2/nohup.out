@@ -375,3 +375,480 @@ E0104 21:41:20.067803    6925 coredump_hook.cc:324] RAW: Remote crash gathering 
 To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
 running update commands...
 Already up to date.
+The following paths are ignored by one of your .gitignore files:
+t2/__pycache__
+t2/data
+Use -f if you really want to add them.
+[main 85a32db] .
+ 1 file changed, 365 insertions(+)
+To https://github.com/dercodeKoenig/dqn_trading_gcloudvm.git
+   5ccbf8a..85a32db  main -> main
+2024-01-04 21:43:10.088987: I tensorflow/core/tpu/tpu_initializer_helper.cc:262] Libtpu path is: libtpu.so
+Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/marvineckhardt04092003/.kaggle/kaggle.json'
+Starting upload for file nohup.out
+  0%|          | 0.00/13.4k [00:00<?, ?B/s]13.7kB [00:00, 104kB/s]                    
+Upload unsuccessful: nohup.out
+Skipping folder: __pycache__; use '--dir-mode' to upload folders
+Starting upload for file manager.py
+  0%|          | 0.00/36.4k [00:00<?, ?B/s]100%|██████████| 36.4k/36.4k [00:00<00:00, 54.7kB/s]
+Upload successful: manager.py (36KB)
+Starting upload for file dqn_training_tpu.py
+  0%|          | 0.00/10.5k [00:00<?, ?B/s]100%|██████████| 10.5k/10.5k [00:00<00:00, 14.8kB/s]
+Upload successful: dqn_training_tpu.py (11KB)
+Skipping folder: data; use '--dir-mode' to upload folders
+Starting upload for file push_files_worker.py
+  0%|          | 0.00/638 [00:00<?, ?B/s]100%|██████████| 638/638 [00:00<00:00, 848B/s]
+Upload successful: push_files_worker.py (638B)
+Starting upload for file utils.py
+  0%|          | 0.00/13.5k [00:00<?, ?B/s]I0104 21:43:15.325932788    3765 ev_epoll1_linux.cc:121]     grpc epoll fd: 7
+D0104 21:43:15.325968439    3765 ev_posix.cc:141]            Using polling engine: epoll1
+D0104 21:43:15.379079225    3765 lb_policy_registry.cc:43]   registering LB policy factory for "grpclb"
+D0104 21:43:15.379367105    3765 lb_policy_registry.cc:43]   registering LB policy factory for "rls_experimental"
+D0104 21:43:15.379624859    3765 lb_policy_registry.cc:43]   registering LB policy factory for "priority_experimental"
+D0104 21:43:15.379753599    3765 lb_policy_registry.cc:43]   registering LB policy factory for "weighted_target_experimental"
+D0104 21:43:15.379761513    3765 lb_policy_registry.cc:43]   registering LB policy factory for "pick_first"
+D0104 21:43:15.379765756    3765 lb_policy_registry.cc:43]   registering LB policy factory for "round_robin"
+D0104 21:43:15.379961312    3765 lb_policy_registry.cc:43]   registering LB policy factory for "ring_hash_experimental"
+D0104 21:43:15.379975386    3765 dns_resolver_ares.cc:831]   Using ares dns resolver
+D0104 21:43:15.383110267    3765 certificate_provider_registry.cc:39] registering certificate provider factory for "file_watcher"
+D0104 21:43:15.383371693    3765 lb_policy_registry.cc:43]   registering LB policy factory for "cds_experimental"
+D0104 21:43:15.383437920    3765 lb_policy_registry.cc:43]   registering LB policy factory for "xds_cluster_impl_experimental"
+D0104 21:43:15.383549903    3765 lb_policy_registry.cc:43]   registering LB policy factory for "xds_cluster_resolver_experimental"
+D0104 21:43:15.383564201    3765 lb_policy_registry.cc:43]   registering LB policy factory for "xds_cluster_manager_experimental"
+100%|██████████| 13.5k/13.5k [00:00<00:00, 19.9kB/s]
+Upload successful: utils.py (14KB)
+Starting upload for file make_model.py
+  0%|          | 0.00/6.04k [00:00<?, ?B/s]100%|██████████| 6.04k/6.04k [00:00<00:00, 9.41kB/s]
+Upload successful: make_model.py (6KB)
+Dataset version is being created. Please check progress at https://www.kaggle.com/bpwqsdd/dqn-cloud-files-t2
+sleep for 17919 seconds
+0 - path: data/US500_1_inverted.o
+0 - cm: 0.4
+loading data/US500_1_inverted.o
+1 - path: data/USTEC_1.o
+1 - cm: 2.5
+loading data/USTEC_1.o
+2 - path: data/US500_1.o
+2 - cm: 0.4
+loading data/US500_1.o
+3 - path: data/USTEC_1.o
+3 - cm: 2.5
+loading data/USTEC_1.o
+4 - path: data/USTEC_1.o
+4 - cm: 2.5
+loading data/USTEC_1.o
+5 - path: data/US500_1.o
+5 - cm: 0.4
+loading data/US500_1.o
+6 - path: data/US30_1.o
+6 - cm: 2.5
+loading data/US30_1.o
+7 - path: data/US500_1_inverted.o
+7 - cm: 0.4
+loading data/US500_1_inverted.o
+8 - path: data/USTEC_1_inverted.o
+8 - cm: 2.5
+loading data/USTEC_1_inverted.o
+9 - path: data/USTEC_1_inverted.o
+9 - cm: 2.5
+loading data/USTEC_1_inverted.o
+10 - path: data/US30_1.o
+10 - cm: 2.5
+loading data/US30_1.o
+11 - path: data/US500_1.o
+11 - cm: 0.4
+loading data/US500_1.o
+12 - path: data/US500_1.o
+12 - cm: 0.4
+loading data/US500_1.o
+13 - path: data/USTEC_1_inverted.o
+13 - cm: 2.5
+loading data/USTEC_1_inverted.o
+14 - path: data/US30_1.o
+14 - cm: 2.5
+loading data/US30_1.o
+15 - path: data/US30_1_inverted.o
+15 - cm: 2.5
+loading data/US30_1_inverted.o
+16 - path: data/US500_1_inverted.o
+16 - cm: 0.4
+loading data/US500_1_inverted.o
+17 - path: data/USTEC_1.o
+17 - cm: 2.5
+loading data/USTEC_1.o
+18 - path: data/US500_1_inverted.o
+18 - cm: 0.4
+loading data/US500_1_inverted.o
+19 - path: data/US500_1_inverted.o
+19 - cm: 0.4
+loading data/US500_1_inverted.o
+20 - path: data/US30_1_inverted.o
+20 - cm: 2.5
+loading data/US30_1_inverted.o
+21 - path: data/USTEC_1.o
+21 - cm: 2.5
+loading data/USTEC_1.o
+22 - path: data/USTEC_1_inverted.o
+22 - cm: 2.5
+loading data/USTEC_1_inverted.o
+23 - path: data/US30_1.o
+23 - cm: 2.5
+loading data/US30_1.o
+data_get_func online
+0 - path: data/USTEC_1_inverted.o
+0 - cm: 2.5
+loading data/USTEC_1_inverted.o
+1 - path: data/US500_1.o
+1 - cm: 0.4
+loading data/US500_1.o
+2 - path: data/US30_1.o
+2 - cm: 2.5
+loading data/US30_1.o
+3 - path: data/US30_1.o
+3 - cm: 2.5
+loading data/US30_1.o
+4 - path: data/USTEC_1.o
+4 - cm: 2.5
+loading data/USTEC_1.o
+5 - path: data/USTEC_1_inverted.o
+5 - cm: 2.5
+loading data/USTEC_1_inverted.o
+6 - path: data/US500_1.o
+6 - cm: 0.4
+loading data/US500_1.o
+7 - path: data/US500_1.o
+7 - cm: 0.4
+loading data/US500_1.o
+8 - path: data/USTEC_1.o
+8 - cm: 2.5
+loading data/USTEC_1.o
+9 - path: data/US500_1.o
+9 - cm: 0.4
+loading data/US500_1.o
+10 - path: data/USTEC_1_inverted.o
+10 - cm: 2.5
+loading data/USTEC_1_inverted.o
+11 - path: data/US500_1.o
+11 - cm: 0.4
+loading data/US500_1.o
+12 - path: data/USTEC_1_inverted.o
+12 - cm: 2.5
+loading data/USTEC_1_inverted.o
+13 - path: data/USTEC_1_inverted.o
+13 - cm: 2.5
+loading data/USTEC_1_inverted.o
+14 - path: data/USTEC_1_inverted.o
+14 - cm: 2.5
+loading data/USTEC_1_inverted.o
+15 - path: data/USTEC_1_inverted.o
+15 - cm: 2.5
+loading data/USTEC_1_inverted.o
+16 - path: data/US30_1_inverted.o
+16 - cm: 2.5
+loading data/US30_1_inverted.o
+17 - path: data/US500_1_inverted.o
+17 - cm: 0.4
+loading data/US500_1_inverted.o
+18 - path: data/US500_1.o
+18 - cm: 0.4
+loading data/US500_1.o
+19 - path: data/USTEC_1_inverted.o
+19 - cm: 2.5
+loading data/USTEC_1_inverted.o
+20 - path: data/US500_1.o
+20 - cm: 0.4
+loading data/US500_1.o
+21 - path: data/USTEC_1_inverted.o
+21 - cm: 2.5
+loading data/USTEC_1_inverted.o
+22 - path: data/US30_1.o
+22 - cm: 2.5
+loading data/US30_1.o
+23 - path: data/USTEC_1_inverted.o
+23 - cm: 2.5
+loading data/USTEC_1_inverted.o
+data_get_func online
+0 - path: data/US30_1_inverted.o
+0 - cm: 2.5
+loading data/US30_1_inverted.o
+1 - path: data/US30_1_inverted.o
+1 - cm: 2.5
+loading data/US30_1_inverted.o
+2 - path: data/US30_1.o
+2 - cm: 2.5
+loading data/US30_1.o
+3 - path: data/US30_1_inverted.o
+3 - cm: 2.5
+loading data/US30_1_inverted.o
+4 - path: data/US30_1.o
+4 - cm: 2.5
+loading data/US30_1.o
+5 - path: data/US500_1_inverted.o
+5 - cm: 0.4
+loading data/US500_1_inverted.o
+6 - path: data/US500_1.o
+6 - cm: 0.4
+loading data/US500_1.o
+7 - path: data/US30_1_inverted.o
+7 - cm: 2.5
+loading data/US30_1_inverted.o
+8 - path: data/US500_1.o
+8 - cm: 0.4
+loading data/US500_1.o
+9 - path: data/US30_1_inverted.o
+9 - cm: 2.5
+loading data/US30_1_inverted.o
+10 - path: data/USTEC_1_inverted.o
+10 - cm: 2.5
+loading data/USTEC_1_inverted.o
+11 - path: data/US30_1_inverted.o
+11 - cm: 2.5
+loading data/US30_1_inverted.o
+12 - path: data/USTEC_1_inverted.o
+12 - cm: 2.5
+loading data/USTEC_1_inverted.o
+13 - path: data/USTEC_1.o
+13 - cm: 2.5
+loading data/USTEC_1.o
+14 - path: data/US500_1.o
+14 - cm: 0.4
+loading data/US500_1.o
+15 - path: data/US30_1.o
+15 - cm: 2.5
+loading data/US30_1.o
+16 - path: data/US500_1_inverted.o
+16 - cm: 0.4
+loading data/US500_1_inverted.o
+17 - path: data/USTEC_1_inverted.o
+17 - cm: 2.5
+loading data/USTEC_1_inverted.o
+18 - path: data/USTEC_1_inverted.o
+18 - cm: 2.5
+loading data/USTEC_1_inverted.o
+19 - path: data/USTEC_1.o
+19 - cm: 2.5
+loading data/USTEC_1.o
+20 - path: data/US500_1.o
+20 - cm: 0.4
+loading data/US500_1.o
+21 - path: data/US30_1.o
+21 - cm: 2.5
+loading data/US30_1.o
+22 - path: data/USTEC_1_inverted.o
+22 - cm: 2.5
+loading data/USTEC_1_inverted.o
+23 - path: data/US500_1_inverted.o
+23 - cm: 0.4
+loading data/US500_1_inverted.o
+data_get_func online
+0 - path: data/US500_1_inverted.o
+0 - cm: 0.4
+loading data/US500_1_inverted.o
+1 - path: data/US500_1_inverted.o
+1 - cm: 0.4
+loading data/US500_1_inverted.o
+2 - path: data/USTEC_1_inverted.o
+2 - cm: 2.5
+loading data/USTEC_1_inverted.o
+3 - path: data/USTEC_1.o
+3 - cm: 2.5
+loading data/USTEC_1.o
+4 - path: data/US30_1.o
+4 - cm: 2.5
+loading data/US30_1.o
+5 - path: data/US500_1_inverted.o
+5 - cm: 0.4
+loading data/US500_1_inverted.o
+6 - path: data/US30_1.o
+6 - cm: 2.5
+loading data/US30_1.o
+7 - path: data/US30_1_inverted.o
+7 - cm: 2.5
+loading data/US30_1_inverted.o
+8 - path: data/US30_1.o
+8 - cm: 2.5
+loading data/US30_1.o
+9 - path: data/US500_1_inverted.o
+9 - cm: 0.4
+loading data/US500_1_inverted.o
+10 - path: data/USTEC_1.o
+10 - cm: 2.5
+loading data/USTEC_1.o
+11 - path: data/US500_1.o
+11 - cm: 0.4
+loading data/US500_1.o
+12 - path: data/US500_1_inverted.o
+12 - cm: 0.4
+loading data/US500_1_inverted.o
+13 - path: data/US30_1_inverted.o
+13 - cm: 2.5
+loading data/US30_1_inverted.o
+14 - path: data/US30_1_inverted.o
+14 - cm: 2.5
+loading data/US30_1_inverted.o
+15 - path: data/US30_1_inverted.o
+15 - cm: 2.5
+loading data/US30_1_inverted.o
+16 - path: data/USTEC_1.o
+16 - cm: 2.5
+loading data/USTEC_1.o
+17 - path: data/US500_1_inverted.o
+17 - cm: 0.4
+loading data/US500_1_inverted.o
+18 - path: data/US30_1.o
+18 - cm: 2.5
+loading data/US30_1.o
+19 - path: data/US30_1.o
+19 - cm: 2.5
+loading data/US30_1.o
+20 - path: data/USTEC_1_inverted.o
+20 - cm: 2.5
+loading data/USTEC_1_inverted.o
+21 - path: data/USTEC_1_inverted.o
+21 - cm: 2.5
+loading data/USTEC_1_inverted.o
+22 - path: data/USTEC_1_inverted.o
+22 - cm: 2.5
+loading data/USTEC_1_inverted.o
+23 - path: data/USTEC_1.o
+23 - cm: 2.5
+loading data/USTEC_1.o
+data_get_func online
+2024-01-04 21:43:51.892682: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+7 - start at US500_1_inverted - 1103643
+0 - start at US500_1_inverted - 1113451
+2024-01-04 21:44:01.378348: I tensorflow/compiler/xla/service/service.cc:173] XLA service 0x5649800 initialized for platform TPU (this does not guarantee that XLA will be used). Devices:
+2024-01-04 21:44:01.378493: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (0): TPU, 2a886c8
+2024-01-04 21:44:01.378512: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (1): TPU, 2a886c8
+2024-01-04 21:44:01.378548: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (2): TPU, 2a886c8
+2024-01-04 21:44:01.378563: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (3): TPU, 2a886c8
+2024-01-04 21:44:01.378576: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (4): TPU, 2a886c8
+2024-01-04 21:44:01.378589: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (5): TPU, 2a886c8
+2024-01-04 21:44:01.378602: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (6): TPU, 2a886c8
+2024-01-04 21:44:01.378635: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (7): TPU, 2a886c8
+6 - start at US30_1 - 320140
+10 - start at US30_1 - 1015580
+14 - start at US30_1 - 481823
+4 - start at USTEC_1 - 1150543
+2 - start at US30_1 - 80527
+18 - start at US500_1_inverted - 1270077
+19 - start at US500_1_inverted - 1257379
+1 - start at USTEC_1 - 1133319
+16 - start at US500_1_inverted - 1608830
+3 - start at USTEC_1 - 289877
+17 - start at USTEC_1 - 1242551
+2 - start at US500_1 - 520523
+23 - start at US30_1 - 963317
+11 - start at US500_1 - 1182382
+7 - start at US500_1 - 406827
+5 - start at US500_1 - 680034
+9 - start at USTEC_1_inverted - 883562
+3 - start at US30_1 - 1409607
+6 - start at US500_1 - 1344516
+1 - start at US500_1 - 87058
+12 - start at US500_1 - 622300
+8 - start at USTEC_1 - 944818
+4 - start at USTEC_1 - 210337
+0 - start at USTEC_1_inverted - 1390741
+21 - start at USTEC_1 - 350806
+10 - start at USTEC_1_inverted - 193455
+13 - start at USTEC_1_inverted - 175169
+22 - start at USTEC_1_inverted - 597551
+9 - start at US500_1 - 659286
+5 - start at USTEC_1_inverted - 721977
+8 - start at USTEC_1_inverted - 92478
+15 - start at US30_1_inverted - 1622885
+11 - start at US500_1 - 1047880
+18 - start at US500_1 - 1665787
+15 - start at USTEC_1_inverted - 1527630
+20 - start at US30_1_inverted - 44332
+12 - start at USTEC_1_inverted - 821227
+13 - start at USTEC_1_inverted - 1605565
+16 - start at US30_1_inverted - 1030800
+14 - start at USTEC_1_inverted - 1656700
+19 - start at USTEC_1_inverted - 60546
+22 - start at US30_1 - 459533
+20 - start at US500_1 - 924376
+17 - start at US500_1_inverted - 1652795
+21 - start at USTEC_1_inverted - 432873
+6 - start at US500_1 - 218827
+7 - start at US30_1_inverted - 719105
+2 - start at US30_1 - 1610279
+10 - start at USTEC_1_inverted - 553822
+23 - start at USTEC_1_inverted - 603659
+8 - start at US500_1 - 1088867
+0 - start at US30_1_inverted - 721431
+3 - start at US30_1_inverted - 1683448
+9 - start at US30_1_inverted - 1576218
+11 - start at US30_1_inverted - 984226
+5 - start at US500_1_inverted - 599310
+12 - start at USTEC_1_inverted - 1281956
+13 - start at USTEC_1 - 844100
+4 - start at US30_1 - 1062747
+16 - start at US500_1_inverted - 14 - start at US500_1 - 930565
+416386
+18 - start at USTEC_1_inverted - 1247018
+20 - start at US500_1 - 1669030
+17 - start at USTEC_1_inverted - 139296
+15 - start at US30_1 - 943762
+21 - start at US30_1 - 274380
+23 - start at US500_1_inverted - 973046
+2 - start at USTEC_1_inverted - 965137
+1 - start at US500_1_inverted - 327638
+22 - start at USTEC_1_inverted - 824260
+3 - start at USTEC_1 - 1124071
+6 - start at US30_1 - 726890
+7 - start at US30_1_inverted - 965157
+5 - start at US500_1_inverted - 686490
+0 - start at US500_1_inverted - 449554
+9 - start at US500_1_inverted - 364925
+4 - start at US30_1 - 713510
+8 - start at US30_1 - 1367212
+11 - start at US500_1 - 301105
+15 - start at US30_1_inverted - 665935
+14 - start at US30_1_inverted - 753701
+19 - start at US30_1 - 1154432
+18 - start at US30_1 - 381065
+21 - start at USTEC_1_inverted - 1638564
+20 - start at USTEC_1_inverted - 899496
+17 - start at US500_1_inverted - 1249805
+16 - start at USTEC_1 - 648088
+10 - start at USTEC_1 - 965648
+23 - start at USTEC_1 - 133948
+22 - start at USTEC_1_inverted - 1198121
+19 - start at USTEC_1 - 490273
+12 - start at US500_1_inverted - 405394
+1 - start at US30_1_inverted - 1237451
+13 - start at US30_1_inverted - 1025924
+2024-01-04 21:44:25.416285: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:268] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+2024-01-04 21:44:28.111673: I tensorflow/compiler/jit/xla_compilation_cache.cc:476] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+loading model weights...
+[Errno 2] Unable to open file (unable to open file: name = 'dqn_weights.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2024-01-04 21:45:14.665966: I tensorflow/core/tpu/graph_rewrite/encapsulate_tpu_computations_pass.cc:237] Subgraph fingerprint:11026499919201624888
+2024-01-04 21:45:15.816911: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:954] model_pruner failed: INVALID_ARGUMENT: Graph does not contain terminal node StatefulPartitionedCall.
+2024-01-04 21:45:16.730388: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:954] model_pruner failed: INVALID_ARGUMENT: Graph does not contain terminal node StatefulPartitionedCall.
+2024-01-04 21:45:18.371995: I tensorflow/core/tpu/kernels/tpu_compilation_cache_interface.cc:437] TPU host compilation cache miss: cache_key(13815786679630996290), session_name()
+2024-01-04 21:45:48.906558: I tensorflow/core/tpu/kernels/tpu_compile_op_common.cc:210] Compilation of 13815786679630996290 with session name  took 30.5344099s and succeeded
+2024-01-04 21:45:49.036579: I tensorflow/core/tpu/kernels/tpu_compilation_cache_interface.cc:470] TPU host compilation cache: compilation complete for cache_key(13815786679630996290), session_name(), subgraph_key(std::string(property.function_name) = "cluster_tpu_function_11026499919201624888", property.function_library_fingerprint = 15550403573925262065, property.mlir_module_fingerprint = 0, property.num_replicas = 8, topology.chip_bounds().x = 2, topology.chip_bounds().y = 2, topology.chip_bounds().z = 1, topology.wrap().x = false, topology.wrap().y = false, topology.wrap().z = false, topology.MissingChipCount() = 0, std::string(property.shapes_prefix) = "", property.guaranteed_constants_size = 0, embedding_partitions_fingerprint = "1688352644216761960")
+2024-01-04 21:45:49.036994: I tensorflow/core/tpu/kernels/tpu_compilation_cache_interface.cc:536] After adding entry for key 13815786679630996290 with session_name  cache is 1 entries (48408842 bytes),  marked for eviction 0 entries (0 bytes).
+loss: 0.4589616 - expected Q values: -0.20511498 - time: 148.1262822151184
+loss: 0.19159478 - expected Q values: -0.1498294 - time: 85.9764404296875
+loss: 0.10382013 - expected Q values: -0.14460133 - time: 86.78246116638184
+loss: 0.09777194 - expected Q values: -0.0899806 - time: 87.20037174224854
+loss: 0.1054394 - expected Q values: -0.03627248 - time: 84.79287552833557
+loss: 0.10379955 - expected Q values: 0.0012970042 - time: 85.70663380622864
+loss: 0.101810925 - expected Q values: 0.014240775 - time: 83.6375150680542
+loss: 0.08513588 - expected Q values: 0.09073706 - time: 79.84852695465088
+loss: 0.11874344 - expected Q values: 0.20071766 - time: 78.94048833847046
+loss: 0.12682399 - expected Q values: 0.2054824 - time: 80.15141105651855
+loss: 0.10893332 - expected Q values: 0.21791723 - time: 79.79608201980591
+loss: 0.1025765 - expected Q values: 0.23978601 - time: 78.88034510612488
+loss: 0.105860084 - expected Q values: 0.24047387 - time: 78.95108580589294
+loss: 0.10953061 - expected Q values: 0.23109183 - time: 79.05630135536194
+loss: 0.11639879 - expected Q values: 0.33751267 - time: 79.39419317245483
+loss: 0.09890028 - expected Q values: 0.3811772 - time: 78.50902557373047
+loss: 0.10853544 - expected Q values: 0.32384577 - time: 78.5419192314148
+loss: 0.12938651 - expected Q values: 0.37491897 - time: 78.90237498283386
+loss: 0.10813934 - expected Q values: 0.36723644 - time: 80.11232256889343
+loss: 0.1138869 - expected Q values: 0.37380368 - time: 79.46156167984009
