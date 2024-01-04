@@ -3,7 +3,7 @@ import time
 import random
 import sys
 
-try:
+if len(sys.argv) == 2:
     if sys.argv[1] == "github":
         print("updading github...")
         os.system("git pull")
@@ -11,7 +11,7 @@ try:
         os.system("git commit -m .")
         os.system("git push")
         exit()
-except:pass
+
 
 while True:
     print("running update commands...")
