@@ -435,3 +435,112 @@ Updating 6f231e1..c239f77
 Fast-forward
  t2/make_model.py | 4 ++--
  1 file changed, 2 insertions(+), 2 deletions(-)
+The following paths are ignored by one of your .gitignore files:
+t1/__pycache__
+t1/data
+Use -f if you really want to add them.
+[main 524cd0a] .
+ 3 files changed, 441 insertions(+), 2038 deletions(-)
+ rewrite t1/loss.txt (100%)
+ rewrite t1/nohup.out (81%)
+ rewrite t1/qv.txt (100%)
+To https://github.com/dercodeKoenig/dqn_trading_gcloudvm.git
+   c239f77..524cd0a  main -> main
+Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/marvineckhardt04092003/.kaggle/kaggle.json'
+Starting upload for file dqn_training_tpu.py
+  0%|          | 0.00/10.5k [00:00<?, ?B/s]100%|██████████| 10.5k/10.5k [00:00<00:00, 19.2kB/s]
+Upload successful: dqn_training_tpu.py (11KB)
+Skipping folder: data; use '--dir-mode' to upload folders
+Starting upload for file qv.txt
+  0%|          | 0.00/19.0 [00:00<?, ?B/s]100%|██████████| 19.0/19.0 [00:00<00:00, 26.2B/s]
+Upload successful: qv.txt (19B)
+Skipping folder: __pycache__; use '--dir-mode' to upload folders
+Starting upload for file utils.py
+  0%|          | 0.00/13.5k [00:00<?, ?B/s]loss: 0.13279958 - expected Q values: 0.58223563 - time: 30.01938223838806
+100%|██████████| 13.5k/13.5k [00:00<00:00, 18.6kB/s]
+Upload successful: utils.py (14KB)
+Starting upload for file nohup.out
+  0%|          | 0.00/17.4k [00:00<?, ?B/s]17.5kB [00:00, 123kB/s]                    
+Upload unsuccessful: nohup.out
+Starting upload for file push_files_worker.py
+  0%|          | 0.00/638 [00:00<?, ?B/s]100%|██████████| 638/638 [00:00<00:00, 1.10kB/s]
+Upload successful: push_files_worker.py (638B)
+Starting upload for file manager.py
+  0%|          | 0.00/36.4k [00:00<?, ?B/s]100%|██████████| 36.4k/36.4k [00:00<00:00, 48.2kB/s]
+Upload successful: manager.py (36KB)
+Starting upload for file loss.txt
+  0%|          | 0.00/32.0 [00:00<?, ?B/s]100%|██████████| 32.0/32.0 [00:00<00:00, 46.1B/s]
+Upload successful: loss.txt (32B)
+Starting upload for file make_model.py
+  0%|          | 0.00/5.97k [00:00<?, ?B/s]100%|██████████| 5.97k/5.97k [00:00<00:00, 8.12kB/s]
+Upload successful: make_model.py (6KB)
+Dataset version is being created. Please check progress at https://www.kaggle.com/bpwqsdd/dqn-cloud-files-t1
+sleep for 14945 seconds
+loss: 0.09822454 - expected Q values: 0.6352124 - time: 30.196967363357544
+loss: 0.10960679 - expected Q values: 0.6238881 - time: 30.442745685577393
+loss: 0.11020429 - expected Q values: 0.6696522 - time: 31.19639825820923
+loss: 0.115934856 - expected Q values: 0.7612606 - time: 30.861658573150635
+loss: 0.10354543 - expected Q values: 0.82899684 - time: 31.551079750061035
+loss: 0.119603425 - expected Q values: 0.9463218 - time: 31.56092858314514
+loss: 0.120891646 - expected Q values: 0.976041 - time: 31.283693313598633
+loss: 0.10169839 - expected Q values: 0.88137144 - time: 30.578099489212036
+loss: 0.08539579 - expected Q values: 0.99065727 - time: 29.85202717781067
+loss: 0.10312272 - expected Q values: 1.0229595 - time: 30.170448780059814
+loss: 0.08445896 - expected Q values: 1.1546689 - time: 31.264671325683594
+loss: 0.117765725 - expected Q values: 1.1341541 - time: 30.545997381210327
+loss: 0.0978356 - expected Q values: 1.0824018 - time: 31.907341480255127
+loss: 0.09427957 - expected Q values: 1.1404827 - time: 30.50241994857788
+loss: 0.10921242 - expected Q values: 1.1155444 - time: 30.34017777442932
+loss: 0.12249085 - expected Q values: 1.2535013 - time: 29.87642550468445
+loss: 0.11920622 - expected Q values: 1.3187708 - time: 30.375727891921997
+loss: 0.09509156 - expected Q values: 1.3929051 - time: 30.441810131072998
+loss: 0.15338597 - expected Q values: 1.5191249 - time: 31.514445543289185
+loss: 0.09945199 - expected Q values: 1.5525967 - time: 31.435402393341064
+loss: 0.15705737 - expected Q values: 1.4807379 - time: 31.00029468536377
+loss: 0.09531522 - expected Q values: 1.6527057 - time: 30.53085207939148
+loss: 0.093156025 - expected Q values: 1.7431592 - time: 29.883282899856567
+loss: 0.09673338 - expected Q values: 1.7415144 - time: 29.915903329849243
+loss: 0.094425336 - expected Q values: 1.8784953 - time: 29.89484214782715
+loss: 0.08476632 - expected Q values: 1.8669493 - time: 30.99211597442627
+loss: 0.11110298 - expected Q values: 1.9090142 - time: 29.865639448165894
+loss: 0.10969892 - expected Q values: 1.918086 - time: 30.486117362976074
+loss: 0.119941734 - expected Q values: 2.0038927 - time: 30.640387773513794
+loss: 0.08527787 - expected Q values: 2.0513608 - time: 29.40314483642578
+loss: 0.08731512 - expected Q values: 1.8985641 - time: 29.907922983169556
+loss: 0.14396545 - expected Q values: 2.0215573 - time: 30.24501657485962
+loss: 0.091972224 - expected Q values: 1.9052318 - time: 29.613768815994263
+loss: 0.11264965 - expected Q values: 1.990234 - time: 29.969412326812744
+loss: 0.105029434 - expected Q values: 2.0165102 - time: 29.815911054611206
+loss: 0.10983751 - expected Q values: 2.0605383 - time: 29.822064638137817
+loss: 0.08860332 - expected Q values: 1.9041852 - time: 29.586045265197754
+loss: 0.09833512 - expected Q values: 1.9004564 - time: 29.810873985290527
+loss: 0.09685269 - expected Q values: 1.8397238 - time: 30.31869125366211
+loss: 0.10237005 - expected Q values: 1.7855421 - time: 30.83525824546814
+loss: 0.11860688 - expected Q values: 1.8579841 - time: 30.504034519195557
+loss: 0.09771995 - expected Q values: 1.7100737 - time: 29.970935344696045
+loss: 0.097049065 - expected Q values: 1.7344264 - time: 30.27867078781128
+loss: 0.0875048 - expected Q values: 1.7293819 - time: 30.206140995025635
+loss: 0.09081678 - expected Q values: 1.7376629 - time: 31.376535177230835
+loss: 0.09415694 - expected Q values: 1.7874166 - time: 31.75069785118103
+loss: 0.09226602 - expected Q values: 1.8499297 - time: 31.242595911026
+loss: 0.1039892 - expected Q values: 1.8657286 - time: 30.633302688598633
+loss: 0.09697884 - expected Q values: 1.8657031 - time: 31.033658504486084
+loss: 0.14241348 - expected Q values: 1.7705668 - time: 30.457881212234497
+loss: 0.11845811 - expected Q values: 1.8230693 - time: 29.77129292488098
+loss: 0.08854465 - expected Q values: 1.8002292 - time: 30.749029874801636
+loss: 0.09219509 - expected Q values: 1.8890634 - time: 32.3822979927063
+loss: 0.07563617 - expected Q values: 1.8210634 - time: 31.825451612472534
+loss: 0.089852236 - expected Q values: 1.8110255 - time: 31.691256046295166
+loss: 0.09437415 - expected Q values: 1.862132 - time: 30.830663919448853
+loss: 0.091325216 - expected Q values: 1.8540933 - time: 31.92705750465393
+loss: 0.10119973 - expected Q values: 1.9371512 - time: 31.123754262924194
+loss: 0.10303399 - expected Q values: 1.8848943 - time: 31.606162786483765
+loss: 0.123538196 - expected Q values: 1.8908789 - time: 31.314821481704712
+loss: 0.115394734 - expected Q values: 1.902334 - time: 30.973811388015747
+loss: 0.12353427 - expected Q values: 1.9385494 - time: 30.832024097442627
+loss: 0.11189717 - expected Q values: 1.9196733 - time: 31.721900701522827
+loss: 0.11012921 - expected Q values: 1.9954138 - time: 30.50858497619629
+loss: 0.13127604 - expected Q values: 1.9963078 - time: 31.44743037223816
+loss: 0.11418489 - expected Q values: 2.0390344 - time: 30.739094257354736
+loss: 0.10450754 - expected Q values: 2.0014243 - time: 30.981019973754883
+loss: 0.11067628 - expected Q values: 2.0216556 - time: 30.50593590736389
