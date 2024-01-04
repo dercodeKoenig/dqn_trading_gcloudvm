@@ -5,6 +5,7 @@ import sys
 
 try:
     if sys.argv[1] == "github":
+        print("updading github...")
         os.system("git pull")
         os.system("git add *")
         os.system("git commit -m .")
