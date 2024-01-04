@@ -70,7 +70,7 @@ def make_model():
   v3 = tf.keras.layers.Reshape((-1,1))(action_m1_inputs[::,::,3])
   t1 = embed_times(t1)
   t2 = embed_times(t2)
-  at = embed_times(at)
+  at = embed_action_type(at)
   actions_m1 = tf.keras.layers.Concatenate(axis=-1)([v1,at,v3,t1,t2])
   
 
@@ -81,7 +81,7 @@ def make_model():
   v3 = tf.keras.layers.Reshape((-1,1))(action_m5_inputs[::,::,3])
   t1 = embed_times(t1)
   t2 = embed_times(t2)
-  at = embed_times(at)
+  at = embed_action_type(at)
   actions_m5 = tf.keras.layers.Concatenate(axis=-1)([v1,at,v3,t1,t2])
   
 
@@ -92,7 +92,7 @@ def make_model():
   v3 = tf.keras.layers.Reshape((-1,1))(action_m15_inputs[::,::,3])
   t1 = embed_times(t1)
   t2 = embed_times(t2)
-  at = embed_times(at)
+  at = embed_action_type(at)
   actions_m15 = tf.keras.layers.Concatenate(axis=-1)([v1,at,v3,t1,t2])
   
 
