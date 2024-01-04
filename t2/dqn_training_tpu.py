@@ -13,7 +13,7 @@ import time
 
 
 
-batch_size = 48
+batch_size = 64
 gamma = 0.9975
 learning_rate=0.00005
 
