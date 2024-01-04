@@ -170,6 +170,16 @@ def get_inputs_from_ret(ret, x):
             tp = 12
         elif tp == "SIBI_LOW_BROKEN_DOWNSIDE":
             tp = 13
+
+        elif tp == "SWING_HIGH_FORMED":
+            tp = 14
+        elif tp == "SWING_LOW_FORMED":
+            tp = 15
+        elif tp == "BISI_FORMED":
+            tp = 16
+        elif tp == "SIBI_FORMED":
+            tp = 17
+            
         else:print("error in action type")
     
         pd_formed_scaled = scale_timeofday(i.pd_array_formed_time)
@@ -222,6 +232,16 @@ def get_inputs_from_ret(ret, x):
             tp = 12
         elif tp == "SIBI_LOW_BROKEN_DOWNSIDE":
             tp = 13
+
+        elif tp == "SWING_HIGH_FORMED":
+            tp = 14
+        elif tp == "SWING_LOW_FORMED":
+            tp = 15
+        elif tp == "BISI_FORMED":
+            tp = 16
+        elif tp == "SIBI_FORMED":
+            tp = 17
+            
         else:print("error in action type")
     
         pd_formed_scaled = scale_timeofday(i.pd_array_formed_time)
@@ -274,6 +294,16 @@ def get_inputs_from_ret(ret, x):
             tp = 12
         elif tp == "SIBI_LOW_BROKEN_DOWNSIDE":
             tp = 13
+
+        elif tp == "SWING_HIGH_FORMED":
+            tp = 14
+        elif tp == "SWING_LOW_FORMED":
+            tp = 15
+        elif tp == "BISI_FORMED":
+            tp = 16
+        elif tp == "SIBI_FORMED":
+            tp = 17
+            
         else:print("error in action type")
     
         pd_formed_scaled = scale_timeofday(i.pd_array_formed_time)

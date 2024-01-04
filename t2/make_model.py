@@ -61,7 +61,7 @@ def make_model():
   action_m5_inputs = tf.keras.layers.Input(shape=(256,5))
   action_m15_inputs = tf.keras.layers.Input(shape=(256,5))
 
-  embed_action_type = tf.keras.layers.Embedding(14,6)
+  embed_action_type = tf.keras.layers.Embedding(18,6)
 
   t1 = action_m1_inputs[::,::,1]
   t2 = action_m1_inputs[::,::,4]

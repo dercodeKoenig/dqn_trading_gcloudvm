@@ -312,6 +312,24 @@ class manager:
                 pd_array_formed_abs = MHDMoY_to_minutes(pd_array_formed[4],pd_array_formed[3],pd_array_formed[0],pd_array_formed[1],pd_array_formed[2])
                 
                 if pd_array_formed_abs < candle_time_abs:o.active = True
+
+                if pd_array_formed_abs == candle_time_abs:
+                    if o.tf == "m5":
+                        if o.pda.type == "BUYSIDE":
+                            a = action("SWING_HIGH_FORMED", o.pda.price, self.m5_candles[i].t, o.tf,o.time)
+                            self.action_history_m5.append(a)
+                        if o.pda.type == "SELLSIDE":
+                            a = action("SWING_LOW_FORMED", o.pda.price, self.m5_candles[i].t, o.tf,o.time)
+                            self.action_history_m5.append(a)
+                        if o.pda.type == "BISI":
+                            a = action("BISI_FORMED", o.pda.ce, self.m5_candles[i].t, o.tf,o.time)
+                            self.action_history_m5.append(a)
+                        if o.pda.type == "SIBI":
+                            a = action("SIBI_FORMED", o.pda.ce, self.m5_candles[i].t, o.tf,o.time)
+                            self.action_history_m5.append(a)
+                
+                            
+                        
         
                 if not o.active:continue
                     
@@ -416,7 +434,22 @@ class manager:
                 pd_array_formed_abs = MHDMoY_to_minutes(pd_array_formed[4],pd_array_formed[3],pd_array_formed[0],pd_array_formed[1],pd_array_formed[2])
                 
                 if pd_array_formed_abs < candle_time_abs:o.active = True
-        
+
+                if pd_array_formed_abs == candle_time_abs:
+                    if o.tf == "m15":
+                        if o.pda.type == "BUYSIDE":
+                            a = action("SWING_HIGH_FORMED", o.pda.price, self.m15_candles[i].t, o.tf,o.time)
+                            self.action_history_m15.append(a)
+                        if o.pda.type == "SELLSIDE":
+                            a = action("SWING_LOW_FORMED", o.pda.price, self.m15_candles[i].t, o.tf,o.time)
+                            self.action_history_m15.append(a)
+                        if o.pda.type == "BISI":
+                            a = action("BISI_FORMED", o.pda.ce, self.m15_candles[i].t, o.tf,o.time)
+                            self.action_history_m15.append(a)
+                        if o.pda.type == "SIBI":
+                            a = action("SIBI_FORMED", o.pda.ce, self.m15_candles[i].t, o.tf,o.time)
+                            self.action_history_m15.append(a)            
+                
                 if not o.active:continue
                     
                 if o.pda.type == "BUYSIDE":
@@ -519,7 +552,22 @@ class manager:
                 pd_array_formed_abs = MHDMoY_to_minutes(pd_array_formed[4],pd_array_formed[3],pd_array_formed[0],pd_array_formed[1],pd_array_formed[2])
                 
                 if pd_array_formed_abs < candle_time_abs:o.active = True
-        
+
+                if pd_array_formed_abs == candle_time_abs:
+                    if o.tf == "m1":
+                        if o.pda.type == "BUYSIDE":
+                            a = action("SWING_HIGH_FORMED", o.pda.price, self.m1_candles[i].t, o.tf,o.time)
+                            self.action_history_m1.append(a)
+                        if o.pda.type == "SELLSIDE":
+                            a = action("SWING_LOW_FORMED", o.pda.price, self.m1_candles[i].t, o.tf,o.time)
+                            self.action_history_m1.append(a)
+                        if o.pda.type == "BISI":
+                            a = action("BISI_FORMED", o.pda.ce, self.m1_candles[i].t, o.tf,o.time)
+                            self.action_history_m1.append(a)
+                        if o.pda.type == "SIBI":
+                            a = action("SIBI_FORMED", o.pda.ce, self.m1_candles[i].t, o.tf,o.time)
+                            self.action_history_m1.append(a)            
+                
                 if not o.active:continue
                     
                 if o.pda.type == "BUYSIDE":
