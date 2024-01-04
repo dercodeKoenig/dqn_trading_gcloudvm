@@ -271,13 +271,15 @@ def main():
     def tpu_data_get_func(_n):
         return batch_q.get()
     
-    
+    save_counter = 0
     while True:
-        progbar = tf.keras.utils.Progbar(ep_len)
+        save_counter+=1
+        t0 = time.time()
+        #progbar = tf.keras.utils.Progbar(ep_len)
         losses = []
         qs = []
         bq_pv = batch_q.qsize() / batch_q_size * 100
-        print("num ready batches:", bq_pv, "%", "(good)" if bq_pv >= 100 else "")
+        #print("num ready batches:", bq_pv, "%", "(good)" if bq_pv >= 100 else "")
         for i in range(ep_len):
             
             if batch_q.qsize() >= 8:
@@ -287,7 +289,7 @@ def main():
                 
                 losses.append(loss.numpy())
                 qs.append(qv.numpy())
-                progbar.update(i+1, values = [("loss", loss), ("qv", qv)])
+                #progbar.update(i+1, values = [("loss", loss), ("qv", qv)])
             
             else:
                 time.sleep(1)
@@ -298,10 +300,11 @@ def main():
         
         filesave("loss.txt", np.mean(losses))        
         filesave("qv.txt", np.mean(qs))        
-    
-        model.save_weights("dqn_weights.h5")
+        if save_counter % 30 == 0:
+            model.save_weights("dqn_weights.h5")
         target_model.set_weights(model.get_weights())        
 
+        print("loss:", np.mean(losses), "- expected Q values:", np.mean(qs), "- time:", time.time() - t0)
         
             
 

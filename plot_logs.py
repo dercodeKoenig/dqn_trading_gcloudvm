@@ -11,7 +11,7 @@ def get_values(fn):
     return lines
 
 avg_n=50
-k=0
+k=2
 
 def plot_logs(losses, qs, name):
     fig, ax = plt.subplots(1,2,figsize=(14,5))
