@@ -1,12 +1,12 @@
 import tensorflow as tf
 
 #config
-batch_size = 32
+batch_size = 16
 gamma = 0.995
 learning_rate=0.00001
-num_data_generation_threads = 12
-batch_generation_threads = 8
-memory_size = 200_000
+num_data_generation_threads = 8
+batch_generation_threads = 12
+memory_size = 500_000
 ep_len = 100
 
 def make_model():
