@@ -14,7 +14,7 @@ import time
 
 
 batch_size = 128
-gamma = 0.9975
+gamma = 0.995
 learning_rate=0.00005
 
 num_model_inputs = 2+5+3+1
