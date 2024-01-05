@@ -278,7 +278,7 @@ def main():
         #progbar = tf.keras.utils.Progbar(ep_len)
         losses = []
         qs = []
-        bq_pv = batch_q.qsize() / batch_q_size * 100
+        #bq_pv = batch_q.qsize() / batch_q_size * 100
         #print("num ready batches:", bq_pv, "%", "(good)" if bq_pv >= 100 else "")
         for i in range(ep_len):
             
