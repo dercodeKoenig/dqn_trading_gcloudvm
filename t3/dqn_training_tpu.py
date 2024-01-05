@@ -72,7 +72,7 @@ def threaded_data_generation(q,num):
                     ret = x.push_m1_candle(candles[i])
                     
                     #disable relative scaling
-                    ret[0][1] = 1
+                    #ret[0][1] = 1
                     #########
                     
                     inp = get_inputs_from_ret(ret, x)
