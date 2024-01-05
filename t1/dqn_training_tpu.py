@@ -168,7 +168,7 @@ def data_get_func(data_qs, batch_q):
         if batch_q.qsize() > batch_q_size:
             #print("batch Queue full - waiting")
             #print("memory len:", len(ssrtm_memory))
-            time.sleep(1)
+            time.sleep(0.05)
             continue
 
 
