@@ -23,7 +23,7 @@ m1 = np.eye(n_actions, dtype="float32")
 num_data_generation_threads = 12
 batch_generation_threads = 8
 memory_size = 200_000
-batch_q_size = 128
+batch_q_size = 512
 data_q_maxlen = 128
 ep_len = 100
 
