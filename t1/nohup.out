@@ -978,3 +978,554 @@ loss: 0.099236965 - expected Q values: 2.9384348 - time: 29.35882329940796
 loss: 0.087497436 - expected Q values: 2.806782 - time: 29.168525457382202
 running update commands...
 Already up to date.
+The following paths are ignored by one of your .gitignore files:
+t1/__pycache__
+t1/data
+t1/dqn_weights.h5
+Use -f if you really want to add them.
+[main edc4910] .
+ 3 files changed, 1277 insertions(+)
+To https://github.com/dercodeKoenig/dqn_trading_gcloudvm.git
+   c88a0d0..edc4910  main -> main
+Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/marvineckhardt04092003/.kaggle/kaggle.json'
+Starting upload for file dqn_training_tpu.py
+  0%|          | 0.00/10.5k [00:00<?, ?B/s]100%|██████████| 10.5k/10.5k [00:00<00:00, 15.1kB/s]
+Upload successful: dqn_training_tpu.py (11KB)
+Skipping folder: data; use '--dir-mode' to upload folders
+Starting upload for file qv.txt
+  0%|          | 0.00/4.81k [00:00<?, ?B/s]100%|██████████| 4.81k/4.81k [00:00<00:00, 7.13kB/s]
+Upload successful: qv.txt (5KB)
+Skipping folder: __pycache__; use '--dir-mode' to upload folders
+Starting upload for file utils.py
+  0%|          | 0.00/13.5k [00:00<?, ?B/s]100%|██████████| 13.5k/13.5k [00:00<00:00, 20.0kB/s]
+Upload successful: utils.py (14KB)
+Starting upload for file nohup.out
+  0%|          | 0.00/56.0k [00:00<?, ?B/s]56.1kB [00:00, 355kB/s]                    
+Upload unsuccessful: nohup.out
+Starting upload for file dqn_weights.h5
+  0%|          | 0.00/21.8M [00:00<?, ?B/s] 42%|████▏     | 9.08M/21.8M [00:00<00:00, 74.7MB/s]100%|██████████| 21.8M/21.8M [00:01<00:00, 21.6MB/s]
+Upload successful: dqn_weights.h5 (22MB)
+Starting upload for file push_files_worker.py
+  0%|          | 0.00/638 [00:00<?, ?B/s]100%|██████████| 638/638 [00:00<00:00, 904B/s]
+Upload successful: push_files_worker.py (638B)
+Starting upload for file manager.py
+  0%|          | 0.00/36.4k [00:00<?, ?B/s]100%|██████████| 36.4k/36.4k [00:00<00:00, 51.7kB/s]
+Upload successful: manager.py (36KB)
+Starting upload for file loss.txt
+  0%|          | 0.00/5.47k [00:00<?, ?B/s]100%|██████████| 5.47k/5.47k [00:00<00:00, 7.88kB/s]
+Upload successful: loss.txt (5KB)
+Starting upload for file make_model.py
+  0%|          | 0.00/5.97k [00:00<?, ?B/s]100%|██████████| 5.97k/5.97k [00:00<00:00, 8.27kB/s]
+Upload successful: make_model.py (6KB)
+Dataset version is being created. Please check progress at https://www.kaggle.com/bpwqsdd/dqn-cloud-files-t1
+sleep for 19062 seconds
+loss: 0.095254295 - expected Q values: 2.9433758 - time: 29.011079788208008
+loss: 0.09726052 - expected Q values: 2.8507078 - time: 29.044901371002197
+loss: 0.103433326 - expected Q values: 2.8615875 - time: 28.823365449905396
+loss: 0.0941979 - expected Q values: 2.7780936 - time: 29.250425338745117
+loss: 0.097767204 - expected Q values: 2.809551 - time: 29.468220472335815
+loss: 0.09491911 - expected Q values: 2.8235967 - time: 28.984590768814087
+loss: 0.09498837 - expected Q values: 2.8002448 - time: 30.37842607498169
+loss: 0.10208046 - expected Q values: 2.7864597 - time: 29.277303457260132
+loss: 0.10088243 - expected Q values: 2.796985 - time: 29.886608839035034
+loss: 0.08532056 - expected Q values: 2.8054876 - time: 29.127201080322266
+loss: 0.09466842 - expected Q values: 2.7043302 - time: 28.874601125717163
+loss: 0.08585678 - expected Q values: 2.6326272 - time: 29.031256198883057
+loss: 0.09452271 - expected Q values: 2.7262423 - time: 29.173500061035156
+loss: 0.08578931 - expected Q values: 2.7204325 - time: 28.956902027130127
+loss: 0.08694785 - expected Q values: 2.6693432 - time: 28.884544610977173
+loss: 0.08798313 - expected Q values: 2.688776 - time: 30.615648984909058
+loss: 0.082294606 - expected Q values: 2.7073977 - time: 29.228773593902588
+loss: 0.09269872 - expected Q values: 2.7337384 - time: 28.890398740768433
+loss: 0.100448415 - expected Q values: 2.7651675 - time: 29.266918659210205
+loss: 0.08907443 - expected Q values: 2.6285663 - time: 28.71732187271118
+loss: 0.091184705 - expected Q values: 2.735576 - time: 29.74876880645752
+loss: 0.10942204 - expected Q values: 2.7719347 - time: 30.123091459274292
+loss: 0.09139406 - expected Q values: 2.7892594 - time: 28.994694709777832
+loss: 0.09029713 - expected Q values: 2.7192078 - time: 29.61644220352173
+loss: 0.095848225 - expected Q values: 2.7140226 - time: 29.08852744102478
+loss: 0.09862505 - expected Q values: 2.6908333 - time: 29.15772294998169
+loss: 0.08175995 - expected Q values: 2.6486373 - time: 29.10217785835266
+loss: 0.10059128 - expected Q values: 2.6073709 - time: 29.837980270385742
+loss: 0.087909974 - expected Q values: 2.6429262 - time: 28.897636890411377
+loss: 0.10133484 - expected Q values: 2.647427 - time: 29.346715688705444
+loss: 0.09388131 - expected Q values: 2.6638656 - time: 28.867342472076416
+loss: 0.09577781 - expected Q values: 2.6128693 - time: 29.145620584487915
+loss: 0.095425785 - expected Q values: 2.5952246 - time: 29.876930952072144
+loss: 0.09462248 - expected Q values: 2.552379 - time: 29.22623324394226
+loss: 0.090406545 - expected Q values: 2.4984288 - time: 30.359753370285034
+loss: 0.09109421 - expected Q values: 2.538405 - time: 29.113924980163574
+loss: 0.084988296 - expected Q values: 2.5102963 - time: 29.412200212478638
+loss: 0.09934361 - expected Q values: 2.4543407 - time: 30.00673508644104
+loss: 0.0850466 - expected Q values: 2.5135038 - time: 28.982158660888672
+loss: 0.112213135 - expected Q values: 2.5843976 - time: 29.439709186553955
+loss: 0.10623538 - expected Q values: 2.4757605 - time: 29.975269079208374
+loss: 0.11441311 - expected Q values: 2.5595074 - time: 29.410869598388672
+loss: 0.09018636 - expected Q values: 2.5859492 - time: 29.024023294448853
+loss: 0.108989365 - expected Q values: 2.5552235 - time: 28.94895601272583
+loss: 0.100632936 - expected Q values: 2.610911 - time: 28.61672353744507
+loss: 0.09031067 - expected Q values: 2.667451 - time: 29.461211681365967
+loss: 0.10961502 - expected Q values: 2.6697628 - time: 29.607717990875244
+loss: 0.09265788 - expected Q values: 2.625397 - time: 29.638407230377197
+loss: 0.09576433 - expected Q values: 2.6457596 - time: 29.721904277801514
+loss: 0.09315905 - expected Q values: 2.6487942 - time: 29.205986499786377
+loss: 0.08366335 - expected Q values: 2.723213 - time: 29.139393091201782
+loss: 0.10393633 - expected Q values: 2.6789343 - time: 29.51471447944641
+loss: 0.12002106 - expected Q values: 2.7347326 - time: 29.6913001537323
+loss: 0.14326279 - expected Q values: 2.7101808 - time: 29.783780574798584
+loss: 0.09289516 - expected Q values: 2.699867 - time: 29.7490553855896
+loss: 0.0982022 - expected Q values: 2.736609 - time: 29.984862804412842
+loss: 0.119536035 - expected Q values: 2.7530344 - time: 29.220072269439697
+loss: 0.08578788 - expected Q values: 2.6481915 - time: 29.343032360076904
+loss: 0.09922078 - expected Q values: 2.7733448 - time: 29.213377237319946
+loss: 0.09616174 - expected Q values: 2.7138593 - time: 29.152815341949463
+loss: 0.09839015 - expected Q values: 2.7623847 - time: 28.98921823501587
+loss: 0.09691985 - expected Q values: 2.7758574 - time: 29.153319597244263
+loss: 0.09556739 - expected Q values: 2.771447 - time: 29.62582015991211
+loss: 0.1099564 - expected Q values: 2.7437513 - time: 29.08217477798462
+loss: 0.09303863 - expected Q values: 2.7377992 - time: 29.007150411605835
+loss: 0.08941863 - expected Q values: 2.7711952 - time: 29.44071865081787
+loss: 0.099579595 - expected Q values: 2.7577991 - time: 29.129399299621582
+loss: 0.10142661 - expected Q values: 2.783248 - time: 29.42925453186035
+loss: 0.11668754 - expected Q values: 2.7751832 - time: 29.36102795600891
+loss: 0.13591905 - expected Q values: 2.7512283 - time: 29.044901371002197
+loss: 0.10788202 - expected Q values: 2.7202444 - time: 29.961419820785522
+loss: 0.0945356 - expected Q values: 2.7969532 - time: 29.391589879989624
+loss: 0.09707352 - expected Q values: 2.9046395 - time: 29.11027479171753
+loss: 0.08087984 - expected Q values: 2.8935719 - time: 29.73763608932495
+loss: 0.14197896 - expected Q values: 2.8623636 - time: 29.292007207870483
+loss: 0.09191748 - expected Q values: 2.8519425 - time: 30.361170530319214
+loss: 0.08498427 - expected Q values: 2.8671649 - time: 30.46185040473938
+loss: 0.107641086 - expected Q values: 2.8941665 - time: 29.268984079360962
+loss: 0.09250431 - expected Q values: 2.8675861 - time: 29.34589147567749
+loss: 0.10564286 - expected Q values: 2.8155127 - time: 29.12413263320923
+loss: 0.07603511 - expected Q values: 2.823654 - time: 28.90190052986145
+loss: 0.096614905 - expected Q values: 2.814838 - time: 29.687973022460938
+loss: 0.08914716 - expected Q values: 2.8571541 - time: 29.30328059196472
+loss: 0.09072371 - expected Q values: 2.8109102 - time: 29.157174825668335
+loss: 0.09108703 - expected Q values: 2.8242905 - time: 29.52959156036377
+loss: 0.09413255 - expected Q values: 2.7778203 - time: 29.32517147064209
+loss: 0.09142702 - expected Q values: 2.85855 - time: 28.847530603408813
+loss: 0.09055274 - expected Q values: 2.790065 - time: 29.72004246711731
+loss: 0.094612055 - expected Q values: 2.8149478 - time: 30.07103681564331
+loss: 0.094384715 - expected Q values: 2.773993 - time: 29.68570041656494
+loss: 0.08967763 - expected Q values: 2.8411093 - time: 29.559778451919556
+loss: 0.08678919 - expected Q values: 2.774827 - time: 29.61078667640686
+loss: 0.099597566 - expected Q values: 2.7625878 - time: 29.459907293319702
+loss: 0.08788786 - expected Q values: 2.7448843 - time: 29.13392972946167
+loss: 0.10739268 - expected Q values: 2.696773 - time: 29.386947870254517
+loss: 0.095650226 - expected Q values: 2.7533195 - time: 29.493772983551025
+loss: 0.08163622 - expected Q values: 2.7672668 - time: 30.329179525375366
+loss: 0.09939636 - expected Q values: 2.7292676 - time: 29.556548595428467
+loss: 0.1062412 - expected Q values: 2.7668927 - time: 28.979780197143555
+loss: 0.09064786 - expected Q values: 2.7692697 - time: 29.4066059589386
+loss: 0.08716939 - expected Q values: 2.7502224 - time: 30.103307723999023
+loss: 0.088427134 - expected Q values: 2.7815259 - time: 29.219635725021362
+loss: 0.08897781 - expected Q values: 2.7043488 - time: 29.49330997467041
+loss: 0.102134936 - expected Q values: 2.7108176 - time: 29.6003897190094
+loss: 0.097063825 - expected Q values: 2.8063815 - time: 29.768935680389404
+loss: 0.09750076 - expected Q values: 2.776641 - time: 29.29289174079895
+loss: 0.09469013 - expected Q values: 2.881557 - time: 29.22105097770691
+loss: 0.08122137 - expected Q values: 2.8353002 - time: 29.6907479763031
+loss: 0.094434574 - expected Q values: 2.9071207 - time: 29.433451414108276
+loss: 0.092914365 - expected Q values: 2.831413 - time: 29.40213370323181
+loss: 0.08482643 - expected Q values: 2.8256552 - time: 28.827019214630127
+loss: 0.09545877 - expected Q values: 2.817652 - time: 29.057520389556885
+loss: 0.0830276 - expected Q values: 2.7696564 - time: 29.43768072128296
+loss: 0.09125742 - expected Q values: 2.8586898 - time: 29.495824813842773
+loss: 0.08437007 - expected Q values: 2.7944958 - time: 29.371445417404175
+loss: 0.1011988 - expected Q values: 2.824024 - time: 28.86297297477722
+loss: 0.0836694 - expected Q values: 2.7883413 - time: 30.018234729766846
+loss: 0.08939373 - expected Q values: 2.7414386 - time: 30.404553174972534
+loss: 0.08847379 - expected Q values: 2.7661507 - time: 30.00687551498413
+loss: 0.1027346 - expected Q values: 2.8038225 - time: 29.843334674835205
+loss: 0.10067044 - expected Q values: 2.7606049 - time: 30.010879516601562
+loss: 0.091385916 - expected Q values: 2.7918813 - time: 30.22421145439148
+loss: 0.09525419 - expected Q values: 2.763856 - time: 30.40564274787903
+loss: 0.10363695 - expected Q values: 2.8334818 - time: 29.12364149093628
+loss: 0.09403223 - expected Q values: 2.7910264 - time: 29.26531958580017
+loss: 0.08183051 - expected Q values: 2.8644333 - time: 30.311466455459595
+loss: 0.09172061 - expected Q values: 2.8494673 - time: 29.309036254882812
+loss: 0.1017265 - expected Q values: 2.8045382 - time: 29.05609393119812
+loss: 0.08519679 - expected Q values: 2.8123007 - time: 29.926342725753784
+loss: 0.09323974 - expected Q values: 2.8173542 - time: 29.103979349136353
+loss: 0.10249435 - expected Q values: 2.8157265 - time: 29.18889284133911
+loss: 0.09930042 - expected Q values: 2.8222985 - time: 29.494105577468872
+loss: 0.2734507 - expected Q values: 2.752227 - time: 28.837607860565186
+loss: 0.093279965 - expected Q values: 2.7842429 - time: 29.529528617858887
+loss: 0.090803854 - expected Q values: 2.7947662 - time: 29.44753909111023
+loss: 0.14525422 - expected Q values: 2.7244492 - time: 30.242996215820312
+loss: 0.09596923 - expected Q values: 2.7633538 - time: 29.084147930145264
+loss: 0.10201627 - expected Q values: 2.7886786 - time: 30.812735080718994
+loss: 0.09577899 - expected Q values: 2.8643692 - time: 29.47887945175171
+loss: 0.09682586 - expected Q values: 2.7655964 - time: 29.717820405960083
+loss: 0.08959014 - expected Q values: 2.7295804 - time: 28.941964864730835
+loss: 0.08830642 - expected Q values: 2.7327104 - time: 29.394033670425415
+loss: 0.08865034 - expected Q values: 2.703704 - time: 29.33667540550232
+loss: 0.08375409 - expected Q values: 2.6539776 - time: 29.436685800552368
+loss: 0.07955816 - expected Q values: 2.8014257 - time: 29.0674991607666
+loss: 0.08359091 - expected Q values: 2.6608796 - time: 29.487310886383057
+loss: 0.08637865 - expected Q values: 2.64707 - time: 29.135266304016113
+loss: 0.09581694 - expected Q values: 2.6324615 - time: 29.717647075653076
+loss: 0.10406594 - expected Q values: 2.674787 - time: 29.08426332473755
+loss: 0.08734399 - expected Q values: 2.5814033 - time: 29.078793048858643
+loss: 0.083424896 - expected Q values: 2.6783695 - time: 29.67723274230957
+loss: 0.088267565 - expected Q values: 2.6393158 - time: 28.90784788131714
+loss: 0.072328284 - expected Q values: 2.5957193 - time: 29.157049417495728
+loss: 0.09014435 - expected Q values: 2.687885 - time: 30.887866973876953
+loss: 0.08504007 - expected Q values: 2.6637836 - time: 29.58093023300171
+loss: 0.1058185 - expected Q values: 2.6712236 - time: 30.120343923568726
+loss: 0.091206744 - expected Q values: 2.6170297 - time: 29.962166786193848
+loss: 0.115068436 - expected Q values: 2.627872 - time: 28.900646209716797
+loss: 0.10136704 - expected Q values: 2.7359953 - time: 29.44824528694153
+loss: 0.11771395 - expected Q values: 2.6226654 - time: 29.04329752922058
+loss: 0.09388955 - expected Q values: 2.646973 - time: 30.48091769218445
+loss: 0.09040352 - expected Q values: 2.6147103 - time: 29.06255841255188
+loss: 0.09192391 - expected Q values: 2.6353617 - time: 29.506797075271606
+loss: 0.19024993 - expected Q values: 2.5482724 - time: 29.697208166122437
+loss: 0.11839745 - expected Q values: 2.5858579 - time: 29.222239017486572
+loss: 0.10220674 - expected Q values: 2.5698624 - time: 29.678323984146118
+loss: 0.086216934 - expected Q values: 2.5884051 - time: 29.25986409187317
+loss: 0.091047734 - expected Q values: 2.6956158 - time: 29.412771224975586
+loss: 0.082416356 - expected Q values: 2.6357398 - time: 29.109330892562866
+loss: 0.0848423 - expected Q values: 2.6188834 - time: 28.990046977996826
+loss: 0.08206537 - expected Q values: 2.633457 - time: 28.9888436794281
+loss: 0.084509104 - expected Q values: 2.6586432 - time: 29.75657606124878
+loss: 0.08290151 - expected Q values: 2.5920022 - time: 28.847894430160522
+loss: 0.1034052 - expected Q values: 2.5693536 - time: 29.295526027679443
+loss: 0.08824892 - expected Q values: 2.661865 - time: 29.132221221923828
+loss: 0.09309617 - expected Q values: 2.5526788 - time: 29.0956871509552
+loss: 0.07133444 - expected Q values: 2.536575 - time: 29.03034496307373
+loss: 0.11814594 - expected Q values: 2.5475004 - time: 28.972251415252686
+loss: 0.10118053 - expected Q values: 2.4996421 - time: 29.159785747528076
+loss: 0.083109446 - expected Q values: 2.536576 - time: 29.773038864135742
+loss: 0.1017767 - expected Q values: 2.5031552 - time: 29.138211250305176
+loss: 0.08956008 - expected Q values: 2.507596 - time: 28.692800521850586
+loss: 0.06982748 - expected Q values: 2.546921 - time: 29.22012710571289
+loss: 0.110302515 - expected Q values: 2.5271115 - time: 29.553014039993286
+loss: 0.24708076 - expected Q values: 2.555342 - time: 29.979735851287842
+loss: 0.08161089 - expected Q values: 2.6228957 - time: 30.170846939086914
+loss: 0.08893384 - expected Q values: 2.6312692 - time: 29.560633897781372
+loss: 0.09061248 - expected Q values: 2.587614 - time: 30.04290461540222
+loss: 0.115357876 - expected Q values: 2.7188423 - time: 30.584266662597656
+loss: 0.09138202 - expected Q values: 2.59964 - time: 30.104082822799683
+loss: 0.09231371 - expected Q values: 2.5813265 - time: 29.194759607315063
+loss: 0.094355084 - expected Q values: 2.5907254 - time: 29.534968852996826
+loss: 0.09645475 - expected Q values: 2.5266798 - time: 29.8115177154541
+loss: 0.08988264 - expected Q values: 2.5990467 - time: 29.103488206863403
+loss: 0.0920246 - expected Q values: 2.4972074 - time: 29.057861804962158
+loss: 0.104654595 - expected Q values: 2.508178 - time: 30.288129329681396
+loss: 0.097349204 - expected Q values: 2.4632223 - time: 29.479723930358887
+loss: 0.096052855 - expected Q values: 2.5042117 - time: 29.900667667388916
+loss: 0.096257046 - expected Q values: 2.5300696 - time: 30.235111951828003
+loss: 0.08638487 - expected Q values: 2.5356672 - time: 29.00932550430298
+loss: 0.08614448 - expected Q values: 2.5036974 - time: 28.998973846435547
+loss: 0.09780958 - expected Q values: 2.5185156 - time: 29.489978551864624
+loss: 0.493025 - expected Q values: 2.5022602 - time: 29.658663749694824
+loss: 0.085226096 - expected Q values: 2.470532 - time: 29.312044858932495
+loss: 0.10820987 - expected Q values: 2.4090335 - time: 30.049334287643433
+loss: 0.089314535 - expected Q values: 2.362418 - time: 29.411144495010376
+loss: 0.6441212 - expected Q values: 2.4490979 - time: 29.722695350646973
+loss: 0.08815916 - expected Q values: 2.4982798 - time: 29.847717761993408
+loss: 0.07638273 - expected Q values: 2.4300766 - time: 29.59926700592041
+loss: 0.08786028 - expected Q values: 2.4670925 - time: 29.531567811965942
+loss: 0.0855532 - expected Q values: 2.3572586 - time: 29.245049715042114
+loss: 0.08353878 - expected Q values: 2.395272 - time: 28.978925466537476
+loss: 0.073994316 - expected Q values: 2.4098551 - time: 29.655221462249756
+loss: 0.08629275 - expected Q values: 2.453962 - time: 29.5108859539032
+loss: 0.077690594 - expected Q values: 2.391435 - time: 29.538761854171753
+loss: 0.09338459 - expected Q values: 2.3515396 - time: 29.187153100967407
+loss: 0.09540872 - expected Q values: 2.282761 - time: 29.631234169006348
+loss: 0.07869332 - expected Q values: 2.3573062 - time: 29.534515619277954
+loss: 0.097097196 - expected Q values: 2.328977 - time: 29.417624473571777
+loss: 0.10038562 - expected Q values: 2.4252677 - time: 29.22526502609253
+loss: 0.08053874 - expected Q values: 2.3507307 - time: 29.341058254241943
+loss: 0.08392191 - expected Q values: 2.373299 - time: 28.898766040802002
+loss: 0.08809191 - expected Q values: 2.3465137 - time: 29.835078954696655
+loss: 0.090948135 - expected Q values: 2.3799558 - time: 29.06861925125122
+loss: 0.08493764 - expected Q values: 2.3280768 - time: 29.028504371643066
+loss: 0.0855802 - expected Q values: 2.346574 - time: 30.04603099822998
+loss: 0.108111046 - expected Q values: 2.298556 - time: 29.739689350128174
+loss: 0.08121906 - expected Q values: 2.3556893 - time: 29.130539417266846
+loss: 0.080949746 - expected Q values: 2.3957794 - time: 29.238308906555176
+loss: 0.092846096 - expected Q values: 2.3149877 - time: 29.219804048538208
+loss: 0.09269262 - expected Q values: 2.3552315 - time: 30.16369867324829
+loss: 0.09454922 - expected Q values: 2.4320621 - time: 29.1751070022583
+loss: 0.08504982 - expected Q values: 2.3657393 - time: 29.346139192581177
+loss: 0.10187547 - expected Q values: 2.3716881 - time: 29.55497169494629
+loss: 0.0992168 - expected Q values: 2.3731835 - time: 29.10834550857544
+loss: 0.08890098 - expected Q values: 2.415016 - time: 29.872395277023315
+loss: 0.104601905 - expected Q values: 2.3957746 - time: 29.640272855758667
+loss: 0.108453274 - expected Q values: 2.3564527 - time: 29.39231562614441
+loss: 0.08566248 - expected Q values: 2.38678 - time: 30.508047342300415
+loss: 0.08085305 - expected Q values: 2.3772717 - time: 29.193356037139893
+loss: 0.09173023 - expected Q values: 2.4694345 - time: 29.003556728363037
+loss: 0.0866517 - expected Q values: 2.4804158 - time: 29.368908166885376
+loss: 0.08179177 - expected Q values: 2.4755268 - time: 30.30917978286743
+loss: 0.09375956 - expected Q values: 2.5168061 - time: 29.85536813735962
+loss: 0.09340978 - expected Q values: 2.609874 - time: 29.32856822013855
+loss: 0.0884455 - expected Q values: 2.568948 - time: 29.47672748565674
+loss: 0.08686797 - expected Q values: 2.573843 - time: 30.143879890441895
+loss: 0.08802052 - expected Q values: 2.483019 - time: 29.468815326690674
+loss: 0.08398674 - expected Q values: 2.4998217 - time: 29.857878923416138
+loss: 0.100629196 - expected Q values: 2.5220597 - time: 28.84464168548584
+loss: 0.08666942 - expected Q values: 2.482361 - time: 29.362449645996094
+loss: 0.08219705 - expected Q values: 2.5005896 - time: 29.843085050582886
+loss: 0.08093905 - expected Q values: 2.557606 - time: 29.399029970169067
+loss: 0.09125008 - expected Q values: 2.5457973 - time: 29.21521306037903
+loss: 0.084818125 - expected Q values: 2.5095425 - time: 29.148120880126953
+loss: 0.08571069 - expected Q values: 2.5617905 - time: 29.9366672039032
+loss: 0.09316663 - expected Q values: 2.513041 - time: 30.305672883987427
+loss: 0.09270809 - expected Q values: 2.5393875 - time: 29.189554691314697
+loss: 0.10201387 - expected Q values: 2.5408611 - time: 29.51265811920166
+loss: 0.0872563 - expected Q values: 2.4819996 - time: 29.336893558502197
+loss: 0.09198819 - expected Q values: 2.4716516 - time: 29.616114139556885
+loss: 0.08387494 - expected Q values: 2.4307222 - time: 28.9979190826416
+loss: 0.08755 - expected Q values: 2.4265566 - time: 29.620798349380493
+loss: 0.08837618 - expected Q values: 2.3872833 - time: 29.340076208114624
+loss: 0.09612081 - expected Q values: 2.4160693 - time: 29.048600673675537
+loss: 0.08794046 - expected Q values: 2.3836167 - time: 29.241230249404907
+loss: 0.09009604 - expected Q values: 2.360038 - time: 29.306647777557373
+loss: 0.09016821 - expected Q values: 2.3664749 - time: 29.267287969589233
+loss: 0.1009101 - expected Q values: 2.3532534 - time: 29.115761280059814
+loss: 0.08453772 - expected Q values: 2.3519528 - time: 29.421281099319458
+loss: 0.086752445 - expected Q values: 2.3175552 - time: 29.506588459014893
+loss: 0.08383299 - expected Q values: 2.323959 - time: 29.02625823020935
+loss: 0.09772562 - expected Q values: 2.3104148 - time: 30.48080587387085
+loss: 0.09335185 - expected Q values: 2.3513515 - time: 28.90726065635681
+loss: 0.0850837 - expected Q values: 2.3096845 - time: 29.482791900634766
+loss: 0.08220872 - expected Q values: 2.3459847 - time: 29.274100303649902
+loss: 0.096593015 - expected Q values: 2.4448645 - time: 29.689319372177124
+loss: 0.11633234 - expected Q values: 2.4489348 - time: 29.43913435935974
+loss: 0.08358968 - expected Q values: 2.4822874 - time: 29.2270929813385
+loss: 0.08602322 - expected Q values: 2.4149966 - time: 29.291158199310303
+loss: 0.08035725 - expected Q values: 2.3774743 - time: 29.075279474258423
+loss: 0.079100184 - expected Q values: 2.3812995 - time: 29.846453189849854
+loss: 0.08795372 - expected Q values: 2.4781578 - time: 29.295878410339355
+loss: 0.08618838 - expected Q values: 2.438151 - time: 29.898197889328003
+loss: 0.08816777 - expected Q values: 2.448075 - time: 29.307195901870728
+loss: 0.10130965 - expected Q values: 2.4613705 - time: 28.562039375305176
+loss: 0.0938426 - expected Q values: 2.451271 - time: 29.780908823013306
+loss: 0.083174266 - expected Q values: 2.454474 - time: 29.507020473480225
+loss: 0.096587785 - expected Q values: 2.4848566 - time: 28.989024877548218
+loss: 0.076321274 - expected Q values: 2.5163343 - time: 29.42107582092285
+loss: 0.097205065 - expected Q values: 2.5053766 - time: 29.121757984161377
+loss: 0.10280591 - expected Q values: 2.5319033 - time: 29.54742956161499
+loss: 0.112187244 - expected Q values: 2.5782022 - time: 29.064993143081665
+loss: 0.0859346 - expected Q values: 2.5379608 - time: 30.667149543762207
+loss: 0.10411067 - expected Q values: 2.5691702 - time: 29.40319013595581
+loss: 0.10193746 - expected Q values: 2.5582879 - time: 29.176780700683594
+loss: 0.088362895 - expected Q values: 2.5763023 - time: 29.92726492881775
+loss: 0.08730953 - expected Q values: 2.5637095 - time: 29.916924476623535
+loss: 0.09946068 - expected Q values: 2.5193443 - time: 29.520205974578857
+loss: 0.0854141 - expected Q values: 2.5142655 - time: 29.652870893478394
+loss: 0.10350102 - expected Q values: 2.5004907 - time: 29.16336750984192
+loss: 0.08239882 - expected Q values: 2.4947176 - time: 30.68353295326233
+loss: 0.094078 - expected Q values: 2.491645 - time: 30.48647403717041
+loss: 0.08743163 - expected Q values: 2.5194423 - time: 29.596012830734253
+loss: 0.11249748 - expected Q values: 2.5125976 - time: 29.760651111602783
+loss: 0.09654501 - expected Q values: 2.4837646 - time: 29.958848476409912
+loss: 0.088029355 - expected Q values: 2.4563296 - time: 29.363608598709106
+loss: 0.10411722 - expected Q values: 2.4946728 - time: 29.382556676864624
+loss: 0.092855126 - expected Q values: 2.5354927 - time: 29.138741731643677
+loss: 0.08752994 - expected Q values: 2.5382879 - time: 29.367780208587646
+loss: 0.09357251 - expected Q values: 2.5174427 - time: 29.289090871810913
+loss: 0.0903803 - expected Q values: 2.5326133 - time: 29.365415573120117
+loss: 0.08262379 - expected Q values: 2.537378 - time: 29.860955238342285
+loss: 0.10235964 - expected Q values: 2.4948628 - time: 29.3641676902771
+loss: 0.079658456 - expected Q values: 2.5131269 - time: 29.01003646850586
+loss: 0.08928297 - expected Q values: 2.539681 - time: 29.804296016693115
+loss: 0.08736716 - expected Q values: 2.510033 - time: 30.37567400932312
+loss: 0.0871584 - expected Q values: 2.4885232 - time: 29.159668684005737
+loss: 0.08787168 - expected Q values: 2.4868433 - time: 29.297459602355957
+loss: 0.09152853 - expected Q values: 2.4967642 - time: 30.87260675430298
+loss: 0.08652555 - expected Q values: 2.543024 - time: 29.73207998275757
+loss: 0.081109025 - expected Q values: 2.5014713 - time: 29.46534276008606
+loss: 0.08879849 - expected Q values: 2.4567342 - time: 30.24447989463806
+loss: 0.09680156 - expected Q values: 2.537969 - time: 28.993205785751343
+loss: 0.110099345 - expected Q values: 2.5453768 - time: 29.38123345375061
+loss: 0.0832029 - expected Q values: 2.4949763 - time: 29.0365571975708
+loss: 0.079322994 - expected Q values: 2.5146852 - time: 29.087979555130005
+loss: 0.09118131 - expected Q values: 2.5266845 - time: 29.593393325805664
+loss: 0.09109637 - expected Q values: 2.5021296 - time: 30.09103798866272
+loss: 0.08421158 - expected Q values: 2.5371537 - time: 30.674197673797607
+loss: 0.3977751 - expected Q values: 2.520964 - time: 29.266727209091187
+loss: 0.09921077 - expected Q values: 2.5430245 - time: 28.952402353286743
+loss: 0.12059371 - expected Q values: 2.5556164 - time: 29.26845693588257
+loss: 0.114384376 - expected Q values: 2.5492857 - time: 29.28366231918335
+loss: 0.09789303 - expected Q values: 2.5755475 - time: 29.62051773071289
+loss: 0.094761916 - expected Q values: 2.5991929 - time: 29.460772275924683
+loss: 0.1014347 - expected Q values: 2.5978339 - time: 28.971781969070435
+loss: 0.11198786 - expected Q values: 2.609601 - time: 29.76230812072754
+loss: 0.08644294 - expected Q values: 2.6126292 - time: 30.146448850631714
+loss: 0.08637918 - expected Q values: 2.594392 - time: 29.830315828323364
+loss: 0.08129512 - expected Q values: 2.6543548 - time: 29.481587886810303
+loss: 0.0822743 - expected Q values: 2.6278358 - time: 30.35081958770752
+loss: 0.078902274 - expected Q values: 2.6518183 - time: 29.05938959121704
+loss: 0.09028775 - expected Q values: 2.6585026 - time: 29.57867932319641
+loss: 0.09001919 - expected Q values: 2.6245322 - time: 29.981428146362305
+loss: 0.08110826 - expected Q values: 2.6580381 - time: 30.04436683654785
+loss: 0.08119873 - expected Q values: 2.7013192 - time: 29.743584156036377
+loss: 0.10409706 - expected Q values: 2.66838 - time: 29.20075035095215
+loss: 0.08647451 - expected Q values: 2.6895928 - time: 29.860132932662964
+loss: 0.097458504 - expected Q values: 2.7218018 - time: 29.362696647644043
+loss: 0.095757395 - expected Q values: 2.6487975 - time: 30.036325216293335
+loss: 0.085352935 - expected Q values: 2.6682787 - time: 29.769525051116943
+loss: 0.114315614 - expected Q values: 2.6417856 - time: 29.975858449935913
+loss: 0.10036683 - expected Q values: 2.6474183 - time: 29.61651849746704
+loss: 0.09232074 - expected Q values: 2.6973965 - time: 29.3863468170166
+loss: 0.104255766 - expected Q values: 2.710241 - time: 30.12038016319275
+loss: 0.09584802 - expected Q values: 2.7058516 - time: 28.658644437789917
+loss: 0.09617318 - expected Q values: 2.6896513 - time: 29.371639251708984
+loss: 0.12274554 - expected Q values: 2.6937995 - time: 29.418524503707886
+loss: 0.10331369 - expected Q values: 2.6669488 - time: 29.77579689025879
+loss: 0.09498354 - expected Q values: 2.734266 - time: 29.71931290626526
+loss: 0.09185301 - expected Q values: 2.69521 - time: 29.768649101257324
+loss: 0.09250886 - expected Q values: 2.694947 - time: 30.393304347991943
+loss: 0.09255409 - expected Q values: 2.6495767 - time: 29.297412872314453
+loss: 0.0933472 - expected Q values: 2.7411728 - time: 29.427047729492188
+loss: 0.096013874 - expected Q values: 2.6529953 - time: 29.384320974349976
+loss: 0.11727626 - expected Q values: 2.7041602 - time: 29.762667655944824
+loss: 0.10517508 - expected Q values: 2.638674 - time: 29.690890312194824
+loss: 0.08796859 - expected Q values: 2.722789 - time: 29.378928661346436
+loss: 0.115157515 - expected Q values: 2.707074 - time: 29.276347637176514
+loss: 0.08481123 - expected Q values: 2.7340035 - time: 29.567400217056274
+loss: 0.0865131 - expected Q values: 2.7015948 - time: 31.242467164993286
+loss: 0.09881367 - expected Q values: 2.6968918 - time: 29.801324129104614
+loss: 0.08448293 - expected Q values: 2.7164807 - time: 28.93517565727234
+loss: 0.08498346 - expected Q values: 2.727861 - time: 29.39642643928528
+loss: 0.08401579 - expected Q values: 2.7282248 - time: 29.44000506401062
+loss: 0.08830291 - expected Q values: 2.6528378 - time: 29.213403463363647
+loss: 0.09363431 - expected Q values: 2.652839 - time: 29.352846145629883
+loss: 0.09264536 - expected Q values: 2.643678 - time: 29.556109189987183
+loss: 0.07983632 - expected Q values: 2.6127658 - time: 29.121076583862305
+loss: 0.09851033 - expected Q values: 2.5894241 - time: 28.88896346092224
+loss: 0.09391212 - expected Q values: 2.5352538 - time: 29.201082944869995
+loss: 0.07735144 - expected Q values: 2.5317883 - time: 30.014434099197388
+loss: 0.08536624 - expected Q values: 2.5625608 - time: 29.41823983192444
+loss: 0.08279684 - expected Q values: 2.5660212 - time: 29.756255626678467
+loss: 0.072807215 - expected Q values: 2.553584 - time: 29.01133632659912
+loss: 0.07767856 - expected Q values: 2.5920353 - time: 29.20741581916809
+loss: 0.09095812 - expected Q values: 2.6010728 - time: 29.31312322616577
+loss: 0.082070135 - expected Q values: 2.6154752 - time: 29.382370233535767
+loss: 0.093181245 - expected Q values: 2.6001644 - time: 29.891998291015625
+loss: 0.07902131 - expected Q values: 2.6044018 - time: 30.622231006622314
+loss: 0.09076949 - expected Q values: 2.581361 - time: 29.76059079170227
+loss: 0.08051441 - expected Q values: 2.5754805 - time: 29.214495420455933
+loss: 0.07045894 - expected Q values: 2.5211735 - time: 28.897240161895752
+loss: 0.0852188 - expected Q values: 2.5530088 - time: 29.444077253341675
+loss: 0.08378315 - expected Q values: 2.5402339 - time: 29.5746591091156
+loss: 0.084280774 - expected Q values: 2.5174627 - time: 29.5158212184906
+loss: 0.1030474 - expected Q values: 2.5156307 - time: 28.88720417022705
+loss: 0.09160056 - expected Q values: 2.5252268 - time: 29.14173913002014
+loss: 0.09341403 - expected Q values: 2.5169888 - time: 29.801035404205322
+loss: 0.0874522 - expected Q values: 2.516748 - time: 29.56226944923401
+loss: 0.08933153 - expected Q values: 2.5767052 - time: 29.430612325668335
+loss: 0.10292671 - expected Q values: 2.5672326 - time: 29.706788778305054
+loss: 0.08567201 - expected Q values: 2.5685148 - time: 29.328645944595337
+loss: 0.09285551 - expected Q values: 2.6170404 - time: 29.277405500411987
+loss: 0.09677049 - expected Q values: 2.5474458 - time: 29.48915982246399
+loss: 0.080733195 - expected Q values: 2.5593972 - time: 30.073518991470337
+loss: 0.15520945 - expected Q values: 2.5340915 - time: 29.198374032974243
+loss: 0.09043012 - expected Q values: 2.4592085 - time: 29.472445487976074
+loss: 0.08379228 - expected Q values: 2.5028543 - time: 29.24630904197693
+loss: 0.08741509 - expected Q values: 2.525713 - time: 29.569538831710815
+loss: 0.094319 - expected Q values: 2.4865324 - time: 29.97649049758911
+loss: 0.088220395 - expected Q values: 2.5500185 - time: 29.228657722473145
+loss: 0.08448424 - expected Q values: 2.5470893 - time: 29.33988070487976
+loss: 0.08257615 - expected Q values: 2.5127115 - time: 29.673654317855835
+loss: 0.08348582 - expected Q values: 2.5635252 - time: 29.295817375183105
+loss: 0.091686964 - expected Q values: 2.5905905 - time: 29.484439849853516
+loss: 0.13379194 - expected Q values: 2.575572 - time: 29.221040964126587
+loss: 0.07632356 - expected Q values: 2.4958096 - time: 29.234381914138794
+loss: 0.08998151 - expected Q values: 2.5930474 - time: 29.7232346534729
+loss: 0.07903394 - expected Q values: 2.6492908 - time: 30.76645851135254
+loss: 0.09844946 - expected Q values: 2.6022866 - time: 29.258408069610596
+loss: 0.073748834 - expected Q values: 2.6188402 - time: 29.440500736236572
+loss: 0.08064888 - expected Q values: 2.6118076 - time: 28.794508457183838
+loss: 0.08831647 - expected Q values: 2.6038852 - time: 30.991971254348755
+loss: 0.089288294 - expected Q values: 2.6192725 - time: 29.59864902496338
+loss: 0.083221674 - expected Q values: 2.6360025 - time: 29.815588235855103
+loss: 0.09517291 - expected Q values: 2.6667597 - time: 29.52119755744934
+loss: 0.08489296 - expected Q values: 2.6218493 - time: 30.062057495117188
+loss: 0.09513388 - expected Q values: 2.6379635 - time: 29.30665683746338
+loss: 0.09975284 - expected Q values: 2.650263 - time: 29.434247255325317
+loss: 0.100866616 - expected Q values: 2.6229556 - time: 28.421443700790405
+loss: 0.10183548 - expected Q values: 2.6331964 - time: 29.696587085723877
+loss: 0.09689553 - expected Q values: 2.5837207 - time: 29.659855127334595
+loss: 0.095443174 - expected Q values: 2.5662382 - time: 30.885411024093628
+loss: 0.09542946 - expected Q values: 2.5977209 - time: 29.391865968704224
+loss: 0.08435139 - expected Q values: 2.5704856 - time: 29.076758861541748
+loss: 0.1087228 - expected Q values: 2.6182907 - time: 29.502696752548218
+loss: 0.10404263 - expected Q values: 2.6418428 - time: 29.34151601791382
+loss: 0.17398393 - expected Q values: 2.657415 - time: 30.38464093208313
+loss: 0.11023641 - expected Q values: 2.6026602 - time: 29.596924304962158
+loss: 0.09247951 - expected Q values: 2.5991514 - time: 29.022371768951416
+loss: 0.11724188 - expected Q values: 2.56432 - time: 28.651251792907715
+loss: 0.1079866 - expected Q values: 2.5728233 - time: 29.46930694580078
+loss: 0.08752172 - expected Q values: 2.5300977 - time: 29.20713472366333
+loss: 0.11220857 - expected Q values: 2.5747716 - time: 31.729538202285767
+loss: 0.10447288 - expected Q values: 2.5040662 - time: 29.722080945968628
+loss: 0.102393396 - expected Q values: 2.5104492 - time: 30.771264791488647
+loss: 0.098953225 - expected Q values: 2.503105 - time: 29.521536588668823
+loss: 0.112219915 - expected Q values: 2.452597 - time: 29.086355209350586
+loss: 0.09938656 - expected Q values: 2.5293484 - time: 30.983566284179688
+loss: 0.085880935 - expected Q values: 2.4651957 - time: 30.08836317062378
+loss: 0.089438245 - expected Q values: 2.5263195 - time: 30.058091163635254
+loss: 0.084283225 - expected Q values: 2.5233622 - time: 29.694640636444092
+loss: 0.09312174 - expected Q values: 2.5338523 - time: 29.20646023750305
+loss: 0.08063595 - expected Q values: 2.567079 - time: 29.256439208984375
+loss: 0.089180104 - expected Q values: 2.593508 - time: 30.530417442321777
+loss: 0.085031 - expected Q values: 2.5186749 - time: 29.403080224990845
+loss: 0.09085679 - expected Q values: 2.564395 - time: 29.534142017364502
+loss: 0.10459742 - expected Q values: 2.5675473 - time: 30.301352739334106
+loss: 0.08767751 - expected Q values: 2.613764 - time: 29.358455657958984
+loss: 0.08827784 - expected Q values: 2.6095972 - time: 29.34785532951355
+loss: 0.10409185 - expected Q values: 2.6534357 - time: 29.918766021728516
+loss: 0.085040435 - expected Q values: 2.5991886 - time: 29.811644554138184
+loss: 0.0887507 - expected Q values: 2.6743054 - time: 29.24421763420105
+loss: 0.08046256 - expected Q values: 2.662532 - time: 29.28776717185974
+loss: 0.08510613 - expected Q values: 2.5801628 - time: 30.684084177017212
+loss: 0.08858648 - expected Q values: 2.6433759 - time: 30.116630792617798
+loss: 0.09905005 - expected Q values: 2.6376483 - time: 28.795812606811523
+loss: 0.08317325 - expected Q values: 2.575641 - time: 29.10088562965393
+loss: 0.0993267 - expected Q values: 2.6224942 - time: 30.0516459941864
+loss: 0.08983902 - expected Q values: 2.5476415 - time: 28.928279161453247
+loss: 0.10550275 - expected Q values: 2.5306635 - time: 29.01986837387085
+loss: 0.095933475 - expected Q values: 2.5836341 - time: 29.949777364730835
+loss: 0.1203625 - expected Q values: 2.5948584 - time: 29.623313903808594
+loss: 0.092250235 - expected Q values: 2.5485227 - time: 29.77568244934082
+loss: 0.09261907 - expected Q values: 2.496408 - time: 29.638509035110474
+loss: 0.08676914 - expected Q values: 2.487494 - time: 29.778607845306396
+loss: 0.085908316 - expected Q values: 2.4845545 - time: 29.449779510498047
+loss: 0.10241161 - expected Q values: 2.5369534 - time: 28.825007677078247
+loss: 0.095309295 - expected Q values: 2.5400045 - time: 29.84885048866272
+loss: 0.09613637 - expected Q values: 2.5091283 - time: 30.91816759109497
+loss: 0.096544355 - expected Q values: 2.5592158 - time: 29.88465642929077
+loss: 0.08550286 - expected Q values: 2.5690365 - time: 28.893622875213623
+loss: 0.094236925 - expected Q values: 2.5243258 - time: 30.096452236175537
+loss: 0.08400487 - expected Q values: 2.512086 - time: 29.885024070739746
+loss: 0.23263066 - expected Q values: 2.505451 - time: 29.3194682598114
+loss: 0.09398141 - expected Q values: 2.479479 - time: 29.221234560012817
+loss: 0.09409809 - expected Q values: 2.5115414 - time: 29.267250299453735
+loss: 0.08941355 - expected Q values: 2.454194 - time: 29.99362540245056
+loss: 0.091182105 - expected Q values: 2.4963772 - time: 29.17373251914978
+loss: 0.29677027 - expected Q values: 2.5135384 - time: 29.10033392906189
+loss: 0.08285624 - expected Q values: 2.4453852 - time: 29.35057544708252
+loss: 0.10211683 - expected Q values: 2.4624374 - time: 29.7178955078125
+loss: 0.107445434 - expected Q values: 2.481162 - time: 28.930028676986694
+loss: 0.088907756 - expected Q values: 2.4295015 - time: 29.152257919311523
+loss: 0.07543439 - expected Q values: 2.3760362 - time: 28.79373264312744
+loss: 0.08684972 - expected Q values: 2.4372697 - time: 30.778284311294556
+loss: 0.12720431 - expected Q values: 2.391749 - time: 29.70640754699707
+loss: 0.102833614 - expected Q values: 2.4488683 - time: 29.25154423713684
+loss: 0.10404702 - expected Q values: 2.3623552 - time: 29.66332697868347
+loss: 0.09729239 - expected Q values: 2.463358 - time: 30.04168963432312
+loss: 0.08298349 - expected Q values: 2.4246104 - time: 29.786863088607788
+loss: 0.09172285 - expected Q values: 2.4605486 - time: 29.709232330322266
+loss: 0.085848935 - expected Q values: 2.442109 - time: 29.432879209518433
+loss: 0.08595494 - expected Q values: 2.4987905 - time: 28.892205238342285
+loss: 0.10604419 - expected Q values: 2.446091 - time: 29.533246517181396
+loss: 0.085723236 - expected Q values: 2.495688 - time: 29.40607213973999
+loss: 0.09312877 - expected Q values: 2.4003396 - time: 30.836394786834717
+loss: 0.10919079 - expected Q values: 2.4647524 - time: 29.902583837509155
