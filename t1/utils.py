@@ -39,8 +39,8 @@ def get_inputs_from_ret(ret, x):
     active_pd_arrays_m1 = deque(maxlen = 256)
     active_pd_arrays_m5 = deque(maxlen = 256)
     active_pd_arrays_m15 = deque(maxlen = 256)
-    active_pd_arrays_m60 = deque(maxlen = 256)
-    active_pd_arrays_d1 = deque(maxlen = 256)
+    active_pd_arrays_m60 = deque(maxlen = 512)
+    active_pd_arrays_d1 = deque(maxlen = 512)
     
     actions_m1 = deque(maxlen = 256)
     for _ in range(256):

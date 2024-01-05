@@ -57,13 +57,13 @@ def MHDMoY_to_minutes(m,h,d,mo,y):
     return total_minutes
 
 class manager:
-    maxlen = 100
+    
     def __init__(self):
-        self.m1_candles = deque(maxlen = self.maxlen)
-        self.m5_candles = deque(maxlen = self.maxlen)
-        self.m15_candles = deque(maxlen = self.maxlen)
-        self.m60_candles = deque(maxlen = self.maxlen)
-        self.d1_candles = deque(maxlen = self.maxlen)
+        self.m1_candles = deque(maxlen = 100)
+        self.m5_candles = deque(maxlen = 100)
+        self.m15_candles = deque(maxlen = 100)
+        self.m60_candles = deque(maxlen = 1000)  # no action history needs to be computed here
+        self.d1_candles = deque(maxlen = 1000)   # no action history needs to be computed here
 
         self.action_history_m1 = deque(maxlen = 256)
         self.action_history_m5 = deque(maxlen = 256)
@@ -202,7 +202,7 @@ class manager:
 
     def detect_pd_arrays(self, tf):
         if tf == "m1":
-            self.m1_pda = deque(maxlen = self.maxlen)
+            self.m1_pda = deque(maxlen = 100)
             if len(self.m1_candles) > 5:
                 for i in range(1,len(self.m1_candles)-1):
                     if self.m1_candles[i].h > self.m1_candles[i-1].h and self.m1_candles[i].h > self.m1_candles[i+1].h:
@@ -224,7 +224,7 @@ class manager:
                         pda = pd_array("m1", x, self.m1_candles[i].t)
                         self.m1_pda.append(pda)
         if tf =="m5":
-            self.m5_pda = deque(maxlen = self.maxlen)
+            self.m5_pda = deque(maxlen = 100)
             if len(self.m5_candles) > 5:
                 for i in range(1,len(self.m5_candles)-1):
                     if self.m5_candles[i].h > self.m5_candles[i-1].h and self.m5_candles[i].h > self.m5_candles[i+1].h:
@@ -246,7 +246,7 @@ class manager:
                         pda = pd_array("m5", x, self.m5_candles[i].t)
                         self.m5_pda.append(pda)
         if tf == "m15":
-            self.m15_pda = deque(maxlen = self.maxlen)
+            self.m15_pda = deque(maxlen = 100)
             if len(self.m15_candles) > 5:
                 for i in range(1,len(self.m15_candles)-1):
                     if self.m15_candles[i].h > self.m15_candles[i-1].h and self.m15_candles[i].h > self.m15_candles[i+1].h:
@@ -268,7 +268,7 @@ class manager:
                         pda = pd_array("m15", x, self.m15_candles[i].t)
                         self.m15_pda.append(pda)
         if tf == "m60":
-            self.m60_pda = deque(maxlen = self.maxlen)
+            self.m60_pda = deque(maxlen = 500)
             if len(self.m60_candles) > 5:
                 for i in range(1,len(self.m60_candles)-1):
                     if self.m60_candles[i].h > self.m60_candles[i-1].h and self.m60_candles[i].h > self.m60_candles[i+1].h:
@@ -290,7 +290,7 @@ class manager:
                         pda = pd_array("m60", x, self.m60_candles[i].t)
                         self.m60_pda.append(pda)
         if tf == "d1":
-            self.d1_pda = deque(maxlen = self.maxlen)
+            self.d1_pda = deque(maxlen = 500)
             if len(self.d1_candles) > 5:
                 for i in range(1,len(self.d1_candles)-1):
                     if self.d1_candles[i].h > self.d1_candles[i-1].h and self.d1_candles[i].h > self.d1_candles[i+1].h:
