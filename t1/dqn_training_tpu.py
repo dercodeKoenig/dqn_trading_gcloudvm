@@ -30,6 +30,7 @@ ep_len = 100
 
 verb = False
 import sys
+argv = sys.argv
 if len(argv) == 2:
     if argv[1] == "v":
         verb = True
