@@ -84,6 +84,8 @@ class manager:
         update_action_m1 = True
         update_action_m5 = False
         update_action_m15 = False
+        update_action_m60 = False
+        update_action_d1 = False
         
         self.m1_candles.append(candle)
         self.detect_pd_arrays("m1")
@@ -138,6 +140,7 @@ class manager:
             
             if candle_hour != last_hour:
                 self.detect_pd_arrays("m60")
+                update_action_m60 = True
                 c = candle_class(candle.o,candle.h,candle.l,candle.c,candle.t)
                 self.m60_candles.append(c)
             else:
@@ -146,6 +149,7 @@ class manager:
                 self.m60_candles[-1].l = min(candle.l, self.m60_candles[-1].l)
         else:
             self.detect_pd_arrays("m60")
+            update_action_m60 = True
             c = candle_class(candle.o,candle.h,candle.l,candle.c,candle.t)
             self.m60_candles.append(c)
 
@@ -156,6 +160,7 @@ class manager:
             #print(candle_hour)
             if candle_hour != last_candle_hour and candle_hour == 18:
                 self.detect_pd_arrays("d1")
+                update_action_d1 = True
                 c = candle_class(candle.o,candle.h,candle.l,candle.c,candle.t)
                 self.d1_candles.append(c)
             else:
@@ -164,6 +169,7 @@ class manager:
                 self.d1_candles[-1].l = min(candle.l, self.d1_candles[-1].l)
         else:
             self.detect_pd_arrays("d1")
+            update_action_d1 = True
             c = candle_class(candle.o,candle.h,candle.l,candle.c,candle.t)
             self.d1_candles.append(c)
 
@@ -180,6 +186,10 @@ class manager:
             self.compute_action_history("m5")
         if update_action_m15:
             self.compute_action_history("m15")
+        if update_action_m60:
+            self.compute_action_history("m60")
+        if update_action_d1:
+            self.compute_action_history("d1")
             
         
         expired_set = set(self.pd_arrays_expired_indicies)
