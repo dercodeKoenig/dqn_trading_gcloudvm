@@ -20,8 +20,8 @@ learning_rate=0.00005
 num_model_inputs = 2+5+3+1
 n_actions = 2
 m1 = np.eye(n_actions, dtype="float32")
-num_data_generation_threads = 24
-batch_generation_threads = 4
+num_data_generation_threads = 12
+batch_generation_threads = 8
 memory_size = 500_000
 batch_q_size = 4096
 data_q_maxlen = 128
