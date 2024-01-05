@@ -32,7 +32,7 @@ def threaded_data_generation(q,num):
     first_run = True
     while True:
         data_dir = "data/"
-        parts = [("parts_@EP_1.o/", 0.4), ("parts_@EP_1_inverted.o/", 0.4), ("parts_@ENQ_1.o/", 2.4), ("parts_@ENQ_1_inverted.o/", 2.4), ("parts_@YM_1.o/", 2.4), ("parts_@YM_1_inverted.o/", 2.4)]
+        parts = [("parts_EP_1.o/", 0.4), ("parts_EP_1_inverted.o/", 0.4), ("parts_ENQ_1.o/", 2.4), ("parts_ENQ_1_inverted.o/", 2.4), ("parts_YM_1.o/", 2.4), ("parts_YM_1_inverted.o/", 2.4)]
         c = random.choice(parts)
         path = data_dir+c[0]
         cm = c[1]
