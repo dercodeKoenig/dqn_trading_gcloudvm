@@ -10,7 +10,7 @@ import random
 import numpy as np
 from collections import deque
 import time
-
+import os
 
 num_model_inputs = 2+5+3+1
 n_actions = 2
