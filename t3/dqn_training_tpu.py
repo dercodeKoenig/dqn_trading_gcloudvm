@@ -70,6 +70,10 @@ def threaded_data_generation(q,num):
                 
                 if candle_counter>=start+start_ofs:
                     ret = x.push_m1_candle(candles[i])
+                    
+                    #disable relative scaling
+                    ret[0][1] = 1
+                    
                     inp = get_inputs_from_ret(ret, x)
                     current_close = (candles[i].c - candles[i].o) / ret[0][1]
             
