@@ -132,7 +132,7 @@ def data_get_func(data_qs, batch_q):
                     has_items = True
                     nn+=1
                     #print("get_item",len(ssrtm_memory), nn)
-                    if nn > batch_size * 1.1:
+                    if nn > batch_size * 4:
                         has_items = False
                         #break
 
