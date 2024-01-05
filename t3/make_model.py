@@ -1,7 +1,7 @@
 import tensorflow as tf
 
 #config
-batch_size = 256
+batch_size = 128
 gamma = 0.995
 learning_rate=0.00001
 num_data_generation_threads = 12
@@ -151,12 +151,6 @@ def make_model():
   x = tf.keras.layers.Dense(4096)(x)
   x = tf.keras.layers.LeakyReLU()(x)
   
-  x = tf.keras.layers.Dense(4096)(x)
-  x = tf.keras.layers.LeakyReLU()(x)
-    
-  x = tf.keras.layers.Dense(4096)(x)
-  x = tf.keras.layers.LeakyReLU()(x)
-    
   x = tf.keras.layers.Dense(4096)(x)
   x = tf.keras.layers.LeakyReLU()(x)
     
