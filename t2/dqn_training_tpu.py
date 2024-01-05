@@ -13,7 +13,7 @@ import time
 
 
 
-batch_size = 96
+batch_size = 128
 gamma = 0.9975
 learning_rate=0.00005
 
@@ -22,7 +22,7 @@ n_actions = 2
 m1 = np.eye(n_actions, dtype="float32")
 num_data_generation_threads = 24
 batch_generation_threads = 4
-memory_size = 100_000
+memory_size = 500_000
 batch_q_size = 4096
 data_q_maxlen = 128
 ep_len = 100
