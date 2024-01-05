@@ -41,7 +41,7 @@ def threaded_data_generation(q,num):
     while True:
         data_dir = "data/"
         #files = [(data_dir+"US500_1_inverted.o", 0.4), (data_dir+"US500_1.o", 0.4), (data_dir+"USTEC_1_inverted.o", 2.5), (data_dir+"USTEC_1.o", 2.5), (data_dir+"US30_1_inverted.o", 2.5), (data_dir+"US30_1.o", 2.5)]
-        files = [(data_dir+"@EP_1.o", 0.4), (data_dir+"@EP_1_inverted.o", 0.4)]
+        files = [(data_dir+"EP_1.o", 0.4), (data_dir+"EP_1_inverted.o", 0.4)]
         c = random.choice(files)
         path = c[0]
         cm = c[1]
