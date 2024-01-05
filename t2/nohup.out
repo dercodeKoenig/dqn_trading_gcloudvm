@@ -1,0 +1,483 @@
+2024-01-05 21:21:01.941891: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-01-05 21:21:02.197908: I tensorflow/core/tpu/tpu_initializer_helper.cc:262] Libtpu path is: libtpu.so
+I0105 21:21:02.395655709   19814 ev_epoll1_linux.cc:121]     grpc epoll fd: 7
+D0105 21:21:02.395694304   19814 ev_posix.cc:141]            Using polling engine: epoll1
+D0105 21:21:02.395725014   19814 lb_policy_registry.cc:43]   registering LB policy factory for "grpclb"
+D0105 21:21:02.395734627   19814 lb_policy_registry.cc:43]   registering LB policy factory for "rls_experimental"
+D0105 21:21:02.395747967   19814 lb_policy_registry.cc:43]   registering LB policy factory for "priority_experimental"
+D0105 21:21:02.395752321   19814 lb_policy_registry.cc:43]   registering LB policy factory for "weighted_target_experimental"
+D0105 21:21:02.395756431   19814 lb_policy_registry.cc:43]   registering LB policy factory for "pick_first"
+D0105 21:21:02.395760491   19814 lb_policy_registry.cc:43]   registering LB policy factory for "round_robin"
+D0105 21:21:02.395768664   19814 lb_policy_registry.cc:43]   registering LB policy factory for "ring_hash_experimental"
+D0105 21:21:02.395782985   19814 dns_resolver_ares.cc:831]   Using ares dns resolver
+D0105 21:21:02.395803799   19814 certificate_provider_registry.cc:39] registering certificate provider factory for "file_watcher"
+D0105 21:21:02.395812071   19814 lb_policy_registry.cc:43]   registering LB policy factory for "cds_experimental"
+D0105 21:21:02.395820102   19814 lb_policy_registry.cc:43]   registering LB policy factory for "xds_cluster_impl_experimental"
+D0105 21:21:02.395829022   19814 lb_policy_registry.cc:43]   registering LB policy factory for "xds_cluster_resolver_experimental"
+D0105 21:21:02.395833169   19814 lb_policy_registry.cc:43]   registering LB policy factory for "xds_cluster_manager_experimental"
+0 - path: data/parts_EP_1_inverted.o/
+0 - cm: 0.4
+0 - start at parts_EP_1_inverted.o - 4835990
+loading data/parts_EP_1_inverted.o/part_048
+1 - path: data/parts_YM_1.o/
+1 - cm: 2.4
+1 - start at parts_YM_1.o - 1341284
+loading data/parts_YM_1.o/part_013
+2 - path: data/parts_EP_1.o/
+2 - cm: 0.4
+2 - start at parts_EP_1.o - 5906936
+loading data/parts_EP_1.o/part_059
+3 - path: data/parts_ENQ_1_inverted.o/
+3 - cm: 2.4
+3 - start at parts_ENQ_1_inverted.o - 6490153
+loading data/parts_ENQ_1_inverted.o/part_064
+4 - path: data/parts_ENQ_1.o/
+4 - cm: 2.4
+4 - start at parts_ENQ_1.o - 5949269
+loading data/parts_ENQ_1.o/part_059
+5 - path: data/parts_ENQ_1_inverted.o/
+5 - cm: 2.4
+5 - start at parts_ENQ_1_inverted.o - 4057704
+loading data/parts_ENQ_1_inverted.o/part_040
+6 - path: data/parts_ENQ_1_inverted.o/
+6 - cm: 2.4
+6 - start at parts_ENQ_1_inverted.o - 4655302
+loading data/parts_ENQ_1_inverted.o/part_046
+7 - path: data/parts_YM_1.o/
+7 - cm: 2.4
+7 - start at parts_YM_1.o - 6076537
+loading data/parts_YM_1.o/part_060
+8 - path: data/parts_YM_1.o/
+8 - cm: 2.4
+8 - start at parts_YM_1.o - 2916077
+loading data/parts_YM_1.o/part_029
+9 - path: data/parts_YM_1.o/
+9 - cm: 2.4
+9 - start at parts_YM_1.o - 787885
+loading data/parts_YM_1.o/part_007
+10 - path: data/parts_EP_1.o/
+10 - cm: 0.4
+10 - start at parts_EP_1.o - 2600730
+loading data/parts_EP_1.o/part_026
+11 - path: data/parts_ENQ_1.o/
+11 - cm: 2.4
+11 - start at parts_ENQ_1.o - 1011381
+loading data/parts_ENQ_1.o/part_010
+data_get_func online
+0 - path: data/parts_YM_1_inverted.o/
+0 - cm: 2.4
+0 - start at parts_YM_1_inverted.o - 5679180
+loading data/parts_YM_1_inverted.o/part_056
+1 - path: data/parts_YM_1_inverted.o/
+1 - cm: 2.4
+1 - start at parts_YM_1_inverted.o - 5599703
+loading data/parts_YM_1_inverted.o/part_055
+2 - path: data/parts_YM_1_inverted.o/
+2 - cm: 2.4
+2 - start at parts_YM_1_inverted.o - 5928914
+loading data/parts_YM_1_inverted.o/part_059
+3 - path: data/parts_ENQ_1_inverted.o/
+3 - cm: 2.4
+3 - start at parts_ENQ_1_inverted.o - 4090770
+loading data/parts_ENQ_1_inverted.o/part_040
+4 - path: data/parts_YM_1_inverted.o/
+4 - cm: 2.4
+4 - start at parts_YM_1_inverted.o - 2350066
+loading data/parts_YM_1_inverted.o/part_023
+5 - path: data/parts_YM_1_inverted.o/
+5 - cm: 2.4
+5 - start at parts_YM_1_inverted.o - 744185
+loading data/parts_YM_1_inverted.o/part_007
+6 - path: data/parts_ENQ_1.o/
+6 - cm: 2.4
+6 - start at parts_ENQ_1.o - 830056
+loading data/parts_ENQ_1.o/part_008
+7 - path: data/parts_YM_1_inverted.o/
+7 - cm: 2.4
+7 - start at parts_YM_1_inverted.o - 1332252
+loading data/parts_YM_1_inverted.o/part_013
+8 - path: data/parts_EP_1_inverted.o/
+8 - cm: 0.4
+8 - start at parts_EP_1_inverted.o - 3733918
+loading data/parts_EP_1_inverted.o/part_037
+9 - path: data/parts_ENQ_1_inverted.o/
+9 - cm: 2.4
+9 - start at parts_ENQ_1_inverted.o - 623438
+loading data/parts_ENQ_1_inverted.o/part_006
+10 - path: data/parts_ENQ_1_inverted.o/
+10 - cm: 2.4
+10 - start at parts_ENQ_1_inverted.o - 6098525
+loading data/parts_ENQ_1_inverted.o/part_060
+11 - path: data/parts_EP_1.o/
+11 - cm: 0.4
+11 - start at parts_EP_1.o - 2084359
+loading data/parts_EP_1.o/part_020
+data_get_func online
+0 - path: data/parts_ENQ_1.o/
+0 - cm: 2.4
+0 - start at parts_ENQ_1.o - 2331279
+loading data/parts_ENQ_1.o/part_023
+1 - path: data/parts_ENQ_1_inverted.o/
+1 - cm: 2.4
+1 - start at parts_ENQ_1_inverted.o - 4378317
+loading data/parts_ENQ_1_inverted.o/part_043
+2 - path: data/parts_EP_1.o/
+2 - cm: 0.4
+2 - start at parts_EP_1.o - 5166819
+loading data/parts_EP_1.o/part_051
+3 - path: data/parts_EP_1_inverted.o/
+3 - cm: 0.4
+3 - start at parts_EP_1_inverted.o - 7154782
+loading data/parts_EP_1_inverted.o/part_071
+4 - path: data/parts_EP_1.o/
+4 - cm: 0.4
+4 - start at parts_EP_1.o - 6684891
+loading data/parts_EP_1.o/part_066
+5 - path: data/parts_YM_1.o/
+5 - cm: 2.4
+5 - start at parts_YM_1.o - 5241907
+loading data/parts_YM_1.o/part_052
+6 - path: data/parts_YM_1.o/
+6 - cm: 2.4
+6 - start at parts_YM_1.o - 3742861
+loading data/parts_YM_1.o/part_037
+7 - path: data/parts_ENQ_1.o/
+7 - cm: 2.4
+7 - start at parts_ENQ_1.o - 2635640
+loading data/parts_ENQ_1.o/part_026
+89 - path: data/parts_EP_1_inverted.o/ 
+- path:8  data/parts_YM_1_inverted.o/- cm: 
+90.4 
+- cm: 102.4
+ - path: data/parts_YM_1_inverted.o/
+10 - cm: 2.4
+89  --  start atstart at  parts_EP_1_inverted.oparts_YM_1_inverted.o  --  38177923122604
+
+10 - start at parts_YM_1_inverted.o - 903529
+loading data/parts_EP_1_inverted.o/part_038loading
+ data/parts_YM_1_inverted.o/part_031
+loading data/parts_YM_1_inverted.o/part_009
+11 - path: data/parts_EP_1.o/
+11 - cm: 0.4
+11 - start at parts_EP_1.o - 1110635
+loading data/parts_EP_1.o/part_011
+data_get_func online
+0 - path: data/parts_YM_1_inverted.o/
+0 - cm: 2.4
+0 - start at parts_YM_1_inverted.o - 2246500
+loading data/parts_YM_1_inverted.o/part_022
+1 - path: data/parts_ENQ_1.o/
+1 - cm: 2.4
+1 - start at parts_ENQ_1.o - 5165124
+loading data/parts_ENQ_1.o/part_051
+2 - path: data/parts_EP_1.o/
+2 - cm: 0.4
+2 - start at parts_EP_1.o - 5526292
+loading data/parts_EP_1.o/part_055
+3 - path: data/parts_ENQ_1_inverted.o/
+3 - cm: 2.4
+3 - start at parts_ENQ_1_inverted.o - 851965
+loading data/parts_ENQ_1_inverted.o/part_008
+4 - path: data/parts_YM_1.o/
+4 - cm: 2.4
+4 - start at parts_YM_1.o - 1055151
+loading data/parts_YM_1.o/part_010
+5 - path: data/parts_YM_1_inverted.o/
+5 - cm: 2.4
+5 - start at parts_YM_1_inverted.o - 5123416
+loading data/parts_YM_1_inverted.o/part_051
+6 - path: data/parts_EP_1_inverted.o/
+6 - cm: 0.4
+6 - start at parts_EP_1_inverted.o - 650705
+loading data/parts_EP_1_inverted.o/part_006
+7 - path: data/parts_YM_1.o/
+7 - cm: 2.4
+7 - start at parts_YM_1.o - 3928567
+loading data/parts_YM_1.o/part_039
+8 - path: data/parts_YM_1.o/
+8 - cm: 2.4
+8 - start at parts_YM_1.o - 2949426
+loading data/parts_YM_1.o/part_029
+9 - path: data/parts_YM_1.o/
+9 - cm: 2.4
+9 - start at parts_YM_1.o - 3468280
+loading data/parts_YM_1.o/part_034
+10 - path: data/parts_YM_1_inverted.o/
+10 - cm: 2.4
+10 - start at parts_YM_1_inverted.o - 128989
+loading data/parts_YM_1_inverted.o/part_001
+11 - path: data/parts_ENQ_1_inverted.o/
+11 - cm: 2.4
+11 - start at parts_ENQ_1_inverted.o - 3990090
+loading data/parts_ENQ_1_inverted.o/part_039
+data_get_func online
+0 -1 path: data/parts_YM_1.o/
+0 2 - cm: - path: 2.4data/parts_ENQ_1_inverted.o/
+ 
+1-  -path:  cm:data/parts_EP_1.o/ 
+2.4
+23 - cm:  0.4
+- path: data/parts_EP_1_inverted.o/
+3 - cm: 00.4 
+- start at parts_YM_1.o - 3779605
+1 - start at parts_ENQ_1_inverted.o - 6579006
+2 - start at parts_EP_1.o3loading   --data/parts_YM_1.o/part_037  
+2272841start at
+ parts_EP_1_inverted.o - 1168665
+loading data/parts_ENQ_1_inverted.o/part_065
+loading data/parts_EP_1_inverted.o/part_011
+loading data/parts_EP_1.o/part_022
+loading data/parts_ENQ_1_inverted.o/part_065
+4 - path: data/parts_YM_1_inverted.o/
+4 - cm: 2.4
+4 - start at parts_YM_1_inverted.o - 3928847
+loading data/parts_YM_1_inverted.o/part_039
+5 - path: data/parts_ENQ_1.o/
+5 - cm: 2.4
+5 - start at parts_ENQ_1.o - 1079053
+loading data/parts_ENQ_1.o/part_010
+6 - path: data/parts_ENQ_1_inverted.o/
+6 - cm: 2.4
+6 - start at parts_ENQ_1_inverted.o - 2440184
+loading data/parts_ENQ_1_inverted.o/part_024
+7 - path: data/parts_ENQ_1_inverted.o/
+7 - cm: 2.4
+7 - start at parts_ENQ_1_inverted.o - 956486
+loading data/parts_ENQ_1_inverted.o/part_009
+8 - path: data/parts_YM_1.o/
+8 - cm: 2.4
+8 - start at parts_YM_1.o - 426421
+loading data/parts_YM_1.o/part_004
+9 - path: data/parts_EP_1.o/
+9 - cm: 0.4
+9 - start at parts_EP_1.o - 6988832
+loading data/parts_EP_1.o/part_069
+loading data/parts_ENQ_1_inverted.o/part_041
+10 - path: data/parts_YM_1.o/
+10 - cm: 2.4
+10 - start at parts_YM_1.o - 2855950
+loading data/parts_YM_1.o/part_028
+loading data/parts_ENQ_1_inverted.o/part_047
+loading data/parts_YM_1.o/part_061
+11 - path: data/parts_ENQ_1_inverted.o/
+11 - cm: 2.4
+11 - start at parts_ENQ_1_inverted.o - 5504343
+loading data/parts_ENQ_1_inverted.o/part_055
+data_get_func online
+0 - path: data/parts_ENQ_1.o/
+0 - cm: 2.4
+0 - start at parts_ENQ_1.o - 1322551
+loading data/parts_ENQ_1.o/part_013
+loading data/parts_ENQ_1_inverted.o/part_041
+1 - path: data/parts_EP_1_inverted.o/
+1 - cm: 0.4
+1 - start at parts_EP_1_inverted.o - 5631541
+loading data/parts_EP_1_inverted.o/part_056
+2 - path: data/parts_YM_1_inverted.o/
+2 - cm: 2.4
+2 - start at parts_YM_1_inverted.o - 1512378
+loading data/parts_YM_1_inverted.o/part_015
+3 - path: data/parts_ENQ_1_inverted.o/
+3 - cm: 2.4
+3 - start at parts_ENQ_1_inverted.o - 3825892
+loading data/parts_ENQ_1_inverted.o/part_038
+4 - path: data/parts_YM_1.o/
+4 - cm: 2.4
+4 - start at parts_YM_1.o - 1540080
+loading data/parts_YM_1.o/part_015
+5 -6 path: data/parts_ENQ_1_inverted.o/
+ 57- -  path:cm: 8  data/parts_ENQ_1_inverted.o/-2.4 
+
+9 path:6 - data/parts_YM_1.o/ - path: 
+cm:  -data/parts_EP_1_inverted.o/7  path:-2.4 
+ 
+data/parts_EP_1_inverted.o/cm:8  - cm: 2.4
+
+0.49
+ - cm: 0.4
+5 - start at parts_ENQ_1_inverted.o - 1873380
+7 - start at parts_YM_1.o - 58751748
+ - start at parts_EP_1_inverted.o 6-  1936975-
+ start at parts_ENQ_1_inverted.o - 9 -4489580 
+start atloading  parts_EP_1_inverted.odata/parts_ENQ_1_inverted.o/part_018 
+- 5171239
+loading data/parts_YM_1.o/part_058
+loading data/parts_EP_1_inverted.o/part_019
+loading data/parts_ENQ_1_inverted.o/part_044
+loading data/parts_EP_1_inverted.o/part_051
+10 - path: data/parts_YM_1_inverted.o/
+10 - cm: 2.4
+10 - start at parts_YM_1_inverted.o - 3914865
+loading data/parts_YM_1_inverted.o/part_039
+11 - path: data/parts_EP_1.o/
+11 - cm: 0.4
+11 - start at parts_EP_1.o - 5043895
+loading data/parts_EP_1.o/part_050
+data_get_func online
+0 - path: data/parts_EP_1.o/
+0 - cm: 0.4
+0 - start at parts_EP_1.o - 5191536
+loading data/parts_EP_1.o/part_051
+1 - path: data/parts_YM_1_inverted.o/
+1 - cm: 2.4
+1 - start at parts_YM_1_inverted.o - 2473586
+loading data/parts_YM_1_inverted.o/part_024
+2 - path: data/parts_YM_1_inverted.o/
+2 - cm: 2.4
+2 - start at parts_YM_1_inverted.o - 5773425
+loading data/parts_YM_1_inverted.o/part_057
+3 - path: data/parts_EP_1.o/
+3 - cm: 0.4
+3 - start at parts_EP_1.o - 4382611
+loading data/parts_EP_1.o/part_043
+4 - path: data/parts_YM_1_inverted.o/
+4 - cm: 2.4
+4 - start at parts_YM_1_inverted.o - 4840311
+loading data/parts_YM_1_inverted.o/part_048
+loading data/parts_YM_1_inverted.o/part_057
+5 - path: data/parts_ENQ_1.o/
+5 - cm: 2.4
+5 - start at parts_ENQ_1.o - 1744803
+loading data/parts_ENQ_1.o/part_017
+6 - path: data/parts_ENQ_1_inverted.o/
+6 - cm: 2.4
+6 - start at parts_ENQ_1_inverted.o - 906068
+loading data/parts_ENQ_1_inverted.o/part_009
+7 - path: data/parts_EP_1_inverted.o/
+7 - cm: 0.4
+7 - start at parts_EP_1_inverted.o - 2863183
+loading data/parts_EP_1_inverted.o/part_028
+8 - path: data/parts_YM_1.o/
+8 - cm: 2.4
+8 - start at parts_YM_1.o - 3942127
+loading data/parts_YM_1.o/part_039
+9 - path: data/parts_ENQ_1.o/
+9 - cm: 2.4
+9 - start at parts_ENQ_1.o - 3406572
+loading data/parts_ENQ_1.o/part_034
+10 - path: data/parts_EP_1_inverted.o/11
+10 - cm: data_get_func online 0.4-0
+ 
+path: data/parts_YM_1.o/1 
+11-  -path:   cm:data/parts_ENQ_1.o/2 -
+ 0path: 3 -2.4data/parts_EP_1.o/  cm:  
+
+-2.4- 1
+ path: path: - data/parts_YM_1_inverted.o/ data/parts_EP_1.o/cm: 
+
+20.4 3
+-  -cm:  cm: 100.42.4 
+
+- start at parts_EP_1_inverted.o - 5688627
+11 0-  -start at  start atparts_YM_1.o  parts_ENQ_1.o-  -98659 
+1294963
+2 3- 1 - start at - start at parts_YM_1_inverted.o start at parts_EP_1.o - parts_EP_1.o - 4046720 -
+5941688 
+2829482
+loading data/parts_EP_1_inverted.o/part_056
+loading data/parts_ENQ_1.o/part_012
+loading data/parts_YM_1.o/part_000
+loading data/parts_EP_1.o/part_059
+loading data/parts_YM_1_inverted.o/part_040
+loading data/parts_EP_1.o/part_028
+loading data/parts_YM_1.o/part_011
+4 - path: data/parts_ENQ_1_inverted.o/
+4 - cm: 2.4
+4 - start at parts_ENQ_1_inverted.o - 901369
+loading data/parts_ENQ_1_inverted.o/part_009
+loading data/parts_EP_1_inverted.o/part_007
+loading data/parts_ENQ_1_inverted.o/part_009
+5 - path: data/parts_EP_1.o/
+5 - cm: 0.4
+5 - start at parts_EP_1.o - 7408032
+loading data/parts_EP_1.o/part_074
+6 - path: data/parts_YM_1.o/
+6 - cm: 2.4
+6 - start at parts_YM_1.o - 314307
+loading data/parts_YM_1.o/part_003
+7 - path: data/parts_EP_1.o/
+7 - cm: 0.4
+7 - start at parts_EP_1.o - 1396819
+loading data/parts_EP_1.o/part_013
+8 - path: data/parts_ENQ_1_inverted.o/
+8 - cm: 2.4
+8 - start at parts_ENQ_1_inverted.o - 4280243
+loading data/parts_ENQ_1_inverted.o/part_042
+9 - path: data/parts_EP_1.o/
+9 - cm: 0.4
+9 - start at parts_EP_1.o - 6443020
+loading data/parts_EP_1.o/part_064
+10 - path: data/parts_ENQ_1.o/
+10 - cm: 2.4
+10 - start at parts_ENQ_1.o - 1301315
+loading data/parts_ENQ_1.o/part_013
+loading data/parts_YM_1.o/part_035
+loading data/parts_YM_1_inverted.o/part_056
+11 - path: data/parts_ENQ_1.o/
+11 - cm: 2.4
+11 - start at parts_ENQ_1.o - 5273097
+loading data/parts_ENQ_1.o/part_052
+data_get_func online
+loading data/parts_ENQ_1_inverted.o/part_066
+2024-01-05 21:21:10.258958: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+loading data/parts_EP_1.o/part_023
+loading data/parts_YM_1.o/part_008
+loading data/parts_ENQ_1.o/part_011
+loading data/parts_ENQ_1_inverted.o/part_010
+loading data/parts_YM_1.o/part_029
+1 - path: data/parts_ENQ_1_inverted.o/
+1 - cm: 2.4
+1 - start at parts_ENQ_1_inverted.o - 0
+loading data/parts_ENQ_1_inverted.o/part_000
+loading data/parts_ENQ_1_inverted.o/part_045
+loading data/parts_EP_1.o/part_044
+loading data/parts_ENQ_1.o/part_013
+loading data/parts_EP_1.o/part_014
+loading data/parts_ENQ_1.o/part_053
+2024-01-05 21:21:19.111474: I tensorflow/compiler/xla/service/service.cc:173] XLA service 0x1d75200 initialized for platform TPU (this does not guarantee that XLA will be used). Devices:
+2024-01-05 21:21:19.311113: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (0): TPU, 2a886c8
+2024-01-05 21:21:19.311158: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (1): TPU, 2a886c8
+2024-01-05 21:21:19.311169: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (2): TPU, 2a886c8
+2024-01-05 21:21:19.311194: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (3): TPU, 2a886c8
+2024-01-05 21:21:19.311203: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (4): TPU, 2a886c8
+2024-01-05 21:21:19.311212: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (5): TPU, 2a886c8
+2024-01-05 21:21:19.311221: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (6): TPU, 2a886c8
+2024-01-05 21:21:19.311231: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (7): TPU, 2a886c8
+loading data/parts_YM_1_inverted.o/part_024
+loading data/parts_ENQ_1_inverted.o/part_061
+loading data/parts_EP_1.o/part_021
+loading data/parts_ENQ_1_inverted.o/part_044
+2024-01-05 21:21:30.756469: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:268] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+loading data/parts_EP_1.o/part_067
+loading data/parts_EP_1_inverted.o/part_072
+2024-01-05 21:21:31.280171: I tensorflow/compiler/jit/xla_compilation_cache.cc:476] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+loading data/parts_EP_1.o/part_052
+loading data/parts_ENQ_1.o/part_052
+loading data/parts_ENQ_1_inverted.o/part_040
+loading data/parts_EP_1.o/part_052
+loading data/parts_YM_1.o/part_038
+loading data/parts_EP_1_inverted.o/part_012
+loading data/parts_EP_1.o/part_070
+loading data/parts_YM_1.o/part_059
+loading data/parts_ENQ_1_inverted.o/part_019
+loading data/parts_EP_1_inverted.o/part_052
+loading data/parts_YM_1_inverted.o/part_025
+loading data/parts_EP_1_inverted.o/part_057
+loading data/parts_EP_1_inverted.o/part_029
+loading data/parts_ENQ_1_inverted.o/part_043
+loading data/parts_YM_1.o/part_001
+loading data/parts_YM_1_inverted.o/part_058
+loading model weights...
+loading data/parts_YM_1.o/part_030
+2024-01-05 21:22:28.038931: I tensorflow/core/tpu/graph_rewrite/encapsulate_tpu_computations_pass.cc:237] Subgraph fingerprint:4861964699517496860
+2024-01-05 21:22:29.008335: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:954] model_pruner failed: INVALID_ARGUMENT: Graph does not contain terminal node StatefulPartitionedCall.
+2024-01-05 21:22:29.865036: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:954] model_pruner failed: INVALID_ARGUMENT: Graph does not contain terminal node StatefulPartitionedCall.
+loading data/parts_ENQ_1.o/part_060
+2024-01-05 21:22:31.246261: I tensorflow/core/tpu/kernels/tpu_compilation_cache_interface.cc:437] TPU host compilation cache miss: cache_key(9578677518546226437), session_name()
+2024-01-05 21:23:05.465764: I tensorflow/core/tpu/kernels/tpu_compile_op_common.cc:210] Compilation of 9578677518546226437 with session name  took 34.2193333s and succeeded
+2024-01-05 21:23:05.536651: I tensorflow/core/tpu/kernels/tpu_compilation_cache_interface.cc:470] TPU host compilation cache: compilation complete for cache_key(9578677518546226437), session_name(), subgraph_key(std::string(property.function_name) = "cluster_tpu_function_4861964699517496860", property.function_library_fingerprint = 6567594505418815666, property.mlir_module_fingerprint = 0, property.num_replicas = 8, topology.chip_bounds().x = 2, topology.chip_bounds().y = 2, topology.chip_bounds().z = 1, topology.wrap().x = false, topology.wrap().y = false, topology.wrap().z = false, topology.MissingChipCount() = 0, std::string(property.shapes_prefix) = "", property.guaranteed_constants_size = 0, embedding_partitions_fingerprint = "1688352644216761960")
+2024-01-05 21:23:05.536765: I tensorflow/core/tpu/kernels/tpu_compilation_cache_interface.cc:536] After adding entry for key 9578677518546226437 with session_name  cache is 1 entries (51169409 bytes),  marked for eviction 0 entries (0 bytes).
+loss: 1.297295 - expected Q values: 3.9641066 - time: 124.8250162601471
+loss: 4.1520276 - expected Q values: 0.64322305 - time: 61.56072282791138
