@@ -8,6 +8,10 @@ def get_values(fn):
     f.close()
 
     lines = [float(x.replace("\n","")) for x in lines]
+    for i in range(len(lines)):
+        if np.isnan(lines[i]):
+            lines[i] = 0
+         
     return lines
 
 avg_n=50
