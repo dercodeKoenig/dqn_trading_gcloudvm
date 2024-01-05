@@ -1,11 +1,11 @@
 import tensorflow as tf
 
 #config
-batch_size = 48
+batch_size = 64
 gamma = 0.995
 learning_rate=0.000005
-num_data_generation_threads = 8
-batch_generation_threads = 12
+num_data_generation_threads = 12
+batch_generation_threads = 8
 memory_size = 300_000
 ep_len = 100
 
@@ -115,34 +115,34 @@ def make_model():
   
 
 
-  actions_m1 = tf.keras.layers.Dense(16)(actions_m1)
-  actions_m1 = tf.keras.layers.LeakyReLU()(actions_m1)
   actions_m1 = tf.keras.layers.Dense(32)(actions_m1)
   actions_m1 = tf.keras.layers.LeakyReLU()(actions_m1)
-  actions_m1 = tf.keras.layers.GRU(64)(actions_m1)
+  actions_m1 = tf.keras.layers.Dense(64)(actions_m1)
+  actions_m1 = tf.keras.layers.LeakyReLU()(actions_m1)
+  actions_m1 = tf.keras.layers.GRU(1024)(actions_m1)
 
-  actions_m5 = tf.keras.layers.Dense(16)(actions_m5)
-  actions_m5 = tf.keras.layers.LeakyReLU()(actions_m5)
   actions_m5 = tf.keras.layers.Dense(32)(actions_m5)
   actions_m5 = tf.keras.layers.LeakyReLU()(actions_m5)
-  actions_m5 = tf.keras.layers.GRU(64)(actions_m5)
+  actions_m5 = tf.keras.layers.Dense(64)(actions_m5)
+  actions_m5 = tf.keras.layers.LeakyReLU()(actions_m5)
+  actions_m5 = tf.keras.layers.GRU(1024)(actions_m5)
 
-  actions_m15 = tf.keras.layers.Dense(16)(actions_m15)
-  actions_m15 = tf.keras.layers.LeakyReLU()(actions_m15)
   actions_m15 = tf.keras.layers.Dense(32)(actions_m15)
   actions_m15 = tf.keras.layers.LeakyReLU()(actions_m15)
-  actions_m15 = tf.keras.layers.GRU(64)(actions_m15)
+  actions_m15 = tf.keras.layers.Dense(64)(actions_m15)
+  actions_m15 = tf.keras.layers.LeakyReLU()(actions_m15)
+  actions_m15 = tf.keras.layers.GRU(1024)(actions_m15)
 
   dense_input = tf.keras.layers.Concatenate()([input_current_pos, input_closing_prices, input_closing_times, pda_list_m60, pda_list_d1, pda_list_m15, pda_list_m5, pda_list_m1, actions_m1, actions_m5, actions_m15])
   
 
-  x = tf.keras.layers.Dense(512)(dense_input)
+  x = tf.keras.layers.Dense(4096)(dense_input)
   x = tf.keras.layers.LeakyReLU()(x)
     
-  x = tf.keras.layers.Dense(512)(x)
+  x = tf.keras.layers.Dense(4096)(x)
   x = tf.keras.layers.LeakyReLU()(x)
     
-  x = tf.keras.layers.Dense(512)(x)
+  x = tf.keras.layers.Dense(4096)(x)
   x = tf.keras.layers.LeakyReLU()(x)
     
 
