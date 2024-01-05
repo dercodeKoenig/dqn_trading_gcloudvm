@@ -65,6 +65,12 @@ class manager:
         self.m60_candles = deque(maxlen = 1000)  # no action history needs to be computed here
         self.d1_candles = deque(maxlen = 1000)   # no action history needs to be computed here
 
+        self.m1_pda = deque(maxlen=1)
+        self.m5_pda = deque(maxlen=1)
+        self.m15_pda = deque(maxlen=1)
+        self.m60_pda = deque(maxlen=1)
+        self.d1_pda = deque(maxlen=1)
+        
         self.action_history_m1 = deque(maxlen = 256)
         self.action_history_m5 = deque(maxlen = 256)
         self.action_history_m15 = deque(maxlen = 256)
@@ -88,7 +94,9 @@ class manager:
         update_action_d1 = False
         
         self.m1_candles.append(candle)
-        self.detect_pd_arrays("m1")
+        
+        if scan:
+            self.detect_pd_arrays("m1")
         
         
 
@@ -98,8 +106,9 @@ class manager:
             last_hour = self.m5_candles[-1].t[3]
             minute_rounded = int(candle_minute/5) * 5
             if minute_rounded != last_minute or candle_hour != last_hour:
-                self.detect_pd_arrays("m5")
-                update_action_m5 = True
+                if scan:
+                    self.detect_pd_arrays("m5")
+                    update_action_m5 = True
                 c = candle_class(candle.o,candle.h,candle.l,candle.c,candle.t)
                 self.m5_candles.append(c)
             else:
@@ -107,8 +116,9 @@ class manager:
                 self.m5_candles[-1].h = max(candle.h, self.m5_candles[-1].h)
                 self.m5_candles[-1].l = min(candle.l, self.m5_candles[-1].l)
         else:
-            self.detect_pd_arrays("m5")
-            update_action_m5 = True
+            if scan:
+                self.detect_pd_arrays("m5")
+                update_action_m5 = True
             c = candle_class(candle.o,candle.h,candle.l,candle.c,candle.t)
             self.m5_candles.append(c)
             
@@ -119,8 +129,9 @@ class manager:
             last_hour = self.m15_candles[-1].t[3]
             minute_rounded = int(candle_minute/15) * 15
             if minute_rounded != last_minute or candle_hour != last_hour:
-                self.detect_pd_arrays("m15")
-                update_action_m15 = True
+                if scan:
+                    self.detect_pd_arrays("m15")
+                    update_action_m15 = True
                 c = candle_class(candle.o,candle.h,candle.l,candle.c,candle.t)
                 self.m15_candles.append(c)
             else:
@@ -128,8 +139,9 @@ class manager:
                 self.m15_candles[-1].h = max(candle.h, self.m15_candles[-1].h)
                 self.m15_candles[-1].l = min(candle.l, self.m15_candles[-1].l)
         else:
-            self.detect_pd_arrays("m15")
-            update_action_m15 = True
+            if scan:
+                self.detect_pd_arrays("m15")
+                update_action_m15 = True
             c = candle_class(candle.o,candle.h,candle.l,candle.c,candle.t)
             self.m15_candles.append(c)
 
@@ -139,8 +151,9 @@ class manager:
             last_hour = self.m60_candles[-1].t[3]
             
             if candle_hour != last_hour:
-                self.detect_pd_arrays("m60")
-                update_action_m60 = True
+                if scan:
+                    self.detect_pd_arrays("m60")
+                    update_action_m60 = True
                 c = candle_class(candle.o,candle.h,candle.l,candle.c,candle.t)
                 self.m60_candles.append(c)
             else:
@@ -148,8 +161,9 @@ class manager:
                 self.m60_candles[-1].h = max(candle.h, self.m60_candles[-1].h)
                 self.m60_candles[-1].l = min(candle.l, self.m60_candles[-1].l)
         else:
-            self.detect_pd_arrays("m60")
-            update_action_m60 = True
+            if scan:
+                self.detect_pd_arrays("m60")
+                update_action_m60 = True
             c = candle_class(candle.o,candle.h,candle.l,candle.c,candle.t)
             self.m60_candles.append(c)
 
@@ -159,8 +173,9 @@ class manager:
             last_candle_hour = self.m1_candles[-2].t[3]
             #print(candle_hour)
             if candle_hour != last_candle_hour and candle_hour == 18:
-                self.detect_pd_arrays("d1")
-                update_action_d1 = True
+                if scan:
+                    self.detect_pd_arrays("d1")
+                    update_action_d1 = True
                 c = candle_class(candle.o,candle.h,candle.l,candle.c,candle.t)
                 self.d1_candles.append(c)
             else:
@@ -168,8 +183,9 @@ class manager:
                 self.d1_candles[-1].h = max(candle.h, self.d1_candles[-1].h)
                 self.d1_candles[-1].l = min(candle.l, self.d1_candles[-1].l)
         else:
-            self.detect_pd_arrays("d1")
-            update_action_d1 = True
+            if scan:
+                self.detect_pd_arrays("d1")
+                update_action_d1 = True
             c = candle_class(candle.o,candle.h,candle.l,candle.c,candle.t)
             self.d1_candles.append(c)
 

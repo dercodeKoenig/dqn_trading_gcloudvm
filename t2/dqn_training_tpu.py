@@ -12,20 +12,12 @@ from collections import deque
 import time
 
 
-
-batch_size = 128
-gamma = 0.995
-learning_rate=0.00001
-
 num_model_inputs = 2+5+3+1
 n_actions = 2
 m1 = np.eye(n_actions, dtype="float32")
-num_data_generation_threads = 12
-batch_generation_threads = 8
-memory_size = 120_000
 batch_q_size = 512
 data_q_maxlen = 128
-ep_len = 100
+
 
 
 verb = False
@@ -40,90 +32,96 @@ def threaded_data_generation(q,num):
     first_run = True
     while True:
         data_dir = "data/"
-        files = [(data_dir+"US500_1_inverted.o", 0.4), (data_dir+"US500_1.o", 0.4), (data_dir+"USTEC_1_inverted.o", 2.5), (data_dir+"USTEC_1.o", 2.5), (data_dir+"US30_1_inverted.o", 2.5), (data_dir+"US30_1.o", 2.5)]
-        c = random.choice(files)
-        path = c[0]
+        parts = [("parts_@EP_1.o/", 0.4), ("parts_@EP_1_inverted.o/", 0.4), ("parts_@ENQ_1.o/", 2.4), ("parts_@ENQ_1_inverted.o/", 2.4), ("parts_@YM_1.o/", 2.4), ("parts_@YM_1_inverted.o/", 2.4)]
+        c = random.choice(parts)
+        path = data_dir+c[0]
         cm = c[1]
-        name = path.split("/")[-1].split(".")[0]
+        name = path.split("/")[-2]
         print(num,"-","path:", path)
         print(num,"-","cm:", cm)
     
-        candles = Load(path)
+        subfiles = sorted([x for x in os.listdir(path) if "part" in x])
+
         
-        start_ofs = 10000
+        start_ofs = 50000
 
         start = 0
         if first_run:
-            start = random.randint(0,len(candles)-50000)
+            start = random.randint(0,(len(subfiles)-1)*100000)
             first_run = False
+
         
         print(num,"-","start at", name, "-", start)
         
-        end = len(candles[:])
+        candle_counter = -1
         last_state = 0
 
         x = manager()
-        
-        for i in range(start,end):
-
-            while q.qsize() > data_q_maxlen:
-                #print(num,"-","Data Queue full - waiting...")
-                time.sleep(random.randint(10,50)/10)
+        for part in subfiles:
+            if candle_counter + 100000 < start:
+                candle_counter+=100000
+                continue
+            candles = Load(path+part)
+            for i in range(0, len(candles)):
+                candle_counter+=1
+                while q.qsize() > data_q_maxlen:
+                    #print(num,"-","Data Queue full - waiting...")
+                    time.sleep(random.randint(10,50)/10)
+                
+                if candle_counter>=start+start_ofs:
+                    ret = x.push_m1_candle(candles[i])
+                    inp = get_inputs_from_ret(ret, x)
+                    current_close = (candles[i].c - candles[i].o) / ret[0][1]
             
-            if i>=start+start_ofs:
-                ret = x.push_m1_candle(candles[i])
-                inp = get_inputs_from_ret(ret, x)
-                current_close = (candles[i].c - candles[i].o) / ret[0][1]
-        
-                if last_state != 0:
-                    inp_long = [1]+last_state
-                    inp_short = [-1]+last_state
-                    inp_neutral = [0]+last_state
-        
-                    
-                    
-                    #state, action, reward, next state (terminus)
-                    scaled_cm = make_price_relative(cm, 0, ret[0][1])
-                #prev long holding:
-                    # new long holding    
-                    new_state = [1]+inp
-                    pair = (inp_long, 1, current_close*1,0,new_state)
-                    q.put(pair)
-                    
-                    # new short holding    
-                    new_state = [-1]+inp
-                    pair = (inp_long, 0, current_close*-1 - scaled_cm,0,new_state)
-                    q.put(pair)
-                    
-                #prev short holding:
-                    # new long holding    
-                    new_state = [1]+inp
-                    pair = (inp_short, 1, current_close*1 - scaled_cm,0,new_state)
-                    q.put(pair)
-                    
-                    # new short holding    
-                    new_state = [-1]+inp
-                    pair = (inp_short, 0, current_close*-1,0,new_state)
-                    q.put(pair)
-                    
-                    
-        
-                #prev neutral holding:
-                    # new long holding    
-                    new_state = [1]+inp
-                    pair = (inp_neutral, 1, current_close*1 - scaled_cm / 2,0,new_state)
-                    q.put(pair)
-                    
-                    # new short holding    
-                    new_state = [-1]+inp
-                    pair = (inp_neutral, 0, current_close*-1 - scaled_cm / 2,0,new_state)
-                    q.put(pair)
-                    
-                    
-                last_state = inp
-            else:
-                ret = x.push_m1_candle(candles[i], scan = False)
+                    if last_state != 0:
+                        inp_long = [1]+last_state
+                        inp_short = [-1]+last_state
+                        inp_neutral = [0]+last_state
             
+                        
+                        
+                        #state, action, reward, next state (terminus)
+                        scaled_cm = make_price_relative(cm, 0, ret[0][1])
+                    #prev long holding:
+                        # new long holding    
+                        new_state = [1]+inp
+                        pair = (inp_long, 1, current_close*1,0,new_state)
+                        q.put(pair)
+                        
+                        # new short holding    
+                        new_state = [-1]+inp
+                        pair = (inp_long, 0, current_close*-1 - scaled_cm,0,new_state)
+                        q.put(pair)
+                        
+                    #prev short holding:
+                        # new long holding    
+                        new_state = [1]+inp
+                        pair = (inp_short, 1, current_close*1 - scaled_cm,0,new_state)
+                        q.put(pair)
+                        
+                        # new short holding    
+                        new_state = [-1]+inp
+                        pair = (inp_short, 0, current_close*-1,0,new_state)
+                        q.put(pair)
+                        
+                        
+            
+                    #prev neutral holding:
+                        # new long holding    
+                        new_state = [1]+inp
+                        pair = (inp_neutral, 1, current_close*1 - scaled_cm / 2,0,new_state)
+                        q.put(pair)
+                        
+                        # new short holding    
+                        new_state = [-1]+inp
+                        pair = (inp_neutral, 0, current_close*-1 - scaled_cm / 2,0,new_state)
+                        q.put(pair)
+                        
+                        
+                    last_state = inp
+                else:
+                    ret = x.push_m1_candle(candles[i], scan = False)
+                
 
 
 def data_get_func(data_qs, batch_q):
