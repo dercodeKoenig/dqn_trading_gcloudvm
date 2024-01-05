@@ -18,7 +18,7 @@ def save(_object, file):
 
 
 def make_price_relative(price, nullprice, scale):
-    return (price - nullprice) / scale
+    return (price - nullprice) / max(scale, 0.25)
 
 def scale_timeofday(t):
     return (t[3]*60+t[4])+(t[5])*60*24
