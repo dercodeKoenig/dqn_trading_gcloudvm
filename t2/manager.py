@@ -212,7 +212,7 @@ class manager:
         active_pd_arrays = [ i for index, i in enumerate(self.pd_arrays) if not index in expired_set]
         
         avg_candle_range = np.mean([x.h-x.l for x in self.m15_candles])
-        info = [self.nymidnight_price, avg_candle_range, self.m1_candles[-1].c, self.m1_candles[-1].t]
+        info = [self.nymidnight_price, max(0.25, avg_candle_range), self.m1_candles[-1].c, self.m1_candles[-1].t]
         
         return info, active_pd_arrays, [self.action_history_m1, self.action_history_m5, self.action_history_m15]
 
