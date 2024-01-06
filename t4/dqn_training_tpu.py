@@ -287,7 +287,9 @@ def main():
     def tpu_data_get_func(_n):
         return batch_q.get()
     
+    save_counter = 0
     while True:
+        save_counter += 1
         t0 = time.time()
         if verb:
             progbar = tf.keras.utils.Progbar(ep_len)
@@ -317,7 +319,8 @@ def main():
         
         filesave("loss.txt", np.mean(losses))        
         filesave("qv.txt", np.mean(qs))
-        model.save_weights("dqn_weights.h5")
+        if save_counter % 20 == 0:
+            model.save_weights("dqn_weights.h5")
         target_model.set_weights(model.get_weights())        
          
         if not verb:

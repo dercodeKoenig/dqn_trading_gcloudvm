@@ -215,6 +215,14 @@ def filesave(filename, value):
     f.close()
     
 def main():
+
+
+    
+    cluster_resolver = tf.distribute.cluster_resolver.TPUClusterResolver(tpu="local")
+    tf.config.experimental_connect_to_cluster(cluster_resolver)
+    tf.tpu.experimental.initialize_tpu_system(cluster_resolver)
+    strategy = tf.distribute.TPUStrategy(cluster_resolver)
+    
     
     batch_q = Queue()
     
@@ -234,11 +242,6 @@ def main():
         p = Process(target = data_get_func, args = (data_qs, batch_q), daemon = True)
         p.start()
         time.sleep(0.05)
-    
-    cluster_resolver = tf.distribute.cluster_resolver.TPUClusterResolver(tpu="local")
-    tf.config.experimental_connect_to_cluster(cluster_resolver)
-    tf.tpu.experimental.initialize_tpu_system(cluster_resolver)
-    strategy = tf.distribute.TPUStrategy(cluster_resolver)
 
 
     with strategy.scope():
@@ -252,6 +255,7 @@ def main():
         target_model.load_weights("dqn_weights.h5")
     except Exception as e:
         print(e)
+        
 
     @tf.function()
     def get_target_q(next_states, rewards, terminals):
@@ -283,7 +287,9 @@ def main():
     def tpu_data_get_func(_n):
         return batch_q.get()
     
+    save_counter = 0
     while True:
+        save_counter += 1
         t0 = time.time()
         if verb:
             progbar = tf.keras.utils.Progbar(ep_len)
@@ -313,7 +319,8 @@ def main():
         
         filesave("loss.txt", np.mean(losses))        
         filesave("qv.txt", np.mean(qs))
-        model.save_weights("dqn_weights.h5")
+        if save_counter % 20 == 0:
+            model.save_weights("dqn_weights.h5")
         target_model.set_weights(model.get_weights())        
          
         if not verb:
