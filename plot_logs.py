@@ -44,3 +44,7 @@ plot_logs(losses, qs, "t2.jpg")
 losses = get_values("t3/loss.txt")
 qs = get_values("t3/qv.txt")
 plot_logs(losses, qs, "t3.jpg")
+
+losses = get_values("t4/loss.txt")
+qs = get_values("t4/qv.txt")
+plot_logs(losses, qs, "t4.jpg")
