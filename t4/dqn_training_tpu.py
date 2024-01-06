@@ -216,6 +216,14 @@ def filesave(filename, value):
     
 def main():
 
+
+    
+    cluster_resolver = tf.distribute.cluster_resolver.TPUClusterResolver(tpu="local")
+    tf.config.experimental_connect_to_cluster(cluster_resolver)
+    tf.tpu.experimental.initialize_tpu_system(cluster_resolver)
+    strategy = tf.distribute.TPUStrategy(cluster_resolver)
+    
+    
     batch_q = Queue()
     
     ## start batch generation threads
@@ -235,14 +243,6 @@ def main():
         p.start()
         time.sleep(0.05)
 
-
-    
-    cluster_resolver = tf.distribute.cluster_resolver.TPUClusterResolver(tpu="local")
-    tf.config.experimental_connect_to_cluster(cluster_resolver)
-    tf.tpu.experimental.initialize_tpu_system(cluster_resolver)
-    strategy = tf.distribute.TPUStrategy(cluster_resolver)
-    
-    
 
     with strategy.scope():
         model = make_model()
