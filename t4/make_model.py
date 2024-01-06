@@ -153,7 +153,7 @@ def make_model():
   actions_m5 = tf.keras.layers.LeakyReLU()(actions_m5)
   actions_m5 = tf.keras.layers.Dense(128)(actions_m5)
   actions_m5 = tf.keras.layers.LeakyReLU()(actions_m5)
-  actions_m5 = TransformerBlock(actions_m1.shape[-1], 4, 256)(actions_m5)
+  actions_m5 = TransformerBlock(actions_m5.shape[-1], 4, 256)(actions_m5)
   actions_m5 = tf.keras.layers.GRU(1024)(actions_m5)
   #actions_m5 = tf.keras.layers.GlobalAveragePooling1D()(actions_m5)
 
@@ -161,7 +161,7 @@ def make_model():
   actions_m15 = tf.keras.layers.LeakyReLU()(actions_m15)
   actions_m15 = tf.keras.layers.Dense(128)(actions_m15)
   actions_m15 = tf.keras.layers.LeakyReLU()(actions_m15)
-  actions_m15 = TransformerBlock(actions_m1.shape[-1], 4, 256)(actions_m15)
+  actions_m15 = TransformerBlock(actions_m15.shape[-1], 4, 256)(actions_m15)
   actions_m15 = tf.keras.layers.GRU(1024)(actions_m15)
   #actions_m15 = tf.keras.layers.GlobalAveragePooling1D()(actions_m15)
 
