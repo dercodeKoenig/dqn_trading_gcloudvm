@@ -101,7 +101,7 @@ def make_model():
   t2 = action_m1_inputs[::,::,4]
   at = action_m1_inputs[::,::,0]
   v1 = tf.keras.layers.Reshape((-1,1))(action_m1_inputs[::,::,2])
-  v2 = action_m1_inputs[::,::,5]
+  v2 = tf.keras.layers.Reshape((-1,1))(action_m1_inputs[::,::,5])
   v3 = tf.keras.layers.Reshape((-1,1))(action_m1_inputs[::,::,3])
   t1 = embed_times(t1)
   t2 = embed_times(t2)
@@ -113,7 +113,7 @@ def make_model():
   t2 = action_m5_inputs[::,::,4]
   at = action_m5_inputs[::,::,0]
   v1 = tf.keras.layers.Reshape((-1,1))(action_m5_inputs[::,::,2])
-  v2 = action_m1_inputs[::,::,5]
+  v2 = tf.keras.layers.Reshape((-1,1))(action_m1_inputs[::,::,5])
   v3 = tf.keras.layers.Reshape((-1,1))(action_m5_inputs[::,::,3])
   t1 = embed_times(t1)
   t2 = embed_times(t2)
@@ -125,7 +125,7 @@ def make_model():
   t2 = action_m15_inputs[::,::,4]
   at = action_m15_inputs[::,::,0]
   v1 = tf.keras.layers.Reshape((-1,1))(action_m15_inputs[::,::,2])
-  v2 = action_m1_inputs[::,::,5]
+  v2 = tf.keras.layers.Reshape((-1,1))(action_m1_inputs[::,::,5])
   v3 = tf.keras.layers.Reshape((-1,1))(action_m15_inputs[::,::,3])
   t1 = embed_times(t1)
   t2 = embed_times(t2)
