@@ -216,6 +216,26 @@ def filesave(filename, value):
     
 def main():
 
+    batch_q = Queue()
+    
+    ## start batch generation threads
+    for i in range(batch_generation_threads):
+        data_qs = []
+        
+        ## start data generation threads
+        for i in range(num_data_generation_threads):
+            data_q = Queue()
+            data_qs.append(data_q)
+            p = Process(target = threaded_data_generation, args = (data_q, i), daemon = True)
+            p.start()
+            time.sleep(0.05)
+
+    
+        p = Process(target = data_get_func, args = (data_qs, batch_q), daemon = True)
+        p.start()
+        time.sleep(0.05)
+
+
     
     cluster_resolver = tf.distribute.cluster_resolver.TPUClusterResolver(tpu="local")
     tf.config.experimental_connect_to_cluster(cluster_resolver)
@@ -236,25 +256,6 @@ def main():
     except Exception as e:
         print(e)
         
-    batch_q = Queue()
-    
-    ## start batch generation threads
-    for i in range(batch_generation_threads):
-        data_qs = []
-        
-        ## start data generation threads
-        for i in range(num_data_generation_threads):
-            data_q = Queue()
-            data_qs.append(data_q)
-            p = Process(target = threaded_data_generation, args = (data_q, i), daemon = True)
-            p.start()
-            time.sleep(0.05)
-
-    
-        p = Process(target = data_get_func, args = (data_qs, batch_q), daemon = True)
-        p.start()
-        time.sleep(0.05)
-
 
     @tf.function()
     def get_target_q(next_states, rewards, terminals):
