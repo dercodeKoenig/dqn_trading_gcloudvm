@@ -34,6 +34,7 @@ class TransformerBlock(layers.Layer):
         return self.layernorm2(out1 + ffn_output)
 
 
+
 def make_model():
 
   embed_times = tf.keras.layers.Embedding(60*24*7,8)
@@ -91,9 +92,9 @@ def make_model():
 
 
 
-  action_m1_inputs = tf.keras.layers.Input(shape=(256,6))
-  action_m5_inputs = tf.keras.layers.Input(shape=(256,6))
-  action_m15_inputs = tf.keras.layers.Input(shape=(256,6))
+  action_m1_inputs = tf.keras.layers.Input(shape=(256,5))
+  action_m5_inputs = tf.keras.layers.Input(shape=(256,5))
+  action_m15_inputs = tf.keras.layers.Input(shape=(256,5))
 
   embed_action_type = tf.keras.layers.Embedding(18,6)
 
@@ -101,39 +102,35 @@ def make_model():
   t2 = action_m1_inputs[::,::,4]
   at = action_m1_inputs[::,::,0]
   v1 = tf.keras.layers.Reshape((-1,1))(action_m1_inputs[::,::,2])
-  v2 = tf.keras.layers.Reshape((-1,1))(action_m1_inputs[::,::,5])
   v3 = tf.keras.layers.Reshape((-1,1))(action_m1_inputs[::,::,3])
   t1 = embed_times(t1)
   t2 = embed_times(t2)
   at = embed_action_type(at)
-  actions_m1 = tf.keras.layers.Concatenate(axis=-1)([v1,at,v3,t1,t2,v2])
+  actions_m1 = tf.keras.layers.Concatenate(axis=-1)([v1,at,v3,t1,t2])
   
 
   t1 = action_m5_inputs[::,::,1]
   t2 = action_m5_inputs[::,::,4]
   at = action_m5_inputs[::,::,0]
   v1 = tf.keras.layers.Reshape((-1,1))(action_m5_inputs[::,::,2])
-  v2 = tf.keras.layers.Reshape((-1,1))(action_m1_inputs[::,::,5])
   v3 = tf.keras.layers.Reshape((-1,1))(action_m5_inputs[::,::,3])
   t1 = embed_times(t1)
   t2 = embed_times(t2)
   at = embed_action_type(at)
-  actions_m5 = tf.keras.layers.Concatenate(axis=-1)([v1,at,v3,t1,t2,v2])
+  actions_m5 = tf.keras.layers.Concatenate(axis=-1)([v1,at,v3,t1,t2])
   
 
   t1 = action_m15_inputs[::,::,1]
   t2 = action_m15_inputs[::,::,4]
   at = action_m15_inputs[::,::,0]
   v1 = tf.keras.layers.Reshape((-1,1))(action_m15_inputs[::,::,2])
-  v2 = tf.keras.layers.Reshape((-1,1))(action_m1_inputs[::,::,5])
   v3 = tf.keras.layers.Reshape((-1,1))(action_m15_inputs[::,::,3])
   t1 = embed_times(t1)
   t2 = embed_times(t2)
   at = embed_action_type(at)
-  actions_m15 = tf.keras.layers.Concatenate(axis=-1)([v1,at,v3,t1,t2,v2])
+  actions_m15 = tf.keras.layers.Concatenate(axis=-1)([v1,at,v3,t1,t2])
   
-  actions_all = tf.keras.layers.Concatenate(axis=1)([actions_m15, actions_m5, actions_m1])
-  #print(actions_all.shape)
+
 
 
   input_closing_prices = tf.keras.layers.Input(shape=(1))
@@ -144,23 +141,31 @@ def make_model():
   
 
 
-  actions_all = tf.keras.layers.Dense(128)(actions_all)
-  actions_all = tf.keras.layers.LeakyReLU()(actions_all)
-  actions_all = tf.keras.layers.Dense(128)(actions_all)
-  actions_all = tf.keras.layers.LeakyReLU()(actions_all)
-  actions_all = tf.keras.layers.Dense(128)(actions_all)
-  actions_all = tf.keras.layers.LeakyReLU()(actions_all)
-  #actions_all = TransformerBlock(actions_all.shape[-1], 4, 256)(actions_all)
-  #actions_all = TransformerBlock(actions_all.shape[-1], 4, 256)(actions_all)
-  #actions_all = TransformerBlock(actions_all.shape[-1], 4, 256)(actions_all)
-  actions_all = TransformerBlock(actions_all.shape[-1], 2, 256)(actions_all)
-  #actions_all = tf.keras.layers.GRU(1024)(actions_all)
-  actions_all = tf.keras.layers.GlobalAveragePooling1D()(actions_all)
+  actions_m1 = tf.keras.layers.Dense(32)(actions_m1)
+  actions_m1 = tf.keras.layers.LeakyReLU()(actions_m1)
+  actions_m1 = tf.keras.layers.Dense(128)(actions_m1)
+  actions_m1 = tf.keras.layers.LeakyReLU()(actions_m1)
+  actions_m1 = TransformerBlock(actions_m1.shape[-1], 4, 256)(actions_m1)
+  #actions_m1 = tf.keras.layers.GRU(1024)(actions_m1)
+  actions_m1 = tf.keras.layers.GlobalAveragePooling1D()(actions_m1)
 
+  actions_m5 = tf.keras.layers.Dense(32)(actions_m5)
+  actions_m5 = tf.keras.layers.LeakyReLU()(actions_m5)
+  actions_m5 = tf.keras.layers.Dense(128)(actions_m5)
+  actions_m5 = tf.keras.layers.LeakyReLU()(actions_m5)
+  actions_m5 = TransformerBlock(actions_m1.shape[-1], 4, 256)(actions_m5)
+  #actions_m5 = tf.keras.layers.GRU(1024)(actions_m5)
+  actions_m5 = tf.keras.layers.GlobalAveragePooling1D()(actions_m5)
 
- 
+  actions_m15 = tf.keras.layers.Dense(32)(actions_m15)
+  actions_m15 = tf.keras.layers.LeakyReLU()(actions_m15)
+  actions_m15 = tf.keras.layers.Dense(128)(actions_m15)
+  actions_m15 = tf.keras.layers.LeakyReLU()(actions_m15)
+  actions_m15 = TransformerBlock(actions_m1.shape[-1], 4, 256)(actions_m15)
+  #actions_m15 = tf.keras.layers.GRU(1024)(actions_m15)
+  actions_m15 = tf.keras.layers.GlobalAveragePooling1D()(actions_m15)
 
-  dense_input = tf.keras.layers.Concatenate()([input_current_pos, input_closing_prices, input_closing_times, pda_list_m60, pda_list_d1, pda_list_m15, pda_list_m5, pda_list_m1, actions_all])
+  dense_input = tf.keras.layers.Concatenate()([input_current_pos, input_closing_prices, input_closing_times, pda_list_m60, pda_list_d1, pda_list_m15, pda_list_m5, pda_list_m1, actions_m1, actions_m5, actions_m15])
   
 
   x = tf.keras.layers.Dense(4096)(dense_input)

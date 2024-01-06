@@ -44,15 +44,15 @@ def get_inputs_from_ret(ret, x):
     
     actions_m1 = deque(maxlen = 256)
     for _ in range(256):
-        actions_m1.append([0, 0, 0, 0, 0, 0])
+        actions_m1.append([0, 0, 0, 0, 0])
 
     actions_m5 = deque(maxlen = 256)
     for _ in range(256):
-        actions_m5.append([0, 0, 0, 0, 0, 0])
+        actions_m5.append([0, 0, 0, 0, 0])
         
     actions_m15 = deque(maxlen = 256)
     for _ in range(256):
-        actions_m15.append([0, 0, 0, 0, 0, 0])
+        actions_m15.append([0, 0, 0, 0, 0])
     
     for i in ret[1]:
         tf = i.tf
@@ -197,7 +197,7 @@ def get_inputs_from_ret(ret, x):
         hit_price = make_price_relative(i.price, midnight, avg_15m_candle_range)
         hit_time = scale_timeofday(i.time)
     
-        actions_m1.append([tp, pd_formed_scaled, pd_array_tf, hit_price, hit_time, 0.0])
+        actions_m1.append([tp, pd_formed_scaled, pd_array_tf, hit_price, hit_time])
         
 
     for i in ret[2][1]:
@@ -260,7 +260,7 @@ def get_inputs_from_ret(ret, x):
         hit_price = make_price_relative(i.price, midnight, avg_15m_candle_range)
         hit_time = scale_timeofday(i.time)
     
-        actions_m5.append([tp, pd_formed_scaled, pd_array_tf, hit_price, hit_time, 1.0])
+        actions_m5.append([tp, pd_formed_scaled, pd_array_tf, hit_price, hit_time])
         
     for i in ret[2][2]:
         tp = i.type
@@ -323,7 +323,7 @@ def get_inputs_from_ret(ret, x):
         hit_price = make_price_relative(i.price, midnight, avg_15m_candle_range)
         hit_time = scale_timeofday(i.time)
     
-        actions_m15.append([tp, pd_formed_scaled, pd_array_tf, hit_price, hit_time, 2.0])
+        actions_m15.append([tp, pd_formed_scaled, pd_array_tf, hit_price, hit_time])
         
            
     
