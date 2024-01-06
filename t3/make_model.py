@@ -136,7 +136,7 @@ def make_model():
   rnn_input_state = tf.keras.layers.Dense(512, activation = "relu")(rnn_input_state)
   rnn_input_state = tf.keras.layers.Dense(512, activation = "relu")(rnn_input_state)
   actions_m5 = tf.keras.layers.GRU(512, return_sequences=True)(actions_m5, initial_state = rnn_input_state)
-  actions_m5 = tf.keras.layers.GRU(512)(actions_m5, initial_state = actions_m5, initial_state = rnn_input_state)
+  actions_m5 = tf.keras.layers.GRU(512)(actions_m5, initial_state = rnn_input_state)
 
   actions_m1 = tf.keras.layers.Dense(32)(actions_m1)
   actions_m1 = tf.keras.layers.LeakyReLU()(actions_m1)
@@ -147,7 +147,7 @@ def make_model():
   rnn_input_state = tf.keras.layers.Dense(512, activation = "relu")(rnn_input_state)
   rnn_input_state = tf.keras.layers.Dense(512, activation = "relu")(rnn_input_state)
   actions_m1 = tf.keras.layers.GRU(512, return_sequences=True)(actions_m1, initial_state = rnn_input_state)
-  actions_m1 = tf.keras.layers.GRU(512)(actions_m5, initial_state = actions_m1, initial_state = rnn_input_state)
+  actions_m1 = tf.keras.layers.GRU(512)(actions_m5, initial_state = rnn_input_state)
 
   dense_input = tf.keras.layers.Concatenate()([input_current_pos, input_closing_prices, input_closing_times, pda_list_m60, pda_list_d1, pda_list_m15, pda_list_m5, pda_list_m1, actions_m1, actions_m5, actions_m15])
   
