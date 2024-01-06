@@ -44,15 +44,15 @@ def get_inputs_from_ret(ret, x):
     
     actions_m1 = deque(maxlen = 256)
     for _ in range(256):
-        actions_m1.append([0, 0, 0, 0, 0])
+        actions_m1.append([0, 0, 0, 0, 0, 0])
 
     actions_m5 = deque(maxlen = 256)
     for _ in range(256):
-        actions_m5.append([0, 0, 0, 0, 0])
+        actions_m5.append([0, 0, 0, 0, 0, 0])
         
     actions_m15 = deque(maxlen = 256)
     for _ in range(256):
-        actions_m15.append([0, 0, 0, 0, 0])
+        actions_m15.append([0, 0, 0, 0, 0, 0])
     
     for i in ret[1]:
         tf = i.tf
