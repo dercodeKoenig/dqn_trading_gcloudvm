@@ -183,7 +183,3 @@ def make_model():
 
   model = tf.keras.Model(inputs = [input_current_pos, input_closing_prices, input_closing_times_in, pd_arrays_m1_input, pd_arrays_m5_input, pd_arrays_m15_input, pd_arrays_m60_input, pd_arrays_d1_input, action_m1_inputs, action_m5_inputs, action_m15_inputs], outputs=x)
   return model
-
-import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
-make_model()
