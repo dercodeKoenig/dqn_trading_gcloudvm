@@ -7,7 +7,7 @@ learning_rate=0.00001
 num_data_generation_threads = 12
 batch_generation_threads = 8
 memory_size = 300_000
-ep_len = 50
+ep_len = 100
 
 
 from tensorflow.keras import layers
