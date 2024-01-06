@@ -215,7 +215,27 @@ def filesave(filename, value):
     f.close()
     
 def main():
+
     
+    cluster_resolver = tf.distribute.cluster_resolver.TPUClusterResolver(tpu="local")
+    tf.config.experimental_connect_to_cluster(cluster_resolver)
+    tf.tpu.experimental.initialize_tpu_system(cluster_resolver)
+    strategy = tf.distribute.TPUStrategy(cluster_resolver)
+    
+    
+
+    with strategy.scope():
+        model = make_model()
+        target_model = make_model()
+        optimizer = tf.keras.optimizers.Adam(learning_rate = learning_rate)
+
+    print("loading model weights...")
+    try:
+        model.load_weights("dqn_weights.h5")
+        target_model.load_weights("dqn_weights.h5")
+    except Exception as e:
+        print(e)
+        
     batch_q = Queue()
     
     ## start batch generation threads
@@ -234,24 +254,7 @@ def main():
         p = Process(target = data_get_func, args = (data_qs, batch_q), daemon = True)
         p.start()
         time.sleep(0.05)
-    
-    cluster_resolver = tf.distribute.cluster_resolver.TPUClusterResolver(tpu="local")
-    tf.config.experimental_connect_to_cluster(cluster_resolver)
-    tf.tpu.experimental.initialize_tpu_system(cluster_resolver)
-    strategy = tf.distribute.TPUStrategy(cluster_resolver)
 
-
-    with strategy.scope():
-        model = make_model()
-        target_model = make_model()
-        optimizer = tf.keras.optimizers.Adam(learning_rate = learning_rate)
-
-    print("loading model weights...")
-    try:
-        model.load_weights("dqn_weights.h5")
-        target_model.load_weights("dqn_weights.h5")
-    except Exception as e:
-        print(e)
 
     @tf.function()
     def get_target_q(next_states, rewards, terminals):
