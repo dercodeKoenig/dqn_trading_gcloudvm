@@ -2,7 +2,7 @@ import tensorflow as tf
 
 #config
 batch_size = 128
-gamma = 0.95
+gamma = 0.99
 learning_rate=0.00001
 num_data_generation_threads = 12
 batch_generation_threads = 8
@@ -146,24 +146,24 @@ def make_model():
   actions_m1 = tf.keras.layers.Dense(128)(actions_m1)
   actions_m1 = tf.keras.layers.LeakyReLU()(actions_m1)
   actions_m1 = TransformerBlock(actions_m1.shape[-1], 4, 256)(actions_m1)
-  #actions_m1 = tf.keras.layers.GRU(1024)(actions_m1)
-  actions_m1 = tf.keras.layers.GlobalAveragePooling1D()(actions_m1)
+  actions_m1 = tf.keras.layers.GRU(1024)(actions_m1)
+  #actions_m1 = tf.keras.layers.GlobalAveragePooling1D()(actions_m1)
 
   actions_m5 = tf.keras.layers.Dense(32)(actions_m5)
   actions_m5 = tf.keras.layers.LeakyReLU()(actions_m5)
   actions_m5 = tf.keras.layers.Dense(128)(actions_m5)
   actions_m5 = tf.keras.layers.LeakyReLU()(actions_m5)
   actions_m5 = TransformerBlock(actions_m1.shape[-1], 4, 256)(actions_m5)
-  #actions_m5 = tf.keras.layers.GRU(1024)(actions_m5)
-  actions_m5 = tf.keras.layers.GlobalAveragePooling1D()(actions_m5)
+  actions_m5 = tf.keras.layers.GRU(1024)(actions_m5)
+  #actions_m5 = tf.keras.layers.GlobalAveragePooling1D()(actions_m5)
 
   actions_m15 = tf.keras.layers.Dense(32)(actions_m15)
   actions_m15 = tf.keras.layers.LeakyReLU()(actions_m15)
   actions_m15 = tf.keras.layers.Dense(128)(actions_m15)
   actions_m15 = tf.keras.layers.LeakyReLU()(actions_m15)
   actions_m15 = TransformerBlock(actions_m1.shape[-1], 4, 256)(actions_m15)
-  #actions_m15 = tf.keras.layers.GRU(1024)(actions_m15)
-  actions_m15 = tf.keras.layers.GlobalAveragePooling1D()(actions_m15)
+  actions_m15 = tf.keras.layers.GRU(1024)(actions_m15)
+  #actions_m15 = tf.keras.layers.GlobalAveragePooling1D()(actions_m15)
 
   dense_input = tf.keras.layers.Concatenate()([input_current_pos, input_closing_prices, input_closing_times, pda_list_m60, pda_list_d1, pda_list_m15, pda_list_m5, pda_list_m1, actions_m1, actions_m5, actions_m15])
   
