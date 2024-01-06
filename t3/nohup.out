@@ -1444,3 +1444,94 @@ loading data/parts_ENQ_1.o/part_008
 2024-01-05 21:24:51.887943: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (7): TPU, 2a886c8
 2024-01-05 21:25:03.269925: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:268] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
 2024-01-05 21:25:05.588170: I tensorflow/compiler/jit/xla_compilation_cache.cc:476] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+loading model weights...
+[Errno 2] Unable to open file (unable to open file: name = 'dqn_weights.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2024-01-05 21:26:05.829539: I tensorflow/core/tpu/graph_rewrite/encapsulate_tpu_computations_pass.cc:237] Subgraph fingerprint:1656332606921625368
+2024-01-05 21:26:06.959138: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:954] model_pruner failed: INVALID_ARGUMENT: Graph does not contain terminal node StatefulPartitionedCall.
+2024-01-05 21:26:07.928166: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:954] model_pruner failed: INVALID_ARGUMENT: Graph does not contain terminal node StatefulPartitionedCall.
+2024-01-05 21:26:09.394449: I tensorflow/core/tpu/kernels/tpu_compilation_cache_interface.cc:437] TPU host compilation cache miss: cache_key(4856495992806746404), session_name()
+2024-01-05 21:26:45.276418: I tensorflow/core/tpu/kernels/tpu_compile_op_common.cc:210] Compilation of 4856495992806746404 with session name  took 35.881813893s and succeeded
+2024-01-05 21:26:45.410804: I tensorflow/core/tpu/kernels/tpu_compilation_cache_interface.cc:470] TPU host compilation cache: compilation complete for cache_key(4856495992806746404), session_name(), subgraph_key(std::string(property.function_name) = "cluster_tpu_function_1656332606921625368", property.function_library_fingerprint = 8400067539102839952, property.mlir_module_fingerprint = 0, property.num_replicas = 8, topology.chip_bounds().x = 2, topology.chip_bounds().y = 2, topology.chip_bounds().z = 1, topology.wrap().x = false, topology.wrap().y = false, topology.wrap().z = false, topology.MissingChipCount() = 0, std::string(property.shapes_prefix) = "", property.guaranteed_constants_size = 0, embedding_partitions_fingerprint = "1688352644216761960")
+2024-01-05 21:26:45.410909: I tensorflow/core/tpu/kernels/tpu_compilation_cache_interface.cc:536] After adding entry for key 4856495992806746404 with session_name  cache is 1 entries (61021448 bytes),  marked for eviction 0 entries (0 bytes).
+loading data/parts_YM_1_inverted.o/part_020
+loss: 0.7842552 - expected Q values: -0.077135004 - time: 216.64402866363525
+loading data/parts_YM_1_inverted.o/part_028
+loss: 3.7286484 - expected Q values: -0.56581897 - time: 150.1842589378357
+loss: 2.2076883 - expected Q values: -1.1303605 - time: 149.6291069984436
+loss: 3.1889083 - expected Q values: -1.5671649 - time: 145.20568251609802
+loss: 1.559077 - expected Q values: -1.8713413 - time: 140.09250497817993
+loss: 3.3347666 - expected Q values: -2.282855 - time: 139.69228792190552
+loss: 3.122491 - expected Q values: -2.603515 - time: 139.54232788085938
+loss: 3.0843625 - expected Q values: -2.6122308 - time: 139.36907863616943
+loss: 2.2205093 - expected Q values: -2.3593931 - time: 139.24118566513062
+loss: 1.9022717 - expected Q values: -2.7226572 - time: 139.79458832740784
+loss: 2.0185778 - expected Q values: -3.2015657 - time: 139.685622215271
+loss: 4.932436 - expected Q values: -3.4689486 - time: 139.64222192764282
+loss: 1.8563539 - expected Q values: -3.6702704 - time: 139.3998463153839
+loss: 2.0900705 - expected Q values: -4.00596 - time: 139.46370601654053
+loading data/parts_EP_1.o/part_070
+loss: 2.560473 - expected Q values: -4.8062515 - time: 139.24711060523987
+loss: 2.5247245 - expected Q values: -5.1145444 - time: 139.40861582756042
+loss: 2.2130082 - expected Q values: -5.216492 - time: 139.32509112358093
+loss: 2.5324793 - expected Q values: -5.1794224 - time: 139.2323615550995
+loss: 3.3092928 - expected Q values: -5.7850456 - time: 139.19998407363892
+loss: 4.437853 - expected Q values: -6.5073767 - time: 139.3790864944458
+loss: 4.5897946 - expected Q values: -6.145813 - time: 139.52912378311157
+loss: 1.9998412 - expected Q values: -6.4631233 - time: 139.59393119812012
+loading data/parts_ENQ_1_inverted.o/part_002
+loss: 2.4894633 - expected Q values: -6.8539033 - time: 139.53524732589722
+loss: 3.7489626 - expected Q values: -6.899737 - time: 139.44258427619934
+loss: 5.4133477 - expected Q values: -6.2087975 - time: 139.94373488426208
+loss: 5.598044 - expected Q values: -6.3893504 - time: 139.49153542518616
+loading data/parts_ENQ_1.o/part_014
+loss: 3.6821325 - expected Q values: -7.203696 - time: 139.23789715766907
+loss: 3.935318 - expected Q values: -8.230685 - time: 139.27400851249695
+loss: 3.9955666 - expected Q values: -7.9654346 - time: 139.54050421714783
+loss: 2.342565 - expected Q values: -8.61315 - time: 139.03269124031067
+loss: 2.3614347 - expected Q values: -9.402262 - time: 139.19185519218445
+loss: 3.7227108 - expected Q values: -10.700784 - time: 139.4008185863495
+loss: 4.4909267 - expected Q values: -11.755978 - time: 138.98480439186096
+loss: 4.4758325 - expected Q values: -12.256139 - time: 139.45885562896729
+loss: 3.439171 - expected Q values: -12.1747265 - time: 139.20042610168457
+loss: 3.2914999 - expected Q values: -11.29439 - time: 139.14624309539795
+loss: 4.925805 - expected Q values: -12.844133 - time: 139.59499382972717
+loss: 4.7080317 - expected Q values: -13.5116625 - time: 139.6111114025116
+loss: 3.9009008 - expected Q values: -14.256992 - time: 139.25564765930176
+loss: 7.941679 - expected Q values: -11.283918 - time: 139.05906748771667
+loss: 4.642581 - expected Q values: -13.617853 - time: 139.18830275535583
+loss: 3.8589768 - expected Q values: -13.486485 - time: 139.20139598846436
+loss: 3.3101697 - expected Q values: -11.650138 - time: 139.07699394226074
+loss: 9.22092 - expected Q values: -11.465904 - time: 139.06819224357605
+loss: 4.5143948 - expected Q values: -14.551571 - time: 139.10556983947754
+loss: 4.273793 - expected Q values: -16.7793 - time: 139.0545608997345
+loss: 6.040939 - expected Q values: -14.758623 - time: 139.64500880241394
+loss: 11.149138 - expected Q values: -11.571687 - time: 139.11885023117065
+loss: 8.463092 - expected Q values: -11.178846 - time: 139.50139212608337
+loss: 5.468417 - expected Q values: -12.444836 - time: 139.11170029640198
+loss: 4.0383143 - expected Q values: -12.573666 - time: 139.32520747184753
+loss: 3.891314 - expected Q values: -16.279274 - time: 139.43409276008606
+loss: 3.182868 - expected Q values: -16.250237 - time: 139.5951783657074
+loading data/parts_ENQ_1.o/part_040
+loss: 6.789607 - expected Q values: -15.215302 - time: 139.50376558303833
+loss: 7.9360003 - expected Q values: -17.6247 - time: 139.1909523010254
+loss: 5.9306507 - expected Q values: -20.201426 - time: 139.7871367931366
+loss: 4.7632365 - expected Q values: -15.264761 - time: 139.30868935585022
+loss: 4.250419 - expected Q values: -13.388673 - time: 139.23085856437683
+loss: 4.100944 - expected Q values: -11.167819 - time: 139.03379678726196
+loss: 5.7750106 - expected Q values: -16.196196 - time: 139.23578000068665
+loss: 5.5675893 - expected Q values: -15.812226 - time: 139.37204241752625
+loss: 4.303815 - expected Q values: -12.504675 - time: 139.54865550994873
+loss: 4.1605186 - expected Q values: -15.233446 - time: 139.3602957725525
+loss: 5.1696205 - expected Q values: -21.057495 - time: 139.37129759788513
+loss: 4.9592557 - expected Q values: -20.364344 - time: 139.23663473129272
+loss: 6.8694024 - expected Q values: -21.30912 - time: 139.3020842075348
+loss: 5.2845497 - expected Q values: -21.227806 - time: 139.1779501438141
+loss: 8.139863 - expected Q values: -16.753986 - time: 139.0503625869751
+loss: 6.403963 - expected Q values: -14.402546 - time: 139.3872172832489
+loss: 8.129104 - expected Q values: -19.714645 - time: 139.44314765930176
+loss: 5.6937633 - expected Q values: -14.113059 - time: 139.07305026054382
+loss: 3.4752593 - expected Q values: -14.4898405 - time: 139.763267993927
+loss: 5.099785 - expected Q values: -20.287233 - time: 139.51314306259155
+loss: 5.122682 - expected Q values: -14.705101 - time: 139.67939639091492
+loss: 6.564517 - expected Q values: -13.477709 - time: 139.4096405506134
+loss: 5.781799 - expected Q values: -12.35302 - time: 139.2613971233368
