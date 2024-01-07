@@ -2767,3 +2767,2082 @@ loss: 2.5862784 - expected Q values: -2.4785311 - time: 27.281447649002075
 loss: 2.6880627 - expected Q values: -2.1325746 - time: 28.009779691696167
 loss: 1.319545 - expected Q values: -1.4747674 - time: 28.621708869934082
 loss: 2.138827 - expected Q values: -2.4727647 - time: 28.247437000274658
+loss: 2.01991 - expected Q values: -1.9344286 - time: 26.893903493881226
+loading data/parts_EP_1.o/part_064
+loss: 1.6076484 - expected Q values: -1.0990522 - time: 27.92587447166443
+loading data/parts_YM_1.o/part_023
+loss: 2.7016642 - expected Q values: -1.4083644 - time: 28.27992820739746
+loss: 1.5619258 - expected Q values: -1.0831201 - time: 28.421855688095093
+loss: 1.9313678 - expected Q values: -1.4687185 - time: 27.61021637916565
+loss: 1.9877853 - expected Q values: -1.4486736 - time: 27.21089816093445
+loading data/parts_EP_1_inverted.o/part_001
+loss: 2.6198153 - expected Q values: -2.078508 - time: 27.63852572441101
+loss: 1.7016693 - expected Q values: -1.3599454 - time: 27.64605689048767
+loss: 2.3493912 - expected Q values: -2.1499445 - time: 28.091551303863525
+loss: 2.084119 - expected Q values: -1.1424348 - time: 28.245885848999023
+loss: 1.3908061 - expected Q values: -0.3080096 - time: 27.966734886169434
+loading data/parts_EP_1.o/part_009
+loss: 3.140289 - expected Q values: -1.3927128 - time: 27.62001872062683
+loss: 1.8103578 - expected Q values: -0.9267118 - time: 27.81329870223999
+loss: 3.5855691 - expected Q values: -1.5304104 - time: 27.881282329559326
+loss: 1.9239045 - expected Q values: -1.2467452 - time: 27.863994121551514
+loss: 2.6736078 - expected Q values: -0.8969601 - time: 27.530280113220215
+loss: 3.795503 - expected Q values: -1.7014602 - time: 27.8974289894104
+loss: 1.8714604 - expected Q values: -0.62659943 - time: 28.027860403060913
+loading data/parts_YM_1_inverted.o/part_040
+loss: 2.8230011 - expected Q values: -1.8815349 - time: 29.053284168243408
+loss: 2.0409622 - expected Q values: -0.60401565 - time: 27.809309720993042
+loss: 2.981719 - expected Q values: -1.465816 - time: 27.221871376037598
+loss: 1.7986468 - expected Q values: 0.07328225 - time: 27.727019786834717
+loading data/parts_YM_1_inverted.o/part_060
+loss: 1.4898108 - expected Q values: 0.21380758 - time: 27.79037857055664
+loss: 1.8125949 - expected Q values: -0.5597972 - time: 27.881322383880615
+loss: 3.1279955 - expected Q values: -0.8100456 - time: 27.761375427246094
+loss: 2.0354977 - expected Q values: -0.7277197 - time: 27.989936113357544
+loss: 1.0874467 - expected Q values: 0.49766558 - time: 27.673543691635132
+loss: 2.05963 - expected Q values: -0.60018605 - time: 27.22016143798828
+loss: 1.8280327 - expected Q values: -0.2721823 - time: 27.424293756484985
+loading data/parts_ENQ_1.o/part_037
+loss: 2.1479306 - expected Q values: -0.55264777 - time: 28.242206573486328
+loss: 2.1874797 - expected Q values: -0.10323953 - time: 28.09089493751526
+loss: 1.2178581 - expected Q values: 0.5359716 - time: 28.399190187454224
+loss: 1.3671755 - expected Q values: 0.42862934 - time: 27.46011209487915
+loss: 2.0406475 - expected Q values: 0.29961872 - time: 27.662121534347534
+loss: 1.317676 - expected Q values: 0.713646 - time: 27.494025945663452
+loss: 1.9300957 - expected Q values: 0.8495891 - time: 28.448959589004517
+loss: 1.3671993 - expected Q values: 0.7990598 - time: 28.149600744247437
+loss: 2.1957214 - expected Q values: 0.36920512 - time: 28.157463312149048
+loss: 3.507067 - expected Q values: -0.78221 - time: 28.579184532165527
+loss: 2.3982973 - expected Q values: 0.77617204 - time: 27.454890489578247
+loss: 2.2546635 - expected Q values: 0.74717873 - time: 27.76802158355713
+loss: 1.9490712 - expected Q values: 0.8484633 - time: 27.474716424942017
+loss: 2.121187 - expected Q values: 0.44275597 - time: 28.307209730148315
+loading data/parts_YM_1_inverted.o/part_024
+loading data/parts_ENQ_1_inverted.o/part_028
+loss: 1.9045998 - expected Q values: 1.2160342 - time: 27.68754816055298
+loss: 1.8827952 - expected Q values: 1.6859488 - time: 27.77598786354065
+loading data/parts_YM_1.o/part_029
+loss: 1.7236592 - expected Q values: 1.4321781 - time: 27.732676029205322
+loss: 2.2059417 - expected Q values: 1.4857783 - time: 27.294751167297363
+loss: 2.1452603 - expected Q values: 0.95742965 - time: 28.149252891540527
+loading data/parts_EP_1_inverted.o/part_069
+loss: 1.6149707 - expected Q values: 1.632037 - time: 27.78425359725952
+loss: 1.4520957 - expected Q values: 1.6940198 - time: 27.75435161590576
+loss: 2.4120057 - expected Q values: 1.4073056 - time: 27.6523015499115
+loss: 1.2347819 - expected Q values: 2.3619115 - time: 27.40444016456604
+loss: 2.299284 - expected Q values: 1.6233592 - time: 27.948277473449707
+loss: 1.221519 - expected Q values: 2.1096735 - time: 27.903012990951538
+loss: 2.2424564 - expected Q values: 1.8619744 - time: 28.14686155319214
+loss: 2.1023064 - expected Q values: 2.3169448 - time: 27.29016375541687
+loss: 2.3159976 - expected Q values: 1.1300997 - time: 27.4503653049469
+loss: 1.5231098 - expected Q values: 2.6328764 - time: 27.740061044692993
+loss: 2.1239266 - expected Q values: 1.2799038 - time: 28.411442279815674
+loss: 2.4310768 - expected Q values: 1.6500229 - time: 28.76378059387207
+loss: 1.7853584 - expected Q values: 2.1644914 - time: 27.225218057632446
+loss: 1.410027 - expected Q values: 2.258982 - time: 27.73187756538391
+loss: 2.2570617 - expected Q values: 1.6243274 - time: 27.54548954963684
+loss: 1.5885172 - expected Q values: 1.8559133 - time: 28.447651386260986
+loading data/parts_EP_1.o/part_076
+loss: 1.6792176 - expected Q values: 2.321806 - time: 27.731072664260864
+loss: 1.5613487 - expected Q values: 1.8606236 - time: 27.821370840072632
+loss: 1.7087363 - expected Q values: 2.2177289 - time: 28.328763723373413
+loss: 1.58606 - expected Q values: 1.8304199 - time: 27.169777154922485
+loss: 1.5309172 - expected Q values: 2.0562723 - time: 27.670701503753662
+loss: 1.9624995 - expected Q values: 1.7311151 - time: 27.48835253715515
+loss: 2.2758527 - expected Q values: 1.7081676 - time: 28.11624002456665
+loss: 1.8446602 - expected Q values: 2.1998107 - time: 28.448946952819824
+loss: 1.602679 - expected Q values: 2.4441144 - time: 27.69355821609497
+loss: 1.7836984 - expected Q values: 2.3796542 - time: 28.1631281375885
+loss: 1.81371 - expected Q values: 2.3165696 - time: 26.92562508583069
+loss: 1.1472986 - expected Q values: 2.418496 - time: 27.439403772354126
+loss: 2.0554934 - expected Q values: 2.6385527 - time: 28.69631600379944
+loss: 1.8963934 - expected Q values: 2.3367133 - time: 28.23766279220581
+loss: 2.216024 - expected Q values: 1.9841444 - time: 27.340503215789795
+loss: 1.9857974 - expected Q values: 2.0515084 - time: 27.653395414352417
+loss: 1.3214831 - expected Q values: 2.6188016 - time: 27.652334690093994
+loss: 1.6068704 - expected Q values: 2.2372844 - time: 27.654093980789185
+loading data/parts_ENQ_1_inverted.o/part_041
+loss: 2.5362725 - expected Q values: 2.541521 - time: 28.011367082595825
+loading data/parts_EP_1_inverted.o/part_053
+loss: 2.1147387 - expected Q values: 2.0702965 - time: 27.757793426513672
+loss: 2.2473302 - expected Q values: 1.4666704 - time: 27.67354416847229
+loss: 4.713671 - expected Q values: 0.4300334 - time: 28.10096049308777
+loss: 1.2843379 - expected Q values: 2.784412 - time: 27.751695156097412
+loss: 1.7576318 - expected Q values: 2.7253165 - time: 27.206927061080933
+loss: 2.4027803 - expected Q values: 2.3179185 - time: 27.72627902030945
+loss: 1.8850844 - expected Q values: 1.6665744 - time: 27.466976642608643
+loss: 1.4640515 - expected Q values: 2.5780363 - time: 27.72122025489807
+loss: 2.0206916 - expected Q values: 2.4489536 - time: 28.18015170097351
+loss: 1.2363092 - expected Q values: 2.5197988 - time: 27.613659858703613
+loss: 2.7729185 - expected Q values: 2.4123478 - time: 28.27219009399414
+loss: 1.8138406 - expected Q values: 2.5072105 - time: 27.454413890838623
+loss: 2.5707572 - expected Q values: 2.2079763 - time: 27.17204737663269
+loading data/parts_YM_1.o/part_041
+loss: 1.6883321 - expected Q values: 2.7877755 - time: 28.251447677612305
+loading data/parts_ENQ_1.o/part_025
+loss: 2.068215 - expected Q values: 2.4137 - time: 27.971182107925415
+loss: 4.0828876 - expected Q values: 1.6152263 - time: 27.99031710624695
+loss: 1.55908 - expected Q values: 2.9876199 - time: 27.556639671325684
+loss: 1.2106373 - expected Q values: 2.844295 - time: 27.57161855697632
+loss: 1.8317349 - expected Q values: 2.6489866 - time: 27.611332416534424
+loading data/parts_EP_1.o/part_046
+loading data/parts_YM_1_inverted.o/part_027
+loss: 1.7435178 - expected Q values: 2.1837134 - time: 28.028830528259277
+loss: 1.341876 - expected Q values: 2.7976208 - time: 27.754122495651245
+loss: 2.209938 - expected Q values: 1.7863408 - time: 27.685631275177002
+loading data/parts_YM_1.o/part_010
+loss: 1.4264574 - expected Q values: 2.7323797 - time: 27.315373182296753
+loss: 1.3711689 - expected Q values: 2.7415063 - time: 28.112125396728516
+loss: 1.339246 - expected Q values: 3.0367954 - time: 27.59725856781006
+loss: 1.6275313 - expected Q values: 2.6076367 - time: 28.0939462184906
+loss: 1.5566111 - expected Q values: 2.5085366 - time: 27.428443670272827
+loss: 2.748885 - expected Q values: 2.1965513 - time: 29.047741889953613
+loading data/parts_YM_1_inverted.o/part_009
+loss: 1.5480081 - expected Q values: 2.806064 - time: 27.00746726989746
+loss: 1.4773136 - expected Q values: 2.8158178 - time: 27.69738459587097
+loss: 1.3956352 - expected Q values: 3.2918365 - time: 27.674259424209595
+loading data/parts_ENQ_1.o/part_053
+loss: 1.9021089 - expected Q values: 2.840875 - time: 27.687965154647827
+loss: 1.2828401 - expected Q values: 2.7987878 - time: 28.097394466400146
+loss: 1.6980892 - expected Q values: 2.8778477 - time: 27.889686107635498
+loss: 2.6523774 - expected Q values: 2.310208 - time: 27.3956356048584
+loss: 1.6363758 - expected Q values: 2.129928 - time: 27.406085968017578
+loading data/parts_YM_1_inverted.o/part_008
+loss: 1.9536018 - expected Q values: 2.3706708 - time: 27.558661937713623
+loss: 2.3640368 - expected Q values: 2.4385471 - time: 28.15360164642334
+loss: 7.8200793 - expected Q values: 2.5195696 - time: 27.82443594932556
+loss: 1.5217161 - expected Q values: 2.7934759 - time: 27.90686559677124
+loss: 1.8607936 - expected Q values: 2.8839111 - time: 28.03295612335205
+loss: 1.4743539 - expected Q values: 2.9158144 - time: 27.400327444076538
+loss: 2.0939858 - expected Q values: 2.680205 - time: 27.145522832870483
+loss: 1.6752527 - expected Q values: 2.8525338 - time: 27.72333836555481
+loss: 1.318205 - expected Q values: 3.0093646 - time: 27.83601689338684
+loss: 1.0418236 - expected Q values: 2.9959116 - time: 27.93403673171997
+loss: 1.6169233 - expected Q values: 2.5403347 - time: 27.979366064071655
+https://symbolize.stripped_domain/r/?trace=7f04aa53073d,7f04aa45b08f,7f040510baa8,7f0405109052,7f0405109556,7f03f97bd3fa,7f03f976a9b6,7f03f976bd50,7f03f97b6ba4,7f03f9764b4b,7f03f9765dd5,7f03f9488ee3,7f03f97cc144,7f03f7114af9,7f03f67c63e4,7f0482f93ab2,7f0482f93db3,7f0482f98027,https://symbolize.stripped_domain/r/?trace=5f6928,906aff557470,&map=7f04aa45b08f&map=185517ac637d40d05725aa28248836f8dd94e0cd:7f03f21a8000-7f0408bd1930 
+ 
+*** SIGTERM received by PID 3916 (TID 3916) on cpu 4 from PID 1; stack trace: ***
+https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=*** SIGTERM received by PID 5145 (TID 5145) on cpu 71 from PID 1; stack trace: ***
+5707c4,5ee7f4,5ee7f4,7f04aa45b08f,7f04aa45b08f7f04aa45b08f,90941f&map=90941f&map=&map=https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace= 
+ 
+ 
+5f72bc,570d55,7f04aa45b08f,7f04aa45b08f90f09f*** SIGTERM received by PID 5144 (TID 5144) on cpu 56 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5143 (TID 5143) on cpu 0 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5142 (TID 5142) on cpu 58 from PID 1; stack trace: ***
+&map=https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=&map=https://symbolize.stripped_domain/r/?trace=671fc5,7f04a982e1d8,7f04aa45b08f, 
+7f04aa45b08f,5f6b36,930c5f 
+7f04a99fb2bf&map=7f04aa45b08f&map=&map=*** SIGTERM received by PID 5146 (TID 5146) on cpu 64 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5148 (TID 5148) on cpu 2 from PID 1; stack trace: ***
+https://symbolize.stripped_domain/r/?trace= 
+ 
+https://symbolize.stripped_domain/r/?trace= 
+56bf2c,*** SIGTERM received by PID 5149 (TID 5149) on cpu 22 from PID 1; stack trace: ***
+53bac1,*** SIGTERM received by PID 5147 (TID 5147) on cpu 70 from PID 1; stack trace: ***
+7f04aa45b08f7f04aa45b08f*** SIGTERM received by PID 5150 (TID 5150) on cpu 49 from PID 1; stack trace: ***
+&map=&map=https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=5c1751,https://symbolize.stripped_domain/r/?trace=7f04aa45b08f,4ffbf4,90e85f5708a7,7f04aa45b08f&map=https://symbolize.stripped_domain/r/?trace=7f04aa45b08f&map=5cef2b,&map=7f04aa45b08f,7f03b28b46af,2b4600f&map=https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=56b567,7f04aa52cfcb,https://symbolize.stripped_domain/r/?trace=7f04aa45b08f5f6b50,7f04aa45b08f&map=56b5b4,&map=7f04aa45b08fhttps://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=7f04aa45b08fhttps://symbolize.stripped_domain/r/?trace=&map=https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=5562b5,https://symbolize.stripped_domain/r/?trace=7f04a9681d32,https://symbolize.stripped_domain/r/?trace=&map=https://symbolize.stripped_domain/r/?trace=56b9e4,5f7480,7f04aa45b08fhttps://symbolize.stripped_domain/r/?trace=5708b1,https://symbolize.stripped_domain/r/?trace=7f04aa52600c,7f04aa45b08f7f04aa45b08f,54f066,5eaa07,https://symbolize.stripped_domain/r/?trace=5d9947,https://symbolize.stripped_domain/r/?trace=7f04aa45b08f,https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=&map= 
+ 
+https://symbolize.stripped_domain/r/?trace= 
+5cf995,7f04aa45b08fhttps://symbolize.stripped_domain/r/?trace= 
+5cf04a,7f04aa45b08f 
+ 
+&map=https://symbolize.stripped_domain/r/?trace= 
+7f04a99e663f7f04aa45b08f 
+7f04aa45b08f,https://symbolize.stripped_domain/r/?trace=90e3ffhttps://symbolize.stripped_domain/r/?trace=5003b9,7f04aa45b08f56be1c,https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=5df68e,90f09f5c16c7,https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=5e5cb6,https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=7f04aa52cfcb,5c1800,*** SIGTERM received by PID 5176 (TID 5176) on cpu 72 from PID 1; stack trace: ***
+7f04aa45b08f,https://symbolize.stripped_domain/r/?trace=7f04aa45b08f,*** SIGTERM received by PID 5155 (TID 5155) on cpu 78 from PID 1; stack trace: ***
+https://symbolize.stripped_domain/r/?trace=&map=https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=*** SIGTERM received by PID 5177 (TID 5177) on cpu 27 from PID 1; stack trace: ***
+https://symbolize.stripped_domain/r/?trace=5df68e,7f04aa45b08f,&map=https://symbolize.stripped_domain/r/?trace=*** SIGTERM received by PID 5157 (TID 5157) on cpu 24 from PID 1; stack trace: ***
+https://symbolize.stripped_domain/r/?trace= 
+https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace= 
+5a5461,https://symbolize.stripped_domain/r/?trace=*** SIGTERM received by PID 5167 (TID 5167) on cpu 86 from PID 1; stack trace: ***
+ 
+https://symbolize.stripped_domain/r/?trace=56b748,&map=*** SIGTERM received by PID 5168 (TID 5168) on cpu 82 from PID 1; stack trace: ***
+&map= 
+*** SIGTERM received by PID 5169 (TID 5169) on cpu 26 from PID 1; stack trace: ***
+5ee2ed,https://symbolize.stripped_domain/r/?trace=*** SIGTERM received by PID 5181 (TID 5181) on cpu 31 from PID 1; stack trace: ***
+&map=https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=7f04aa45b08f,https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=&map=7f04aa45b08fhttps://symbolize.stripped_domain/r/?trace=56b519,https://symbolize.stripped_domain/r/?trace=7f04aa45b08fhttps://symbolize.stripped_domain/r/?trace=4e7eae,https://symbolize.stripped_domain/r/?trace=5f7478,https://symbolize.stripped_domain/r/?trace=7f04aa45b08f&map=7f04aa45b08f5f72ee,5c1800,56bf69,https://symbolize.stripped_domain/r/?trace=7f04aa45b08f56b68b,https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=7f04aa45b08f90e85fhttps://symbolize.stripped_domain/r/?trace=5cf160,https://symbolize.stripped_domain/r/?trace=90e85fhttps://symbolize.stripped_domain/r/?trace=59c653,https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace= 
+https://symbolize.stripped_domain/r/?trace=5c17be,56bb6f,https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=583837,7f04aa5a0105,https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=7f04aa45b08f90b77fhttps://symbolize.stripped_domain/r/?trace=&map= 
+https://symbolize.stripped_domain/r/?trace=5e470a,5e66e9,56b567,https://symbolize.stripped_domain/r/?trace=56b52c,*** SIGTERM received by PID 5182 (TID 5182) on cpu 80 from PID 1; stack trace: ***
+7f04aa45b08f,https://symbolize.stripped_domain/r/?trace=5c16b6,*** SIGTERM received by PID 5178 (TID 5178) on cpu 46 from PID 1; stack trace: ***
+50b0c0,7f04aa45b08f,*** SIGTERM received by PID 5171 (TID 5171) on cpu 34 from PID 1; stack trace: ***
+ 
+ 
+7f04aa45b08f,*** SIGTERM received by PID 5179 (TID 5179) on cpu 45 from PID 1; stack trace: ***
+4f03c0, 
+5ea980,90eeff556684,56baac,&map= 
+5f7316,7f04aa52cfcb,&map=7f04aa45b08f,5f7424,7f04aa45b08f,5f733e,56ba72,&map=7f04aa45b08f,&map= 
+ 
+7f04aa45b08f,https://symbolize.stripped_domain/r/?trace=90e85f7f04aa45b08f&map=56b7ca,7f04aa45b08f,&map=56c00c,5f73fa,&map=&map=57074a,7f04aa45b08f,56bdf2,&map=66dd73,7f04aa45b08f,5cf1d9,56bd2a,56ba7c,7f04aa45b08f,*** SIGTERM received by PID 5186 (TID 5186) on cpu 79 from PID 1; stack trace: ***
+7f04aa45b08f5f7480,7f04aa52cfcb,7f04aa45b08f,5d990c,7f04aa45b08f556690,5f7260,5df68a,&map=7f04aa45b08f7f04aa52cfcb, 
+7f04aa45b08f,7f04a95d5e30,*** SIGTERM received by PID 5184 (TID 5184) on cpu 93 from PID 1; stack trace: ***
+7f04aa45b08f7f04aa45b08f505469,7f04aa45b08f90b77f5c1c74,7f04aa45b08f7f04aa45b08f,1f6a0a6a047c1d69908e1f*** SIGTERM received by PID 5189 (TID 5189) on cpu 25 from PID 1; stack trace: ***
+7f04aa45b08f*** SIGTERM received by PID 5156 (TID 5156) on cpu 90 from PID 1; stack trace: ***
+7f04aa45b08f,&map=7f04aa45b08f7f04aa45b08f*** SIGTERM received by PID 5185 (TID 5185) on cpu 13 from PID 1; stack trace: ***
+7f04aa45b08f, 
+7f04aa45b08f7f04aa45b08f,*** SIGTERM received by PID 5188 (TID 5188) on cpu 30 from PID 1; stack trace: ***
+ 
+90cb3f90f09f7f04aa45b08f,7f04aa45b08f90f09f 
+5f73d8,*** SIGTERM received by PID 5190 (TID 5190) on cpu 53 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5191 (TID 5191) on cpu 14 from PID 1; stack trace: ***
+&map=7f04aa45b08f 
+264057c00190e637f04aa45b08f7f04aa45b08f, 
+ 
+ 
+7f04aa45b08f90e85f7f04aa45b08f7f04aa45b08f, 
+7f04aa45b08f,8fe9bf7f04aa45b08f,7f04aa45b08f90e85f7f04aa45b08f,&map=90e85f7f04aa45b08f&map=7f04aa45b08f7f04aa45b08f 
+&map=7f04aa45b08f7f04aa45b08f,90b77f&map=&map=*** SIGTERM received by PID 5187 (TID 5187) on cpu 59 from PID 1; stack trace: ***
+7f04aa45b08f,&map=&map=7f04aa45b08f,&map=&map=90941f&map=&map=&map=908e1f&map=&map= 
+90f09f&map=90f09f7f04aa52cfcb,*** SIGTERM received by PID 5206 (TID 5206) on cpu 15 from PID 1; stack trace: ***
+&map=&map=90f09f&map=*** SIGTERM received by PID 5221 (TID 5221) on cpu 95 from PID 1; stack trace: ***
+ 
+&map=7f04aa45b08f,*** SIGTERM received by PID 5216 (TID 5216) on cpu 85 from PID 1; stack trace: ***
+ 
+90f09f7f04aa45b08f&map=&map=&map=&map=90f09f*** SIGTERM received by PID 5209 (TID 5209) on cpu 55 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5192 (TID 5192) on cpu 11 from PID 1; stack trace: ***
+&map=*** SIGTERM received by PID 5200 (TID 5200) on cpu 19 from PID 1; stack trace: ***
+&map=&map=*** SIGTERM received by PID 5199 (TID 5199) on cpu 42 from PID 1; stack trace: ***
+90e85f92f6bf&map=2c72096b027c047b*** SIGTERM received by PID 5194 (TID 5194) on cpu 65 from PID 1; stack trace: ***
+&map= 
+*** SIGTERM received by PID 5246 (TID 5246) on cpu 92 from PID 1; stack trace: ***
+ 
+7f04aa45b08f*** SIGTERM received by PID 5230 (TID 5230) on cpu 6 from PID 1; stack trace: ***
+&map= 
+*** SIGTERM received by PID 5214 (TID 5214) on cpu 68 from PID 1; stack trace: ***
+&map= 
+*** SIGTERM received by PID 5240 (TID 5240) on cpu 23 from PID 1; stack trace: ***
+&map= 
+*** SIGTERM received by PID 5248 (TID 5248) on cpu 38 from PID 1; stack trace: ***
+ 
+*** SIGTERM received by PID 5175 (TID 5175) on cpu 28 from PID 1; stack trace: ***
+PC: @           0x570d55  (unknown)  _PyEval_EvalFrameDefault
+    @     0x7f03ef520f34        976  (unknown)
+PC: @           0x5ee7f4  (unknown)  (unknown)
+PC: @           0x5ee7f4  (unknown)  (unknown)
+PC: @           0x557470  (unknown)  (unknown)
+PC: @           0x5f72bc  (unknown)  _PyObject_MakeTpCall
+    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+PC: @           0x5707c4  (unknown)  _PyEval_EvalFrameDefault
+    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f04aa45b090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=570d55,7f03ef520f33,7f04aa45b08f&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f04aa45b090  (unknown)  (unknown)
+    @     0x7f04aa45b090  (unknown)  (unknown)
+E0107 11:46:30.473641    5146 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @     0x7f04aa45b090  (unknown)  (unknown)
+    @     0x7f04aa45b090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=557470,7f03ef520f33,7f04aa45b08f&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+E0107 11:46:30.473877    5145 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @     0x7f04aa45b090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=5707c4,7f03ef520f33,7f04aa45b08f&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0&map=90f09f&map= 
+&map=&map= 
+&map=7f0335b94e57 
+&map=&map=*** SIGTERM received by PID 5198 (TID 5198) on cpu 7 from PID 1; stack trace: ***
+ 
+ 
+90b77f90e85f 
+ 
+ 
+&map= 
+ 
+&map= 
+ 
+ 
+*** SIGTERM received by PID 5202 (TID 5202) on cpu 60 from PID 1; stack trace: ***
+&map= 
+&map=*** SIGTERM received by PID 5197 (TID 5197) on cpu 52 from PID 1; stack trace: ***
+&map= 
+ 
+ 
+*** SIGTERM received by PID 5203 (TID 5203) on cpu 51 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5224 (TID 5224) on cpu 43 from PID 1; stack trace: ***
+ 
+ 
+ 
+&map= 
+ 
+&map= 
+ 
+&map=PC: @           0x5f6b36  (unknown)  _PyFunction_Vectorcall
+ 
+&map= 
+ 
+ 
+*** SIGTERM received by PID 5210 (TID 5210) on cpu 57 from PID 1; stack trace: ***
+ 
+*** SIGTERM received by PID 5212 (TID 5212) on cpu 12 from PID 1; stack trace: ***
+PC: @     0x7f04aa53073d  (unknown)  syscall
+ 
+ 
+*** SIGTERM received by PID 5244 (TID 5244) on cpu 76 from PID 1; stack trace: ***
+&map=&map=*** SIGTERM received by PID 5253 (TID 5253) on cpu 37 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5225 (TID 5225) on cpu 82 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5222 (TID 5222) on cpu 77 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5223 (TID 5223) on cpu 73 from PID 1; stack trace: ***
+ 
+*** SIGTERM received by PID 5215 (TID 5215) on cpu 44 from PID 1; stack trace: ***
+ 
+PC: @           0x671fc5  (unknown)  (unknown)
+*** SIGTERM received by PID 5217 (TID 5217) on cpu 9 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5205 (TID 5205) on cpu 62 from PID 1; stack trace: ***
+ 
+*** SIGTERM received by PID 5219 (TID 5219) on cpu 63 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5229 (TID 5229) on cpu 48 from PID 1; stack trace: ***
+    @     0x7f03ef520f34        976  (unknown)
+ 
+*** SIGTERM received by PID 5227 (TID 5227) on cpu 47 from PID 1; stack trace: ***
+ 
+*** SIGTERM received by PID 5208 (TID 5208) on cpu 66 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5233 (TID 5233) on cpu 67 from PID 1; stack trace: ***
+PC: @           0x5562b5  (unknown)  (unknown)
+*** SIGTERM received by PID 5207 (TID 5207) on cpu 3 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5172 (TID 5172) on cpu 81 from PID 1; stack trace: ***
+ 
+*** SIGTERM received by PID 5247 (TID 5247) on cpu 74 from PID 1; stack trace: ***
+PC: @     0x7f04aa52cfcb  (unknown)  select
+*** SIGTERM received by PID 5231 (TID 5231) on cpu 20 from PID 1; stack trace: ***
+ 
+*** SIGTERM received by PID 5211 (TID 5211) on cpu 61 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5220 (TID 5220) on cpu 75 from PID 1; stack trace: ***
+ 
+*** SIGTERM received by PID 5213 (TID 5213) on cpu 10 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5241 (TID 5241) on cpu 39 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5236 (TID 5236) on cpu 54 from PID 1; stack trace: ***
+ 
+*** SIGTERM received by PID 5251 (TID 5251) on cpu 94 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5239 (TID 5239) on cpu 21 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5245 (TID 5245) on cpu 29 from PID 1; stack trace: ***
+PC: @           0x5c1751  (unknown)  PyObject_GetAttr
+E0107 11:46:30.474320    5144 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+*** SIGTERM received by PID 5252 (TID 5252) on cpu 33 from PID 1; stack trace: ***
+ 
+ 
+*** SIGTERM received by PID 5218 (TID 5218) on cpu 36 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5242 (TID 5242) on cpu 40 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5173 (TID 5173) on cpu 83 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5226 (TID 5226) on cpu 84 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5228 (TID 5228) on cpu 17 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5234 (TID 5234) on cpu 5 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5235 (TID 5235) on cpu 50 from PID 1; stack trace: ***
+    @     0x7f03ef520f34        976  (unknown)
+PC: @           0x53bac1  (unknown)  (unknown)
+*** SIGTERM received by PID 5237 (TID 5237) on cpu 18 from PID 1; stack trace: ***
+    @     0x7f03ef520f34        976  (unknown)
+*** SIGTERM received by PID 5243 (TID 5243) on cpu 89 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5238 (TID 5238) on cpu 69 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5250 (TID 5250) on cpu 88 from PID 1; stack trace: ***
+    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+PC: @           0x56b5b4  (unknown)  _PyEval_EvalFrameDefault
+*** SIGTERM received by PID 5249 (TID 5249) on cpu 87 from PID 1; stack trace: ***
+    @     0x7f04aa45b090  (unknown)  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+PC: @           0x4ffbf4  (unknown)  (unknown)
+PC: @           0x56b567  (unknown)  _PyEval_EvalFrameDefault
+https://symbolize.stripped_domain/r/?trace=5f6b36,PC: @           0x5cef2b  (unknown)  (unknown)
+7f03ef520f33,PC: @           0x56bf2c  (unknown)  _PyEval_EvalFrameDefault
+7f04aa45b08f    @     0x7f03ef520f34        976  (unknown)
+&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+PC: @           0x5f6b50  (unknown)  _PyFunction_Vectorcall
+    @     0x7f04aa45b090  1981296048  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f04aa45b090  (unknown)  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+E0107 11:46:30.474858    5150 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f04aa45b090   59442304  (unknown)
+    @     0x7f04aa45b090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=    @     0x7f04aa45b090  (unknown)  (unknown)
+7f04aa52cfcb,    @     0x7f03ef520f34        976  (unknown)
+https://symbolize.stripped_domain/r/?trace=7f03ef520f33,5562b5,7f04aa45b08f7f03ef520f33,&map=7f04aa45b08f&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba026d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+ 
+    @     0x7f04aa45b090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=53bac1,7f03ef520f33,7f04aa45b08f&map=E0107 11:46:30.475055    5169 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0107 11:46:30.475053    5168 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+    @     0x7f04aa45b090  (unknown)  (unknown)
+    @     0x7f04aa45b090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=56b5b4,4ffbf4,7f03ef520f33,7f03ef520f33,E0107 11:46:30.475145    5155 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+7f04aa45b08f7f04aa45b08f    @     0x7f04aa45b090  (unknown)  (unknown)
+&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0&map=https://symbolize.stripped_domain/r/?trace= 
+26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba056b567, 
+7f03ef520f33,7f04aa45b08f&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0    @     0x7f04aa45b090  (unknown)  (unknown)
+    @     0x7f04aa45b090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=5f6b50,7f03ef520f33,7f04aa45b08f&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0E0107 11:46:30.475255    5171 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0107 11:46:30.475257    5178 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+ 
+https://symbolize.stripped_domain/r/?trace=PC: @           0x5f7480  (unknown)  _PyObject_MakeTpCall
+ 
+5b01f5,PC: @           0x5df68e  (unknown)  (unknown)
+7f04aa45b08f,90f09f&map=E0107 11:46:30.475334    5181 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+PC: @           0x5eaa07  (unknown)  (unknown)
+ 
+E0107 11:46:30.475368    5167 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+*** SIGTERM received by PID 5174 (TID 5174) on cpu 47 from PID 1; stack trace: ***
+    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+PC: @           0x5708a7  (unknown)  _PyEval_EvalFrameDefault
+    @     0x7f03ef520f34        976  (unknown)
+PC: @           0x56b9e4  (unknown)  _PyEval_EvalFrameDefault
+    @     0x7f03ef520f34        976  (unknown)
+PC: @           0x56be1c  (unknown)  _PyEval_EvalFrameDefault
+PC: @           0x56b519  (unknown)  _PyEval_EvalFrameDefault
+PC: @           0x5c16c7  (unknown)  PyObject_GetAttr
+PC: @           0x54f066  (unknown)  (unknown)
+PC: @           0x5708b1  (unknown)  _PyEval_EvalFrameDefault
+    @     0x7f04aa45b090  (unknown)  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f04aa45b090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=5df68e,7f03ef520f33,    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f04aa45b090  (unknown)  (unknown)
+7f04aa45b08fPC: @           0x5cf995  (unknown)  (unknown)
+PC: @     0x7f04aa52600c  (unknown)  read
+&map=    @     0x7f03ef520f34        976  (unknown)
+PC: @     0x7f04aa52cfcb  (unknown)  select
+26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+PC: @           0x5c1800  (unknown)  PyObject_GetAttr
+    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+PC: @           0x56ba7c  (unknown)  _PyEval_EvalFrameDefault
+    @     0x7f04aa45b090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=5708a7,PC: @           0x5d9947  (unknown)  (unknown)
+7f03ef520f33,7f04aa45b08f&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+E0107 11:46:30.475879    5191 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+E0107 11:46:30.475966    5177 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f04aa45b090  (unknown)  (unknown)
+    @     0x7f04aa45b090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=    @     0x7f04aa45b090  (unknown)  (unknown)
+56b9e4,56be1c,https://symbolize.stripped_domain/r/?trace=7f03ef520f33,7f03ef520f33,PC: @           0x5cf04a  (unknown)  (unknown)
+56b519,7f04aa45b08f    @     0x7f04aa45b090  (unknown)  (unknown)
+7f04aa45b08f    @     0x7f04aa45b090  (unknown)  (unknown)
+    @     0x7f04aa45b090  (unknown)  (unknown)
+7f03ef520f33,&map=https://symbolize.stripped_domain/r/?trace=&map=https://symbolize.stripped_domain/r/?trace=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0https://symbolize.stripped_domain/r/?trace=7f04aa45b08f26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba05c16c7,5708b1,    @     0x7f04aa45b090  (unknown)  (unknown)
+ 
+54f066,&map= 
+7f03ef520f33,    @     0x7f04aa45b090   59552000  (unknown)
+    @     0x7f04aa45b090  (unknown)  (unknown)
+7f03ef520f33,https://symbolize.stripped_domain/r/?trace=    @     0x7f03ef520f34        976  (unknown)
+7f03ef520f33,26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba07f04aa45b08fPC: @           0x57074a  (unknown)  _PyEval_EvalFrameDefault
+    @ ... and at least 2 more frames
+7f04aa45b08f7f04aa52cfcb,    @     0x7f04aa45b090   58078912  (unknown)
+7f04aa45b08f 
+&map=    @     0x7f04aa45b090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=E0107 11:46:30.476305    5179 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+&map=E0107 11:46:30.476297    5206 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+7f03ef520f33,    @     0x7f04aa45b090  (unknown)  (unknown)
+&map=https://symbolize.stripped_domain/r/?trace=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0https://symbolize.stripped_domain/r/?trace=PC: @           0x5e5cb6  (unknown)  (unknown)
+7f04aa52600c,26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba07f04aa45b08f26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba05d9947, 
+PC: @           0x5c1800  (unknown)  PyObject_GetAttr
+56ba7c,E0107 11:46:30.476391    5221 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+7f03ef520f33, 
+&map= 
+7f03ef520f33,    @     0x7f03ef520f34        976  (unknown)
+7f03ef520f33,7f04aa45b08f26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0E0107 11:46:30.476492    5216 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+7f04aa45b08f7f04aa45b08fPC: @     0x7f04aa52cfcb  (unknown)  select
+&map= 
+&map=&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0E0107 11:46:30.476521    5186 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0107 11:46:30.476535    5156 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @     0x7f03ef520f34        976  (unknown)
+26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba026d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f04aa45b090  (unknown)  (unknown)
+ 
+ 
+E0107 11:46:30.476617    5200 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0107 11:46:30.476657    5184 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @     0x7f03ef520f34        976  (unknown)
+E0107 11:46:30.476680    5246 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0107 11:46:30.476682    5188 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @     0x7f04aa45b090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=57074a,7f03ef520f33,PC: @           0x4f03c0  (unknown)  (unknown)
+7f04aa45b08f&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+E0107 11:46:30.476886    5230 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @     0x7f04aa45b090   58078912  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f04aa45b090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=7f04aa52cfcb,7f03ef520f33,7f04aa45b08f&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+    @     0x7f04aa45b090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=5e5cb6,7f03ef520f33,7f04aa45b08f&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+E0107 11:46:30.477032    5214 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0107 11:46:30.477097    5192 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @     0x7f04aa45b090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=4f03c0,7f03ef520f33,7f04aa45b08f&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+PC: @           0x56c00c  (unknown)  _PyEval_EvalFrameDefault
+E0107 11:46:30.477301    5175 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @     0x7f03ef520f34        976  (unknown)
+PC: @           0x66dd73  (unknown)  (unknown)
+PC: @           0x56b567  (unknown)  _PyEval_EvalFrameDefault
+    @     0x7f03ef520f34        976  (unknown)
+PC: @     0x7f04aa52cfcb  (unknown)  select
+    @     0x7f04aa45b090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=56c00c,    @     0x7f03ef520f34        976  (unknown)
+7f03ef520f33,7f04aa45b08f&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+PC: @           0x5003b9  (unknown)  PyFunction_NewWithQualName
+    @           0x909420  (unknown)  (unknown)
+    @           0x909420  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=5ee7f4,5ee7f4,7f03ef520f33,7f03ef520f33,7f04aa45b08f,E0107 11:46:30.477659    5247 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+7f04aa45b08f,90941f90941f&map=&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba026d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+ 
+    @     0x7f03ef520f34        976  (unknown)
+    @           0x90f0a0  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=5f72bc,7f03ef520f33,7f04aa45b08f,90f09f&map=    @     0x7f03ef520f34        976  (unknown)
+26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+E0107 11:46:30.477769    5142 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0107 11:46:30.477777    5143 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @     0x7f04aa45b090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=56b567,7f03ef520f33,7f04aa45b08f    @           0x90e860  (unknown)  (unknown)
+&map=https://symbolize.stripped_domain/r/?trace=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba05c1751, 
+7f03ef520f33,E0107 11:46:30.477830    5148 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+7f04aa45b08f,90e85f&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+    @     0x7f04aa45b090  (unknown)  (unknown)
+E0107 11:46:30.477900    5223 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @     0x7f04aa45b090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=7f04aa52cfcb,7f03ef520f33,E0107 11:46:30.477927    5182 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+7f04aa45b08f&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0    @     0x7f04aa45b090   57366928  (unknown)
+ 
+    @           0x930c60  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=PC: @           0x5f7478  (unknown)  _PyObject_MakeTpCall
+671fc5,7f03ef520f33,7f04aa45b08f,930c5f&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+E0107 11:46:30.478098    5240 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+PC: @           0x56b748  (unknown)  _PyEval_EvalFrameDefault
+PC: @           0x5df68e  (unknown)  (unknown)
+E0107 11:46:30.478175    5149 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @     0x7f03ef520f34        976  (unknown)
+PC: @           0x5c16b6  (unknown)  PyObject_GetAttr
+PC: @           0x56bb6f  (unknown)  _PyEval_EvalFrameDefault
+PC: @           0x56bd2a  (unknown)  _PyEval_EvalFrameDefault
+    @     0x7f03ef520f34        976  (unknown)
+PC: @     0x7f04aa5a0105  (unknown)  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+PC: @           0x56bf69  (unknown)  _PyEval_EvalFrameDefault
+PC: @           0x56ba72  (unknown)  _PyEval_EvalFrameDefault
+    @     0x7f03ef520f34        976  (unknown)
+PC: @           0x556684  (unknown)  (unknown)
+PC: @           0x4e7eae  (unknown)  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+PC: @           0x5f72ee  (unknown)  _PyObject_MakeTpCall
+    @     0x7f03ef520f34        976  (unknown)
+PC: @           0x5a5461  (unknown)  PyType_GenericAlloc
+PC: @           0x56b52c  (unknown)  _PyEval_EvalFrameDefault
+PC: @           0x5f73d8  (unknown)  _PyObject_MakeTpCall
+PC: @           0x56bdf2  (unknown)  _PyEval_EvalFrameDefault
+    @     0x7f04aa45b090  (unknown)  (unknown)
+PC: @           0x56baac  (unknown)  _PyEval_EvalFrameDefault
+PC: @           0x556690  (unknown)  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+PC: @           0x56b7ca  (unknown)  _PyEval_EvalFrameDefault
+    @     0x7f03ef520f34        976  (unknown)
+PC: @           0x5f733e  (unknown)  _PyObject_MakeTpCall
+    @     0x7f03ef520f34        976  (unknown)
+PC: @           0x5f73fa  (unknown)  _PyObject_MakeTpCall
+    @     0x7f03ef520f34        976  (unknown)
+PC: @           0x59c653  (unknown)  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f04aa45b090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=5df68e,PC: @     0x7f04aa52cfcb  (unknown)  select
+    @     0x7f03ef520f34        976  (unknown)
+7f03ef520f33,PC: @           0x5f7480  (unknown)  _PyObject_MakeTpCall
+PC: @           0x5ea980  (unknown)  (unknown)
+    @     0x7f04aa45b090    1546440  (unknown)
+PC: @           0x5e470a  (unknown)  PyLong_FromLong
+7f04aa45b08f    @     0x7f04aa45b090  (unknown)  (unknown)
+PC: @           0x5d990c  (unknown)  (unknown)
+&map=    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f04aa45b090  (unknown)  (unknown)
+PC: @           0x56b68b  (unknown)  _PyEval_EvalFrameDefault
+26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0PC: @           0x5e66e9  (unknown)  PyLong_AsLongAndOverflow
+    @     0x7f03ef520f34        976  (unknown)
+https://symbolize.stripped_domain/r/?trace=    @     0x7f03ef520f34        976  (unknown)
+PC: @           0x5cf1d9  (unknown)  (unknown)
+ 
+    @     0x7f03ef520f34        976  (unknown)
+PC: @           0x505469  (unknown)  (unknown)
+PC: @           0x5c1c74  (unknown)  _PyObject_GetMethod
+    @     0x7f03ef520f34        976  (unknown)
+PC: @           0x5f7316  (unknown)  _PyObject_MakeTpCall
+https://symbolize.stripped_domain/r/?trace=    @     0x7f04aa45b090  (unknown)  (unknown)
+PC: @     0x7f04aa52cfcb  (unknown)  select
+    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f04aa45b090  (unknown)  (unknown)
+PC: @           0x5ee2ed  (unknown)  (unknown)
+7f04aa5a0105,PC: @           0x5f7260  (unknown)  _PyObject_MakeTpCall
+PC: @           0x50b0c0  (unknown)  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+PC: @           0x5df68a  (unknown)  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+PC: @           0x583837  (unknown)  PyUnicode_RichCompare
+E0107 11:46:30.478923    5198 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+https://symbolize.stripped_domain/r/?trace=5b0233,PC: @           0x5f7424  (unknown)  _PyObject_MakeTpCall
+https://symbolize.stripped_domain/r/?trace=    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f04aa45b090  (unknown)  (unknown)
+7f03ef520f33,    @     0x7f04aa45b090  (unknown)  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f04aa45b090  (unknown)  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+5c16b6,7f04aa45b08f,    @     0x7f04aa45b090  (unknown)  (unknown)
+56bb6f,    @     0x7f04aa45b090  (unknown)  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+https://symbolize.stripped_domain/r/?trace=7f04aa45b08f    @     0x7f04aa45b090  (unknown)  (unknown)
+PC: @           0x5cf160  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f04aa45b090  (unknown)  (unknown)
+    @     0x7f04aa45b090  (unknown)  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+7f03ef520f33,    @     0x7f03ef520f34        976  (unknown)
+90f09f7f03ef520f33,    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+https://symbolize.stripped_domain/r/?trace=56bf69,&map=    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f04aa45b090  (unknown)  (unknown)
+556684,https://symbolize.stripped_domain/r/?trace=7f04aa45b08f    @     0x7f04aa45b090  (unknown)  (unknown)
+&map=7f04aa45b08f    @     0x7f04aa45b090  (unknown)  (unknown)
+56ba72,7f03ef520f33,26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0    @     0x7f04aa45b090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=7f03ef520f33,56b52c,&map=    @     0x7f04aa45b090     976336  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+https://symbolize.stripped_domain/r/?trace=    @     0x7f04aa45b090  (unknown)  (unknown)
+&map=https://symbolize.stripped_domain/r/?trace=7f03ef520f33, 
+7f04aa45b08f 
+    @     0x7f04aa45b090  (unknown)  (unknown)
+556690,PC: @           0x5b01f5  (unknown)  (unknown)
+    @     0x7f04aa45b090  (unknown)  (unknown)
+7f04aa45b08f7f03ef520f33,26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba056bdf2,    @     0x7f04aa45b090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba056baac,7f04aa45b08f&map=7f03ef520f33,    @     0x7f04aa45b090  (unknown)  (unknown)
+    @     0x7f03b28b46b0  (unknown)  (unknown)
+*** SIGTERM received by PID 5204 (TID 5204) on cpu 32 from PID 1; stack trace: ***
+&map=    @     0x7f04aa45b090  (unknown)  (unknown)
+7f04aa45b08f 
+    @     0x7f04aa45b090  (unknown)  (unknown)
+    @     0x7f04aa45b090  (unknown)  (unknown)
+7f03ef520f33,https://symbolize.stripped_domain/r/?trace=    @     0x7f04aa45b090  (unknown)  (unknown)
+56b7ca, 
+7f03ef520f33,E0107 11:46:30.479516    5212 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+&map=    @     0x7f04aa45b090  (unknown)  (unknown)
+26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba07f04aa45b08f26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0&map=    @     0x7f04aa45b090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f04aa45b090   58078912  (unknown)
+7f04aa45b08f7f04aa52cfcb,7f03ef520f33,    @     0x7f04aa45b090  (unknown)  (unknown)
+    @     0x7f04aa45b090   58079424  (unknown)
+    @     0x7f04aa45b090  (unknown)  (unknown)
+7f04aa45b08f    @     0x7f04aa45b090  (unknown)  (unknown)
+    @     0x7f04aa45b090   58071120  (unknown)
+26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0E0107 11:46:30.479645    5217 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+https://symbolize.stripped_domain/r/?trace= 
+&map=    @     0x7f04aa45b090  (unknown)  (unknown)
+    @     0x7f04aa45b090  (unknown)  (unknown)
+ 
+26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0E0107 11:46:30.479687    5210 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @     0x7f04aa45b090  (unknown)  (unknown)
+5e66e9,&map=    @     0x7f04aa45b090   58046080  (unknown)
+7f03ef520f33,7f04aa45b08f&map=https://symbolize.stripped_domain/r/?trace= 
+7f04aa52cfcb,26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0https://symbolize.stripped_domain/r/?trace=E0107 11:46:30.479873    5229 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+https://symbolize.stripped_domain/r/?trace= 
+5f7260,7f03ef520f33,26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0E0107 11:46:30.479840    5224 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+7f04aa45b08f&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba05df68a,7f03ef520f33, 
+5d990c,7f03ef520f33,7f04aa45b08f 
+&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+E0107 11:46:30.479941    5233 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+7f03ef520f33,E0107 11:46:30.480017    5245 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+7f04aa45b08f    @     0x7f04aa45b090  (unknown)  (unknown)
+7f03ef520f33,E0107 11:46:30.479966    5222 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+7f04aa45b08f&map=    @           0x90e400  (unknown)  (unknown)
+26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+7f04aa45b08f&map=7f04aa45b08f&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba026d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0https://symbolize.stripped_domain/r/?trace= 
+&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0    @           0x90f0a0  (unknown)  (unknown)
+E0107 11:46:30.480062    5219 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0107 11:46:30.480057    5236 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+&map= 
+26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+5eaa07,26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+E0107 11:46:30.480131    5231 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+https://symbolize.stripped_domain/r/?trace= 
+5f7480,7f03ef520f33, 
+E0107 11:46:30.480180    5253 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+7f03ef520f33,7f04aa45b08f,E0107 11:46:30.480213    5225 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+7f04aa45b08f,90e3ff90f09f&map=E0107 11:46:30.480240    5227 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+&map=E0107 11:46:30.480230    5244 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba026d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0E0107 11:46:30.480269    5252 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0107 11:46:30.480263    5239 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+ 
+ 
+E0107 11:46:30.480379    5185 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0107 11:46:30.480384    5190 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @           0x90e860  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=5cf995,7f03ef520f33,7f04aa45b08f,90e85f&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+    @           0x90e860  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=5c1800,7f03ef520f33,7f04aa45b08f,90e85f&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+E0107 11:46:30.480586    5194 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0107 11:46:30.480652    5209 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @           0x90b780  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=5cf04a,7f03ef520f33,7f04aa45b08f,90b77f&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+E0107 11:46:30.481282    5187 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @           0x90e860  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=5c1800,7f03ef520f33,7f04aa45b08f,90e85f&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+E0107 11:46:30.481585    5199 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @           0x90ef00  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=5003b9,7f03ef520f33,7f04aa45b08f,90eeff&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+E0107 11:46:30.481742    5197 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @           0x92f6c0  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=66dd73,7f03ef520f33,7f04aa45b08f,92f6bf&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+E0107 11:46:30.482348    5248 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @           0x90b780  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=505469,7f03ef520f33,7f04aa45b08f,90b77f&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+    @ 0x2c72096b027c047c  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=56bd2a,E0107 11:46:30.482468    5250 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+7f03ef520f33,7f04aa45b08f,2c72096b027c047b&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+E0107 11:46:30.482547    5243 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @           0x90f0a0  (unknown)  (unknown)
+    @ 0x1f6a0a6a047c1d6a  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=5f7478,56b748,7f03ef520f33,7f03ef520f33,7f04aa45b08f,7f04aa45b08f,90f09f1f6a0a6a047c1d69&map=&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba026d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+ 
+E0107 11:46:30.482946    5202 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0107 11:46:30.482948    5203 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @           0x90f0a0  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=5f7316,7f03ef520f33,7f04aa45b08f,90f09f&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+    @           0x90f0a0  (unknown)  (unknown)
+    @  0x264057c00190e64  (unknown)  (unknown)
+    @           0x90f0a0  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=E0107 11:46:30.483238    5228 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=5f73d8,56b68b,5f7480,7f03ef520f33,7f03ef520f33,7f03ef520f33,7f04aa45b08f,90f09f7f04aa45b08f,7f04aa45b08f,&map=264057c00190e6390f09f&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+ 
+26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0    @           0x90f0a0  (unknown)  (unknown)
+ 
+    @           0x90f0a0  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=    @           0x90cb40  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=5f72ee,https://symbolize.stripped_domain/r/?trace=5f7424,E0107 11:46:30.483458    5211 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+7f03ef520f33,4e7eae,7f03ef520f33,7f04aa45b08f,7f03ef520f33,7f04aa45b08f,    @           0x90b780  (unknown)  (unknown)
+90f09f7f04aa45b08f,E0107 11:46:30.483461    5172 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+90f09fhttps://symbolize.stripped_domain/r/?trace=&map=90cb3fE0107 11:46:30.483491    5238 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+&map=5a5461,26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba07f03ef520f33, 
+26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+7f04aa45b08f, 
+90b77f&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+    @           0x90f0a0  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=E0107 11:46:30.483641    5207 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+5f73fa,7f03ef520f33,E0107 11:46:30.483653    5234 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+7f04aa45b08f,90f09f&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+E0107 11:46:30.483675    5208 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0107 11:46:30.483686    5215 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @           0x8fe9c0  (unknown)  (unknown)
+    @           0x908e20  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=    @           0x90f0a0  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=59c653,https://symbolize.stripped_domain/r/?trace=5ee2ed,7f03ef520f33,5f733e,7f03ef520f33,7f04aa45b08f,7f03ef520f33,7f04aa45b08f,E0107 11:46:30.483753    5237 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+8fe9bf7f04aa45b08f,908e1f&map=90f09f&map=&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba026d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba026d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+ 
+ 
+    @           0x909420  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=50b0c0,7f03ef520f33,7f04aa45b08f,90941f    @           0x90b780  (unknown)  (unknown)
+    @           0x908e20  (unknown)  (unknown)
+E0107 11:46:30.483889    5205 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+&map=E0107 11:46:30.483892    5213 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0107 11:46:30.483895    5235 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+https://symbolize.stripped_domain/r/?trace=    @           0x90e860  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba05e470a,https://symbolize.stripped_domain/r/?trace=5ea980, 
+7f03ef520f33,583837,    @           0x90e860  (unknown)  (unknown)
+7f03ef520f33,7f04aa45b08f,7f03ef520f33,https://symbolize.stripped_domain/r/?trace=    @           0x90e860  (unknown)  (unknown)
+7f04aa45b08f,90b77f7f04aa45b08f,5cf160,https://symbolize.stripped_domain/r/?trace=    @           0x90e860  (unknown)  (unknown)
+908e1f&map=90e85f7f03ef520f33,5cf1d9,https://symbolize.stripped_domain/r/?trace=&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0&map=E0107 11:46:30.484033    5173 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba07f04aa45b08f,7f03ef520f33,5c1c74,26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+ 
+90e85f7f04aa45b08f,7f03ef520f33, 
+&map=90e85f7f04aa45b08f,26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0&map= 
+90e85f26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0&map= 
+26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+E0107 11:46:30.484148    5251 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0107 11:46:30.484144    5218 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0107 11:46:30.484165    5226 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0107 11:46:30.484180    5220 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0107 11:46:30.484203    5241 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0107 11:46:30.484206    5249 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @           0x90f0a0  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=5b01f5,7f03ef520f33,7f04aa45b08f,90f09f&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+E0107 11:46:30.484344    5174 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0107 11:46:30.485238    5146 process_state.cc:774] RAW: Raising signal 15 with default behavior
+PC: @           0x5b0233  (unknown)  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+    @          0x2b46010  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=5cef2b,7f03ef520f33,7f04aa45b08f,7f03b28b46af,2b4600f&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+E0107 11:46:30.486920    5176 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @     0x7f04aa45b090  (unknown)  (unknown)
+E0107 11:46:30.489179    5144 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.490098    5145 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.491066    5206 process_state.cc:774] RAW: Raising signal 15 with default behavior
+    @           0x90f0a0  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=5b0233,7f03ef520f33,7f04aa45b08f,90f09f&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+E0107 11:46:30.491619    5221 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.491748    5204 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0107 11:46:30.492010    5214 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.492209    5247 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.492766    5223 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.492831    5200 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.493202    5181 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.493329    5191 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.493356    5240 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.493671    5188 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.493901    5156 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.494102    5169 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.494254    5230 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.494693    5178 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.494874    5216 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.495117    5186 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.495581    5175 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.495901    5231 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.495928    5171 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.496347    5155 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.496360    5210 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.496412    5233 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.496601    5198 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.497101    5217 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.497557    5236 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.497768    5229 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.497980    5179 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.498252    5225 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.498821    5177 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.499063    5219 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.499139    5184 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.499612    5167 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.500023    5239 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.500107    5168 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.500397    5246 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.502424    5227 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.503099    5143 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.503133    5192 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.503341    5252 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.504630    5185 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.504795    5149 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.504942    5220 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.505019    5224 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.505664    5142 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.505854    5238 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.506842    5222 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.507015    5245 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.507189    5244 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.508690    5250 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.508984    5202 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.509192    5211 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.509206    5187 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.509613    5203 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.509633    5197 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.509654    5190 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.509804    5194 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.509908    5228 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.510075    5182 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.510602    5205 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.511216    5207 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.511396    5213 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.511543    5237 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.512015    5208 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.512167    5212 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.512521    5235 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.512525    5209 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.512525    5148 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.515300    5234 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.519152    5251 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.519260    5248 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.520063    5215 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.522091    5253 process_state.cc:774] RAW: Raising signal 15 with default behavior
+ 
+*** SIGTERM received by PID 5232 (TID 5232) on cpu 8 from PID 1; stack trace: ***
+E0107 11:46:30.525112    5226 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.525337    5241 process_state.cc:774] RAW: Raising signal 15 with default behavior
+PC: @     0x7f04a95d5e30  (unknown)  PyArray_DiscoverDTypeAndShape_Recursive
+    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f04aa45b090  1981303344  (unknown)
+    @     0x7f0335b94e58  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=7f04a95d5e30,7f03ef520f33,7f04aa45b08f,7f0335b94e57&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+E0107 11:46:30.530769    5242 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+PC: @     0x7f04a9681d32  (unknown)  get_view_from_index.constprop.0
+PC: @     0x7f04a982e1d8  (unknown)  double_richcompare
+    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f04aa45b090  (unknown)  (unknown)
+    @     0x7f04aa45b090  (unknown)  (unknown)
+    @     0x7f04a99fb2c0  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=7f04a982e1d8,7f03ef520f33,7f04aa45b08f,7f04a99fb2bf&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+    @     0x7f04a99e6640  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=7f04a9681d32,7f03ef520f33,7f04aa45b08f,E0107 11:46:30.536496    5147 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+7f04a99e663f&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+E0107 11:46:30.536607    5189 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0107 11:46:30.543262    5243 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.543995    5172 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.546090    5218 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.547378    5173 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.548848    5174 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.549863    5249 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.551788    5176 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.552582    5204 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.553089    5199 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.563111    5147 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.587824    5189 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.606727    5242 process_state.cc:774] RAW: Raising signal 15 with default behavior
+PC: @           0x5c17be  (unknown)  PyObject_GetAttr
+    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f04aa45b090   58078912  (unknown)
+    @           0x90e860  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=5c17be,7f03ef520f33,7f04aa45b08f,90e85f&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+E0107 11:46:30.682796    5232 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0107 11:46:30.707939    5232 process_state.cc:774] RAW: Raising signal 15 with default behavior
+    @     0x7f040510baa9        176  nsync::nsync_sem_wait_with_cancel_()
+    @     0x7f0405109053        144  nsync::nsync_cv_wait_with_deadline_generic()
+    @     0x7f0405109557         32  nsync::nsync_cv_wait_with_deadline()
+https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=5708a7,https://symbolize.stripped_domain/r/?trace=7f04a982e19b,7f04aa45b08f7f04aa45b08f,7f04aa5a3b60,7f04aa45b08f,&map=7f04a99fb2bfhttps://symbolize.stripped_domain/r/?trace=90f09fhttps://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=&map= 
+&map=56bfb9,5f6d1c,5c16c1, 
+ 
+7f04aa45b08f,7f04aa45b08f7f04aa45b08f,90941f*** SIGTERM received by PID 5162 (TID 5162) on cpu 93 from PID 1; stack trace: ***
+&map=1e721090026b0663*** SIGTERM received by PID 5158 (TID 5158) on cpu 37 from PID 1; stack trace: ***
+&map=*** SIGTERM received by PID 5163 (TID 5163) on cpu 32 from PID 1; stack trace: ***
+&map= 
+ 
+ 
+*** SIGTERM received by PID 5153 (TID 5153) on cpu 16 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5160 (TID 5160) on cpu 6 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5165 (TID 5165) on cpu 26 from PID 1; stack trace: ***
+PC: @     0x7f04aa5a3b60  (unknown)  (unknown)
+PC: @           0x5f6d1c  (unknown)  _PyFunction_Vectorcall
+PC: @           0x5708a7  (unknown)  _PyEval_EvalFrameDefault
+PC: @           0x56bfb9  (unknown)  _PyEval_EvalFrameDefault
+PC: @           0x5c16c1  (unknown)  PyObject_GetAttr
+    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f04aa45b090  (unknown)  (unknown)
+    @     0x7f04aa45b090  (unknown)  (unknown)
+PC: @     0x7f04a982e19b  (unknown)  double_richcompare
+https://symbolize.stripped_domain/r/?trace=5708a7,    @     0x7f04aa45b090  (unknown)  (unknown)
+7f03ef520f33,7f04aa45b08f    @     0x7f04aa45b090  (unknown)  (unknown)
+&map=    @     0x7f04aa45b090  (unknown)  (unknown)
+26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0https://symbolize.stripped_domain/r/?trace= 
+56bfb9,7f03ef520f33,7f04aa45b08f&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+    @     0x7f03ef520f34        976  (unknown)
+E0107 11:46:30.946451    5162 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0107 11:46:30.946470    5153 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @     0x7f04aa45b090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=    @     0x7f03ef520f34        976  (unknown)
+5cf160,7f04aa4047d1,5c172c,https://symbolize.stripped_domain/r/?trace=7f04aa45b08f,7f04aa45b08f,https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=7f04aa45b08f,7f04aa52cfcb,90e85fa58e867f04a982e234,5c27d2,&map=90e85f7f04aa45b08f7f04aa45b08f,&map=&map=7f04aa45b08f,&map= 
+7f04a99fb2bf 
+90e85f 
+ 
+&map=&map=*** SIGTERM received by PID 5159 (TID 5159) on cpu 86 from PID 1; stack trace: ***
+ 
+ 
+*** SIGTERM received by PID 5154 (TID 5154) on cpu 1 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5152 (TID 5152) on cpu 1 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5151 (TID 5151) on cpu 19 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5164 (TID 5164) on cpu 35 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5161 (TID 5161) on cpu 91 from PID 1; stack trace: ***
+    @     0x7f04aa45b090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=56bf2c,7f03ef520f33,7f04aa45b08f&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+E0107 11:46:30.947076    5157 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @           0x90f0a0  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=7f04aa5a3b60,7f03ef520f33,7f04aa45b08f,90f09f    @           0x909420  (unknown)  (unknown)
+&map=https://symbolize.stripped_domain/r/?trace=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba05f6d1c, 
+7f03ef520f33,7f04aa45b08f,90941f&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+    @ 0x1e721090026b0664  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=5c16c1,7f03ef520f33,7f04aa45b08f,1e721090026b0663E0107 11:46:30.949231    5158 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+E0107 11:46:30.949243    5160 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0107 11:46:30.949296    5165 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @     0x7f04a99fb2c0  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=7f04a982e19b,7f03ef520f33,7f04aa45b08f,7f04a99fb2bf&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+E0107 11:46:30.949549    5163 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+PC: @           0x5c172c  (unknown)  PyObject_GetAttr
+PC: @     0x7f04aa4047d1  (unknown)  pthread_cond_timedwait@@GLIBC_2.3.2
+PC: @     0x7f04aa52cfcb  (unknown)  select
+    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+PC: @           0x5c27d2  (unknown)  PyObject_SetAttr
+    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f04aa45b090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=7f04aa52cfcb,7f03ef520f33,7f04aa45b08f&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+    @     0x7f04aa45b090  (unknown)  (unknown)
+    @     0x7f04aa45b090   58077888  (unknown)
+E0107 11:46:30.949999    5154 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+PC: @           0x5cf160  (unknown)  (unknown)
+    @     0x7f04aa45b090   58046080  (unknown)
+PC: @     0x7f04a982e234  (unknown)  double_richcompare
+    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f03ef520f34        976  (unknown)
+    @     0x7f04aa45b090   58078912  (unknown)
+    @     0x7f04aa45b090  (unknown)  (unknown)
+    @           0x90e860  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=5c172c,7f03ef520f33,7f04aa45b08f,90e85f&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+E0107 11:46:30.952801    5152 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @           0xa58e87  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=7f04aa4047d1,7f03ef520f33,7f04aa45b08f,a58e86&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+E0107 11:46:30.952917    5159 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @           0x90e860  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=5c27d2,7f03ef520f33,7f04aa45b08f,90e85f&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+E0107 11:46:30.953039    5161 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @     0x7f04a99fb2c0  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=7f04a982e234,7f03ef520f33,7f04aa45b08f,7f04a99fb2bf&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+E0107 11:46:30.953393    5164 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @           0x90e860  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=5cf160,7f03ef520f33,7f04aa45b08f,90e85f&map=26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+E0107 11:46:30.954180    5151 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @     0x7f03f97bd3fb        400  tensorflow::KernelAndDeviceFunc::Run()
+E0107 11:46:30.959488    5162 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.959559    5157 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.968076    5153 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.968298    5152 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.971345    5154 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.975626    5165 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.975645    5151 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.976080    5158 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.978761    5160 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.980354    5163 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.981342    5164 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.981475    5161 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0107 11:46:30.986506    5159 process_state.cc:774] RAW: Raising signal 15 with default behavior
+    @     0x7f03f976a9b7        496  tensorflow::EagerKernelExecute()
+    @     0x7f03f976bd51        560  tensorflow::ExecuteNode::Run()
+E0107 11:46:31.067757    5150 process_state.cc:774] RAW: Raising signal 15 with default behavior
+    @     0x7f03f97b6ba5        144  tensorflow::EagerExecutor::SyncExecute()
+    @     0x7f03f9764b4c       1184  tensorflow::(anonymous namespace)::EagerLocalExecute()
+    @     0x7f03f9765dd6       1200  tensorflow::EagerExecute()
+    @     0x7f03f9488ee4        240  tensorflow::EagerOperation::Execute()
+    @     0x7f03f97cc145        256  tensorflow::CustomDeviceOpHandler::Execute()
+    @     0x7f03f7114afa         80  TFE_Execute
+    @     0x7f03f67c63e5       1344  TFE_Py_ExecuteCancelable()
+    @     0x7f0482f93ab3        208  tensorflow::TFE_Py_ExecuteCancelable_wrapper()
+    @     0x7f0482f93db4        208  pybind11::cpp_function::initialize<>()::{lambda()#3}::_FUN()
+    @     0x7f0482f98028        768  pybind11::cpp_function::dispatcher()
+    @           0x5f6929  (unknown)  PyCFunction_Call
+    @           0x906b00  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=7f04aa53073d,7f03ef520f33,7f04aa45b08f,7f040510baa8,7f0405109052,7f0405109556,7f03f97bd3fa,7f03f976a9b6,7f03f976bd50,7f03f97b6ba4,7f03f9764b4b,7f03f9765dd5,7f03f9488ee3,7f03f97cc144,7f03f7114af9,7f03f67c63e4,7f0482f93ab2,7f0482f93db3,7f0482f98027,5f6928,906aff&map=185517ac637d40d05725aa28248836f8dd94e0cd:7f03f21a8000-7f0408bd1930,26d7ef14981099b4ebb4e2c85b1b9df3:7f03d9f2c000-7f03ef8b4ba0 
+E0107 11:46:31.321940    3916 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0107 11:46:31.962397    3916 process_state.cc:774] RAW: Raising signal 15 with default behavior
+2024-01-07 11:48:56.894722: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-01-07 11:49:05.296575: I tensorflow/core/tpu/tpu_initializer_helper.cc:262] Libtpu path is: libtpu.so
+I0107 11:49:10.850839051    3875 ev_epoll1_linux.cc:121]     grpc epoll fd: 7
+D0107 11:49:10.850894974    3875 ev_posix.cc:141]            Using polling engine: epoll1
+D0107 11:49:10.877811612    3875 lb_policy_registry.cc:43]   registering LB policy factory for "grpclb"
+D0107 11:49:10.903556302    3875 lb_policy_registry.cc:43]   registering LB policy factory for "rls_experimental"
+D0107 11:49:10.904966418    3875 lb_policy_registry.cc:43]   registering LB policy factory for "priority_experimental"
+D0107 11:49:10.905874488    3875 lb_policy_registry.cc:43]   registering LB policy factory for "weighted_target_experimental"
+D0107 11:49:10.905900995    3875 lb_policy_registry.cc:43]   registering LB policy factory for "pick_first"
+D0107 11:49:10.905907668    3875 lb_policy_registry.cc:43]   registering LB policy factory for "round_robin"
+D0107 11:49:10.906832420    3875 lb_policy_registry.cc:43]   registering LB policy factory for "ring_hash_experimental"
+D0107 11:49:10.906879596    3875 dns_resolver_ares.cc:831]   Using ares dns resolver
+D0107 11:49:10.908625358    3875 certificate_provider_registry.cc:39] registering certificate provider factory for "file_watcher"
+D0107 11:49:10.909306032    3875 lb_policy_registry.cc:43]   registering LB policy factory for "cds_experimental"
+D0107 11:49:10.909384563    3875 lb_policy_registry.cc:43]   registering LB policy factory for "xds_cluster_impl_experimental"
+D0107 11:49:10.909925881    3875 lb_policy_registry.cc:43]   registering LB policy factory for "xds_cluster_resolver_experimental"
+D0107 11:49:10.909937225    3875 lb_policy_registry.cc:43]   registering LB policy factory for "xds_cluster_manager_experimental"
+2024-01-07 11:49:39.330016: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-01-07 11:49:46.837641: I tensorflow/compiler/xla/service/service.cc:173] XLA service 0x1fba780 initialized for platform TPU (this does not guarantee that XLA will be used). Devices:
+2024-01-07 11:49:46.837702: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (0): TPU, 2a886c8
+2024-01-07 11:49:46.837713: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (1): TPU, 2a886c8
+2024-01-07 11:49:46.837720: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (2): TPU, 2a886c8
+2024-01-07 11:49:46.837727: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (3): TPU, 2a886c8
+2024-01-07 11:49:46.837735: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (4): TPU, 2a886c8
+2024-01-07 11:49:46.837742: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (5): TPU, 2a886c8
+2024-01-07 11:49:46.837749: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (6): TPU, 2a886c8
+2024-01-07 11:49:46.837756: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (7): TPU, 2a886c8
+0 - path: data/parts_EP_1.o/
+0 - cm: 0.4
+0 - start at parts_EP_1.o - 3166469
+loading data/parts_EP_1.o/part_031
+1 - path: data/parts_ENQ_1.o/
+1 - cm: 2.4
+1 - start at parts_ENQ_1.o - 3682718
+loading data/parts_ENQ_1.o/part_036
+2 - path: data/parts_EP_1.o/
+2 - cm: 0.4
+2 - start at parts_EP_1.o - 1162937
+loading data/parts_EP_1.o/part_011
+3 - path: data/parts_EP_1_inverted.o/
+3 - cm: 0.4
+4 - path: data/parts_EP_1.o/
+4 - cm: 0.4
+4 - start at parts_EP_1.o - 1107598
+loading data/parts_EP_1.o/part_011
+3 - start at parts_EP_1_inverted.o - 3729592
+loading data/parts_EP_1_inverted.o/part_037
+5 - path: data/parts_YM_1_inverted.o/
+5 - cm: 2.4
+5 - start at parts_YM_1_inverted.o - 6006179
+loading data/parts_YM_1_inverted.o/part_060
+6 - path: data/parts_ENQ_1_inverted.o/
+6 - cm: 2.4
+6 - start at parts_ENQ_1_inverted.o - 1466439
+loading data/parts_ENQ_1_inverted.o/part_014
+7 - path: data/parts_EP_1.o/
+7 - cm: 0.4
+7 - start at parts_EP_1.o - 2715615
+loading data/parts_EP_1.o/part_027
+8 - path: data/parts_YM_1_inverted.o/
+8 - cm: 2.4
+8 - start at parts_YM_1_inverted.o - 3793233
+loading data/parts_YM_1_inverted.o/part_037
+9 - path: data/parts_YM_1.o/
+9 - cm: 2.4
+9 - start at parts_YM_1.o - 1994951
+loading data/parts_YM_1.o/part_019
+10 - path: data/parts_EP_1.o/
+10 - cm: 0.4
+10 - start at parts_EP_1.o - 1690581
+loading data/parts_EP_1.o/part_016
+11 - path: data/parts_ENQ_1_inverted.o/
+11 - cm: 2.4
+11 - start at parts_ENQ_1_inverted.o - 5553189
+loading data/parts_ENQ_1_inverted.o/part_055
+data_get_func online
+0 - path: data/parts_YM_1.o/
+0 - cm: 2.4
+0 - start at parts_YM_1.o - 4374667
+loading data/parts_YM_1.o/part_043
+1 - path: data/parts_EP_1.o/
+1 - cm: 0.4
+1 - start at parts_EP_1.o - 2122670
+loading data/parts_EP_1.o/part_021
+2 - path: data/parts_ENQ_1_inverted.o/
+2 - cm: 2.4
+2 - start at parts_ENQ_1_inverted.o - 500972
+loading data/parts_ENQ_1_inverted.o/part_005
+3 - path: data/parts_EP_1_inverted.o/
+3 - cm: 0.4
+3 - start at parts_EP_1_inverted.o - 5837351
+loading data/parts_EP_1_inverted.o/part_058
+4 - path: data/parts_EP_1.o/
+4 - cm: 0.4
+4 - start at parts_EP_1.o - 1888350
+loading data/parts_EP_1.o/part_018
+5 - path: data/parts_ENQ_1_inverted.o/
+5 - cm: 2.4
+5 - start at parts_ENQ_1_inverted.o - 3961700
+loading data/parts_ENQ_1_inverted.o/part_039
+6 - path: data/parts_YM_1_inverted.o/
+6 - cm: 2.4
+6 - start at parts_YM_1_inverted.o - 4273057
+loading data/parts_YM_1_inverted.o/part_042
+7 - path: data/parts_YM_1_inverted.o/
+7 - cm: 2.4
+7 - start at parts_YM_1_inverted.o - 1338943
+loading data/parts_YM_1_inverted.o/part_013
+8 - path: data/parts_YM_1_inverted.o/
+8 - cm: 2.4
+8 - start at parts_YM_1_inverted.o - 3537293
+loading data/parts_YM_1_inverted.o/part_035
+9 - path: data/parts_EP_1_inverted.o/
+9 - cm: 0.4
+9 - start at parts_EP_1_inverted.o - 3448216
+loading data/parts_EP_1_inverted.o/part_034
+10 - path: data/parts_YM_1_inverted.o/
+10 - cm: 2.4
+10 - start at parts_YM_1_inverted.o - 425998
+loading data/parts_YM_1_inverted.o/part_004
+11 - path: data/parts_ENQ_1.o/
+11 - cm: 2.4
+11 - start at parts_ENQ_1.o - 90702
+loading data/parts_ENQ_1.o/part_000
+data_get_func online
+0 - path: data/parts_EP_1.o/
+0 - cm: 0.4
+0 - start at parts_EP_1.o - 4751497
+loading data/parts_EP_1.o/part_047
+1 - path: data/parts_EP_1.o/
+1 - cm: 0.4
+1 - start at parts_EP_1.o - 3031603
+loading data/parts_EP_1.o/part_030
+2 - path: data/parts_ENQ_1.o/
+2 - cm: 2.4
+2 - start at parts_ENQ_1.o - 6583907
+loading data/parts_ENQ_1.o/part_065
+3 - path: data/parts_YM_1.o/
+3 - cm: 2.4
+3 - start at parts_YM_1.o - 189068
+loading data/parts_YM_1.o/part_001
+4 - path: data/parts_ENQ_1.o/
+4 - cm: 2.4
+4 - start at parts_ENQ_1.o - 475359
+loading data/parts_ENQ_1.o/part_004
+5 - path: data/parts_YM_1.o/
+5 - cm: 2.4
+5 - start at parts_YM_1.o - 5922537
+loading data/parts_YM_1.o/part_059
+6 - path: data/parts_ENQ_1.o/
+6 - cm: 2.4
+6 - start at parts_ENQ_1.o - 2420938
+loading data/parts_ENQ_1.o/part_024
+7 - path: data/parts_YM_1_inverted.o/
+7 - cm: 2.4
+7 - start at parts_YM_1_inverted.o - 1201549
+loading data/parts_YM_1_inverted.o/part_012
+8 - path: data/parts_EP_1.o/
+8 - cm: 0.4
+8 - start at parts_EP_1.o - 6248708
+loading data/parts_EP_1.o/part_062
+9 - path: data/parts_EP_1_inverted.o/
+9 - cm: 0.410
+ - path: data/parts_ENQ_1.o/
+10 - cm: 2.4
+119 - start at parts_EP_1_inverted.o data_get_func online --  path:2824413 
+
+data/parts_EP_1_inverted.o/10
+ -11  start at-  parts_ENQ_1.ocm:  - 21001790.4
+
+loading data/parts_EP_1_inverted.o/part_028
+loading data/parts_ENQ_1.o/part_021
+11 - start at parts_EP_1_inverted.o - 5824034
+loading data/parts_EP_1_inverted.o/part_058
+0 - path: data/parts_EP_1_inverted.o/
+0 - cm: 0.4
+0 - start at parts_EP_1_inverted.o - 2874662
+loading data/parts_EP_1_inverted.o/part_028
+1 - path: data/parts_ENQ_1_inverted.o/
+1 - cm: 2.4
+1 - start at parts_ENQ_1_inverted.o - 3803746
+loading data/parts_ENQ_1_inverted.o/part_038
+2 - path: data/parts_ENQ_1_inverted.o/
+2 - cm: 2.4
+2 - start at parts_ENQ_1_inverted.o - 3979862
+loading data/parts_ENQ_1_inverted.o/part_039
+3 - path: data/parts_ENQ_1.o/
+3 - cm: 2.4
+3 - start at parts_ENQ_1.o - 3296351
+loading data/parts_ENQ_1.o/part_032
+4 - path: data/parts_YM_1.o/
+4 - cm: 2.4
+4 - start at parts_YM_1.o - 5818462
+loading data/parts_YM_1.o/part_058
+5 - path: data/parts_EP_1_inverted.o/
+5 - cm: 0.4
+5 - start at parts_EP_1_inverted.o - 3842928
+loading data/parts_EP_1_inverted.o/part_038
+6 - path: data/parts_EP_1.o/
+6 - cm: 0.4
+6 - start at parts_EP_1.o - 5386724
+loading data/parts_EP_1.o/part_053
+loading data/parts_ENQ_1.o/part_037
+7 - path: data/parts_YM_1.o/
+7 - cm: 2.4
+7 - start at parts_YM_1.o - 417486
+loading data/parts_YM_1.o/part_004
+8 - path: data/parts_ENQ_1.o/
+8 - cm: 2.4
+8 - start at parts_ENQ_1.o - 336826
+loading data/parts_ENQ_1.o/part_003
+9 - path: data/parts_EP_1_inverted.o/
+9 - cm: 0.4
+9 - start at parts_EP_1_inverted.o - 6039769
+loading data/parts_EP_1_inverted.o/part_060
+10 - path: data/parts_YM_1.o/
+10 - cm: 2.4
+10 - start at parts_YM_1.o - 45567
+loading data/parts_YM_1.o/part_000
+11 - path: data/parts_ENQ_1_inverted.o/
+11 - cm: 2.4
+11 - start at parts_ENQ_1_inverted.o - 3971000
+loading data/parts_ENQ_1_inverted.o/part_039
+loading data/parts_EP_1.o/part_012
+data_get_func online
+0 - path: data/parts_EP_1.o/
+0 - cm: 0.4
+0 - start at parts_EP_1.o - 4800646
+loading data/parts_EP_1.o/part_048
+loading data/parts_EP_1.o/part_032
+1 - path: data/parts_EP_1.o/
+1 - cm: 0.4
+1 - start at parts_EP_1.o - 1540696
+loading data/parts_EP_1.o/part_015
+2 - path: data/parts_ENQ_1_inverted.o/
+2 - cm: 2.4
+2 - start at parts_ENQ_1_inverted.o - 1925595
+loading data/parts_ENQ_1_inverted.o/part_019
+3 - path: data/parts_EP_1_inverted.o/
+3 - cm: 0.4
+3 - start at parts_EP_1_inverted.o - 2963734
+loading data/parts_EP_1_inverted.o/part_029
+45 - path: data/parts_EP_1_inverted.o/ 6
+- path:4  data/parts_YM_1.o/- 
+ cm:-5   path:-7 0.4 data/parts_EP_1.o/
+cm:
+  6 --2.4  8
+cm:path:  data/parts_ENQ_1_inverted.o/90.4 
+
+-7  path:-   data/parts_YM_1_inverted.o/cm:-  
+path:2.4 8
+data/parts_ENQ_1_inverted.o/ - 
+cm: 9 -2.4 
+cm: 102.44
+ 5-   -start at611 -  7start at parts_EP_1_inverted.o-  path:  -parts_YM_1.o  8-start at  data/parts_EP_1.o/ - data_get_func online --start at
+9 5992309parts_EP_1.o  1678378 10 path:
+
+ start at
+parts_ENQ_1_inverted.o - 0- - data/parts_ENQ_1.o/ - loadingstart at7188674  cm:
+  
+1166586loading1 -data/parts_EP_1_inverted.o/part_059112parts_ENQ_1_inverted.o
+  
+0.4 3  data/parts_YM_1.o/part_016path:
+ --
+-   -  data/parts_ENQ_1_inverted.o/cm:loading- 1009553path:  
+ path:2.4
+ data/parts_EP_1.o/part_071path:0 4loading
+data/parts_YM_1_inverted.o/
+  5data/parts_EP_1.o/ data/parts_YM_1_inverted.o/-
+ loadingdata/parts_ENQ_1_inverted.o/part_011 
+
+1210 -
+cm: 3    - - -data/parts_YM_1.o/part_020-path:loading  - 2.4
+   path:6cm: cm:
+11start atdata/parts_ENQ_1.o/data/parts_ENQ_1_inverted.o/part_010   cm: 2.4 7  
+data/parts_ENQ_1_inverted.o/
+0.4
+2.4-parts_EP_1.o-
+48 
+
+   start at parts_ENQ_1.o  -path:59-- -   0  10 4588475-
+data/parts_ENQ_1_inverted.o/-  path:6243812cm:  - 111 
+-
+ path:cm: 23 -data/parts_ENQ_1.o/parts_YM_1_inverted.o  6   start at2.4    -
+path: data/parts_ENQ_1_inverted.o/loading 
+2.4--- path:-  7- parts_ENQ_1_inverted.o
+
+  loadingpath:  start at3280089data/parts_ENQ_1.o/  data/parts_EP_1.o/part_045 8start atstart at  data/parts_EP_1_inverted.o/data/parts_ENQ_1_inverted.o/ 
+-cm:
+
+-   data/parts_ENQ_1.o/part_062parts_YM_1_inverted.o
+  
+9 -parts_EP_1.oparts_YM_1_inverted.o
+ cm:104 286716111 2.4  -   -
+ cm:
+-- -- 2.4 - 5  1956788 cm:
+cm:  30230602.41484295
+start at loading cm:-
+
+
+  0.4  2.4parts_ENQ_1.odata/parts_YM_1_inverted.o/part_032
+start at
+ 2.4
+ -loading
+parts_ENQ_1_inverted.o   647835data/parts_ENQ_1_inverted.o/part_028-
+
+ 5638378
+loading67 loading loading data/parts_YM_1_inverted.o/part_019 - -
+data/parts_EP_1.o/part_030 data/parts_YM_1_inverted.o/part_0148 
+start at
+ start at - parts_ENQ_1_inverted.o9 parts_ENQ_1.oloading 10 start at  - -loading -data/parts_ENQ_1.o/part_006 -  parts_ENQ_1_inverted.o 11
+3217917 
+start atdata/parts_ENQ_1_inverted.o/part_056 6443656 start at 
+-
+- parts_ENQ_1.o  parts_EP_1_inverted.o 4508870start at  -
+-parts_ENQ_1_inverted.o   4554136-7381351
+ 
+1158707
+loading loadingdata/parts_ENQ_1_inverted.o/part_032 
+data/parts_ENQ_1.o/part_064
+loadingloading loading data/parts_ENQ_1.o/part_045 data/parts_ENQ_1_inverted.o/part_045
+data/parts_EP_1_inverted.o/part_073
+
+loading data/parts_ENQ_1_inverted.o/part_011
+data_get_func online
+0 - path: data/parts_EP_1_inverted.o/
+0 - cm: 0.4
+0 - start at parts_EP_1_inverted.o - 992661
+loading data/parts_EP_1_inverted.o/part_009
+1 - path: data/parts_EP_1_inverted.o/
+1 - cm: 0.4
+1 - start at parts_EP_1_inverted.o - 3952333
+loading data/parts_EP_1_inverted.o/part_039
+2 - path: data/parts_ENQ_1.o/
+2 - cm: 2.4
+2 - start at parts_ENQ_1.o - 862231
+loading data/parts_ENQ_1.o/part_008
+3 - path: data/parts_YM_1_inverted.o/
+3 - cm: 2.4
+3 - start at parts_YM_1_inverted.o - 2301677
+loading data/parts_YM_1_inverted.o/part_023
+4 - path: data/parts_YM_1_inverted.o/
+4 - cm: 2.4
+4 - start at parts_YM_1_inverted.o - 2885190
+loading data/parts_YM_1_inverted.o/part_028
+5 - path: data/parts_YM_1_inverted.o/
+5 - cm: 2.4
+5 - start at parts_YM_1_inverted.o - 2056443
+loading data/parts_YM_1_inverted.o/part_020
+6 - path: data/parts_YM_1.o/
+6 - cm: 2.4
+6 - start at parts_YM_1.o - 4908417
+loading data/parts_YM_1.o/part_049
+7 - path: data/parts_ENQ_1_inverted.o/
+7 - cm: 2.4
+7 - start at parts_ENQ_1_inverted.o - 5279921
+loading data/parts_ENQ_1_inverted.o/part_052
+8 - path: data/parts_YM_1_inverted.o/
+8 - cm: 2.4
+8 - start at parts_YM_1_inverted.o - 1552103
+loading data/parts_YM_1_inverted.o/part_015
+9 - path: data/parts_EP_1_inverted.o/
+9 - cm: 0.4
+9 - start at parts_EP_1_inverted.o - 2947029
+loading data/parts_EP_1_inverted.o/part_029
+loading data/parts_EP_1.o/part_017
+10 - path: data/parts_YM_1_inverted.o/
+10 - cm: 2.4
+10 - start at parts_YM_1_inverted.o - 4509642
+loading data/parts_YM_1_inverted.o/part_045
+11 - path: data/parts_EP_1.o/
+11 - cm: 0.4
+11 - start at parts_EP_1.o - 16508
+loading data/parts_EP_1.o/part_000
+data_get_func online
+0 - path: data/parts_YM_1.o/
+0 - cm: 2.4
+0 - start at parts_YM_1.o - 2478256
+loading data/parts_YM_1.o/part_024
+1 - path: data/parts_ENQ_1.o/
+1 - cm: 2.4
+1 - start at parts_ENQ_1.o - 292944
+loading data/parts_ENQ_1.o/part_002
+2 - path: data/parts_ENQ_1.o/
+2 - cm: 2.4
+2 - start at parts_ENQ_1.o - 6344536
+loading data/parts_ENQ_1.o/part_063
+3 - path: data/parts_EP_1.o/
+3 - cm: 0.4
+3 - start at parts_EP_1.o - 7435613
+loading data/parts_EP_1.o/part_074
+4 - path: data/parts_ENQ_1.o/
+4 - cm: 2.4
+4 - start at parts_ENQ_1.o - 125479
+loading data/parts_ENQ_1.o/part_001
+5 - path: data/parts_ENQ_1.o/
+5 - cm: 2.4
+5 - start at parts_ENQ_1.o - 5047586
+loading data/parts_ENQ_1.o/part_050
+6 - path: data/parts_YM_1_inverted.o/
+6 - cm: 2.4
+6 - start at parts_YM_1_inverted.o - 4832473
+loading data/parts_YM_1_inverted.o/part_048
+7 - path: data/parts_EP_1.o/
+7 - cm: 0.4
+7 - start at parts_EP_1.o - 2718307
+loading data/parts_EP_1.o/part_027
+8 - path: data/parts_ENQ_1.o/
+8 - cm: 2.4
+8 - start at parts_ENQ_1.o - 2102621
+loading data/parts_ENQ_1.o/part_021
+9 - path: data/parts_ENQ_1_inverted.o/
+9 - cm: 2.4
+9 - start at parts_ENQ_1_inverted.o - 4216788
+loading data/parts_ENQ_1_inverted.o/part_042
+10 - path: data/parts_YM_1_inverted.o/
+10 - cm: 2.4
+10 - start at parts_YM_1_inverted.o - 3190108
+loading data/parts_YM_1_inverted.o/part_031
+11 - path: data/parts_ENQ_1.o/
+11 - cm: 2.4
+11 - start at parts_ENQ_1.o - 2959860
+loading data/parts_ENQ_1.o/part_029
+data_get_func online
+loading data/parts_ENQ_1_inverted.o/part_056
+loading data/parts_ENQ_1_inverted.o/part_015
+loading data/parts_YM_1_inverted.o/part_038
+loading data/parts_YM_1.o/part_044
+loading data/parts_EP_1.o/part_019
+loading data/parts_YM_1_inverted.o/part_043
+loading data/parts_ENQ_1.o/part_001
+loading data/parts_EP_1.o/part_048
+loading data/parts_ENQ_1.o/part_066
+loadingloading data/parts_ENQ_1.o/part_005
+ data/parts_YM_1.o/part_002
+loadingloading data/parts_ENQ_1_inverted.o/part_040 
+data/parts_ENQ_1_inverted.o/part_040
+loading data/parts_ENQ_1_inverted.o/part_040
+loading loadingdata/parts_ENQ_1.o/part_033
+ data/parts_EP_1.o/part_054
+2024-01-07 11:50:55.591046: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:268] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+2 - path: data/parts_EP_1.o/
+2 - cm: 0.4
+2 - start at parts_EP_1.o - 0
+loading data/parts_EP_1.o/part_000
+loading data/parts_YM_1_inverted.o/part_033
+loading data/parts_EP_1_inverted.o/part_060
+loading loadingdata/parts_YM_1_inverted.o/part_029 
+data/parts_EP_1.o/part_072
+loading data/parts_ENQ_1_inverted.o/part_029
+loading data/parts_YM_1.o/part_017
+loading data/parts_YM_1_inverted.o/part_015
+loading data/parts_ENQ_1.o/part_046
+loading data/parts_YM_1_inverted.o/part_020
+loading data/parts_EP_1.o/part_046
+loading data/parts_EP_1_inverted.o/part_074
+loading data/parts_ENQ_1.o/part_009
+loading data/parts_EP_1_inverted.o/part_010
+loading data/parts_EP_1_inverted.o/part_040
+loading data/parts_YM_1_inverted.o/part_021
+loading data/parts_EP_1_inverted.o/part_029
+loading data/parts_ENQ_1_inverted.o/part_053
+loading data/parts_YM_1.o/part_025
+loading data/parts_ENQ_1.o/part_003
+loading data/parts_YM_1_inverted.o/part_016
+loading data/parts_ENQ_1_inverted.o/part_012
+loading data/parts_EP_1_inverted.o/part_030
+loading data/parts_YM_1_inverted.o/part_032
+loading data/parts_ENQ_1.o/part_030
+loading data/parts_ENQ_1_inverted.o/part_012
+2024-01-07 11:51:05.423163: I tensorflow/compiler/jit/xla_compilation_cache.cc:476] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+loading model weights...
+2024-01-07 11:51:53.527345: I tensorflow/core/tpu/graph_rewrite/encapsulate_tpu_computations_pass.cc:237] Subgraph fingerprint:8857926444167830863
+2024-01-07 11:51:54.808225: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:954] model_pruner failed: INVALID_ARGUMENT: Graph does not contain terminal node StatefulPartitionedCall.
+2024-01-07 11:51:55.774617: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:954] model_pruner failed: INVALID_ARGUMENT: Graph does not contain terminal node StatefulPartitionedCall.
+2024-01-07 11:51:57.214710: I tensorflow/core/tpu/kernels/tpu_compilation_cache_interface.cc:437] TPU host compilation cache miss: cache_key(13843037608177143448), session_name()
+2024-01-07 11:52:17.541164: I tensorflow/core/tpu/kernels/tpu_compile_op_common.cc:210] Compilation of 13843037608177143448 with session name  took 20.325911208s and succeeded
+2024-01-07 11:52:17.692654: I tensorflow/core/tpu/kernels/tpu_compilation_cache_interface.cc:470] TPU host compilation cache: compilation complete for cache_key(13843037608177143448), session_name(), subgraph_key(std::string(property.function_name) = "cluster_tpu_function_8857926444167830863", property.function_library_fingerprint = 9524710453509279830, property.mlir_module_fingerprint = 0, property.num_replicas = 8, topology.chip_bounds().x = 2, topology.chip_bounds().y = 2, topology.chip_bounds().z = 1, topology.wrap().x = false, topology.wrap().y = false, topology.wrap().z = false, topology.MissingChipCount() = 0, std::string(property.shapes_prefix) = "", property.guaranteed_constants_size = 0, embedding_partitions_fingerprint = "1688352644216761960")
+2024-01-07 11:52:17.692778: I tensorflow/core/tpu/kernels/tpu_compilation_cache_interface.cc:536] After adding entry for key 13843037608177143448 with session_name  cache is 1 entries (67152895 bytes),  marked for eviction 0 entries (0 bytes).
+loss: 2.2750835 - expected Q values: 5.2927265 - time: 80.32058811187744
+loss: 1.0831927 - expected Q values: 5.6881294 - time: 32.894914627075195
+loading data/parts_EP_1.o/part_063
+loss: 1.5264914 - expected Q values: 5.8269258 - time: 31.07410454750061
+loss: 1.0103049 - expected Q values: 5.4734535 - time: 30.789069414138794
+loss: 0.96334785 - expected Q values: 5.850109 - time: 30.21920156478882
+loading data/parts_EP_1_inverted.o/part_035
+loss: 1.2412068 - expected Q values: 5.2577033 - time: 29.68702530860901
+loss: 1.193806 - expected Q values: 4.457589 - time: 29.88080644607544
+loss: 1.2431257 - expected Q values: 4.157408 - time: 28.986443281173706
+loss: 1.5879483 - expected Q values: 4.412495 - time: 29.867166757583618
+loading data/parts_ENQ_1.o/part_051
+loading data/parts_ENQ_1.o/part_007
+loss: 1.1642842 - expected Q values: 4.990891 - time: 28.899962902069092
+loss: 0.97253907 - expected Q values: 4.7992635 - time: 29.839001655578613
+loss: 1.5889963 - expected Q values: 4.13899 - time: 29.594258546829224
+loss: 1.4172899 - expected Q values: 4.0190654 - time: 29.38157868385315
+loading data/parts_EP_1_inverted.o/part_030
+loss: 1.653668 - expected Q values: 4.283992 - time: 30.0890052318573
+loss: 0.96773154 - expected Q values: 3.9958866 - time: 29.51762318611145
+loss: 1.4637532 - expected Q values: 2.967446 - time: 29.5448055267334
+loss: 1.4333328 - expected Q values: 4.052842 - time: 29.790322303771973
+loss: 1.3328215 - expected Q values: 3.5997114 - time: 29.227166414260864
+loss: 1.7145088 - expected Q values: 4.708621 - time: 29.59887933731079
+loss: 0.953391 - expected Q values: 3.5147393 - time: 30.073826551437378
+loss: 1.6125177 - expected Q values: 1.7558285 - time: 28.90740656852722
+loss: 1.3477156 - expected Q values: 3.257482 - time: 29.696255207061768
+loading data/parts_ENQ_1.o/part_064
+loss: 1.1772513 - expected Q values: 4.1559205 - time: 30.023582696914673
+loading data/parts_YM_1.o/part_001
+loss: 1.1640811 - expected Q values: 3.2037244 - time: 30.103564023971558
+loading data/parts_ENQ_1.o/part_063
+loss: 1.0579301 - expected Q values: 3.8632162 - time: 30.760451555252075
+loss: 1.1139396 - expected Q values: 3.5253086 - time: 28.989552974700928
+loss: 1.4165498 - expected Q values: 3.0798652 - time: 29.192464113235474
+loss: 1.2657712 - expected Q values: 3.1550295 - time: 30.098914623260498
+loading data/parts_ENQ_1.o/part_065
+loss: 1.4541594 - expected Q values: 3.245906 - time: 29.72841191291809
+loss: 1.613054 - expected Q values: 3.6365833 - time: 30.430202960968018
+loss: 1.15907 - expected Q values: 3.5136466 - time: 29.752031326293945
+loss: 1.1725831 - expected Q values: 3.2417872 - time: 29.370085954666138
+loading data/parts_EP_1_inverted.o/part_039
+loss: 1.702785 - expected Q values: 3.1779675 - time: 29.702064037322998
+loss: 1.1503687 - expected Q values: 3.0919802 - time: 30.002521991729736
+loss: 1.0352327 - expected Q values: 3.3433588 - time: 30.485063076019287
+loss: 0.9401592 - expected Q values: 2.6964579 - time: 29.93042755126953
+loss: 1.7807692 - expected Q values: 2.7082615 - time: 30.174260139465332
+loss: 1.9643812 - expected Q values: 2.3986375 - time: 28.962114334106445
+loss: 1.6298436 - expected Q values: 2.5244617 - time: 29.5034282207489
+loss: 1.5802914 - expected Q values: 2.2727675 - time: 30.53693127632141
+loss: 1.655082 - expected Q values: 2.7504003 - time: 29.20410442352295
+loss: 1.3329102 - expected Q values: 2.676182 - time: 29.568503856658936
+loss: 2.1737297 - expected Q values: 2.306428 - time: 30.85227346420288
+loss: 1.4518647 - expected Q values: 2.4873369 - time: 30.021738290786743
+loss: 0.8668418 - expected Q values: 2.7991776 - time: 30.728793621063232
+loading data/parts_EP_1.o/part_016
+loss: 0.9382395 - expected Q values: 2.474069 - time: 29.573878526687622
+loss: 1.8613973 - expected Q values: 2.3446462 - time: 29.54488730430603
+loss: 1.3683212 - expected Q values: 2.7908971 - time: 28.83748149871826
+loss: 1.6509207 - expected Q values: 2.292963 - time: 29.101181507110596
+loading data/parts_EP_1_inverted.o/part_061
+loss: 1.3982451 - expected Q values: 2.0248003 - time: 30.561323881149292
+loss: 1.3571755 - expected Q values: 2.1538641 - time: 29.353617668151855
+loss: 1.3830754 - expected Q values: 2.233835 - time: 29.27597427368164
+loading data/parts_YM_1_inverted.o/part_014
+loss: 1.3221462 - expected Q values: 2.176874 - time: 29.10752511024475
+loss: 1.1263778 - expected Q values: 2.3337243 - time: 30.12488579750061
+loss: 1.6708789 - expected Q values: 2.6182904 - time: 31.401610612869263
+loading data/parts_ENQ_1_inverted.o/part_057
+loss: 1.1941649 - expected Q values: 2.5063865 - time: 29.864716053009033
+loss: 1.595804 - expected Q values: 2.4875329 - time: 30.525254487991333
+loss: 0.9758521 - expected Q values: 2.406671 - time: 30.51449728012085
+loss: 1.0536017 - expected Q values: 2.3138638 - time: 30.423719882965088
+loss: 1.4745182 - expected Q values: 2.556279 - time: 31.327893257141113
+loss: 1.3213184 - expected Q values: 2.5786314 - time: 30.7127845287323
+loading data/parts_YM_1_inverted.o/part_036
+loss: 1.087114 - expected Q values: 2.5981896 - time: 30.92764377593994
+loss: 1.5200728 - expected Q values: 2.237529 - time: 31.607943058013916
+loading data/parts_EP_1_inverted.o/part_059
+loss: 1.5363251 - expected Q values: 2.3023212 - time: 30.211276054382324
+loss: 1.9251369 - expected Q values: 2.615131 - time: 30.64589786529541
+loss: 1.526966 - expected Q values: 2.4127166 - time: 30.086185932159424
+loss: 1.043238 - expected Q values: 2.2590702 - time: 29.91680598258972
+loss: 1.02338 - expected Q values: 2.097478 - time: 29.41815972328186
+loss: 1.0140499 - expected Q values: 2.19163 - time: 30.363848447799683
+loading data/parts_EP_1.o/part_075
+loss: 1.3396257 - expected Q values: 2.1024644 - time: 29.276663780212402
+loss: 0.9953959 - expected Q values: 2.4222634 - time: 30.953985691070557
+loss: 0.98062444 - expected Q values: 2.027917 - time: 31.48368501663208
+loss: 1.2518055 - expected Q values: 2.4281533 - time: 29.776686906814575
+loss: 1.1678399 - expected Q values: 1.9807075 - time: 29.46647310256958
+loss: 1.3260677 - expected Q values: 1.810783 - time: 29.618428707122803
+loss: 1.8918788 - expected Q values: 1.811463 - time: 30.16586208343506
+loss: 1.4306321 - expected Q values: 2.2128038 - time: 30.80954885482788
+loss: 1.4426388 - expected Q values: 1.551326 - time: 29.85035252571106
+loss: 2.3349566 - expected Q values: 1.7419838 - time: 29.56559944152832
+loss: 1.4314419 - expected Q values: 1.9703705 - time: 30.173828125
+loss: 1.5710907 - expected Q values: 1.6936636 - time: 29.799605131149292
+loss: 1.7954438 - expected Q values: 2.2293692 - time: 29.569149494171143
+loading data/parts_ENQ_1.o/part_004
+loss: 1.4324193 - expected Q values: 2.2301834 - time: 30.04993462562561
+loss: 1.2400315 - expected Q values: 2.4319086 - time: 30.89172124862671
+loss: 1.1185437 - expected Q values: 1.7714505 - time: 30.18113946914673
+loss: 2.0605912 - expected Q values: 1.2317516 - time: 29.437106609344482
+loss: 2.3289492 - expected Q values: 1.7139232 - time: 30.476752519607544
+loading data/parts_EP_1.o/part_031
+loss: 1.1887124 - expected Q values: 2.136065 - time: 29.555166244506836
+loss: 1.4410695 - expected Q values: 2.5450368 - time: 29.996155261993408
+loss: 1.4466449 - expected Q values: 1.6413553 - time: 30.1406307220459
+loading data/parts_YM_1_inverted.o/part_049
+loss: 1.2239312 - expected Q values: 1.7971956 - time: 30.006482362747192
+loss: 1.2346674 - expected Q values: 2.5277293 - time: 29.78258967399597
+loss: 1.3932185 - expected Q values: 1.9984132 - time: 29.791932106018066
+loss: 1.5252204 - expected Q values: 2.4232202 - time: 29.541725397109985
+loss: 1.1739168 - expected Q values: 1.9330326 - time: 30.014155387878418
+loss: 1.7780545 - expected Q values: 1.9301436 - time: 30.05400776863098
+loading data/parts_EP_1_inverted.o/part_038
+loss: 1.2274686 - expected Q values: 2.0811749 - time: 30.662742614746094
+loss: 1.3529414 - expected Q values: 1.9452999 - time: 29.377736806869507
+loss: 1.4682354 - expected Q values: 2.4843106 - time: 30.716402530670166
+loss: 1.2526592 - expected Q values: 2.5752015 - time: 30.69301462173462
+loss: 1.17166 - expected Q values: 2.578112 - time: 29.673869609832764
+loss: 1.0972583 - expected Q values: 2.7365034 - time: 31.6887948513031
+loss: 1.2697291 - expected Q values: 2.6296637 - time: 29.40947437286377
+loss: 1.2317213 - expected Q values: 2.7406685 - time: 29.91537857055664
+loss: 2.4435687 - expected Q values: 2.5025136 - time: 30.41788649559021
+loss: 1.1356952 - expected Q values: 3.1733782 - time: 29.41308617591858
+loss: 0.9252055 - expected Q values: 3.2587771 - time: 29.42769479751587
+loss: 0.9194884 - expected Q values: 2.9569318 - time: 30.04227638244629
+loss: 1.2138476 - expected Q values: 3.105609 - time: 29.865947484970093
+loss: 1.5495142 - expected Q values: 3.295321 - time: 30.252910375595093
+loss: 1.2212093 - expected Q values: 3.2341714 - time: 29.80233407020569
+loss: 0.9591099 - expected Q values: 3.3761811 - time: 29.1335666179657
+loss: 0.94351923 - expected Q values: 3.892478 - time: 32.21027970314026
+loss: 1.0623015 - expected Q values: 3.5413282 - time: 29.734501361846924
+loss: 1.3864796 - expected Q values: 3.3976336 - time: 29.716407299041748
+loss: 1.8349417 - expected Q values: 3.473394 - time: 29.68126678466797
+loss: 2.2787213 - expected Q values: 3.6911929 - time: 29.34954333305359
+loss: 1.5998613 - expected Q values: 4.3351007 - time: 30.053239345550537
+loss: 1.47244 - expected Q values: 4.3480673 - time: 31.351006031036377
+loss: 1.4966416 - expected Q values: 3.3215759 - time: 30.247969388961792
+loss: 1.9289658 - expected Q values: 3.7046328 - time: 29.534163236618042
+loss: 1.5180414 - expected Q values: 3.5798686 - time: 31.0309841632843
+loss: 1.632145 - expected Q values: 3.6019433 - time: 30.45987057685852
+loss: 2.1318448 - expected Q values: 3.764833 - time: 29.31418776512146
+loss: 1.5908848 - expected Q values: 3.9281068 - time: 30.57135581970215
+loading data/parts_EP_1.o/part_022
+loss: 1.5284234 - expected Q values: 3.8346474 - time: 30.448118925094604
+loss: 1.64042 - expected Q values: 3.972867 - time: 30.594097137451172
+loss: 1.96931 - expected Q values: 3.853412 - time: 31.0517635345459
+loss: 1.353243 - expected Q values: 3.9774294 - time: 31.308757781982422
+loss: 1.3285309 - expected Q values: 4.5658555 - time: 29.95266842842102
+loading data/parts_ENQ_1_inverted.o/part_020
+loss: 1.49067 - expected Q values: 4.2744527 - time: 30.52901864051819
+loss: 1.3310425 - expected Q values: 4.386763 - time: 29.37499165534973
+loading data/parts_EP_1_inverted.o/part_059
+loading data/parts_EP_1_inverted.o/part_029
+loss: 1.6335162 - expected Q values: 4.1983953 - time: 30.832810640335083
+loss: 1.4072058 - expected Q values: 4.366348 - time: 31.808939218521118
+loading data/parts_EP_1.o/part_031
+loss: 1.2641356 - expected Q values: 4.7077622 - time: 29.837572813034058
+loss: 0.9710603 - expected Q values: 4.5537395 - time: 31.072688102722168
+loss: 1.2598233 - expected Q values: 4.576691 - time: 31.343252897262573
+loss: 2.1997128 - expected Q values: 4.4888186 - time: 30.086368799209595
+loss: 1.4405112 - expected Q values: 4.6679196 - time: 30.152512550354004
+loading data/parts_YM_1.o/part_060
+loss: 1.4741769 - expected Q values: 4.947136 - time: 32.91146802902222
+loss: 1.8662404 - expected Q values: 5.1763134 - time: 31.970022678375244
+loading data/parts_YM_1.o/part_059
+loss: 1.4273708 - expected Q values: 5.2415857 - time: 31.26724934577942
+loss: 1.5517594 - expected Q values: 4.8489976 - time: 31.51706576347351
+loss: 1.4668972 - expected Q values: 4.7534904 - time: 30.808465242385864
+loading data/parts_ENQ_1.o/part_002
+loss: 1.4470792 - expected Q values: 4.9405904 - time: 32.02423906326294
+loss: 1.6006666 - expected Q values: 5.211323 - time: 30.465250253677368
+loss: 1.273058 - expected Q values: 5.0103602 - time: 33.53693675994873
+loss: 1.0867995 - expected Q values: 4.995702 - time: 30.471540927886963
+loss: 1.2662191 - expected Q values: 4.82009 - time: 31.746803522109985
+loss: 1.4969214 - expected Q values: 5.097162 - time: 30.75641942024231
+loading data/parts_ENQ_1.o/part_025
+loading data/parts_EP_1.o/part_028
+loss: 1.7203033 - expected Q values: 5.4810224 - time: 29.29252028465271
+loss: 1.4564385 - expected Q values: 5.4156895 - time: 29.777156829833984
+loading data/parts_YM_1_inverted.o/part_005
+loss: 1.4691368 - expected Q values: 5.276496 - time: 30.090944528579712
+loss: 1.4706299 - expected Q values: 6.010775 - time: 30.21851134300232
+loss: 1.1953785 - expected Q values: 5.3021855 - time: 30.099019765853882
+loss: 1.3599846 - expected Q values: 5.254325 - time: 32.12995195388794
+loss: 1.5181826 - expected Q values: 5.4808636 - time: 30.906177759170532
+loss: 1.3618485 - expected Q values: 5.8192263 - time: 30.175339460372925
+loss: 1.6010585 - expected Q values: 5.6497283 - time: 31.595863103866577
+loss: 1.3056281 - expected Q values: 5.8096166 - time: 30.05508279800415
+loss: 1.38254 - expected Q values: 6.1553326 - time: 30.64328098297119
+loss: 1.327745 - expected Q values: 5.793875 - time: 29.669440269470215
+loss: 1.527475 - expected Q values: 6.052008 - time: 30.23342752456665
+loss: 1.4220424 - expected Q values: 6.2955947 - time: 29.748051643371582
+loss: 1.407881 - expected Q values: 6.1542873 - time: 30.475426197052002
+loading data/parts_EP_1.o/part_028
+loss: 1.3774905 - expected Q values: 6.4003057 - time: 29.327558517456055
+loading data/parts_ENQ_1_inverted.o/part_033
+loss: 1.2771624 - expected Q values: 6.8395667 - time: 31.40701651573181
+loss: 1.4320734 - expected Q values: 6.911118 - time: 30.610692977905273
+loss: 1.7479925 - expected Q values: 6.621725 - time: 29.78387188911438
+loss: 1.2406375 - expected Q values: 6.706067 - time: 31.871069192886353
+loss: 1.2649604 - expected Q values: 6.9818187 - time: 31.833982944488525
+loss: 1.0625018 - expected Q values: 6.8514166 - time: 29.623162984848022
+loading data/parts_ENQ_1_inverted.o/part_043
+loss: 1.407194 - expected Q values: 7.6682014 - time: 30.03591823577881
+loss: 1.5941403 - expected Q values: 7.414529 - time: 30.864890575408936
+loss: 8.979169 - expected Q values: 7.0405273 - time: 30.77324342727661
+loss: 2.0524936 - expected Q values: 7.983821 - time: 30.53829789161682
+loss: 1.3649626 - expected Q values: 7.376706 - time: 32.101481676101685
+loss: 1.774678 - expected Q values: 7.599446 - time: 29.712119817733765
+loading data/parts_YM_1.o/part_005
+loss: 1.4707234 - expected Q values: 7.8837256 - time: 30.289973974227905
+loss: 1.7941457 - expected Q values: 8.023622 - time: 30.23915934562683
+loss: 2.083161 - expected Q values: 7.8222947 - time: 29.725178956985474
+loss: 1.7062606 - expected Q values: 7.397328 - time: 30.683837413787842
+loss: 1.8920548 - expected Q values: 7.7480054 - time: 30.913622856140137
+loss: 1.7360034 - expected Q values: 8.267854 - time: 29.677759647369385
+loss: 1.989801 - expected Q values: 8.083984 - time: 30.405566453933716
+loss: 1.7582245 - expected Q values: 8.563104 - time: 30.516507387161255
+loss: 1.6998328 - expected Q values: 8.362141 - time: 30.550925970077515
+loss: 1.9567771 - expected Q values: 8.403213 - time: 29.393505334854126
+loss: 1.5013279 - expected Q values: 9.033854 - time: 30.354275941848755
+loss: 1.6000264 - expected Q values: 8.779416 - time: 29.69464945793152
+loss: 1.8584709 - expected Q values: 8.86449 - time: 30.03771209716797
+loss: 2.1032848 - expected Q values: 8.722074 - time: 30.382248163223267
+loss: 1.4310716 - expected Q values: 8.859231 - time: 29.27897357940674
+loading data/parts_YM_1.o/part_050
+loss: 1.5771081 - expected Q values: 8.953786 - time: 30.835240840911865
+loss: 1.5640149 - expected Q values: 8.8121395 - time: 29.40015411376953
+loss: 1.2926438 - expected Q values: 8.871665 - time: 29.040647745132446
+loss: 2.3169222 - expected Q values: 9.346183 - time: 30.54012417793274
+loss: 1.5732071 - expected Q values: 9.070641 - time: 29.966569900512695
+loss: 2.0812638 - expected Q values: 9.356228 - time: 30.00688886642456
+loss: 1.5667698 - expected Q values: 9.754633 - time: 29.927202224731445
+loss: 3.2044435 - expected Q values: 9.273273 - time: 30.490740299224854
+loss: 1.5092719 - expected Q values: 9.573448 - time: 30.9341402053833
+loading data/parts_YM_1_inverted.o/part_046
+loss: 1.6963718 - expected Q values: 9.679389 - time: 30.19335150718689
+loss: 2.034298 - expected Q values: 10.202185 - time: 30.187044858932495
+loss: 1.8168885 - expected Q values: 10.0733 - time: 30.113097429275513
+loss: 1.477041 - expected Q values: 9.97429 - time: 29.974443912506104
+loss: 1.5427017 - expected Q values: 9.90886 - time: 29.970832109451294
+loss: 1.9402539 - expected Q values: 9.891213 - time: 31.024729251861572
+loss: 1.4736753 - expected Q values: 10.003653 - time: 29.580487728118896
+loss: 1.7258868 - expected Q values: 10.153845 - time: 29.973392248153687
+loading data/parts_ENQ_1_inverted.o/part_046
+loss: 1.5472281 - expected Q values: 10.073606 - time: 29.72694182395935
+loss: 1.6095372 - expected Q values: 10.094599 - time: 29.599636793136597
+loss: 1.809099 - expected Q values: 10.224117 - time: 29.805798530578613
+loss: 2.0180035 - expected Q values: 10.555836 - time: 29.86501717567444
+loss: 1.8869333 - expected Q values: 10.842424 - time: 30.566011428833008
+loss: 1.4398623 - expected Q values: 10.681955 - time: 29.87833523750305
+loss: 2.0037558 - expected Q values: 11.021699 - time: 29.981159687042236
+loading data/parts_EP_1.o/part_001
+loss: 2.0852356 - expected Q values: 11.0439415 - time: 29.7245614528656
+loss: 2.5924883 - expected Q values: 11.24635 - time: 29.865650415420532
+loss: 2.017322 - expected Q values: 11.1311455 - time: 30.74105405807495
+loss: 1.4834638 - expected Q values: 11.680441 - time: 29.41776180267334
+loss: 1.6453215 - expected Q values: 11.580854 - time: 30.076608657836914
+loss: 1.5002953 - expected Q values: 12.037095 - time: 29.659271955490112
+loss: 1.974495 - expected Q values: 12.429008 - time: 31.120484113693237
+loading data/parts_YM_1_inverted.o/part_061
+loss: 1.417148 - expected Q values: 12.445483 - time: 29.8601176738739
+loss: 1.403499 - expected Q values: 12.812007 - time: 30.13207507133484
+loss: 2.1149714 - expected Q values: 12.824171 - time: 30.02721905708313
+loss: 3.2355976 - expected Q values: 12.574632 - time: 29.81769037246704
+loss: 2.2737598 - expected Q values: 12.902668 - time: 30.429195642471313
+loading data/parts_ENQ_1_inverted.o/part_039
+loss: 1.6992526 - expected Q values: 12.78095 - time: 29.64690637588501
+loss: 1.8316913 - expected Q values: 13.172236 - time: 29.778833389282227
+loss: 2.047581 - expected Q values: 13.710736 - time: 29.865952014923096
+loss: 2.1018188 - expected Q values: 13.630686 - time: 29.835451364517212
+loss: 1.6371672 - expected Q values: 14.525922 - time: 29.474427461624146
+loss: 2.020709 - expected Q values: 14.418768 - time: 30.580614805221558
+loading data/parts_EP_1.o/part_049
+loss: 1.5824983 - expected Q values: 14.233776 - time: 30.562373399734497
+loss: 2.2185564 - expected Q values: 14.261182 - time: 30.583587646484375
+loss: 1.8200954 - expected Q values: 14.806687 - time: 29.430062770843506
+loss: 1.886003 - expected Q values: 14.974308 - time: 30.47156524658203
+loss: 1.6707301 - expected Q values: 14.546223 - time: 30.074357509613037
+loss: 1.736132 - expected Q values: 14.956154 - time: 29.244362592697144
+loss: 2.4223673 - expected Q values: 15.473751 - time: 30.410372018814087
+loading data/parts_EP_1.o/part_012
+loss: 2.0158603 - expected Q values: 15.619621 - time: 31.65649676322937
+loading data/parts_ENQ_1.o/part_022
+loss: 1.597018 - expected Q values: 15.799595 - time: 30.072288751602173
+loss: 2.019713 - expected Q values: 15.762932 - time: 29.572099447250366
+loss: 1.969536 - expected Q values: 16.10661 - time: 30.089736938476562
+loss: 2.0996017 - expected Q values: 15.968182 - time: 30.16307830810547
+loading data/parts_ENQ_1_inverted.o/part_011
+loss: 2.0387714 - expected Q values: 16.169931 - time: 30.807594299316406
+loss: 1.907787 - expected Q values: 15.84133 - time: 29.868449211120605
+loss: 1.9480841 - expected Q values: 16.397053 - time: 29.922488927841187
+loss: 1.9471933 - expected Q values: 16.344131 - time: 29.982407093048096
+loading data/parts_ENQ_1.o/part_022
+loss: 2.0894918 - expected Q values: 16.839111 - time: 29.340164184570312
+loss: 2.0075412 - expected Q values: 16.947428 - time: 30.321005821228027
+loss: 2.1873462 - expected Q values: 16.000051 - time: 30.068578243255615
+loss: 1.9567232 - expected Q values: 17.079437 - time: 29.60577654838562
+loss: 1.7373041 - expected Q values: 17.178951 - time: 30.382906675338745
+loss: 1.9677473 - expected Q values: 17.500818 - time: 30.14200472831726
+loss: 1.9626427 - expected Q values: 17.12314 - time: 29.809728860855103
+loss: 2.5602217 - expected Q values: 17.393476 - time: 29.00626039505005
+loading data/parts_YM_1_inverted.o/part_024
+loss: 1.9591835 - expected Q values: 17.501497 - time: 30.784931182861328
+loss: 1.4857917 - expected Q values: 18.8991 - time: 29.759151935577393
+loss: 1.7366054 - expected Q values: 18.388777 - time: 29.930503368377686
+loss: 2.003303 - expected Q values: 18.292356 - time: 29.692737579345703
+loss: 2.3809793 - expected Q values: 17.344086 - time: 28.92827844619751
+loss: 2.226616 - expected Q values: 17.627464 - time: 29.3603618144989
+loss: 2.137686 - expected Q values: 18.11605 - time: 29.941953659057617
+loss: 2.122816 - expected Q values: 18.081945 - time: 30.602314472198486
+loss: 1.9471468 - expected Q values: 18.921339 - time: 29.159119129180908
+loss: 1.4168302 - expected Q values: 19.864697 - time: 30.04823136329651
+loss: 2.7119355 - expected Q values: 17.75761 - time: 29.647737979888916
+loss: 2.5930521 - expected Q values: 18.557117 - time: 29.879754781723022
+loading data/parts_ENQ_1.o/part_034
+loss: 1.6058584 - expected Q values: 19.227734 - time: 30.20595121383667
+loss: 1.9701648 - expected Q values: 18.98131 - time: 30.60436177253723
+loss: 1.656761 - expected Q values: 19.518986 - time: 29.812859296798706
+loss: 2.1372435 - expected Q values: 19.382885 - time: 29.63568091392517
+loss: 2.2290473 - expected Q values: 19.16937 - time: 29.62328600883484
+loss: 3.0966775 - expected Q values: 20.197414 - time: 30.450736045837402
+loss: 2.0928962 - expected Q values: 19.41401 - time: 31.38134527206421
+loading data/parts_EP_1.o/part_055
+loss: 2.1830661 - expected Q values: 19.803978 - time: 29.762444972991943
+loss: 2.0784338 - expected Q values: 19.321432 - time: 29.861971616744995
+loss: 2.0329766 - expected Q values: 19.51687 - time: 29.993921518325806
+loading data/parts_YM_1_inverted.o/part_013
+loading data/parts_YM_1_inverted.o/part_039
+loss: 2.2556324 - expected Q values: 20.409819 - time: 30.107906103134155
+loss: 2.3179755 - expected Q values: 19.952242 - time: 30.1516752243042
+loss: 1.686463 - expected Q values: 20.269464 - time: 30.023816347122192
+loss: 1.7709508 - expected Q values: 21.001963 - time: 29.92742657661438
+loading data/parts_EP_1_inverted.o/part_061
+loss: 3.1889005 - expected Q values: 21.197948 - time: 29.753108263015747
+loss: 2.2321641 - expected Q values: 21.58393 - time: 28.95761775970459
+loading data/parts_YM_1.o/part_021
+loss: 2.2886388 - expected Q values: 20.408714 - time: 30.74000072479248
+loss: 1.904941 - expected Q values: 21.60489 - time: 30.085312843322754
+loss: 1.8841605 - expected Q values: 21.605173 - time: 29.262080669403076
+loss: 2.0204275 - expected Q values: 22.107456 - time: 30.54441261291504
+loss: 1.977714 - expected Q values: 21.73767 - time: 29.856908321380615
+loss: 1.8981613 - expected Q values: 22.642145 - time: 28.950218677520752
+loss: 2.4200985 - expected Q values: 21.2261 - time: 30.72229790687561
+loading data/parts_EP_1.o/part_047
+loss: 2.1161215 - expected Q values: 22.31236 - time: 29.77668523788452
+loading data/parts_EP_1.o/part_073
+loss: 2.4106674 - expected Q values: 22.825136 - time: 30.249285221099854
+loss: 2.0758455 - expected Q values: 22.840452 - time: 29.58738136291504
+loss: 1.7413899 - expected Q values: 23.332869 - time: 29.582901000976562
+loss: 2.0726447 - expected Q values: 23.204252 - time: 29.201576471328735
+loss: 1.9982448 - expected Q values: 22.9963 - time: 30.280471324920654
+loss: 2.1509976 - expected Q values: 24.13092 - time: 28.944302082061768
+loss: 2.344262 - expected Q values: 24.148142 - time: 29.81230592727661
+loading data/parts_ENQ_1_inverted.o/part_006
+loss: 2.2725124 - expected Q values: 23.250433 - time: 29.523740530014038
+loss: 2.2602437 - expected Q values: 24.54738 - time: 28.872450590133667
+loss: 1.8961313 - expected Q values: 24.984413 - time: 29.63829517364502
+loss: 3.3715425 - expected Q values: 24.388556 - time: 28.667760848999023
+loss: 2.6458585 - expected Q values: 25.076605 - time: 30.05166482925415
+loss: 2.6553485 - expected Q values: 25.984077 - time: 29.500037908554077
+loss: 2.1722472 - expected Q values: 25.333313 - time: 29.716023445129395
+loss: 3.754997 - expected Q values: 25.39496 - time: 29.481385707855225
+loss: 2.493851 - expected Q values: 26.475803 - time: 28.553813695907593
+loss: 2.2481635 - expected Q values: 26.083931 - time: 30.84007430076599
+loss: 2.7644453 - expected Q values: 26.106735 - time: 28.31973123550415
+loss: 2.6887002 - expected Q values: 25.941843 - time: 28.927841186523438
+loss: 2.888283 - expected Q values: 26.705355 - time: 29.72766613960266
+loss: 2.1341038 - expected Q values: 27.685244 - time: 30.61664581298828
+loss: 2.3490887 - expected Q values: 26.43937 - time: 29.837971448898315
+loss: 2.9689894 - expected Q values: 26.574585 - time: 28.90650177001953
+loading data/parts_EP_1.o/part_001
+loss: 2.6467295 - expected Q values: 25.859636 - time: 29.378075122833252
+loss: 2.4707735 - expected Q values: 26.773243 - time: 29.084091663360596
+loss: 2.4189441 - expected Q values: 28.03077 - time: 30.060537815093994
+loading data/parts_EP_1.o/part_020
+loss: 2.508551 - expected Q values: 27.299019 - time: 30.018784761428833
+loss: 2.202729 - expected Q values: 27.721914 - time: 28.911814212799072
+loading data/parts_EP_1_inverted.o/part_011
+loss: 2.1372645 - expected Q values: 27.544096 - time: 28.96908140182495
+loss: 2.302394 - expected Q values: 28.054365 - time: 29.22761344909668
+loss: 2.4306643 - expected Q values: 27.489435 - time: 29.458152055740356
+loss: 2.2338822 - expected Q values: 29.182808 - time: 29.24803900718689
+loading data/parts_YM_1_inverted.o/part_033
+loss: 2.067584 - expected Q values: 29.018974 - time: 28.996102809906006
+loss: 2.4019384 - expected Q values: 27.694204 - time: 29.494553565979004
+loss: 2.0273254 - expected Q values: 29.324968 - time: 28.609731197357178
+loss: 2.2688882 - expected Q values: 30.02823 - time: 29.90159034729004
+loading data/parts_EP_1.o/part_018
+loss: 2.0675783 - expected Q values: 29.774595 - time: 28.97950291633606
+loss: 2.1428053 - expected Q values: 29.115408 - time: 29.587910175323486
+loss: 2.2868702 - expected Q values: 29.572712 - time: 29.75953221321106
+loss: 2.196745 - expected Q values: 29.772715 - time: 29.272679805755615
+loss: 2.1943464 - expected Q values: 29.773277 - time: 29.767624855041504
+loss: 2.291902 - expected Q values: 29.6438 - time: 28.719605207443237
+loss: 2.3300729 - expected Q values: 30.933123 - time: 29.032946586608887
+loss: 2.2153955 - expected Q values: 31.162857 - time: 28.783695697784424
+loss: 2.4034297 - expected Q values: 29.819656 - time: 29.636597633361816
+loss: 2.489124 - expected Q values: 30.478306 - time: 29.052751302719116
+loss: 2.427315 - expected Q values: 31.291573 - time: 29.486016035079956
+loss: 2.4130201 - expected Q values: 29.126421 - time: 29.489399433135986
+loading data/parts_ENQ_1_inverted.o/part_041
+loading data/parts_EP_1_inverted.o/part_075
+loss: 2.4783263 - expected Q values: 31.678806 - time: 29.06998324394226
+loss: 2.292287 - expected Q values: 31.437891 - time: 29.097180604934692
+loss: 2.05405 - expected Q values: 32.32455 - time: 30.219713926315308
+loading data/parts_ENQ_1.o/part_004
+loss: 3.2655578 - expected Q values: 30.521152 - time: 29.034531831741333
+loss: 2.747238 - expected Q values: 31.487219 - time: 29.69580388069153
+loss: 2.0845318 - expected Q values: 32.105724 - time: 28.74550437927246
+loss: 2.3476865 - expected Q values: 31.90392 - time: 27.99212956428528
+loss: 2.5927918 - expected Q values: 31.026674 - time: 28.67788076400757
+loss: 2.3838127 - expected Q values: 32.82524 - time: 28.49532175064087
+loading data/parts_YM_1_inverted.o/part_034
+loss: 2.4436414 - expected Q values: 32.42564 - time: 28.68416166305542
+loss: 2.2000942 - expected Q values: 33.80409 - time: 29.036712646484375
+loading data/parts_ENQ_1.o/part_002
+loss: 2.2445426 - expected Q values: 33.30436 - time: 28.11083149909973
+loss: 2.6861582 - expected Q values: 33.113712 - time: 28.25922131538391
+loss: 2.4461193 - expected Q values: 33.52342 - time: 28.605523109436035
+loading data/parts_YM_1.o/part_003
+loss: 3.0448976 - expected Q values: 32.858665 - time: 28.727163076400757
+loss: 2.7463965 - expected Q values: 32.273056 - time: 28.475838661193848
+loss: 2.885318 - expected Q values: 31.670935 - time: 29.845641374588013
+loading data/parts_YM_1_inverted.o/part_030
+loading data/parts_ENQ_1.o/part_038
+loss: 2.5934033 - expected Q values: 33.98877 - time: 28.244523525238037
+loss: 2.4453387 - expected Q values: 34.159706 - time: 28.213123321533203
+loss: 2.4425628 - expected Q values: 33.96974 - time: 27.96712875366211
+loading data/parts_ENQ_1_inverted.o/part_054
+loss: 2.8077655 - expected Q values: 33.17372 - time: 29.05633854866028
+loading data/parts_YM_1_inverted.o/part_016
+loss: 3.0711286 - expected Q values: 33.383533 - time: 28.951305150985718
+loss: 2.9665189 - expected Q values: 32.310726 - time: 28.76619291305542
+loss: 3.778705 - expected Q values: 33.42638 - time: 28.105538368225098
+loss: 2.5797324 - expected Q values: 33.97068 - time: 28.63523769378662
+loading data/parts_EP_1_inverted.o/part_030
+loading data/parts_YM_1.o/part_045
+loss: 2.6883457 - expected Q values: 34.71172 - time: 27.563514471054077
+loss: 2.9660952 - expected Q values: 34.1401 - time: 30.937493801116943
+loading data/parts_YM_1.o/part_026
+loss: 2.9651034 - expected Q values: 33.159386 - time: 28.478994369506836
+loss: 4.0939183 - expected Q values: 35.41308 - time: 28.872595071792603
+loss: 3.2234125 - expected Q values: 32.358692 - time: 28.7051682472229
+loss: 3.137755 - expected Q values: 34.106327 - time: 28.727171182632446
+loss: 2.8434572 - expected Q values: 32.81523 - time: 29.023106575012207
+loss: 3.1028364 - expected Q values: 33.558037 - time: 28.240536212921143
+loss: 5.435567 - expected Q values: 33.17794 - time: 28.560186862945557
+loss: 2.6254282 - expected Q values: 35.50051 - time: 30.551425457000732
+loss: 2.417707 - expected Q values: 35.3735 - time: 28.216973543167114
+loss: 3.144139 - expected Q values: 34.235085 - time: 28.688865900039673
+loss: 3.172929 - expected Q values: 35.72773 - time: 28.029170751571655
+loss: 2.7510738 - expected Q values: 37.070564 - time: 28.254626750946045
+loading data/parts_YM_1.o/part_018
+loss: 2.9180033 - expected Q values: 36.062576 - time: 28.940840244293213
+loss: 2.7404199 - expected Q values: 35.822105 - time: 29.41972327232361
+loss: 2.3182988 - expected Q values: 35.371666 - time: 28.603677988052368
+loss: 3.0012646 - expected Q values: 33.115513 - time: 28.47929096221924
+loss: 2.6762574 - expected Q values: 34.502064 - time: 28.601036310195923
+loss: 2.7236326 - expected Q values: 37.213768 - time: 28.22752857208252
+loading data/parts_EP_1.o/part_033
+loss: 2.8889701 - expected Q values: 36.556038 - time: 28.37432837486267
+loss: 3.201575 - expected Q values: 34.17715 - time: 28.39565420150757
+loss: 3.219624 - expected Q values: 34.927128 - time: 28.392893314361572
+loss: 2.6551461 - expected Q values: 36.06548 - time: 28.706326246261597
+loss: 2.706388 - expected Q values: 35.449764 - time: 28.446281671524048
+loss: 2.4982371 - expected Q values: 38.26035 - time: 29.343077421188354
+loss: 3.52172 - expected Q values: 35.47681 - time: 28.309325456619263
+loading data/parts_YM_1_inverted.o/part_044
+loss: 5.63914 - expected Q values: 37.00172 - time: 28.362065076828003
+loss: 3.2388089 - expected Q values: 37.20906 - time: 28.888040781021118
+loss: 2.1946015 - expected Q values: 38.719894 - time: 28.554428815841675
+loss: 3.0512137 - expected Q values: 33.17862 - time: 28.114344358444214
+loss: 5.0795302 - expected Q values: 36.521496 - time: 28.83859086036682
+loss: 4.293966 - expected Q values: 35.51071 - time: 28.657767295837402
+loss: 3.303771 - expected Q values: 36.650703 - time: 28.833327531814575
+loss: 2.8317614 - expected Q values: 38.05506 - time: 28.3630108833313
+loading data/parts_ENQ_1_inverted.o/part_041
+loss: 3.6582975 - expected Q values: 33.377766 - time: 27.887874364852905
+loss: 2.8686457 - expected Q values: 34.406662 - time: 28.09623908996582
+loss: 2.7049222 - expected Q values: 38.704617 - time: 29.992629289627075
+loss: 2.9451678 - expected Q values: 36.306828 - time: 28.01505708694458
+loss: 2.6442227 - expected Q values: 36.310097 - time: 28.888750076293945
+loss: 3.5024045 - expected Q values: 35.29349 - time: 28.5085232257843
+loss: 2.638597 - expected Q values: 35.708866 - time: 28.44697904586792
+loss: 3.0461395 - expected Q values: 37.80931 - time: 28.539345741271973
+loss: 2.952342 - expected Q values: 38.948692 - time: 28.77228808403015
+loss: 3.2951353 - expected Q values: 39.10366 - time: 29.08872652053833
+loss: 3.135025 - expected Q values: 37.452927 - time: 28.137916803359985
+loss: 2.90368 - expected Q values: 36.663925 - time: 28.096031427383423
+loss: 2.9939349 - expected Q values: 36.886898 - time: 28.507567882537842
+loss: 3.007302 - expected Q values: 37.533463 - time: 28.868687868118286
+loss: 2.499845 - expected Q values: 37.212723 - time: 28.46406126022339
+loss: 3.0782037 - expected Q values: 38.260773 - time: 28.02012586593628
+loss: 2.7508345 - expected Q values: 37.612305 - time: 28.781343936920166
+loss: 2.7431765 - expected Q values: 39.208416 - time: 27.850311279296875
+loss: 2.8275368 - expected Q values: 37.53897 - time: 28.99507713317871
+loss: 2.8901496 - expected Q values: 38.54293 - time: 28.29486083984375
+loss: 3.113237 - expected Q values: 37.29158 - time: 28.226664781570435
+loss: 3.1894615 - expected Q values: 39.568783 - time: 27.92543601989746
+loss: 3.2462418 - expected Q values: 39.191444 - time: 28.79787254333496
+loss: 4.3272004 - expected Q values: 38.465748 - time: 28.507244110107422
+loss: 2.9090924 - expected Q values: 40.37265 - time: 28.804093599319458
+loss: 3.3006265 - expected Q values: 39.263027 - time: 27.976059198379517
+loss: 2.6265805 - expected Q values: 40.58046 - time: 27.855199813842773
+loss: 2.7922518 - expected Q values: 35.094906 - time: 29.101535081863403
+loss: 2.7302716 - expected Q values: 39.611584 - time: 28.214491844177246
+loss: 3.1686304 - expected Q values: 36.678158 - time: 28.721882581710815
+loss: 2.890919 - expected Q values: 38.31165 - time: 28.301560401916504
+loss: 2.862151 - expected Q values: 41.4278 - time: 28.725844621658325
+loading data/parts_EP_1_inverted.o/part_031
+loss: 3.1497614 - expected Q values: 40.129574 - time: 28.26016116142273
+loss: 3.605678 - expected Q values: 37.29696 - time: 27.812952756881714
+loading data/parts_ENQ_1_inverted.o/part_041
+loss: 3.6854873 - expected Q values: 39.873768 - time: 28.58123517036438
+loss: 2.574881 - expected Q values: 39.191776 - time: 28.253189086914062
+loss: 3.1416306 - expected Q values: 39.60028 - time: 29.042842388153076
+loss: 2.5328867 - expected Q values: 42.281715 - time: 27.763197898864746
+loss: 3.0348818 - expected Q values: 40.334396 - time: 29.008694410324097
+loss: 6.0409336 - expected Q values: 40.161972 - time: 28.432631492614746
+loss: 2.7881463 - expected Q values: 42.84624 - time: 27.677093982696533
+loss: 2.6877518 - expected Q values: 41.869556 - time: 28.196375131607056
+loss: 3.5733187 - expected Q values: 38.896378 - time: 28.055362939834595
+loss: 3.235534 - expected Q values: 39.03023 - time: 29.82020592689514
+loss: 3.750183 - expected Q values: 41.401077 - time: 28.79081153869629
+loss: 3.626111 - expected Q values: 39.1119 - time: 27.54739737510681
+loading data/parts_ENQ_1_inverted.o/part_030
+loss: 3.768349 - expected Q values: 39.71148 - time: 27.394972562789917
+loss: 3.1456769 - expected Q values: 41.54506 - time: 27.89827537536621
+loss: 2.7756095 - expected Q values: 41.90116 - time: 29.11741042137146
