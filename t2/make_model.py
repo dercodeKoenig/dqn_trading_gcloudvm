@@ -167,6 +167,7 @@ def make_model():
     actions = TransformerBlock(tx_embed_units, 12, 256)(actions)
     actions = TransformerBlock(tx_embed_units, 12, 256)(actions)
     actions = tf.keras.layers.GRU(gru_units)(actions, initial_state = input_state_rnn)
+    return actions
   
   input_state = tf.keras.layers.Concatenate()([input_current_pos, input_closing_prices, input_closing_times, pda_list_m60, pda_list_d1])
   actions_m15 = process_actions(actions_m15, input_state)
