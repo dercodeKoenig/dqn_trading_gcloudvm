@@ -3,11 +3,38 @@ import tensorflow as tf
 #config
 batch_size = 128
 gamma = 0.995
-learning_rate=0.00001
+learning_rate=0.0001
 num_data_generation_threads = 12
 batch_generation_threads = 8
 memory_size = 300_000
 ep_len = 100
+
+
+
+from tensorflow.keras import layers
+from tensorflow import keras
+
+class TransformerBlock(layers.Layer):
+    def __init__(self, embed_dim, num_heads, ff_dim, rate=0.1):
+        super().__init__()
+        self.att = layers.MultiHeadAttention(num_heads=num_heads, key_dim=embed_dim)
+        self.ffn = keras.Sequential(
+            [layers.Dense(ff_dim, activation="relu"), layers.Dense(embed_dim),]
+        )
+        self.layernorm1 = layers.LayerNormalization(epsilon=1e-6)
+        self.layernorm2 = layers.LayerNormalization(epsilon=1e-6)
+        self.dropout1 = layers.Dropout(rate)
+        self.dropout2 = layers.Dropout(rate)
+
+    def call(self, inputs, training):
+        attn_output = self.att(inputs, inputs)
+        attn_output = self.dropout1(attn_output, training=training)
+        out1 = self.layernorm1(inputs + attn_output)
+        ffn_output = self.ffn(out1)
+        ffn_output = self.dropout2(ffn_output, training=training)
+        return self.layernorm2(out1 + ffn_output)
+
+
 
 def make_model():
 
@@ -115,26 +142,51 @@ def make_model():
   
 
 
-  actions_m1 = tf.keras.layers.Dense(32)(actions_m1)
-  actions_m1 = tf.keras.layers.LeakyReLU()(actions_m1)
-  actions_m1 = tf.keras.layers.Dense(64)(actions_m1)
-  actions_m1 = tf.keras.layers.LeakyReLU()(actions_m1)
-  actions_m1 = tf.keras.layers.GRU(512, return_sequences=True)(actions_m1)
-  actions_m1 = tf.keras.layers.GRU(512)(actions_m1)
-
-  actions_m5 = tf.keras.layers.Dense(32)(actions_m5)
-  actions_m5 = tf.keras.layers.LeakyReLU()(actions_m5)
-  actions_m5 = tf.keras.layers.Dense(64)(actions_m5)
-  actions_m5 = tf.keras.layers.LeakyReLU()(actions_m5)
-  actions_m5 = tf.keras.layers.GRU(512, return_sequences=True)(actions_m5)
-  actions_m5 = tf.keras.layers.GRU(512)(actions_m5)
-
-  actions_m15 = tf.keras.layers.Dense(32)(actions_m15)
-  actions_m15 = tf.keras.layers.LeakyReLU()(actions_m15)
+  gru_units = 1024
+  tx_embed_len = 4
+  tx_embed_units = 128
+  
+  def embed_information(input_state):
+      input_state = tf.keras.layers.Dense(512, activation = "relu")(input_state)
+      input_state = tf.keras.layers.Dense(512, activation = "relu")(input_state)
+      input_state_rnn = tf.keras.layers.Dense(gru_units, activation = "relu")(input_state)
+      input_state_tx = tf.keras.layers.Dense(tx_embed_units*tx_embed_len, activation = "relu")(input_state)
+      input_state_tx = tf.keras.layers.Reshape((-1,tx_embed_units))(input_state_tx)
+      return input_state_tx, input_state_rnn
+  
   actions_m15 = tf.keras.layers.Dense(64)(actions_m15)
   actions_m15 = tf.keras.layers.LeakyReLU()(actions_m15)
-  actions_m15 = tf.keras.layers.GRU(512, return_sequences=True)(actions_m15)
-  actions_m15 = tf.keras.layers.GRU(512)(actions_m15)
+  actions_m15 = tf.keras.layers.Dense(tx_embed_units)(actions_m15)
+  actions_m15 = tf.keras.layers.LeakyReLU()(actions_m15)
+  input_state = tf.keras.layers.Concatenate()([input_current_pos, input_closing_prices, input_closing_times, pda_list_m60, pda_list_d1])
+  input_state_tx, input_state_rnn = embed_information(input_state)
+  actions_m15 = tf.keras.layers.Concatenate(axis=1)([input_state_tx, actions_m15])
+  actions_m15 = TransformerBlock(tx_embed_units, 6, 256)(actions_m15)
+  actions_m15 = TransformerBlock(tx_embed_units, 6, 256)(actions_m15)
+  actions_m15 = tf.keras.layers.GRU(gru_units)(actions_m15, initial_state = input_state_rnn)
+  
+  actions_m5 = tf.keras.layers.Dense(64)(actions_m5)
+  actions_m5 = tf.keras.layers.LeakyReLU()(actions_m5)
+  actions_m5 = tf.keras.layers.Dense(tx_embed_units)(actions_m5)
+  actions_m5 = tf.keras.layers.LeakyReLU()(actions_m5)
+  input_state = tf.keras.layers.Concatenate()([input_current_pos, input_closing_prices, input_closing_times, pda_list_m60, pda_list_d1, pda_list_m15, actions_m15])
+  input_state_tx, input_state_rnn = embed_information(input_state)
+  actions_m5 = tf.keras.layers.Concatenate(axis=1)([input_state_tx, actions_m5])
+  actions_m5 = TransformerBlock(tx_embed_units, 6, 256)(actions_m5)
+  actions_m5 = TransformerBlock(tx_embed_units, 6, 256)(actions_m5)
+  actions_m5 = tf.keras.layers.GRU(gru_units)(actions_m5, initial_state = input_state_rnn)
+  
+  actions_m1 = tf.keras.layers.Dense(64)(actions_m1)
+  actions_m1 = tf.keras.layers.LeakyReLU()(actions_m1)
+  actions_m1 = tf.keras.layers.Dense(tx_embed_units)(actions_m1)
+  actions_m1 = tf.keras.layers.LeakyReLU()(actions_m1)
+  input_state = tf.keras.layers.Concatenate()([input_current_pos, input_closing_prices, input_closing_times, pda_list_m60, pda_list_d1, pda_list_m15, pda_list_m5, actions_m15, actions_m5])
+  input_state_tx, input_state_rnn = embed_information(input_state)
+  actions_m1 = tf.keras.layers.Concatenate(axis=1)([input_state_tx, actions_m1])
+  actions_m1 = TransformerBlock(tx_embed_units, 6, 256)(actions_m1)
+  actions_m1 = TransformerBlock(tx_embed_units, 6, 256)(actions_m1)
+  actions_m1 = tf.keras.layers.GRU(gru_units)(actions_m1, initial_state = input_state_rnn)
+
 
   dense_input = tf.keras.layers.Concatenate()([input_current_pos, input_closing_prices, input_closing_times, pda_list_m60, pda_list_d1, pda_list_m15, pda_list_m5, pda_list_m1, actions_m1, actions_m5, actions_m15])
   
@@ -148,6 +200,9 @@ def make_model():
   x = tf.keras.layers.Dense(4096)(x)
   x = tf.keras.layers.LeakyReLU()(x)
     
+  x = tf.keras.layers.Dense(4096)(x)
+  x = tf.keras.layers.LeakyReLU()(x)
+  
   x = tf.keras.layers.Dense(4096)(x)
   x = tf.keras.layers.LeakyReLU()(x)
     
