@@ -1,3 +1,5 @@
+## tx without additional information
+
 import tensorflow as tf
 
 #config

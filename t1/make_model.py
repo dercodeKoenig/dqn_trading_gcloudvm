@@ -1,3 +1,5 @@
+## tx + gru small
+
 import tensorflow as tf
 
 #config
