@@ -361,7 +361,7 @@ class manager:
                         if type(o.pda) == fvg:
                             if o.livetime > 20 and o.filled:
                                 o.invalid = True
-                                pd_arrays[pd_index].expired_at_end = True
+                                self.pd_arrays[pd_index].expired_at_end = True
                     
                     
                     if o.invalid:continue
@@ -396,14 +396,14 @@ class manager:
                     if o.pda.type == "BUYSIDE":
                         if self.m5_candles[i].h > o.pda.price:
                             o.invalid = True
-                            pd_arrays[pd_index].expired_at_end = True
+                            self.self.pd_arrays[pd_index].expired_at_end = True
                             a = action("BUYSIDE_TAKEN", o.pda.price, self.m5_candles[i].t, o.tf,o.time)
                             self.action_history_m5.append(a)
             
                     if o.pda.type == "SELLSIDE":
                         if self.m5_candles[i].l < o.pda.price:
                             o.invalid = True
-                            pd_arrays[pd_index].expired_at_end = True
+                            self.self.pd_arrays[pd_index].expired_at_end = True
                             a = action("SELLSIDE_TAKEN", o.pda.price, self.m5_candles[i].t, o.tf,o.time)
                             self.action_history_m5.append(a)
             
@@ -477,7 +477,7 @@ class manager:
                         if type(o.pda) == fvg:
                             if o.livetime > 20 and o.filled:
                                 o.invalid = True
-                                pd_arrays[pd_index].expired_at_end = True
+                                self.pd_arrays[pd_index].expired_at_end = True
                     
                     
                     if o.invalid:continue
@@ -509,14 +509,14 @@ class manager:
                     if o.pda.type == "BUYSIDE":
                         if self.m15_candles[i].h > o.pda.price:
                             o.invalid = True
-                            pd_arrays[pd_index].expired_at_end = True
+                            self.pd_arrays[pd_index].expired_at_end = True
                             a = action("BUYSIDE_TAKEN", o.pda.price, self.m15_candles[i].t, o.tf,o.time)
                             self.action_history_m15.append(a)
             
                     if o.pda.type == "SELLSIDE":
                         if self.m15_candles[i].l < o.pda.price:
                             o.invalid = True
-                            pd_arrays[pd_index].expired_at_end = True
+                            self.pd_arrays[pd_index].expired_at_end = True
                             a = action("SELLSIDE_TAKEN", o.pda.price, self.m15_candles[i].t, o.tf,o.time)
                             self.action_history_m15.append(a)
             
@@ -589,7 +589,7 @@ class manager:
                         if type(o.pda) == fvg:
                             if o.livetime > 20 and o.filled:
                                 o.invalid = True
-                                pd_arrays[pd_index].expired_at_end = True
+                                self.pd_arrays[pd_index].expired_at_end = True
                     
                     
                     if o.invalid:continue
@@ -621,14 +621,14 @@ class manager:
                     if o.pda.type == "BUYSIDE":
                         if self.m1_candles[i].h > o.pda.price:
                             o.invalid = True
-                            pd_arrays[pd_index].expired_at_end = True
+                            self.pd_arrays[pd_index].expired_at_end = True
                             a = action("BUYSIDE_TAKEN", o.pda.price, self.m1_candles[i].t, o.tf,o.time)
                             self.action_history_m1.append(a)
             
                     if o.pda.type == "SELLSIDE":
                         if self.m1_candles[i].l < o.pda.price:
                             o.invalid = True
-                            pd_arrays[pd_index].expired_at_end = True
+                            self.pd_arrays[pd_index].expired_at_end = True
                             a = action("SELLSIDE_TAKEN", o.pda.price, self.m1_candles[i].t, o.tf,o.time)
                             self.action_history_m1.append(a)
             
@@ -699,7 +699,7 @@ class manager:
                         if type(o.pda) == fvg:
                             if o.livetime > 20 and o.filled:
                                 o.invalid = True
-                                pd_arrays[pd_index].expired_at_end = True
+                                self.pd_arrays[pd_index].expired_at_end = True
                     
                     
                     if o.invalid:continue
@@ -718,12 +718,12 @@ class manager:
                     if o.pda.type == "BUYSIDE":
                         if self.m60_candles[i].h > o.pda.price:
                             o.invalid = True
-                            pd_arrays[pd_index].expired_at_end = True
+                            self.pd_arrays[pd_index].expired_at_end = True
             
                     if o.pda.type == "SELLSIDE":
                         if self.m60_candles[i].l < o.pda.price:
                             o.invalid = True
-                            pd_arrays[pd_index].expired_at_end = True
+                            self.pd_arrays[pd_index].expired_at_end = True
             
     
                     
@@ -755,7 +755,7 @@ class manager:
                         if type(o.pda) == fvg:
                             if o.livetime > 20 and o.filled:
                                 o.invalid = True
-                                pd_arrays[pd_index].expired_at_end = True
+                                self.pd_arrays[pd_index].expired_at_end = True
                     
                     
                     if o.invalid:continue
@@ -774,12 +774,12 @@ class manager:
                     if o.pda.type == "BUYSIDE":
                         if self.d1_candles[i].h > o.pda.price:
                             o.invalid = True
-                            pd_arrays[pd_index].expired_at_end = True
+                            self.pd_arrays[pd_index].expired_at_end = True
             
                     if o.pda.type == "SELLSIDE":
                         if self.d1_candles[i].l < o.pda.price:
                             o.invalid = True
-                            pd_arrays[pd_index].expired_at_end = True
+                            self.pd_arrays[pd_index].expired_at_end = True
             
     
                     
