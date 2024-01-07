@@ -120,53 +120,41 @@ def make_model():
   
   actions_m15 = tf.keras.layers.Dense(32)(actions_m15)
   actions_m15 = tf.keras.layers.LeakyReLU()(actions_m15)
-  actions_m15 = tf.keras.layers.Dense(128)(actions_m15)
-  actions_m15 = tf.keras.layers.LeakyReLU()(actions_m15)
   rnn_input_state = tf.keras.layers.Concatenate()([input_current_pos, input_closing_prices, input_closing_times, pda_list_m60, pda_list_d1])
   rnn_input_state = tf.keras.layers.Dense(512, activation = "relu")(rnn_input_state)
   rnn_input_state = tf.keras.layers.Dense(512, activation = "relu")(rnn_input_state)
-  rnn_input_state = tf.keras.layers.Dense(1024, activation = "relu")(rnn_input_state)
-  actions_m15 = tf.keras.layers.GRU(1024, return_sequences=True)(actions_m15, initial_state = rnn_input_state)
-  actions_m15 = tf.keras.layers.GRU(1024)(actions_m15, initial_state = rnn_input_state)
+  rnn_input_state = tf.keras.layers.Dense(256, activation = "relu")(rnn_input_state)
+  actions_m15 = tf.keras.layers.GRU(256, return_sequences=True)(actions_m15, initial_state = rnn_input_state)
+  actions_m15 = tf.keras.layers.GRU(256)(actions_m15, initial_state = rnn_input_state)
   
   actions_m5 = tf.keras.layers.Dense(32)(actions_m5)
-  actions_m5 = tf.keras.layers.LeakyReLU()(actions_m5)
-  actions_m5 = tf.keras.layers.Dense(128)(actions_m5)
   actions_m5 = tf.keras.layers.LeakyReLU()(actions_m5)
   rnn_input_state = tf.keras.layers.Concatenate()([input_current_pos, input_closing_prices, input_closing_times, pda_list_m60, pda_list_d1, pda_list_m15, actions_m15])
   rnn_input_state = tf.keras.layers.Dense(512, activation = "relu")(rnn_input_state)
   rnn_input_state = tf.keras.layers.Dense(512, activation = "relu")(rnn_input_state)
-  rnn_input_state = tf.keras.layers.Dense(1024, activation = "relu")(rnn_input_state)
-  actions_m5 = tf.keras.layers.GRU(1024, return_sequences=True)(actions_m5, initial_state = rnn_input_state)
-  actions_m5 = tf.keras.layers.GRU(1024)(actions_m5, initial_state = rnn_input_state)
+  rnn_input_state = tf.keras.layers.Dense(256, activation = "relu")(rnn_input_state)
+  actions_m5 = tf.keras.layers.GRU(256, return_sequences=True)(actions_m5, initial_state = rnn_input_state)
+  actions_m5 = tf.keras.layers.GRU(256)(actions_m5, initial_state = rnn_input_state)
 
   actions_m1 = tf.keras.layers.Dense(32)(actions_m1)
-  actions_m1 = tf.keras.layers.LeakyReLU()(actions_m1)
-  actions_m1 = tf.keras.layers.Dense(128)(actions_m1)
   actions_m1 = tf.keras.layers.LeakyReLU()(actions_m1)
   rnn_input_state = tf.keras.layers.Concatenate()([input_current_pos, input_closing_prices, input_closing_times, pda_list_m60, pda_list_d1, pda_list_m15, pda_list_m5, actions_m15, actions_m5])
   rnn_input_state = tf.keras.layers.Dense(512, activation = "relu")(rnn_input_state)
   rnn_input_state = tf.keras.layers.Dense(512, activation = "relu")(rnn_input_state)
-  rnn_input_state = tf.keras.layers.Dense(1024, activation = "relu")(rnn_input_state)
-  actions_m1 = tf.keras.layers.GRU(1024, return_sequences=True)(actions_m1, initial_state = rnn_input_state)
-  actions_m1 = tf.keras.layers.GRU(1024)(actions_m1, initial_state = rnn_input_state)
+  rnn_input_state = tf.keras.layers.Dense(256, activation = "relu")(rnn_input_state)
+  actions_m1 = tf.keras.layers.GRU(256, return_sequences=True)(actions_m1, initial_state = rnn_input_state)
+  actions_m1 = tf.keras.layers.GRU(256)(actions_m1, initial_state = rnn_input_state)
 
   dense_input = tf.keras.layers.Concatenate()([input_current_pos, input_closing_prices, input_closing_times, pda_list_m60, pda_list_d1, pda_list_m15, pda_list_m5, pda_list_m1, actions_m1, actions_m5, actions_m15])
   
 
-  x = tf.keras.layers.Dense(4096)(dense_input)
+  x = tf.keras.layers.Dense(1024)(dense_input)
   x = tf.keras.layers.LeakyReLU()(x)
     
-  x = tf.keras.layers.Dense(4096)(x)
+  x = tf.keras.layers.Dense(1024)(x)
   x = tf.keras.layers.LeakyReLU()(x)
     
-  x = tf.keras.layers.Dense(4096)(x)
-  x = tf.keras.layers.LeakyReLU()(x)
-    
-  x = tf.keras.layers.Dense(4096)(x)
-  x = tf.keras.layers.LeakyReLU()(x)
-  
-  x = tf.keras.layers.Dense(4096)(x)
+  x = tf.keras.layers.Dense(1024)(x)
   x = tf.keras.layers.LeakyReLU()(x)
     
 
