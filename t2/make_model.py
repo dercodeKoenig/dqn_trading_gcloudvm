@@ -5,7 +5,7 @@ import tensorflow as tf
 #config
 batch_size = 128
 gamma = 0.995
-learning_rate=0.0001
+learning_rate=0.00002
 num_data_generation_threads = 12
 batch_generation_threads = 8
 memory_size = 300_000
@@ -144,9 +144,9 @@ def make_model():
   
 
 
-  gru_units = 1024
-  tx_embed_len = 4
-  tx_embed_units = 128
+  gru_units = 256
+  tx_embed_len = 8
+  tx_embed_units = 64
   
   def embed_information(input_state):
       input_state = tf.keras.layers.Dense(512, activation = "relu")(input_state)
@@ -163,8 +163,9 @@ def make_model():
   input_state = tf.keras.layers.Concatenate()([input_current_pos, input_closing_prices, input_closing_times, pda_list_m60, pda_list_d1])
   input_state_tx, input_state_rnn = embed_information(input_state)
   actions_m15 = tf.keras.layers.Concatenate(axis=1)([input_state_tx, actions_m15])
-  actions_m15 = TransformerBlock(tx_embed_units, 6, 256)(actions_m15)
-  actions_m15 = TransformerBlock(tx_embed_units, 6, 256)(actions_m15)
+  actions_m15 = TransformerBlock(tx_embed_units, 8, 256)(actions_m15)
+  actions_m15 = TransformerBlock(tx_embed_units, 8, 256)(actions_m15)
+  actions_m15 = TransformerBlock(tx_embed_units, 8, 256)(actions_m15)
   actions_m15 = tf.keras.layers.GRU(gru_units)(actions_m15, initial_state = input_state_rnn)
   
   actions_m5 = tf.keras.layers.Dense(64)(actions_m5)
@@ -174,8 +175,9 @@ def make_model():
   input_state = tf.keras.layers.Concatenate()([input_current_pos, input_closing_prices, input_closing_times, pda_list_m60, pda_list_d1, pda_list_m15, actions_m15])
   input_state_tx, input_state_rnn = embed_information(input_state)
   actions_m5 = tf.keras.layers.Concatenate(axis=1)([input_state_tx, actions_m5])
-  actions_m5 = TransformerBlock(tx_embed_units, 6, 256)(actions_m5)
-  actions_m5 = TransformerBlock(tx_embed_units, 6, 256)(actions_m5)
+  actions_m5 = TransformerBlock(tx_embed_units, 8, 256)(actions_m5)
+  actions_m5 = TransformerBlock(tx_embed_units, 8, 256)(actions_m5)
+  actions_m5 = TransformerBlock(tx_embed_units, 8, 256)(actions_m5)
   actions_m5 = tf.keras.layers.GRU(gru_units)(actions_m5, initial_state = input_state_rnn)
   
   actions_m1 = tf.keras.layers.Dense(64)(actions_m1)
@@ -185,8 +187,9 @@ def make_model():
   input_state = tf.keras.layers.Concatenate()([input_current_pos, input_closing_prices, input_closing_times, pda_list_m60, pda_list_d1, pda_list_m15, pda_list_m5, actions_m15, actions_m5])
   input_state_tx, input_state_rnn = embed_information(input_state)
   actions_m1 = tf.keras.layers.Concatenate(axis=1)([input_state_tx, actions_m1])
-  actions_m1 = TransformerBlock(tx_embed_units, 6, 256)(actions_m1)
-  actions_m1 = TransformerBlock(tx_embed_units, 6, 256)(actions_m1)
+  actions_m1 = TransformerBlock(tx_embed_units, 8, 256)(actions_m1)
+  actions_m1 = TransformerBlock(tx_embed_units, 8, 256)(actions_m1)
+  actions_m1 = TransformerBlock(tx_embed_units, 8, 256)(actions_m1)
   actions_m1 = tf.keras.layers.GRU(gru_units)(actions_m1, initial_state = input_state_rnn)
 
 
