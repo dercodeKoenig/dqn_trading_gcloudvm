@@ -160,7 +160,7 @@ def make_model():
     actions = tf.keras.layers.Dense(tx_embed_units)(actions)
     actions = tf.keras.layers.LeakyReLU()(actions)
     input_state_tx, input_state_rnn = embed_information(additional_info)
-    actions = tf.keras.layers.Concatenate(axis=1)([input_state_tx, actions_m15])
+    actions = tf.keras.layers.Concatenate(axis=1)([input_state_tx, actions])
     actions = TransformerBlock(tx_embed_units, 12, 256)(actions)
     actions = TransformerBlock(tx_embed_units, 12, 256)(actions)
     actions = TransformerBlock(tx_embed_units, 12, 256)(actions)
