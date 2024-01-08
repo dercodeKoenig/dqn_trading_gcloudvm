@@ -38,6 +38,7 @@ class pd_array:
         self.time = pd_time
         self.tf = timeframe
         self.expired_at_end = False
+        self.expires_at_minute = -1
         pd_array_formed = [int(p) for p in self.time]
         self.pd_array_formed_minutes = MHDMoY_to_minutes(pd_array_formed[4],pd_array_formed[3],pd_array_formed[0],pd_array_formed[1],pd_array_formed[2])
 
@@ -357,8 +358,9 @@ class manager:
             self.action_history_m5 = deque(maxlen = 256)
             for i in range(len(self.m5_candles)):
                 for pd_index, o in enumerate(self.pd_copy):
-    
-    
+
+                    candle_time_abs = self.m5_candles[i].candle_time_minutes
+        
                     if o.tf == "m1":
                             continue
                         
@@ -371,12 +373,14 @@ class manager:
                             if o.livetime > 20 and o.filled:
                                 o.invalid = True
                                 self.pd_arrays[pd_index].expired_at_end = True
+                                self.pd_arrays[pd_index].expires_at_minute = candle_time_abs
                     
                     
                     if o.invalid:continue
+                    if o.expires_at_minute > 0 and o.expires_at_minute < candle_time_abs:
+                        o.invalid = True
+                        continue
                     
-                    
-                    candle_time_abs = self.m5_candles[i].candle_time_minutes
                     pd_array_formed_abs = o.pd_array_formed_minutes
                     
                     if pd_array_formed_abs < candle_time_abs:o.active = True
@@ -405,6 +409,7 @@ class manager:
                         if self.m5_candles[i].h > o.pda.price:
                             o.invalid = True
                             self.pd_arrays[pd_index].expired_at_end = True
+                            self.pd_arrays[pd_index].expires_at_minute = candle_time_abs
                             a = action("BUYSIDE_TAKEN", o.pda.price, self.m5_candles[i].t, o.tf,o.time)
                             self.action_history_m5.append(a)
             
@@ -412,6 +417,7 @@ class manager:
                         if self.m5_candles[i].l < o.pda.price:
                             o.invalid = True
                             self.pd_arrays[pd_index].expired_at_end = True
+                            self.pd_arrays[pd_index].expires_at_minute = candle_time_abs
                             a = action("SELLSIDE_TAKEN", o.pda.price, self.m5_candles[i].t, o.tf,o.time)
                             self.action_history_m5.append(a)
             
@@ -471,7 +477,9 @@ class manager:
             self.action_history_m15 = deque(maxlen = 256)
             for i in range(len(self.m15_candles)):
                 for pd_index, o in enumerate(self.pd_copy):
-    
+                    
+                    candle_time_abs = self.m15_candles[i].candle_time_minutes
+                    
                     if o.tf == "m1":
                             continue
                     if o.tf == "m5":
@@ -486,11 +494,14 @@ class manager:
                             if o.livetime > 20 and o.filled:
                                 o.invalid = True
                                 self.pd_arrays[pd_index].expired_at_end = True
+                                self.pd_arrays[pd_index].expires_at_minute = candle_time_abs
                     
                     
                     if o.invalid:continue
+                    if o.expires_at_minute > 0 and o.expires_at_minute < candle_time_abs:
+                        o.invalid = True
+                        continue
                     
-                    candle_time_abs = self.m15_candles[i].candle_time_minutes
                     pd_array_formed_abs = o.pd_array_formed_minutes
                     
                     if pd_array_formed_abs < candle_time_abs:o.active = True
@@ -516,6 +527,7 @@ class manager:
                         if self.m15_candles[i].h > o.pda.price:
                             o.invalid = True
                             self.pd_arrays[pd_index].expired_at_end = True
+                            self.pd_arrays[pd_index].expires_at_minute = candle_time_abs
                             a = action("BUYSIDE_TAKEN", o.pda.price, self.m15_candles[i].t, o.tf,o.time)
                             self.action_history_m15.append(a)
             
@@ -523,6 +535,7 @@ class manager:
                         if self.m15_candles[i].l < o.pda.price:
                             o.invalid = True
                             self.pd_arrays[pd_index].expired_at_end = True
+                            self.pd_arrays[pd_index].expires_at_minute = candle_time_abs
                             a = action("SELLSIDE_TAKEN", o.pda.price, self.m15_candles[i].t, o.tf,o.time)
                             self.action_history_m15.append(a)
             
@@ -586,6 +599,8 @@ class manager:
             self.action_history_m1 = deque(maxlen = 256)
             for i in range(len(self.m1_candles)):
                 for pd_index,o in enumerate(self.pd_copy):
+
+                    candle_time_abs = self.m1_candles[i].candle_time_minutes
                     
                     if o.active:
                         
@@ -596,11 +611,14 @@ class manager:
                             if o.livetime > 20 and o.filled:
                                 o.invalid = True
                                 self.pd_arrays[pd_index].expired_at_end = True
+                                self.pd_arrays[pd_index].expires_at_minute = candle_time_abs
                     
                     
                     if o.invalid:continue
-                    
-                    candle_time_abs = self.m1_candles[i].candle_time_minutes
+                    if o.expires_at_minute > 0 and o.expires_at_minute < candle_time_abs:
+                        o.invalid = True
+                        continue
+                        
                     pd_array_formed_abs = o.pd_array_formed_minutes
                     
                     if pd_array_formed_abs < candle_time_abs:o.active = True
@@ -626,6 +644,7 @@ class manager:
                         if self.m1_candles[i].h > o.pda.price:
                             o.invalid = True
                             self.pd_arrays[pd_index].expired_at_end = True
+                            self.pd_arrays[pd_index].expires_at_minute = candle_time_abs
                             a = action("BUYSIDE_TAKEN", o.pda.price, self.m1_candles[i].t, o.tf,o.time)
                             self.action_history_m1.append(a)
             
@@ -633,6 +652,7 @@ class manager:
                         if self.m1_candles[i].l < o.pda.price:
                             o.invalid = True
                             self.pd_arrays[pd_index].expired_at_end = True
+                            self.pd_arrays[pd_index].expires_at_minute = candle_time_abs
                             a = action("SELLSIDE_TAKEN", o.pda.price, self.m1_candles[i].t, o.tf,o.time)
                             self.action_history_m1.append(a)
             
@@ -690,6 +710,8 @@ class manager:
             for i in range(len(self.m60_candles)):
                 for pd_index, o in enumerate(self.pd_copy):
     
+                    candle_time_abs = self.m60_candles[i].candle_time_minutes
+                    
                     if o.tf == "m1":
                             continue
                     if o.tf == "m5":
@@ -704,15 +726,17 @@ class manager:
                             if o.livetime > 20 and o.filled:
                                 o.invalid = True
                                 self.pd_arrays[pd_index].expired_at_end = True
+                                self.pd_arrays[pd_index].expires_at_minute = candle_time_abs
                     
                     
                     if o.invalid:continue
-                    
-                    candle_time_abs = self.m60_candles[i].candle_time_minutes
+                    if o.expires_at_minute > 0 and o.expires_at_minute < candle_time_abs:
+                        o.invalid = True
+                        continue
+                        
                     pd_array_formed_abs = o.pd_array_formed_minutes
                     
                     if pd_array_formed_abs < candle_time_abs:o.active = True
-                                
                             
             
                     if not o.active:continue
@@ -721,11 +745,13 @@ class manager:
                         if self.m60_candles[i].h > o.pda.price:
                             o.invalid = True
                             self.pd_arrays[pd_index].expired_at_end = True
+                            self.pd_arrays[pd_index].expires_at_minute = candle_time_abs
             
                     if o.pda.type == "SELLSIDE":
                         if self.m60_candles[i].l < o.pda.price:
                             o.invalid = True
                             self.pd_arrays[pd_index].expired_at_end = True
+                            self.pd_arrays[pd_index].expires_at_minute = candle_time_abs
             
     
                     
@@ -741,7 +767,9 @@ class manager:
         if tf == "d1": # has no action history (yet...?)
             for i in range(len(self.d1_candles)):
                 for pd_index, o in enumerate(self.pd_copy):
-    
+
+                    candle_time_abs = self.d1_candles[i].candle_time_minutes
+                    
                     if o.tf == "m1":
                             continue
                     if o.tf == "m5":
@@ -758,11 +786,14 @@ class manager:
                             if o.livetime > 20 and o.filled:
                                 o.invalid = True
                                 self.pd_arrays[pd_index].expired_at_end = True
+                                self.pd_arrays[pd_index].expires_at_minute = candle_time_abs
                     
                     
                     if o.invalid:continue
+                    if o.expires_at_minute > 0 and o.expires_at_minute < candle_time_abs:
+                        o.invalid = True
+                        continue
                     
-                    candle_time_abs = self.d1_candles[i].candle_time_minutes
                     pd_array_formed_abs = o.pd_array_formed_minutes
                     
                     if pd_array_formed_abs < candle_time_abs:o.active = True
@@ -775,11 +806,13 @@ class manager:
                         if self.d1_candles[i].h > o.pda.price:
                             o.invalid = True
                             self.pd_arrays[pd_index].expired_at_end = True
+                            self.pd_arrays[pd_index].expires_at_minute = candle_time_abs
             
                     if o.pda.type == "SELLSIDE":
                         if self.d1_candles[i].l < o.pda.price:
                             o.invalid = True
                             self.pd_arrays[pd_index].expired_at_end = True
+                            self.pd_arrays[pd_index].expires_at_minute = candle_time_abs
             
     
                     
