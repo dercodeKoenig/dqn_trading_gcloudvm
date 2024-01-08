@@ -194,7 +194,7 @@ class manager:
 
         if not scan:return
 
-        self.pd_arrays = self.m1_pda+self.m5_pda+self.m15_pda+self.m60_pda+self.d1_pda
+        self.pd_arrays = list(self.m1_pda)+list(self.m5_pda)+list(self.m15_pda)+list(self.m60_pda)+list(self.d1_pda)
         
         
         if update_action_m1: # always True
