@@ -10,6 +10,10 @@ class candle_class:
         self.l=l
         self.c=c
         self.t=t
+        self.comp_minutes()
+    def comp_minutes(self):
+        candle_time = [int(p) for p in self.t]                    
+        self.candle_time_minutes = MHDMoY_to_minutes(candle_time[4], candle_time[3], candle_time[0], candle_time[1], candle_time[2])
 
 class fvg:
     def __init__(self, bisi_sibi, fvg1, fvg2):
@@ -26,12 +30,16 @@ class liquidity:
         self.price = price
     
 
+                    
+                    
 class pd_array:
     def __init__(self, timeframe, pda, pd_time):
         self.pda = pda
         self.time = pd_time
         self.tf = timeframe
         self.expired_at_end = False
+        pd_array_formed = [int(p) for p in self.time]
+        self.pd_array_formed_minutes = MHDMoY_to_minutes(pd_array_formed[4],pd_array_formed[3],pd_array_formed[0],pd_array_formed[1],pd_array_formed[2])
 
 class action:
     def __init__(self, action_type, price, action_time, pd_array_tf, pd_array_formed_time):
@@ -94,6 +102,7 @@ class manager:
         update_action_m60 = False
         update_action_d1 = False
         
+        candle.comp_minutes()
         self.m1_candles.append(candle)
         
         if scan:
@@ -366,10 +375,9 @@ class manager:
                     
                     if o.invalid:continue
                     
-                    candle_time = [int(p) for p in self.m5_candles[i].t]
-                    pd_array_formed = [int(p) for p in o.time]
-                    candle_time_abs = MHDMoY_to_minutes(candle_time[4], candle_time[3], candle_time[0], candle_time[1], candle_time[2])
-                    pd_array_formed_abs = MHDMoY_to_minutes(pd_array_formed[4],pd_array_formed[3],pd_array_formed[0],pd_array_formed[1],pd_array_formed[2])
+                    
+                    candle_time_abs = self.m5_candles[i].candle_time_minutes
+                    pd_array_formed_abs = o.pd_array_formed_minutes
                     
                     if pd_array_formed_abs < candle_time_abs:o.active = True
     
@@ -482,10 +490,8 @@ class manager:
                     
                     if o.invalid:continue
                     
-                    candle_time = [int(p) for p in self.m15_candles[i].t]
-                    pd_array_formed = [int(p) for p in o.time]
-                    candle_time_abs = MHDMoY_to_minutes(candle_time[4], candle_time[3], candle_time[0], candle_time[1], candle_time[2])
-                    pd_array_formed_abs = MHDMoY_to_minutes(pd_array_formed[4],pd_array_formed[3],pd_array_formed[0],pd_array_formed[1],pd_array_formed[2])
+                    candle_time_abs = self.m15_candles[i].candle_time_minutes
+                    pd_array_formed_abs = o.pd_array_formed_minutes
                     
                     if pd_array_formed_abs < candle_time_abs:o.active = True
     
@@ -594,10 +600,8 @@ class manager:
                     
                     if o.invalid:continue
                     
-                    candle_time = [int(p) for p in self.m1_candles[i].t]
-                    pd_array_formed = [int(p) for p in o.time]
-                    candle_time_abs = MHDMoY_to_minutes(candle_time[4], candle_time[3], candle_time[0], candle_time[1], candle_time[2])
-                    pd_array_formed_abs = MHDMoY_to_minutes(pd_array_formed[4],pd_array_formed[3],pd_array_formed[0],pd_array_formed[1],pd_array_formed[2])
+                    candle_time_abs = self.m1_candles[i].candle_time_minutes
+                    pd_array_formed_abs = o.pd_array_formed_minutes
                     
                     if pd_array_formed_abs < candle_time_abs:o.active = True
     
@@ -704,10 +708,8 @@ class manager:
                     
                     if o.invalid:continue
                     
-                    candle_time = [int(p) for p in self.m60_candles[i].t]
-                    pd_array_formed = [int(p) for p in o.time]
-                    candle_time_abs = MHDMoY_to_minutes(candle_time[4], candle_time[3], candle_time[0], candle_time[1], candle_time[2])
-                    pd_array_formed_abs = MHDMoY_to_minutes(pd_array_formed[4],pd_array_formed[3],pd_array_formed[0],pd_array_formed[1],pd_array_formed[2])
+                    candle_time_abs = self.m60_candles[i].candle_time_minutes
+                    pd_array_formed_abs = o.pd_array_formed_minutes
                     
                     if pd_array_formed_abs < candle_time_abs:o.active = True
                                 
@@ -760,10 +762,8 @@ class manager:
                     
                     if o.invalid:continue
                     
-                    candle_time = [int(p) for p in self.d1_candles[i].t]
-                    pd_array_formed = [int(p) for p in o.time]
-                    candle_time_abs = MHDMoY_to_minutes(candle_time[4], candle_time[3], candle_time[0], candle_time[1], candle_time[2])
-                    pd_array_formed_abs = MHDMoY_to_minutes(pd_array_formed[4],pd_array_formed[3],pd_array_formed[0],pd_array_formed[1],pd_array_formed[2])
+                    candle_time_abs = self.d1_candles[i].candle_time_minutes
+                    pd_array_formed_abs = o.pd_array_formed_minutes
                     
                     if pd_array_formed_abs < candle_time_abs:o.active = True
                                 

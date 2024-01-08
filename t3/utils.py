@@ -21,7 +21,7 @@ def make_price_relative(price, nullprice, scale):
     return (price - nullprice) / max(scale, 0.25)
 
 def scale_timeofday(t):
-    return (t[3]*60+t[4])+(t[5])*60*24
+    return (t[3]*60+t[4])#+(t[5])*60*24
 
 def get_inputs_from_ret(ret, x):
     
@@ -30,6 +30,7 @@ def get_inputs_from_ret(ret, x):
     
     input_close_scaled = make_price_relative(last, midnight, avg_15m_candle_range)
     input_time_scaled = scale_timeofday(last_time)
+    day = last_time[5]
     
     
     
@@ -361,6 +362,7 @@ def get_inputs_from_ret(ret, x):
     return [
         input_close_scaled,
         input_time_scaled,
+        day,
         get_closest_pda(input_close_scaled,active_pd_arrays_m1),
         get_closest_pda(input_close_scaled,active_pd_arrays_m5), 
         get_closest_pda(input_close_scaled,active_pd_arrays_m15), 

@@ -40,7 +40,7 @@ class TransformerBlock(layers.Layer):
 
 def make_model():
 
-  embed_times = tf.keras.layers.Embedding(60*24*7,8)
+  embed_times = tf.keras.layers.Embedding(60*24,8)
   embed_pda_types = tf.keras.layers.Embedding(7,6)
 
   pd_arrays_m1_input = tf.keras.layers.Input(shape = (10,3))
@@ -138,6 +138,9 @@ def make_model():
 
   input_closing_prices = tf.keras.layers.Input(shape=(1))
   input_current_pos = tf.keras.layers.Input(shape=(1))
+  input_current_day_in = tf.keras.layers.Input(shape=(1))
+  input_closing_day = tf.keras.layers.Embedding(7,3)(input_current_day_in)
+  input_closing_day = tf.keras.layers.Flatten()(input_closing_day)
   input_closing_times_in = tf.keras.layers.Input(shape=(1))
   input_closing_times = embed_times(input_closing_times_in)
   input_closing_times = tf.keras.layers.Flatten()(input_closing_times)
@@ -165,14 +168,14 @@ def make_model():
     actions = tf.keras.layers.GRU(gru_units)(actions, initial_state = input_state_rnn)
     return actions
   
-  input_state = tf.keras.layers.Concatenate()([input_current_pos, input_closing_prices, input_closing_times, pda_list_m60, pda_list_d1])
+  input_state = tf.keras.layers.Concatenate()([input_current_pos, input_closing_prices, input_closing_times, input_closing_day, pda_list_m60, pda_list_d1])
   actions_m15 = process_actions(actions_m15, input_state)
-  input_state = tf.keras.layers.Concatenate()([input_current_pos, input_closing_prices, input_closing_times, pda_list_m60, pda_list_d1, pda_list_m15, actions_m15])
+  input_state = tf.keras.layers.Concatenate()([input_current_pos, input_closing_prices, input_closing_times, input_closing_day, pda_list_m60, pda_list_d1, pda_list_m15, actions_m15])
   actions_m5 = process_actions(actions_m5, input_state)
-  input_state = tf.keras.layers.Concatenate()([input_current_pos, input_closing_prices, input_closing_times, pda_list_m60, pda_list_d1, pda_list_m15, pda_list_m5, actions_m15, actions_m5])
+  input_state = tf.keras.layers.Concatenate()([input_current_pos, input_closing_prices, input_closing_times, input_closing_day, pda_list_m60, pda_list_d1, pda_list_m15, pda_list_m5, actions_m15, actions_m5])
   actions_m1 = process_actions(actions_m1, input_state)
   
-  dense_input = tf.keras.layers.Concatenate()([input_current_pos, input_closing_prices, input_closing_times, pda_list_m60, pda_list_d1, pda_list_m15, pda_list_m5, pda_list_m1, actions_m1, actions_m5, actions_m15])
+  dense_input = tf.keras.layers.Concatenate()([input_current_pos, input_closing_prices, input_closing_times, input_closing_day, pda_list_m60, pda_list_d1, pda_list_m15, pda_list_m5, pda_list_m1, actions_m1, actions_m5, actions_m15])
   
 
   x = tf.keras.layers.Dense(1024)(dense_input)
@@ -187,5 +190,5 @@ def make_model():
 
   x = tf.keras.layers.Dense(2, activation = "linear")(x)
 
-  model = tf.keras.Model(inputs = [input_current_pos, input_closing_prices, input_closing_times_in, pd_arrays_m1_input, pd_arrays_m5_input, pd_arrays_m15_input, pd_arrays_m60_input, pd_arrays_d1_input, action_m1_inputs, action_m5_inputs, action_m15_inputs], outputs=x)
+  model = tf.keras.Model(inputs = [input_current_pos, input_closing_prices, input_closing_times_in, input_closing_day_in, pd_arrays_m1_input, pd_arrays_m5_input, pd_arrays_m15_input, pd_arrays_m60_input, pd_arrays_d1_input, action_m1_inputs, action_m5_inputs, action_m15_inputs], outputs=x)
   return model
