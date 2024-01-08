@@ -152,17 +152,17 @@ def data_get_func(data_qs, batch_q):
 
                     p = data_q.get()
 
-                    p[0][3] = np.concatenate((p[0][3][0],p[0][3][1]))
                     p[0][4] = np.concatenate((p[0][4][0],p[0][4][1]))
                     p[0][5] = np.concatenate((p[0][5][0],p[0][5][1]))
                     p[0][6] = np.concatenate((p[0][6][0],p[0][6][1]))
                     p[0][7] = np.concatenate((p[0][7][0],p[0][7][1]))
+                    p[0][8] = np.concatenate((p[0][8][0],p[0][8][1]))
 
-                    p[4][3] = np.concatenate((p[4][3][0],p[4][3][1]))
                     p[4][4] = np.concatenate((p[4][4][0],p[4][4][1]))
                     p[4][5] = np.concatenate((p[4][5][0],p[4][5][1]))
                     p[4][6] = np.concatenate((p[4][6][0],p[4][6][1]))
                     p[4][7] = np.concatenate((p[4][7][0],p[4][7][1]))
+                    p[4][8] = np.concatenate((p[4][8][0],p[4][8][1]))
 
                     ssrtm_memory.append(p)
             if has_items == False:
