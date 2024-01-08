@@ -12,7 +12,7 @@ from collections import deque
 import time
 import os
 
-num_model_inputs = 2+5+3+1
+num_model_inputs = 3+5+3+1
 n_actions = 2
 m1 = np.eye(n_actions, dtype="float32")
 batch_q_size = 512
