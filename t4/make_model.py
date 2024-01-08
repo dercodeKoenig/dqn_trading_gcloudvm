@@ -138,8 +138,8 @@ def make_model():
   input_closing_prices = tf.keras.layers.Input(shape=(1))
   input_current_pos = tf.keras.layers.Input(shape=(1))
   input_current_day_in = tf.keras.layers.Input(shape=(1))
-  input_closing_day = tf.keras.layers.Embedding(7,3)(input_current_day_in)
-  input_closing_day = tf.keras.layers.Flatten()(input_closing_day)
+  input_current_day = tf.keras.layers.Embedding(7,3)(input_current_day_in)
+  input_current_day = tf.keras.layers.Flatten()(input_current_day)
   input_closing_times_in = tf.keras.layers.Input(shape=(1))
   input_closing_times = embed_times(input_closing_times_in)
   input_closing_times = tf.keras.layers.Flatten()(input_closing_times)
@@ -170,7 +170,7 @@ def make_model():
   actions_m15 = tf.keras.layers.GRU(64)(actions_m15)
   #actions_m15 = tf.keras.layers.GlobalAveragePooling1D()(actions_m15)
 
-  dense_input = tf.keras.layers.Concatenate()([input_current_pos, input_closing_prices, input_closing_day, input_closing_times, pda_list_m60, pda_list_d1, pda_list_m15, pda_list_m5, pda_list_m1, actions_m1, actions_m5, actions_m15])
+  dense_input = tf.keras.layers.Concatenate()([input_current_pos, input_closing_prices, input_current_day, input_closing_times, pda_list_m60, pda_list_d1, pda_list_m15, pda_list_m5, pda_list_m1, actions_m1, actions_m5, actions_m15])
   
 
   x = tf.keras.layers.Dense(512)(dense_input)
