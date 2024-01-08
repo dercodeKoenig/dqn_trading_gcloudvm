@@ -1450,3 +1450,1138 @@ loss: 4.6922364 - expected Q values: -3.1165473 - time: 29.19412636756897
 loss: 3.9883137 - expected Q values: -3.837605 - time: 29.20556116104126
 loss: 1.6888674 - expected Q values: -3.2843287 - time: 29.137250900268555
 loss: 2.1278105 - expected Q values: -3.8745477 - time: 29.006134271621704
+loss: 1.5902034 - expected Q values: -3.3608255 - time: 29.31804132461548
+loss: 2.263559 - expected Q values: -2.8266408 - time: 29.12125301361084
+loading data/parts_YM_1.o/part_017
+loss: 2.8232212 - expected Q values: -3.7531836 - time: 29.144723892211914
+loss: 1.8984839 - expected Q values: -4.044052 - time: 29.213165283203125
+10 - path: data/parts_YM_1_inverted.o/
+10 - cm: 2.4
+10 - start at parts_YM_1_inverted.o - 0
+loading data/parts_YM_1_inverted.o/part_000
+loss: 2.8370438 - expected Q values: -4.1038036 - time: 29.09448266029358
+
+copy model weights...
+
+
+saving...
+
+loss: 3.474654 - expected Q values: -4.5913486 - time: 30.926424026489258
+loss: 3.3318899 - expected Q values: -3.974519 - time: 28.599591493606567
+loss: 1.8790758 - expected Q values: -3.4339316 - time: 29.211736917495728
+loss: 2.9929786 - expected Q values: -3.8830228 - time: 28.994534015655518
+loading data/parts_ENQ_1_inverted.o/part_010
+loss: 3.935681 - expected Q values: -2.9626434 - time: 29.357435941696167
+loss: 2.0945504 - expected Q values: -3.8434594 - time: 29.03467607498169
+loss: 2.7259066 - expected Q values: -4.2071843 - time: 29.22148585319519
+loading data/parts_ENQ_1_inverted.o/part_012
+loss: 2.658587 - expected Q values: -4.27564 - time: 29.28424572944641
+loss: 3.151996 - expected Q values: -3.7810528 - time: 29.123097896575928
+loss: 2.1531954 - expected Q values: -3.0131757 - time: 29.157198429107666
+loading data/parts_EP_1_inverted.o/part_034
+loss: 2.2780893 - expected Q values: -3.528283 - time: 28.96155571937561
+loss: 3.3058224 - expected Q values: -3.6327674 - time: 29.177849292755127
+loss: 2.6561232 - expected Q values: -3.3794656 - time: 29.12323236465454
+loss: 2.2621648 - expected Q values: -4.1097317 - time: 29.39806294441223
+loss: 1.9362552 - expected Q values: -2.7149673 - time: 29.485671281814575
+loading data/parts_ENQ_1_inverted.o/part_021
+loss: 1.9970107 - expected Q values: -3.628645 - time: 28.85646414756775
+loading data/parts_EP_1_inverted.o/part_070
+loss: 7.591425 - expected Q values: -3.0342548 - time: 29.075133085250854
+loading data/parts_ENQ_1_inverted.o/part_047
+loss: 3.4107022 - expected Q values: -3.383703 - time: 29.086787462234497
+loss: 3.2821288 - expected Q values: -3.49076 - time: 29.393094539642334
+loss: 1.8527089 - expected Q values: -3.332034 - time: 29.40590476989746
+
+saving...
+
+loss: 2.235043 - expected Q values: -3.0463605 - time: 29.468871355056763
+loss: 1.8715942 - expected Q values: -3.4723074 - time: 29.178555250167847
+loss: 2.4994013 - expected Q values: -2.5336258 - time: 29.30911374092102
+loss: 1.6510829 - expected Q values: -2.5075755 - time: 28.985090732574463
+loss: 4.2177672 - expected Q values: -4.205632 - time: 29.340156078338623
+loss: 4.3941913 - expected Q values: -4.3870363 - time: 29.283992052078247
+loss: 8.104326 - expected Q values: -2.7466486 - time: 28.981807470321655
+loading data/parts_ENQ_1_inverted.o/part_046
+loss: 1.5274949 - expected Q values: -2.622467 - time: 29.54761028289795
+loss: 3.1886268 - expected Q values: -3.7959814 - time: 29.460905075073242
+10 - path: data/parts_EP_1.o/
+10 - cm: 0.4
+10 - start at parts_EP_1.o - 0
+loading data/parts_EP_1.o/part_000
+loss: 7.070448 - expected Q values: -3.6775262 - time: 28.780378580093384
+loss: 2.757719 - expected Q values: -3.3268232 - time: 28.935007572174072
+loss: 2.3174982 - expected Q values: -3.8414228 - time: 29.191239595413208
+loss: 2.6001568 - expected Q values: -3.4798243 - time: 29.248035669326782
+loading data/parts_EP_1.o/part_040
+loss: 2.45906 - expected Q values: -3.5024912 - time: 29.236063480377197
+loading data/parts_YM_1_inverted.o/part_040
+loss: 2.5545444 - expected Q values: -2.8014264 - time: 28.88921046257019
+loading data/parts_ENQ_1.o/part_018
+loss: 1.855594 - expected Q values: -3.2071106 - time: 29.282971143722534
+loss: 3.7229779 - expected Q values: -3.6420474 - time: 28.83980393409729
+loss: 2.1821563 - expected Q values: -3.3368511 - time: 29.171464920043945
+loss: 2.337949 - expected Q values: -1.9054804 - time: 29.696123600006104
+loss: 1.7088274 - expected Q values: -2.7210734 - time: 29.286330223083496
+loading data/parts_ENQ_1.o/part_051
+
+saving...
+
+loss: 3.0487275 - expected Q values: -3.9301078 - time: 29.297629833221436
+loading data/parts_EP_1_inverted.o/part_051
+loss: 2.2720532 - expected Q values: -3.8274245 - time: 28.880189418792725
+loss: 4.566327 - expected Q values: -2.0225925 - time: 29.236772537231445
+loading data/parts_ENQ_1.o/part_038
+loss: 1.5190333 - expected Q values: -2.9583633 - time: 29.233377695083618
+loss: 1.4605172 - expected Q values: -2.3965409 - time: 29.633878469467163
+loss: 2.8232236 - expected Q values: -4.4778275 - time: 29.13616180419922
+loss: 2.2423925 - expected Q values: -3.3758721 - time: 28.98798894882202
+loss: 3.2007062 - expected Q values: -2.3522825 - time: 29.083431243896484
+loss: 2.491908 - expected Q values: -2.2280335 - time: 28.996543407440186
+loss: 1.5696274 - expected Q values: -2.4496098 - time: 29.01097059249878
+
+copy model weights...
+
+loss: 2.508613 - expected Q values: -2.2312102 - time: 30.347201824188232
+loss: 18.968805 - expected Q values: -1.2174393 - time: 28.964762687683105
+loss: 2.1849875 - expected Q values: -2.7525065 - time: 29.251378536224365
+loss: 3.374864 - expected Q values: -2.4589477 - time: 29.17356514930725
+loading data/parts_YM_1_inverted.o/part_044
+loading data/parts_EP_1_inverted.o/part_027
+loss: 4.6729884 - expected Q values: -2.2997103 - time: 29.32308578491211
+loss: 1.4951628 - expected Q values: -2.5982642 - time: 29.14405131340027
+loss: 5.9437923 - expected Q values: -2.0323632 - time: 29.593016862869263
+loss: 1.6634728 - expected Q values: -2.5307658 - time: 29.075214624404907
+loss: 2.7799287 - expected Q values: -3.0512278 - time: 29.276668787002563
+loss: 4.4483857 - expected Q values: -2.933899 - time: 29.217818021774292
+loading data/parts_ENQ_1.o/part_060
+
+saving...
+
+loss: 1.9752908 - expected Q values: -2.7572665 - time: 29.94867706298828
+loss: 4.272948 - expected Q values: -3.166707 - time: 28.93035316467285
+loss: 8.98651 - expected Q values: -3.45802 - time: 29.380907773971558
+loss: 1.9201866 - expected Q values: -3.0282905 - time: 29.165154457092285
+loss: 4.341434 - expected Q values: -2.76601 - time: 29.120532274246216
+loss: 5.4995284 - expected Q values: -2.2272484 - time: 29.226644039154053
+loss: 3.7056565 - expected Q values: -2.6345978 - time: 29.575822353363037
+loss: 2.1920109 - expected Q values: -3.654466 - time: 28.94593071937561
+loss: 1.8076012 - expected Q values: -3.382733 - time: 29.198575258255005
+loss: 3.6702986 - expected Q values: -2.856226 - time: 29.233001708984375
+loss: 3.38341 - expected Q values: -2.5742562 - time: 29.180702447891235
+loading data/parts_EP_1_inverted.o/part_063
+loss: 3.9063523 - expected Q values: -2.8687725 - time: 28.97478413581848
+loss: 6.5285854 - expected Q values: -1.9901615 - time: 29.230732202529907
+loss: 3.8663962 - expected Q values: -3.098019 - time: 28.81199359893799
+loss: 3.9124284 - expected Q values: -2.7713828 - time: 29.285696506500244
+loss: 1.805306 - expected Q values: -2.7886147 - time: 29.39924669265747
+loss: 1.8290318 - expected Q values: -2.9454923 - time: 29.558167219161987
+loss: 1.857946 - expected Q values: -2.8510761 - time: 29.10880398750305
+loss: 2.489682 - expected Q values: -3.081324 - time: 28.906225204467773
+loss: 2.3199694 - expected Q values: -2.677576 - time: 29.065263986587524
+loading data/parts_EP_1_inverted.o/part_050
+
+saving...
+
+loss: 2.1204302 - expected Q values: -3.2781274 - time: 29.25474739074707
+loss: 3.4182684 - expected Q values: -3.141113 - time: 29.082510471343994
+loss: 2.014766 - expected Q values: -2.9225233 - time: 28.880185842514038
+loading data/parts_YM_1.o/part_057
+loss: 1.871157 - expected Q values: -3.2698128 - time: 28.917351007461548
+loss: 1.7690731 - expected Q values: -3.360913 - time: 28.940975427627563
+loss: 1.7041107 - expected Q values: -3.2034345 - time: 28.813823699951172
+loss: 2.0144317 - expected Q values: -3.2606332 - time: 28.64963436126709
+loss: 1.8944129 - expected Q values: -3.066997 - time: 28.743141174316406
+loss: 2.8568487 - expected Q values: -3.664501 - time: 29.031656980514526
+loading data/parts_ENQ_1_inverted.o/part_001
+loss: 10.357719 - expected Q values: -2.6363142 - time: 28.93341827392578
+loading data/parts_EP_1_inverted.o/part_043
+loss: 5.23611 - expected Q values: -2.9120405 - time: 28.702468395233154
+loss: 1.8682097 - expected Q values: -2.7461092 - time: 28.92746353149414
+loss: 2.0737247 - expected Q values: -3.089386 - time: 28.819754123687744
+loss: 1.6307936 - expected Q values: -2.8391168 - time: 28.662086486816406
+loss: 2.9664483 - expected Q values: -3.5636654 - time: 28.997634649276733
+loading data/parts_ENQ_1.o/part_048
+loss: 1.7431947 - expected Q values: -3.0501254 - time: 29.145832300186157
+loss: 1.8654242 - expected Q values: -2.7014456 - time: 28.980127096176147
+loading data/parts_ENQ_1_inverted.o/part_031
+loss: 2.2887802 - expected Q values: -3.0650883 - time: 28.715209007263184
+loss: 2.3184626 - expected Q values: -3.1720033 - time: 28.820557355880737
+loss: 1.3982626 - expected Q values: -2.994964 - time: 28.694778442382812
+
+copy model weights...
+
+
+saving...
+
+loss: 1.5016677 - expected Q values: -3.3531132 - time: 30.42602038383484
+loss: 2.3018389 - expected Q values: -3.3238392 - time: 28.38976502418518
+loading data/parts_YM_1_inverted.o/part_054
+loss: 2.1222577 - expected Q values: -2.6505976 - time: 29.04257035255432
+loss: 2.1630383 - expected Q values: -2.815033 - time: 28.669148683547974
+loss: 1.2994187 - expected Q values: -2.726458 - time: 28.800235748291016
+loss: 2.3636413 - expected Q values: -2.7107162 - time: 29.20334553718567
+loss: 3.4649236 - expected Q values: -3.0533185 - time: 28.96662926673889
+loss: 3.6432433 - expected Q values: -3.0385783 - time: 28.670048713684082
+loss: 1.9679077 - expected Q values: -2.7766535 - time: 28.948633670806885
+loss: 2.1164405 - expected Q values: -2.8047225 - time: 29.269352674484253
+loading data/parts_ENQ_1.o/part_029
+loss: 1.7820504 - expected Q values: -2.8023422 - time: 28.725404977798462
+loss: 6.86532 - expected Q values: -3.1191828 - time: 28.95489263534546
+loss: 3.765802 - expected Q values: -3.1455064 - time: 29.174947261810303
+loss: 3.582804 - expected Q values: -3.155537 - time: 28.74756360054016
+loss: 1.1297867 - expected Q values: -2.5022624 - time: 28.970757007598877
+loss: 1.6640958 - expected Q values: -3.030949 - time: 29.5483238697052
+loss: 2.7456062 - expected Q values: -3.1488223 - time: 28.65749454498291
+loss: 3.5134635 - expected Q values: -2.7445526 - time: 29.605791807174683
+loss: 1.9090161 - expected Q values: -2.9004676 - time: 29.10660719871521
+loss: 2.9828796 - expected Q values: -2.7581306 - time: 29.45624017715454
+
+saving...
+
+loss: 3.8334305 - expected Q values: -3.0279715 - time: 29.476096391677856
+loss: 2.220589 - expected Q values: -2.8181798 - time: 28.733064651489258
+loss: 1.9545025 - expected Q values: -3.2617626 - time: 29.47592067718506
+loss: 1.756062 - expected Q values: -2.7145967 - time: 29.18200421333313
+loading data/parts_ENQ_1.o/part_038
+loss: 1.2028214 - expected Q values: -2.4178686 - time: 29.113145351409912
+loss: 1.9741994 - expected Q values: -3.0826583 - time: 29.381967306137085
+loss: 2.6779928 - expected Q values: -3.1669314 - time: 29.181384801864624
+loss: 2.1820295 - expected Q values: -3.074112 - time: 29.298118591308594
+loss: 1.9204907 - expected Q values: -2.7312143 - time: 29.019243955612183
+loss: 1.4746858 - expected Q values: -2.7165244 - time: 29.287365436553955
+loading data/parts_ENQ_1.o/part_010
+loss: 1.2690911 - expected Q values: -2.5684564 - time: 29.152268648147583
+loss: 1.8851339 - expected Q values: -2.8487592 - time: 29.215020418167114
+loss: 1.7777185 - expected Q values: -3.1852388 - time: 29.50056004524231
+loss: 3.2738845 - expected Q values: -2.7333267 - time: 29.427131175994873
+loading data/parts_YM_1_inverted.o/part_059
+loss: 1.5206577 - expected Q values: -2.774647 - time: 29.076729774475098
+loss: 2.9631217 - expected Q values: -2.710737 - time: 29.302688121795654
+loss: 2.185751 - expected Q values: -3.4085708 - time: 29.251819610595703
+loss: 3.0238626 - expected Q values: -3.148337 - time: 28.844970226287842
+loss: 2.4610674 - expected Q values: -3.3336358 - time: 29.261948585510254
+loss: 1.9543319 - expected Q values: -2.386118 - time: 28.86731266975403
+loading data/parts_EP_1.o/part_057
+
+saving...
+
+loss: 1.8287293 - expected Q values: -2.55983 - time: 29.776264429092407
+loss: 2.999364 - expected Q values: -2.8479204 - time: 29.21631622314453
+loss: 2.0907278 - expected Q values: -3.2725601 - time: 29.04415225982666
+loss: 2.517989 - expected Q values: -2.720972 - time: 28.593583822250366
+loss: 1.5099748 - expected Q values: -2.5016432 - time: 29.272606372833252
+loss: 2.9154336 - expected Q values: -2.5328157 - time: 29.406253576278687
+loss: 2.910992 - expected Q values: -2.5189328 - time: 29.54895281791687
+loss: 2.5267136 - expected Q values: -3.0473962 - time: 29.131945610046387
+loss: 3.6302226 - expected Q values: -2.618056 - time: 28.943872213363647
+loss: 2.2045832 - expected Q values: -2.7073572 - time: 29.14561176300049
+
+copy model weights...
+
+loss: 1.4930565 - expected Q values: -2.549375 - time: 30.949362993240356
+loss: 1.9999086 - expected Q values: -2.4064307 - time: 28.500158309936523
+loss: 2.4461777 - expected Q values: -3.7326713 - time: 28.877195596694946
+loss: 3.5444074 - expected Q values: -3.3633165 - time: 29.311366319656372
+loss: 2.024148 - expected Q values: -3.1941168 - time: 29.156381368637085
+loss: 2.3977752 - expected Q values: -3.218952 - time: 29.35205626487732
+loss: 1.8907166 - expected Q values: -2.4121017 - time: 29.310896635055542
+https://symbolize.stripped_domain/r/?trace=7f552042c22c,7f552036108f&map= 
+*** SIGTERM received by PID 4598 (TID 4598) on cpu 48 from PID 1; stack trace: ***
+https://symbolize.stripped_domain/r/?trace=7f55204331eb,https://symbolize.stripped_domain/r/?trace=7f552036108f533755,&map=7f552036108f&map= 
+ 
+*** SIGTERM received by PID 5835 (TID 5835) on cpu 23 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5837 (TID 5837) on cpu 51 from PID 1; stack trace: ***
+https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=547307,7f55204331eb,https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=7f552036108fhttps://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=7f552036108fhttps://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=5478fc,https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=59d081,https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=59d5a9,https://symbolize.stripped_domain/r/?trace=7f55204331eb,&map=5b9670,59d582,&map=5a1dcb,546d2b,59cffe,7f552036108f,4d605e,https://symbolize.stripped_domain/r/?trace=7f55204331eb,599ec3,https://symbolize.stripped_domain/r/?trace=7f552036108f7f552036108f,5b2799,https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=58ce0d,7f552036108f,https://symbolize.stripped_domain/r/?trace=59d130,https://symbolize.stripped_domain/r/?trace=549a76,7f552036108f7f552036108f,https://symbolize.stripped_domain/r/?trace=7f552036108f7f552036108f,https://symbolize.stripped_domain/r/?trace=7f552036108fhttps://symbolize.stripped_domain/r/?trace=7f552036108fhttps://symbolize.stripped_domain/r/?trace=116a047c5472108fhttps://symbolize.stripped_domain/r/?trace=7f552036108f,https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=7f552030a376,https://symbolize.stripped_domain/r/?trace=7f552036108fhttps://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=7f552036108f,90585fhttps://symbolize.stripped_domain/r/?trace=59d0be,https://symbolize.stripped_domain/r/?trace=64cd74,https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=5a1d2c,546d04,546ce6,7f552036108f,https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=90585fhttps://symbolize.stripped_domain/r/?trace=65e136,7f552036108f,https://symbolize.stripped_domain/r/?trace=7f552042c22c,https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=7f552036108f&map=90585fhttps://symbolize.stripped_domain/r/?trace=59d081,https://symbolize.stripped_domain/r/?trace=&map=90277fhttps://symbolize.stripped_domain/r/?trace=5c0dee,https://symbolize.stripped_domain/r/?trace=&map=https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=7f55204331eb,https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=&map=547f7a,https://symbolize.stripped_domain/r/?trace=&map=https://symbolize.stripped_domain/r/?trace=5b2784,905eff5b94b0,546d27,https://symbolize.stripped_domain/r/?trace=59a39e,https://symbolize.stripped_domain/r/?trace=7f552036108f,https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=5cc906,https://symbolize.stripped_domain/r/?trace=&map=425040,https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=7f551f52249c,90585f&map=https://symbolize.stripped_domain/r/?trace=4be397,65cb3b,7f552036108f,5d5e3f,https://symbolize.stripped_domain/r/?trace=7f552036108f,7f552036108f,5b74ab,4e9cab,7f552036108f,7f552036108fhttps://symbolize.stripped_domain/r/?trace=&map=https://symbolize.stripped_domain/r/?trace=7f552036108fhttps://symbolize.stripped_domain/r/?trace=90609f547740,5c0ecc,https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=54c582,&map=https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=90585fhttps://symbolize.stripped_domain/r/?trace=7f552036108f,7f551f527cc0,https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=4e9c80,7f55204331eb,5b3344,&map=https://symbolize.stripped_domain/r/?trace=&map=https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=4e6e38,5471b5,&map=https://symbolize.stripped_domain/r/?trace=59d0ee,7f552036108f7f551f6f3d22,5b33a3,5472a5,7f552036108fhttps://symbolize.stripped_domain/r/?trace=546df7,7f552036108f 
+ 
+ 
+5476a3,7f552036108f,547178,7f552036108f,&map=7f552036108f54720a,7f552036108f,4e9c86,e7a4c7f55204a9d9b,5cbf20,7f552036108f58cca0,7f552036108f,599ec6,54768b,7f552036108f&map=533724,7f552036108f, 
+7f552036108f,90585f7f552036108f,7f538979989f,7f55204331eb, 
+6e6100000053087b 
+7f552036108f7f552036108f,90585f&map=5cc4c4,&map=7f55204331eb,&map=7f552036108f7f552036108f7f55204331eb,7f55204331eb,7f552036108f 
+ 
+ 
+ 
+ 
+59a318,59d148,&map=7f55204331eb,9053ff7f552036108f7f552036108f528eb4,65e1ae,7f552036108f7f552036108f7f552036108f,546e5d, 
+ 
+548486,7f552042c22c,7f552036108f,7f552036108f,7f552036108f, 
+5b3384,*** SIGTERM received by PID 5852 (TID 5852) on cpu 85 from PID 1; stack trace: ***
+&map=7f552036108f,7f552036108f7f552036108f&map=547001,7f552036108f,&map=7f552036108f,*** SIGTERM received by PID 5868 (TID 5868) on cpu 20 from PID 1; stack trace: ***
+90585f7f552036108f,&map=1d6a0019027c0f695472ba,&map=7f552036108f 
+*** SIGTERM received by PID 5914 (TID 5914) on cpu 58 from PID 1; stack trace: ***
+https://symbolize.stripped_domain/r/?trace=5b6df8,7f552036108f7f552036108f,90609f&map= 
+https://symbolize.stripped_domain/r/?trace=7f55204a64a0,7f552036108f&map= 
+*** SIGTERM received by PID 5907 (TID 5907) on cpu 21 from PID 1; stack trace: ***
+7f552036108f&map= 
+*** SIGTERM received by PID 5948 (TID 5948) on cpu 32 from PID 1; stack trace: ***
+https://symbolize.stripped_domain/r/?trace=546c4a,7f552036108f,57d0583007c017b&map= 
+*** SIGTERM received by PID 5870 (TID 5870) on cpu 59 from PID 1; stack trace: ***
+PC: @           0x533755  (unknown)  (unknown)
+&map=7f552036108f&map=PC: @     0x7f55204331eb  (unknown)  select
+ 
+*** SIGTERM received by PID 5929 (TID 5929) on cpu 52 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5934 (TID 5934) on cpu 84 from PID 1; stack trace: ***
+&map=    @     0x7f5465424f34        976  (unknown)
+ 
+*** SIGTERM received by PID 5891 (TID 5891) on cpu 36 from PID 1; stack trace: ***
+https://symbolize.stripped_domain/r/?trace=5d5e77,7f552036108f,https://symbolize.stripped_domain/r/?trace=546f69,    @     0x7f5520361090  (unknown)  (unknown)
+7f552036108f&map= 
+ 
+    @     0x7f5465424f34        976  (unknown)
+*** SIGTERM received by PID 5925 (TID 5925) on cpu 62 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5876 (TID 5876) on cpu 41 from PID 1; stack trace: ***
+7f551f8c12bf&map= 
+*** SIGTERM received by PID 5919 (TID 5919) on cpu 2 from PID 1; stack trace: ***
+    @     0x7f5520361090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=533755,7f5465424f33,7f552036108f&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+E0108 08:05:19.247543    5837 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+PC: @     0x7f552042c22c  (unknown)  read
+    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5520361090  (unknown)  (unknown)
+    @ ... and at least 1 more frames
+https://symbolize.stripped_domain/r/?trace=7f552042c22c,7f5465424f33,7f552036108f&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+E0108 08:05:19.247925    4598 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+*** SIGTERM received by PID 5841 (TID 5841) on cpu 49 from PID 1; stack trace: ***
+PC: @           0x5b9670  (unknown)  (unknown)
+    @     0x7f5465424f34        976  (unknown)
+PC: @           0x547178  (unknown)  _PyEval_EvalFrameDefault
+    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5520361090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=&map= 
+*** SIGTERM received by PID 5902 (TID 5902) on cpu 56 from PID 1; stack trace: ***
+https://symbolize.stripped_domain/r/?trace=7f551f52249c,7f552036108f&map= 
+*** SIGTERM received by PID 5917 (TID 5917) on cpu 1 from PID 1; stack trace: ***
+90609f&map= 
+*** SIGTERM received by PID 5865 (TID 5865) on cpu 64 from PID 1; stack trace: ***
+PC: @     0x7f552042c22c  (unknown)  read
+7f552036108f&map= 
+*** SIGTERM received by PID 5915 (TID 5915) on cpu 69 from PID 1; stack trace: ***
+    @     0x7f5465424f34        976  (unknown)
+903b3f&map= 
+*** SIGTERM received by PID 5894 (TID 5894) on cpu 11 from PID 1; stack trace: ***
+    @     0x7f5520361090  (unknown)  (unknown)
+    @ ... and at least 2 more frames
+https://symbolize.stripped_domain/r/?trace=7f552042c22c,7f5465424f33,7f552036108f&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+PC: @           0x59a318  (unknown)  PyMem_Realloc
+E0108 08:05:19.250090    5948 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5520361090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=59a318,7f5465424f33,7f552036108f&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+E0108 08:05:19.250465    5929 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+PC: @           0x546c4a  (unknown)  _PyEval_EvalFrameDefault
+PC: @           0x546f69  (unknown)  _PyEval_EvalFrameDefault
+&map=    @     0x7f5465424f34        976  (unknown)
+ 
+*** SIGTERM received by PID 5878 (TID 5878) on cpu 93 from PID 1; stack trace: ***
+    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5520361090   58317888  (unknown)
+    @     0x7f5520361090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=546f69,7f5465424f33,7f552036108f&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+E0108 08:05:19.251590    5925 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+1090046b08640869&map= 
+*** SIGTERM received by PID 5923 (TID 5923) on cpu 17 from PID 1; stack trace: ***
+PC: @           0x59cffe  (unknown)  PyObject_GetAttr
+PC: @           0x5d5e77  (unknown)  _PyObject_MakeTpCall
+    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5465424f34        976  (unknown)
+PC: @           0x54720a  (unknown)  _PyEval_EvalFrameDefault
+PC: @           0x4be397  (unknown)  (unknown)
+    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5520361090  (unknown)  (unknown)
+    @     0x7f5520361090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=59cffe,7f5465424f33,7f552036108f&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+PC: @           0x5b6df8  (unknown)  (unknown)
+E0108 08:05:19.253208    5841 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @     0x7f5520361090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=54720a,7f5465424f33,7f552036108f&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+    @     0x7f5465424f34        976  (unknown)
+E0108 08:05:19.253319    5915 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+7f552036108f,7f0000530470&map= 
+*** SIGTERM received by PID 5932 (TID 5932) on cpu 1 from PID 1; stack trace: ***
+    @     0x7f5520361090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=5b6df8,7f5465424f33,7f552036108f&map=PC: @     0x7f552042c22c  (unknown)  read
+    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5520361090  (unknown)  (unknown)
+    @ ... and at least 2 more frames
+https://symbolize.stripped_domain/r/?trace=7f552042c22c,7f5465424f33,7f552036108f&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba04a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+    @  0x57d0583007c017c  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=546c4a,7f5465424f33,7f552036108f,57d0583007c017b&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+E0108 08:05:19.254772    5870 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0108 08:05:19.254791    5891 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+PC: @           0x546df7  (unknown)  _PyEval_EvalFrameDefault
+    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5520361090  (unknown)  (unknown)
+    @           0x9060a0  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=5d5e77,7f5465424f33,7f552036108f,90609f&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+E0108 08:05:19.256441    5865 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+&map= 
+*** SIGTERM received by PID 5875 (TID 5875) on cpu 16 from PID 1; stack trace: ***
+https://symbolize.stripped_domain/r/?trace=5cc466,7f552036108f, 
+E0108 08:05:19.257324    5876 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+8ffe1f&map= 
+*** SIGTERM received by PID 5896 (TID 5896) on cpu 63 from PID 1; stack trace: ***
+ 
+*** SIGTERM received by PID 5838 (TID 5838) on cpu 0 from PID 1; stack trace: ***
+PC: @           0x54768b  (unknown)  _PyEval_EvalFrameDefault
+    @     0x7f5465424f34        976  (unknown)
+PC: @           0x58cca0  (unknown)  (unknown)
+    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5520361090   58386088  (unknown)
+PC: @           0x5472ba  (unknown)  _PyEval_EvalFrameDefault
+    @     0x7f5520361090  (unknown)  (unknown)
+    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5520361090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=5472ba,7f5465424f33,7f552036108f&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+E0108 08:05:19.258856    5878 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @ 0x1090046b0864086a  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=546df7,7f5465424f33,7f552036108f,1090046b08640869&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+E0108 08:05:19.259074    5923 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+PC: @     0x7f55204a64a0  (unknown)  (unknown)
+    @     0x7f5465424f34        976  (unknown)
+PC: @           0x4e9cab  (unknown)  PyObject_GetItem
+PC: @           0x4d605e  (unknown)  PyFunction_NewWithQualName
+    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5520361090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=7f55204a64a0,7f5465424f33,7f552036108f&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+E0108 08:05:19.260882    5907 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @     0x7f5520361090  (unknown)  (unknown)
+PC: @           0x59d081  (unknown)  PyObject_GetAttr
+E0108 08:05:19.261074    5837 process_state.cc:774] RAW: Raising signal 15 with default behavior
+https://symbolize.stripped_domain/r/?trace=4d605e,7f552036108f,    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5520361090   59842816  (unknown)
+    @     0x7f5465424f34        976  (unknown)
+    @     0x7f0000530471  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=54768b,7f5465424f33,7f552036108f,7f0000530470&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+E0108 08:05:19.262522    5932 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @     0x7f5520361090   57179216  (unknown)
+7f552036108f&map= 
+*** SIGTERM received by PID 5918 (TID 5918) on cpu 53 from PID 1; stack trace: ***
+    @           0x9060a0  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=58cca0,7f5465424f33,7f552036108f,90609f&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+E0108 08:05:19.263851    5934 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @           0x8ffe20  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=4e9cab,7f5465424f33,7f552036108f,8ffe1f&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+E0108 08:05:19.264264    5896 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0108 08:05:19.263807    5948 process_state.cc:774] RAW: Raising signal 15 with default behavior
+7f552036108f&map= 
+*** SIGTERM received by PID 5940 (TID 5940) on cpu 93 from PID 1; stack trace: ***
+    @           0x905860  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=59d081,7f5465424f33,7f552036108f,90585f&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+E0108 08:05:19.265718    5875 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @           0x905f00  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=4d605e,7f5465424f33,7f552036108f,905eff&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+E0108 08:05:19.265902    5838 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+&map= 
+*** SIGTERM received by PID 5909 (TID 5909) on cpu 57 from PID 1; stack trace: ***
+PC: @           0x599ec6  (unknown)  PyObject_Malloc
+    @     0x7f5465424f34        976  (unknown)
+E0108 08:05:19.266808    5929 process_state.cc:774] RAW: Raising signal 15 with default behavior
+    @     0x7f5520361090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=599ec6,7f5465424f33,7f552036108f&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+E0108 08:05:19.267036    5918 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0108 08:05:19.267078    5915 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.268016    5925 process_state.cc:774] RAW: Raising signal 15 with default behavior
+PC: @     0x7f55204331eb  (unknown)  select
+    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5520361090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=7f55204331eb,7f5465424f33,7f552036108f&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+E0108 08:05:19.268426    5940 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+*** SIGTERM received by PID 5839 (TID 5839) on cpu 45 from PID 1; stack trace: ***
+https://symbolize.stripped_domain/r/?trace=7f55204331eb,7f5465424f33,7f552036108f&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+E0108 08:05:19.269219    5835 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+7f552036108f&map= 
+*** SIGTERM received by PID 5937 (TID 5937) on cpu 59 from PID 1; stack trace: ***
+PC: @     0x7f55204331eb  (unknown)  select
+    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5520361090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=7f55204331eb,7f5465424f33,7f552036108f&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+E0108 08:05:19.272369    5839 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+*** SIGTERM received by PID 5871 (TID 5871) on cpu 70 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5866 (TID 5866) on cpu 8 from PID 1; stack trace: ***
+&map=9053ff*** SIGTERM received by PID 5869 (TID 5869) on cpu 50 from PID 1; stack trace: ***
+&map=8ffe1f&map=94fe9f,&map=*** SIGTERM received by PID 5864 (TID 5864) on cpu 86 from PID 1; stack trace: ***
+7f552036108f 
+ 
+&map=&map=&map=7f552036108f,7f552036108f*** SIGTERM received by PID 5851 (TID 5851) on cpu 90 from PID 1; stack trace: ***
+7f552036108f*** SIGTERM received by PID 5853 (TID 5853) on cpu 72 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5836 (TID 5836) on cpu 46 from PID 1; stack trace: ***
+&map=7f552036108f 
+&map=*** SIGTERM received by PID 5867 (TID 5867) on cpu 54 from PID 1; stack trace: ***
+90609f7f552036108f,7f552036108f&map=&map=7f552036108f&map= 
+90585f7f552036108f,9266bf7f552036108f,27c236a007c0271*** SIGTERM received by PID 5874 (TID 5874) on cpu 55 from PID 1; stack trace: ***
+90277f90585f7f552036108f 
+&map= 
+77d058300190f63 
+PC: @           0x59d582  (unknown)  _PyObject_GetMethod
+5b9670,90041f905effPC: @           0x5b33a3  (unknown)  (unknown)
+E0108 08:05:19.273490    5841 process_state.cc:774] RAW: Raising signal 15 with default behavior
+PC: @     0x7f55204331eb  (unknown)  select
+PC: @           0x5a1dcb  (unknown)  PyObject_RichCompare
+E0108 08:05:19.275594    5876 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.276458    5891 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.276940    5870 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.279432    5918 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.279764    5923 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.283392    5835 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.287177    5934 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.287343    5896 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.287344    5932 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.291918    5875 process_state.cc:774] RAW: Raising signal 15 with default behavior
+&map= 
+&map= 
+9053ff 
+&map= 
+*** SIGTERM received by PID 5873 (TID 5873) on cpu 65 from PID 1; stack trace: ***
+ 
+90609f 
+&map=&map= 
+*** SIGTERM received by PID 5877 (TID 5877) on cpu 47 from PID 1; stack trace: ***
+9053ff&map=&map= 
+ 
+ 
+&map= 
+&map=86a047cfe72026a*** SIGTERM received by PID 5843 (TID 5843) on cpu 87 from PID 1; stack trace: ***
+811&map=&map=&map=&map=*** SIGTERM received by PID 5884 (TID 5884) on cpu 35 from PID 1; stack trace: ***
+&map=*** SIGTERM received by PID 5888 (TID 5888) on cpu 24 from PID 1; stack trace: ***
+7f5465424f33,&map=*** SIGTERM received by PID 5842 (TID 5842) on cpu 78 from PID 1; stack trace: ***
+&map=    @     0x7f5465424f34        976  (unknown)
+ 
+    @     0x7f5465424f34        976  (unknown)
+ 
+&map=*** SIGTERM received by PID 5892 (TID 5892) on cpu 28 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5885 (TID 5885) on cpu 40 from PID 1; stack trace: ***
+    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5465424f34        976  (unknown)
+ 
+*** SIGTERM received by PID 5900 (TID 5900) on cpu 75 from PID 1; stack trace: ***
+&map=*** SIGTERM received by PID 5897 (TID 5897) on cpu 6 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5872 (TID 5872) on cpu 43 from PID 1; stack trace: ***
+ 
+ 
+*** SIGTERM received by PID 5901 (TID 5901) on cpu 71 from PID 1; stack trace: ***
+&map= 
+*** SIGTERM received by PID 5898 (TID 5898) on cpu 18 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5889 (TID 5889) on cpu 27 from PID 1; stack trace: ***
+ 
+*** SIGTERM received by PID 5910 (TID 5910) on cpu 73 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5893 (TID 5893) on cpu 33 from PID 1; stack trace: ***
+&map= 
+&map=*** SIGTERM received by PID 5904 (TID 5904) on cpu 80 from PID 1; stack trace: ***
+ 
+ 
+ 
+ 
+7f552036108f 
+ 
+ 
+*** SIGTERM received by PID 5886 (TID 5886) on cpu 95 from PID 1; stack trace: ***
+ 
+*** SIGTERM received by PID 5863 (TID 5863) on cpu 29 from PID 1; stack trace: ***
+ 
+*** SIGTERM received by PID 5928 (TID 5928) on cpu 22 from PID 1; stack trace: ***
+ 
+*** SIGTERM received by PID 5930 (TID 5930) on cpu 7 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5942 (TID 5942) on cpu 77 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5931 (TID 5931) on cpu 34 from PID 1; stack trace: ***
+ 
+*** SIGTERM received by PID 5927 (TID 5927) on cpu 5 from PID 1; stack trace: ***
+ 
+ 
+*** SIGTERM received by PID 5906 (TID 5906) on cpu 67 from PID 1; stack trace: ***
+7f552036108f,&map=*** SIGTERM received by PID 5903 (TID 5903) on cpu 60 from PID 1; stack trace: ***
+7f552036108f*** SIGTERM received by PID 5887 (TID 5887) on cpu 15 from PID 1; stack trace: ***
+E0108 08:05:19.273520    5878 process_state.cc:774] RAW: Raising signal 15 with default behavior
+*** SIGTERM received by PID 5913 (TID 5913) on cpu 68 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5924 (TID 5924) on cpu 89 from PID 1; stack trace: ***
+E0108 08:05:19.275284    5907 process_state.cc:774] RAW: Raising signal 15 with default behavior
+    @     0x7f5520361090   58391296  (unknown)
+    @     0x7f5520361090  (unknown)  (unknown)
+*** SIGTERM received by PID 5862 (TID 5862) on cpu 92 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5946 (TID 5946) on cpu 30 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5890 (TID 5890) on cpu 45 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5941 (TID 5941) on cpu 4 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5883 (TID 5883) on cpu 88 from PID 1; stack trace: ***
+    @     0x7f5520361090  (unknown)  (unknown)
+*** SIGTERM received by PID 5922 (TID 5922) on cpu 61 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5945 (TID 5945) on cpu 31 from PID 1; stack trace: ***
+    @     0x7f5520361090  (unknown)  (unknown)
+*** SIGTERM received by PID 5939 (TID 5939) on cpu 82 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5944 (TID 5944) on cpu 44 from PID 1; stack trace: ***
+4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0*** SIGTERM received by PID 5880 (TID 5880) on cpu 30 from PID 1; stack trace: ***
+&map=https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace= 
+7f55204331eb,5b33a3, 
+7f5465424f33,7f5465424f33,7f552036108f7f552036108f&map=&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba04a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+ 
+*** SIGTERM received by PID 5926 (TID 5926) on cpu 21 from PID 1; stack trace: ***
+E0108 08:05:19.297123    5868 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0108 08:05:19.297162    5937 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0108 08:05:19.297164    5909 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+ 
+ 
+*** SIGTERM received by PID 5882 (TID 5882) on cpu 94 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5879 (TID 5879) on cpu 39 from PID 1; stack trace: ***
+1a0017c037d0182&map= 
+*** SIGTERM received by PID 5840 (TID 5840) on cpu 43 from PID 1; stack trace: ***
+&map=&map= 
+ 
+ 
+*** SIGTERM received by PID 5905 (TID 5905) on cpu 13 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5911 (TID 5911) on cpu 74 from PID 1; stack trace: ***
+*** SIGTERM received by PID 5933 (TID 5933) on cpu 26 from PID 1; stack trace: ***
+PC: @           0x5478fc  (unknown)  _PyEval_EvalFrameDefault
+    @     0x7f5465424f34        976  (unknown)
+PC: @     0x7f551f52249c  (unknown)  _aligned_contig_cast_long_to_float
+PC: @     0x7f551f6f3d22  (unknown)  convert_to_double
+PC: @           0x59d081  (unknown)  PyObject_GetAttr
+PC: @           0x599ec3  (unknown)  PyObject_Malloc
+    @     0x7f5520361090  (unknown)  (unknown)
+    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5465424f34        976  (unknown)
+PC: @     0x7f551f527cc0  (unknown)  _aligned_contig_cast_double_to_float
+*** SIGTERM received by PID 5881 (TID 5881) on cpu 19 from PID 1; stack trace: ***
+    @     0x7f5520361090  (unknown)  (unknown)
+    @     0x7f5520361090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=7f551f52249c,599ec3,PC: @     0x7f55204331eb  (unknown)  select
+7f5465424f33,7f5465424f33,PC: @           0x5c0dee  (unknown)  (unknown)
+7f552036108f    @     0x7f5465424f34        976  (unknown)
+7f552036108f&map=PC: @           0x58ce0d  (unknown)  (unknown)
+&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0PC: @           0x547740  (unknown)  _PyEval_EvalFrameDefault
+ 
+4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+PC: @           0x5cc906  (unknown)  PyList_New
+E0108 08:05:19.299878    5917 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0108 08:05:19.299885    5867 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+PC: @           0x59d5a9  (unknown)  _PyObject_GetMethod
+    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5520361090  (unknown)  (unknown)
+    @     0x7f5520361090   58389696  (unknown)
+PC: @           0x425040  (unknown)  (unknown)
+    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5465424f34        976  (unknown)
+PC: @           0x549a76  (unknown)  _PyEval_EvalFrameDefault
+    @     0x7f5465424f34        976  (unknown)
+PC: @     0x7f55204331eb  (unknown)  select
+    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5520361090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=7f551f527cc0,7f5465424f33,PC: @           0x5c0ecc  (unknown)  (unknown)
+7f552036108f&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5520361090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=    @     0x7f5465424f34        976  (unknown)
+7f55204331eb,7f5465424f33,7f552036108f    @     0x7f5520361090  (unknown)  (unknown)
+&map=https://symbolize.stripped_domain/r/?trace=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba05c0dee,PC: @     0x7f55204331eb  (unknown)  select
+ 
+7f5465424f33,E0108 08:05:19.300181    5902 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+7f552036108f    @     0x7f5520361090  (unknown)  (unknown)
+    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5520361090  (unknown)  (unknown)
+&map=https://symbolize.stripped_domain/r/?trace=    @     0x7f5520361090  (unknown)  (unknown)
+4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0547740,PC: @           0x5476a3  (unknown)  _PyEval_EvalFrameDefault
+https://symbolize.stripped_domain/r/?trace=E0108 08:05:19.300261    5851 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+ 
+7f5465424f33,5cc906,PC: @           0x65e1ae  (unknown)  (unknown)
+    @           0x905860  (unknown)  (unknown)
+    @     0x7f5520361090  (unknown)  (unknown)
+7f552036108f7f5465424f33,PC: @           0x533724  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=    @     0x7f5465424f34        976  (unknown)
+&map=7f552036108f4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0PC: @           0x59d0be  (unknown)  PyObject_GetAttr
+E0108 08:05:19.300354    5884 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+59d582,PC: @           0x65cb3b  (unknown)  (unknown)
+&map= 
+    @     0x7f5520361090  (unknown)  (unknown)
+7f5465424f33,PC: @           0x5471b5  (unknown)  _PyEval_EvalFrameDefault
+    @     0x7f5465424f34        976  (unknown)
+4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0    @     0x7f5520361090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=7f552036108f,    @     0x7f5465424f34        976  (unknown)
+PC: @           0x59d130  (unknown)  PyObject_GetAttr
+E0108 08:05:19.300463    5897 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+ 
+https://symbolize.stripped_domain/r/?trace=    @     0x7f5520361090  (unknown)  (unknown)
+    @     0x7f5465424f34        976  (unknown)
+7f55204331eb,90585fPC: @           0x547f7a  (unknown)  _PyEval_EvalFrameDefault
+    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5520361090  (unknown)  (unknown)
+    @     0x7f5465424f34        976  (unknown)
+549a76,https://symbolize.stripped_domain/r/?trace=7f5465424f33,&map=PC: @           0x5b2799  (unknown)  (unknown)
+PC: @     0x7f552030a376  (unknown)  pthread_cond_wait@@GLIBC_2.3.2
+https://symbolize.stripped_domain/r/?trace=E0108 08:05:19.300570    5898 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+7f5465424f33,5c0ecc,7f552036108f4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0    @     0x7f5465424f34        976  (unknown)
+7f55204331eb,PC: @           0x546d27  (unknown)  _PyEval_EvalFrameDefault
+7f552036108fPC: @           0x5b2784  (unknown)  (unknown)
+7f5465424f33,&map= 
+7f5465424f33,    @     0x7f5520361090  (unknown)  (unknown)
+PC: @           0x5b3384  (unknown)  (unknown)
+    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5465424f34        976  (unknown)
+&map=PC: @           0x4d605e  (unknown)  PyFunction_NewWithQualName
+7f552036108f    @     0x7f5465424f34        976  (unknown)
+4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba07f552036108f    @     0x7f5520361090  (unknown)  (unknown)
+    @     0x7f5465424f34        976  (unknown)
+4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0E0108 08:05:19.300747    5852 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+&map= 
+4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0&map= 
+    @     0x7f5520361090  (unknown)  (unknown)
+    @     0x7f5465424f34        976  (unknown)
+PC: @           0x5b3344  (unknown)  (unknown)
+ 
+    @     0x7f5465424f34        976  (unknown)
+4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0https://symbolize.stripped_domain/r/?trace=    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5520361090  (unknown)  (unknown)
+    @     0x7f5520361090   58342656  (unknown)
+E0108 08:05:19.300888    5836 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @     0x7f5465424f34        976  (unknown)
+ 
+PC: @           0x4e9c86  (unknown)  PyObject_GetItem
+533724,    @     0x7f5520361090  (unknown)  (unknown)
+E0108 08:05:19.300912    5874 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0108 08:05:19.300942    5901 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+PC: @           0x5cbf20  (unknown)  (unknown)
+7f5465424f33,7f552036108fPC: @           0x5b94b0  (unknown)  (unknown)
+&map=PC: @           0x64cd74  (unknown)  (unknown)
+PC: @     0x7f55204331eb  (unknown)  select
+PC: @     0x7f55204a9d9b  (unknown)  (unknown)
+E0108 08:05:19.300987    5904 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @     0x7f5520361090  (unknown)  (unknown)
+4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0    @     0x7f5465424f34        976  (unknown)
+PC: @           0x5b74ab  (unknown)  (unknown)
+PC: @           0x528eb4  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace= 
+    @     0x7f5520361090   60057536  (unknown)
+547f7a,    @     0x7f5520361090   59733120  (unknown)
+7f5465424f33,    @     0x7f5520361090  (unknown)  (unknown)
+7f552036108f&map=7f552036108f,    @     0x7f5465424f34        976  (unknown)
+4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0&map=90041f 
+E0108 08:05:19.301134    5927 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+ 
+PC: @           0x59a39e  (unknown)  PyMem_Realloc
+PC: @     0x7f55204331eb  (unknown)  select
+    @     0x7f5465424f34        976  (unknown)
+E0108 08:05:19.301208    5888 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @     0x7f5465424f34        976  (unknown)
+PC: @           0x5cc466  (unknown)  (unknown)
+    @     0x7f5465424f34        976  (unknown)
+90609fPC: @           0x547307  (unknown)  _PyEval_EvalFrameDefault
+PC: @           0x548486  (unknown)  _PyEval_EvalFrameDefault
+PC: @           0x546e5d  (unknown)  _PyEval_EvalFrameDefault
+    @     0x7f5520361090  (unknown)  (unknown)
+&map=PC: @           0x4e6e38  (unknown)  PyNumber_Multiply
+ 
+    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5520361090  (unknown)  (unknown)
+    @           0x902780  (unknown)  (unknown)
+    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5520361090   58390720  (unknown)
+    @     0x7f5520361090  (unknown)  (unknown)
+    @     0x7f5520361090   57179216  (unknown)
+    @     0x7f5465424f34        976  (unknown)
+*** SIGTERM received by PID 5899 (TID 5899) on cpu 83 from PID 1; stack trace: ***
+PC: @     0x7f551f52249c  (unknown)  _aligned_contig_cast_long_to_float
+&map= 
+    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5520361090   58342656  (unknown)
+https://symbolize.stripped_domain/r/?trace=    @     0x7f5465424f34        976  (unknown)
+https://symbolize.stripped_domain/r/?trace=*** SIGTERM received by PID 5895 (TID 5895) on cpu 10 from PID 1; stack trace: ***
+https://symbolize.stripped_domain/r/?trace=    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5520361090  (unknown)  (unknown)
+ 
+546d27,    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5465424f34        976  (unknown)
+*** SIGTERM received by PID 5938 (TID 5938) on cpu 91 from PID 1; stack trace: ***
+5a1dcb,5b3384,    @     0x7f5465424f34        976  (unknown)
+https://symbolize.stripped_domain/r/?trace=7f5465424f33,    @     0x7f5520361090  (unknown)  (unknown)
+7f5465424f33,7f5465424f33,*** SIGTERM received by PID 5908 (TID 5908) on cpu 12 from PID 1; stack trace: ***
+    @     0x7f5520361090  (unknown)  (unknown)
+5cbf20,7f552036108fhttps://symbolize.stripped_domain/r/?trace=7f552036108f,7f552036108fPC: @           0x546d04  (unknown)  _PyEval_EvalFrameDefault
+7f5465424f33,    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5520361090  (unknown)  (unknown)
+&map=4e9c86,90277f    @     0x7f5520361090   58017376  (unknown)
+&map=7f552036108f    @     0x7f5520361090  (unknown)  (unknown)
+4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba07f5465424f33,    @     0x7f5520361090  (unknown)  (unknown)
+&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0&map=    @     0x7f5520361090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=    @     0x7f5520361090  (unknown)  (unknown)
+ 
+7f552036108f 
+4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0    @     0x7f5520361090  (unknown)  (unknown)
+PC: @           0x65e136  (unknown)  (unknown)
+4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0    @     0x7f5520361090  (unknown)  (unknown)
+7f55204331eb,    @     0x7f5465424f34        976  (unknown)
+https://symbolize.stripped_domain/r/?trace=&map= 
+https://symbolize.stripped_domain/r/?trace= 
+https://symbolize.stripped_domain/r/?trace=7f5465424f33,    @     0x7f5520361090  (unknown)  (unknown)
+528eb4,4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0E0108 08:05:19.301787    5941 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0108 08:05:19.301779    5885 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+5b74ab,    @     0x7f5520361090  (unknown)  (unknown)
+7f55204331eb,7f552036108f7f5465424f33, 
+E0108 08:05:19.301847    5871 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @     0x7f5520361090  (unknown)  (unknown)
+7f5465424f33,    @     0x7f5520361090  (unknown)  (unknown)
+    @     0x7f5520361090   58344624  (unknown)
+E0108 08:05:19.301865    5930 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+7f5465424f33,    @     0x7f5465424f34        976  (unknown)
+&map=7f552036108f    @     0x7f5520361090  (unknown)  (unknown)
+7f552036108fhttps://symbolize.stripped_domain/r/?trace=7f552036108fE0108 08:05:19.301936    5928 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0&map=https://symbolize.stripped_domain/r/?trace=&map=547307,&map= 
+7f551f52249c,4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba04a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba07f5465424f33,4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba07f5465424f33, 
+ 
+7f552036108f 
+    @     0x7f5520361090   58317928  (unknown)
+7f552036108f&map=&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba04a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+ 
+E0108 08:05:19.302067    5942 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0108 08:05:19.302098    5900 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0108 08:05:19.302108    5880 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0108 08:05:19.302101    5931 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+PC: @           0x547001  (unknown)  _PyEval_EvalFrameDefault
+E0108 08:05:19.302149    5889 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0108 08:05:19.302151    5862 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @     0x7f5520361090  (unknown)  (unknown)
+    @     0x7f5465424f34        976  (unknown)
+PC: @     0x7f55204331eb  (unknown)  select
+PC: @           0x59d0ee  (unknown)  PyObject_GetAttr
+PC: @           0x5472a5  (unknown)  _PyEval_EvalFrameDefault
+    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5520361090    1591480  (unknown)
+    @     0x7f5465424f34        976  (unknown)
+    @ 0x116a047c54721090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=5478fc,7f5465424f33,7f552036108f,116a047c5472108f&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+    @     0x7f5520361090  (unknown)  (unknown)
+E0108 08:05:19.302765    5864 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+https://symbolize.stripped_domain/r/?trace=7f55204331eb,7f5465424f33,7f552036108f&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+    @     0x7f5520361090   58345600  (unknown)
+    @     0x7f5520361090  (unknown)  (unknown)
+E0108 08:05:19.302866    5933 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+https://symbolize.stripped_domain/r/?trace=5472a5,7f5465424f33,7f552036108f&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+E0108 08:05:19.302983    5905 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @           0x9060a0  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=425040,7f5465424f33,7f552036108f,90609f&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+E0108 08:05:19.303695    5893 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @           0x9060a0  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=58ce0d,7f5465424f33,7f552036108f,90609f&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+PC: @           0x5a1d2c  (unknown)  PyObject_RichCompare
+E0108 08:05:19.303929    5873 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @           0x905400  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=    @     0x7f5465424f34        976  (unknown)
+65e1ae,7f5465424f33,7f552036108f,9053ff&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+E0108 08:05:19.304165    5945 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @     0x7f5520361090  (unknown)  (unknown)
+    @     0x7f551f8c12c0  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=    @           0x9266c0  (unknown)  (unknown)
+5a1d2c,7f551f6f3d22,https://symbolize.stripped_domain/r/?trace=7f5465424f33,7f5465424f33,65cb3b,7f552036108f7f552036108f,7f5465424f33,&map=7f551f8c12bf4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba07f552036108f,&map= 
+9266bf4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0&map= 
+4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+    @           0x905860  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=59d081,7f5465424f33,E0108 08:05:19.304545    5881 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+7f552036108f,90585f&map=E0108 08:05:19.304571    5887 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0108 08:05:19.304570    5919 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+E0108 08:05:19.304644    5869 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @  0x77d058300190f64  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=5476a3,7f5465424f33,7f552036108f,77d058300190f63&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+PC: @           0x5d5e3f  (unknown)  _PyObject_MakeTpCall
+E0108 08:05:19.304909    5924 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @     0x7f5465424f34        976  (unknown)
+    @            0xe7a4d  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=7f552030a376,7f5465424f33,7f552036108f,    @           0x903b40  (unknown)  (unknown)
+e7a4chttps://symbolize.stripped_domain/r/?trace=&map=4be397,4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba07f5465424f33, 
+7f552036108f,903b3f&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+    @           0x905f00  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=    @  0x27c236a007c0272  (unknown)  (unknown)
+4d605e,https://symbolize.stripped_domain/r/?trace=7f5465424f33,5471b5,7f552036108f,E0108 08:05:19.305194    5894 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0108 08:05:19.305171    5872 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+7f5465424f33,905eff7f552036108f,&map=27c236a007c02714a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0&map=    @           0x905860  (unknown)  (unknown)
+ 
+4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0https://symbolize.stripped_domain/r/?trace=    @     0x7f5520361090  (unknown)  (unknown)
+ 
+59d0be,7f5465424f33,7f552036108f,90585f&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0E0108 08:05:19.305331    5890 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+ 
+E0108 08:05:19.305358    5903 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0108 08:05:19.305397    5892 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @           0x905860  (unknown)  (unknown)
+    @           0x905860  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=https://symbolize.stripped_domain/r/?trace=59d130,5b2799,7f5465424f33,7f5465424f33,7f552036108f,7f552036108f,90585f90585f&map=&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba04a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+ 
+E0108 08:05:19.305570    5843 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+PC: @           0x54c582  (unknown)  _PyEval_EvalFrameDefault
+    @ 0x1d6a0019027c0f6a  (unknown)  (unknown)
+E0108 08:05:19.305571    5877 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+https://symbolize.stripped_domain/r/?trace=547178,7f5465424f33,7f552036108f,PC: @           0x5cc4c4  (unknown)  (unknown)
+1d6a0019027c0f69&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+    @     0x7f53897998a0  (unknown)  (unknown)
+    @           0x905860  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=5b3344,7f5465424f33,7f552036108f,PC: @           0x546ce6  (unknown)  _PyEval_EvalFrameDefault
+90585f&map=    @           0x905860  (unknown)  (unknown)
+    @     0x7f5465424f34        976  (unknown)
+E0108 08:05:19.305732    5914 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @     0x7f5465424f34        976  (unknown)
+4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0https://symbolize.stripped_domain/r/?trace= 
+    @           0x902780  (unknown)  (unknown)
+5b2784,    @              0x812  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=7f5465424f33,    @           0x94fea0  (unknown)  (unknown)
+    @  0x86a047cfe72026b  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=    @           0x9060a0  (unknown)  (unknown)
+4e6e38,7f552036108f,    @     0x7f5465424f34        976  (unknown)
+https://symbolize.stripped_domain/r/?trace=E0108 08:05:19.305884    5906 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+548486,https://symbolize.stripped_domain/r/?trace=7f5465424f33,90585f546e5d,    @           0x905400  (unknown)  (unknown)
+7f5465424f33,7f55204a9d9b,7f552036108f,&map=7f5465424f33,https://symbolize.stripped_domain/r/?trace=7f552036108f,7f5465424f33,90277f7f552036108f,4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba05b94b0,8117f552036108f,&map=86a047cfe72026a 
+7f5465424f33,    @           0x900420  (unknown)  (unknown)
+&map=    @     0x7f5520361090  (unknown)  (unknown)
+90609f4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0&map=7f552036108f,https://symbolize.stripped_domain/r/?trace=    @     0x7f5520361090  (unknown)  (unknown)
+E0108 08:05:19.306148    5842 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0&map= 
+9053ff4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba05cc466,https://symbolize.stripped_domain/r/?trace= 
+4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0&map= 
+7f5465424f33,    @     0x7f5520361090  (unknown)  (unknown)
+54c582,    @ 0x6e6100000053087c  (unknown)  (unknown)
+ 
+4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba07f552036108f,https://symbolize.stripped_domain/r/?trace=E0108 08:05:19.306235    5913 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+7f5465424f33,https://symbolize.stripped_domain/r/?trace= 
+90041f546ce6,E0108 08:05:19.306269    5944 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+7f552036108f546d04,&map=7f5465424f33,E0108 08:05:19.306288    5939 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+&map=7f5465424f33,4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba04a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba07f552036108fE0108 08:05:19.306330    5922 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+7f552036108f,E0108 08:05:19.306361    5886 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+ 
+ 
+&map=6e6100000053087b    @           0x905400  (unknown)  (unknown)
+&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0https://symbolize.stripped_domain/r/?trace=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+65e136, 
+7f5465424f33,7f552036108f,9053ff&map=E0108 08:05:19.306458    5895 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0108 08:05:19.306465    5946 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+E0108 08:05:19.306493    5899 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0108 08:05:19.306502    5882 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0108 08:05:19.306539    5879 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+PC: @     0x7f55204331eb  (unknown)  select
+    @  0x1a0017c037d0183  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=547001,7f5465424f33,7f552036108f,1a0017c037d0182&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+    @     0x7f5465424f34        976  (unknown)
+E0108 08:05:19.285364    5865 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.287521    5838 process_state.cc:774] RAW: Raising signal 15 with default behavior
+7f552036108f,E0108 08:05:19.285485    5940 process_state.cc:774] RAW: Raising signal 15 with default behavior
+    @           0x905860  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=59d0ee,7f5465424f33,7f552036108f,90585f&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+    @     0x7f5520361090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=7f55204331eb,7f5465424f33,7f552036108f&map=E0108 08:05:19.306936    5840 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+E0108 08:05:19.307167    5911 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0108 08:05:19.307224    5926 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+PC: @           0x4e9c80  (unknown)  PyObject_GetItem
+    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5520361090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=4e9c80,7f5465424f33,7f552036108f&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+E0108 08:05:19.308478    5910 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @           0x9060a0  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=5d5e3f,7f5465424f33,7f552036108f,90609f&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+E0108 08:05:19.308720    5908 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0108 08:05:19.288678    5839 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.310267    5909 process_state.cc:774] RAW: Raising signal 15 with default behavior
+    @           0x900420  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=5cc4c4,7f5465424f33,7f552036108f,90041f&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+E0108 08:05:19.310392    5938 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @           0x8ffe20  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=64cd74,    @           0x905400  (unknown)  (unknown)
+7f5465424f33,https://symbolize.stripped_domain/r/?trace=7f552036108f,59a39e,7f538979989f,7f5465424f33,8ffe1f7f552036108f,&map=94fe9f,9053ff4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0&map= 
+4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+E0108 08:05:19.312195    5863 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0108 08:05:19.312204    5883 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0108 08:05:19.313577    5867 process_state.cc:774] RAW: Raising signal 15 with default behavior
+90585f&map= 
+*** SIGTERM received by PID 5943 (TID 5943) on cpu 81 from PID 1; stack trace: ***
+E0108 08:05:19.316215    5884 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.316395    5851 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.316414    5874 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.316535    5868 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.317301    5904 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.317620    5930 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.318027    5937 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.318344    5900 process_state.cc:774] RAW: Raising signal 15 with default behavior
+PC: @           0x59d148  (unknown)  PyObject_GetAttr
+    @     0x7f5465424f34        976  (unknown)
+E0108 08:05:19.318711    5927 process_state.cc:774] RAW: Raising signal 15 with default behavior
+    @     0x7f5520361090   58390720  (unknown)
+E0108 08:05:19.318889    5901 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.319338    5902 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.320057    5933 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.321185    5881 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.321752    5917 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.321965    5928 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.322112    5889 process_state.cc:774] RAW: Raising signal 15 with default behavior
+    @           0x905860  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=59d148,7f5465424f33,7f552036108f,90585f&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+E0108 08:05:19.322640    5943 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0108 08:05:19.322948    5852 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.323649    5898 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.324015    5897 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.324068    5941 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.326194    5945 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.326620    5871 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.327188    5905 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.328044    5836 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.328275    5899 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.328413    5872 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.328893    5873 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.330408    5890 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.330618    5931 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.330780    5862 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.331516    5922 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.331528    5914 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.332014    5895 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.332071    5886 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.332326    5911 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.332466    5946 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.332475    5869 process_state.cc:774] RAW: Raising signal 15 with default behavior
+https://symbolize.stripped_domain/r/?trace=5b9a06,7f552036108f,9053ffE0108 08:05:19.333308    5924 process_state.cc:774] RAW: Raising signal 15 with default behavior
+&map= 
+*** SIGTERM received by PID 5858 (TID 5858) on cpu 77 from PID 1; stack trace: ***
+E0108 08:05:19.334927    5903 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.335108    5879 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.335812    5938 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.335870    5894 process_state.cc:774] RAW: Raising signal 15 with default behavior
+PC: @           0x5b9a06  (unknown)  (unknown)
+    @     0x7f5465424f34        976  (unknown)
+https://symbolize.stripped_domain/r/?trace=5c42fd,7f552036108f,8ffe1f&map= 
+https://symbolize.stripped_domain/r/?trace=*** SIGTERM received by PID 5854 (TID 5854) on cpu 80 from PID 1; stack trace: ***
+7f55204331eb,7f552036108f&map=https://symbolize.stripped_domain/r/?trace= 
+59ad8b,7f552036108f&map=*** SIGTERM received by PID 5848 (TID 5848) on cpu 29 from PID 1; stack trace: ***
+ 
+    @     0x7f5520361090  (unknown)  (unknown)
+*** SIGTERM received by PID 5847 (TID 5847) on cpu 26 from PID 1; stack trace: ***
+E0108 08:05:19.338476    5892 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.338665    5906 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.338874    5893 process_state.cc:774] RAW: Raising signal 15 with default behavior
+https://symbolize.stripped_domain/r/?trace=547178,7f552036108f,27c236a007c0271E0108 08:05:19.339299    5913 process_state.cc:774] RAW: Raising signal 15 with default behavior
+&map= 
+*** SIGTERM received by PID 5859 (TID 5859) on cpu 42 from PID 1; stack trace: ***
+E0108 08:05:19.339917    5919 process_state.cc:774] RAW: Raising signal 15 with default behavior
+PC: @           0x5c42fd  (unknown)  (unknown)
+E0108 08:05:19.340460    5944 process_state.cc:774] RAW: Raising signal 15 with default behavior
+    @     0x7f5465424f34        976  (unknown)
+PC: @           0x59ad8b  (unknown)  PyMem_Malloc
+E0108 08:05:19.340687    5883 process_state.cc:774] RAW: Raising signal 15 with default behavior
+    @           0x905400  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=5b9a06,7f5465424f33,7f552036108f,    @     0x7f5520361090  (unknown)  (unknown)
+9053ff&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+    @     0x7f5465424f34        976  (unknown)
+E0108 08:05:19.340801    5858 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @     0x7f5520361090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=59ad8b,7f5465424f33,7f552036108f&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+E0108 08:05:19.341122    5847 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+PC: @     0x7f55204331eb  (unknown)  select
+https://symbolize.stripped_domain/r/?trace=7f55201ca21b,7f552036108f,903b3f&map= 
+*** SIGTERM received by PID 5861 (TID 5861) on cpu 46 from PID 1; stack trace: ***
+    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5520361090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=7f55204331eb,7f5465424f33,7f552036108f&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+E0108 08:05:19.341589    5848 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0108 08:05:19.342410    5908 process_state.cc:774] RAW: Raising signal 15 with default behavior
+PC: @           0x547178  (unknown)  _PyEval_EvalFrameDefault
+    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5520361090  (unknown)  (unknown)
+E0108 08:05:19.343619    5887 process_state.cc:774] RAW: Raising signal 15 with default behavior
+    @           0x8ffe20  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=5c42fd,7f5465424f33,7f552036108f,8ffe1f&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+E0108 08:05:19.345047    5854 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+PC: @     0x7f55201ca21b  (unknown)  __fmod_finite
+    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5520361090  (unknown)  (unknown)
+E0108 08:05:19.346257    5882 process_state.cc:774] RAW: Raising signal 15 with default behavior
+    @  0x27c236a007c0272  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=547178,7f5465424f33,7f552036108f,27c236a007c0271&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+E0108 08:05:19.346686    5859 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0108 08:05:19.347637    5939 process_state.cc:774] RAW: Raising signal 15 with default behavior
+    @           0x903b40  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=7f55201ca21b,7f5465424f33,7f552036108f,903b3f&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+E0108 08:05:19.350560    5861 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0108 08:05:19.350840    5888 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.351458    5926 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.355882    5848 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.356441    5880 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.361160    5885 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.371022    5942 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.371188    5854 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.373162    5943 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.389948    5847 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.390451    5864 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.390837    5877 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.393023    5842 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.399130    5859 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.404147    5863 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.405246    5861 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.409807    5910 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.417779    5840 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.455140    5858 process_state.cc:774] RAW: Raising signal 15 with default behavior
+PC: @           0x546d2b  (unknown)  _PyEval_EvalFrameDefault
+    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5520361090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=546d2b,7f5465424f33,7f552036108f&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+E0108 08:05:19.503033    5866 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0108 08:05:19.516425    5866 process_state.cc:774] RAW: Raising signal 15 with default behavior
+https://symbolize.stripped_domain/r/?trace=57b094,7f552036108f,9053ff&map= 
+*** SIGTERM received by PID 5860 (TID 5860) on cpu 25 from PID 1; stack trace: ***
+https://symbolize.stripped_domain/r/?trace=4c4c30,7f552036108f,7f551fbb403f,90609f&map=https://symbolize.stripped_domain/r/?trace= 
+PC: @           0x57b094  (unknown)  (unknown)
+7f552030b18d,7f552036108f*** SIGTERM received by PID 5855 (TID 5855) on cpu 79 from PID 1; stack trace: ***
+&map= 
+*** SIGTERM received by PID 5849 (TID 5849) on cpu 56 from PID 1; stack trace: ***
+    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5520361090  (unknown)  (unknown)
+PC: @     0x7f552030b18d  (unknown)  pthread_cond_signal@@GLIBC_2.3.2
+    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5520361090  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=7f552030b18d,7f5465424f33,7f552036108f&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+PC: @           0x4c4c30  (unknown)  (unknown)
+E0108 08:05:19.528737    5849 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @     0x7f5465424f34        976  (unknown)
+    @           0x905400  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=57b094,7f5465424f33,7f552036108f,9053ff&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+    @     0x7f5520361090  (unknown)  (unknown)
+E0108 08:05:19.529109    5860 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+    @     0x7f551fbb4040  (unknown)  (unknown)
+    @           0x9060a0  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=4c4c30,7f5465424f33,7f552036108f,7f551fbb403f,90609f&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+E0108 08:05:19.541032    5855 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0108 08:05:19.543334    5849 process_state.cc:774] RAW: Raising signal 15 with default behavior
+https://symbolize.stripped_domain/r/?trace=5b273a,7f552036108f,90585f&map= 
+*** SIGTERM received by PID 5856 (TID 5856) on cpu 38 from PID 1; stack trace: ***
+PC: @           0x5b273a  (unknown)  (unknown)
+    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5520361090   57167232  (unknown)
+    @           0x905860  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=5b273a,7f5465424f33,7f552036108f,90585f&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+E0108 08:05:19.578387    5856 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0108 08:05:19.578773    5855 process_state.cc:774] RAW: Raising signal 15 with default behavior
+https://symbolize.stripped_domain/r/?trace=5b3340,7f552036108f,90585f&map= 
+*** SIGTERM received by PID 5846 (TID 5846) on cpu 3 from PID 1; stack trace: ***
+PC: @           0x5b3340  (unknown)  (unknown)
+E0108 08:05:19.592608    5860 process_state.cc:774] RAW: Raising signal 15 with default behavior
+    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5520361090   59733120  (unknown)
+    @           0x905860  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=5b3340,7f5465424f33,7f552036108f,90585f&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+E0108 08:05:19.703727    5846 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+https://symbolize.stripped_domain/r/?trace=58ccdb,7f552036108f,90609f&map= 
+*** SIGTERM received by PID 5857 (TID 5857) on cpu 37 from PID 1; stack trace: ***
+PC: @           0x58ccdb  (unknown)  (unknown)
+    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5520361090  (unknown)  (unknown)
+    @           0x9060a0  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=58ccdb,7f5465424f33,7f552036108f,90609f&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+E0108 08:05:19.727877    5857 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0108 08:05:19.731829    5846 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.766944    5856 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.769081    5857 process_state.cc:774] RAW: Raising signal 15 with default behavior
+    @     0x7f5465424f34        976  (unknown)
+    @     0x7f5520361090   58391296  (unknown)
+    @           0x905860  (unknown)  (unknown)
+https://symbolize.stripped_domain/r/?trace=59d5a9,7f5465424f33,7f552036108f,90585f&map=4a20f63bf3c879dc6aa660a1b1fc407b:7f544fe2b000-7f54657b8ba0 
+E0108 08:05:19.824698    5853 coredump_hook.cc:324] RAW: Remote crash gathering disabled for SIGTERM.
+E0108 08:05:19.843956    5843 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:19.869838    5853 process_state.cc:774] RAW: Raising signal 15 with default behavior
+E0108 08:05:20.360274    4598 process_state.cc:774] RAW: Raising signal 15 with default behavior
