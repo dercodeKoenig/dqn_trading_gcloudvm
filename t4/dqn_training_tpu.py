@@ -290,6 +290,7 @@ def main():
         return batch_q.get()
     
     counter = 0
+    counter_total = 0
     loss_mean = []
     q_mean = []
     while True:
@@ -305,6 +306,7 @@ def main():
         for i in range(ep_len):
             
             if batch_q.qsize() >= 8:
+                counter_total += 1
                 
                 distributed_values = (strategy.experimental_distribute_values_from_function(tpu_data_get_func))
                 loss, qv = strategy.reduce(tf.distribute.ReduceOp.MEAN, strategy.run(tstep, args = (distributed_values,)), axis = None)
@@ -314,7 +316,8 @@ def main():
                 if verb:
                     progbar.update(i+1, values = [("loss", loss), ("qv", qv)])
                     
-                if counter % target_model_sync == 0:   
+                if counter_total % target_model_sync == 0:   
+                    print("\ncopy model weights...\n")
                     target_model.set_weights(model.get_weights())        
                 
             
@@ -328,6 +331,7 @@ def main():
         q_mean.append(np.mean(qs))
         
         if counter % save_freq == 0:
+                    print("\nsaving...\n")
                     for l in loss_mean:
                         filesave("loss.txt", l)        
                         loss_mean = []
