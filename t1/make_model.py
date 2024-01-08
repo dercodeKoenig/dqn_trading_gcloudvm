@@ -162,7 +162,7 @@ def make_model():
   tx_embed_len = 8
   tx_embed_units = 32
   
-  pos_embedding = PositionEmbedding(256, tx_embed_units)
+  pos_embedding = PositionEmbedding(256+tx_embed_len, tx_embed_units)
   
   def embed_information(input_state):
       input_state = tf.keras.layers.Dense(512, activation = "relu")(input_state)
