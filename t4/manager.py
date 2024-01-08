@@ -207,16 +207,18 @@ class manager:
         self.pd_arrays = list(self.m1_pda)+list(self.m5_pda)+list(self.m15_pda)+list(self.m60_pda)+list(self.d1_pda)
         
         
-        if update_action_m1: # always True
-            self.compute_action_history("m1")
-        if update_action_m5:
-            self.compute_action_history("m5")
-        if update_action_m15:
-            self.compute_action_history("m15")
-        if update_action_m60:
-            self.compute_action_history("m60")
         if update_action_d1:
             self.compute_action_history("d1")
+        if update_action_m60:
+            self.compute_action_history("m60")
+        if update_action_m15:
+            self.compute_action_history("m15")
+        if update_action_m5:
+            self.compute_action_history("m5")
+        if update_action_m1: # always True
+            self.compute_action_history("m1")
+        
+        
             
         
         
