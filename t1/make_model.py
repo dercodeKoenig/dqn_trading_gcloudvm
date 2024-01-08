@@ -36,9 +36,20 @@ class TransformerBlock(layers.Layer):
         ffn_output = self.dropout2(ffn_output, training=training)
         return self.layernorm2(out1 + ffn_output)
 
+class PositionEmbedding(layers.Layer):
+    def __init__(self, maxlen, embed_dim):
+        super().__init__()
+        self.pos_emb = layers.Embedding(input_dim=maxlen, output_dim=embed_dim)
 
+    def call(self, x):
+        maxlen = tf.shape(x)[-1]
+        positions = tf.range(start=0, limit=maxlen, delta=1)
+        positions = self.pos_emb(positions)
+        return x + positions
 
 def make_model():
+    
+  
 
   embed_times = tf.keras.layers.Embedding(60*24,8)
   embed_pda_types = tf.keras.layers.Embedding(7,6)
@@ -151,6 +162,8 @@ def make_model():
   tx_embed_len = 8
   tx_embed_units = 32
   
+  pos_embedding = PositionEmbedding(256, tx_embed_units)
+  
   def embed_information(input_state):
       input_state = tf.keras.layers.Dense(512, activation = "relu")(input_state)
       input_state = tf.keras.layers.Dense(512, activation = "relu")(input_state)
@@ -164,6 +177,7 @@ def make_model():
     actions = tf.keras.layers.LeakyReLU()(actions)
     input_state_tx, input_state_rnn = embed_information(additional_info)
     actions = tf.keras.layers.Concatenate(axis=1)([input_state_tx, actions])
+    actions = pos_embedding(actions)
     actions = TransformerBlock(tx_embed_units, 4, 256)(actions)
     actions = tf.keras.layers.GRU(gru_units)(actions, initial_state = input_state_rnn)
     return actions
