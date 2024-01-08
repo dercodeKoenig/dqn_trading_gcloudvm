@@ -17,7 +17,9 @@ n_actions = 2
 m1 = np.eye(n_actions, dtype="float32")
 batch_q_size = 512
 data_q_maxlen = 128
+target_model_sync = 5000
 
+save_freq = 20 # save after x epochs
 
 
 verb = False
@@ -287,9 +289,11 @@ def main():
     def tpu_data_get_func(_n):
         return batch_q.get()
     
-    save_counter = 0
+    counter = 0
+    loss_mean = []
+    q_mean = []
     while True:
-        save_counter += 1
+        counter += 1
         t0 = time.time()
         if verb:
             progbar = tf.keras.utils.Progbar(ep_len)
@@ -309,6 +313,10 @@ def main():
                 qs.append(qv.numpy())
                 if verb:
                     progbar.update(i+1, values = [("loss", loss), ("qv", qv)])
+                    
+                if counter % target_model_sync == 0:   
+                    target_model.set_weights(model.get_weights())        
+                
             
             else:
                 time.sleep(1)
@@ -316,12 +324,18 @@ def main():
 
             
         
+        loss_mean.append(np.mean(losses))
+        q_mean.append(np.mean(qs))
         
-        filesave("loss.txt", np.mean(losses))        
-        filesave("qv.txt", np.mean(qs))
-        if save_counter % 20 == 0:
-            model.save_weights("dqn_weights.h5")
-        target_model.set_weights(model.get_weights())        
+        if counter % save_freq == 0:
+                    for l in loss_mean:
+                        filesave("loss.txt", l)        
+                        loss_mean = []
+                    for q in q_mean:
+                        filesave("qv.txt", q)
+                        q_mean = []
+                    model.save_weights("dqn_weights.h5")
+        
          
         if not verb:
             print("loss:", np.mean(losses), "- expected Q values:", np.mean(qs), "- time:", time.time() - t0)
