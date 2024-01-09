@@ -592,3 +592,35 @@ loss: 17.22845 - expected Q values: 6.5171003 - time: 25.762935876846313
 updating one time
 Already up to date.
 loss: 24.208202 - expected Q values: 5.733899 - time: 25.70262122154236
+[main 24aa8c5] .
+ 1 file changed, 14 insertions(+)
+To https://github.com/dercodeKoenig/dqn_trading_gcloudvm.git
+   602e7a5..24aa8c5  main -> main
+Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/marvineckhardt04092003/.kaggle/kaggle.json'
+Starting upload for file nohup.out
+  0%|          | 0.00/26.2k [00:00<?, ?B/s]26.4kB [00:00, 173kB/s]                    
+Upload unsuccessful: nohup.out
+400 - Bad Request - Please upload at least one file
+loss: 12.794072 - expected Q values: 6.0870886 - time: 24.911420822143555
+loading data/parts_YM_1_inverted.o/part_056
+loss: 34.00929 - expected Q values: 5.4986253 - time: 25.935713291168213
+loading data/parts_YM_1_inverted.o/part_034
+loss: 17.428541 - expected Q values: 5.620817 - time: 24.916584014892578
+loss: 31.3218 - expected Q values: 6.128372 - time: 25.438117265701294
+loading data/parts_EP_1_inverted.o/part_003
+loss: 14.000106 - expected Q values: 5.396135 - time: 26.29177975654602
+loss: 20.432392 - expected Q values: 5.4707994 - time: 25.30721950531006
+loss: 22.557053 - expected Q values: 5.2808495 - time: 25.09537410736084
+
+saving...
+
+loss: 11.574828 - expected Q values: 4.4681168 - time: 27.85114312171936
+loss: 6.500988 - expected Q values: 4.406831 - time: 26.112865209579468
+loss: 7.8772283 - expected Q values: 4.5121565 - time: 25.81876492500305
+updating one time
+From https://github.com/dercodeKoenig/dqn_trading_gcloudvm
+   24aa8c5..42e9f2d  main       -> origin/main
+Updating 24aa8c5..42e9f2d
+Fast-forward
+ t3/nohup.out | 27 +++++++++++++++++++++++++++
+ 1 file changed, 27 insertions(+)
