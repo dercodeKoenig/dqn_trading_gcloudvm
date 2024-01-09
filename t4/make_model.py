@@ -1,4 +1,4 @@
-## tx + gru 
+## tx - bert-like small
 
 import tensorflow as tf
 
@@ -36,6 +36,7 @@ class TransformerBlock(layers.Layer):
         ffn_output = self.dropout2(ffn_output, training=training)
         return self.layernorm2(out1 + ffn_output)
 
+
 class PositionEmbedding(layers.Layer):
     def __init__(self, maxlen, embed_dim):
         super().__init__()
@@ -47,9 +48,8 @@ class PositionEmbedding(layers.Layer):
         positions = self.pos_emb(positions)
         return x + positions
 
+
 def make_model():
-    
-  
 
   embed_times = tf.keras.layers.Embedding(60*24,8)
   embed_pda_types = tf.keras.layers.Embedding(7,6)
@@ -158,31 +158,37 @@ def make_model():
   
 
 
-  gru_units = 64
+  
   tx_embed_len = 8
   tx_embed_units = 32
-  
+    
   pos_embedding = PositionEmbedding(256+tx_embed_len, tx_embed_units)
-  
+
   def embed_information(input_state):
       input_state = tf.keras.layers.Dense(512, activation = "relu")(input_state)
       input_state = tf.keras.layers.Dense(512, activation = "relu")(input_state)
-      input_state_rnn = tf.keras.layers.Dense(gru_units, activation = "relu")(input_state)
       input_state_tx = tf.keras.layers.Dense(tx_embed_units*tx_embed_len, activation = "relu")(input_state)
       input_state_tx = tf.keras.layers.Reshape((-1,tx_embed_units))(input_state_tx)
-      return input_state_tx, input_state_rnn
+      return input_state_tx
   
   def process_actions(actions, additional_info):
     actions = tf.keras.layers.Dense(32)(actions)
     actions = tf.keras.layers.LeakyReLU()(actions)
     actions = tf.keras.layers.Dense(tx_embed_units)(actions)
     actions = tf.keras.layers.LeakyReLU()(actions)
-    input_state_tx, input_state_rnn = embed_information(additional_info)
+    input_state_tx = embed_information(additional_info)
     actions = tf.keras.layers.Concatenate(axis=1)([input_state_tx, actions])
     actions = pos_embedding(actions)
-    actions = TransformerBlock(tx_embed_units, 4, 256)(actions)
-    actions = tf.keras.layers.GRU(gru_units)(actions, initial_state = input_state_rnn)
-    return actions
+    actions = TransformerBlock(tx_embed_units, 6, 256)(actions)
+    actions = TransformerBlock(tx_embed_units, 6, 256)(actions)
+    attention_tokens = actions[::,0:tx_embed_len]
+    attention_tokens = tf.keras.layers.Flatten()(attention_tokens)
+    attention_tokens = tf.keras.layers.Dense(128)(attention_tokens)
+    attention_tokens = tf.keras.layers.LeakyReLU()(attention_tokens)
+    attention_tokens = tf.keras.layers.Dense(128)(attention_tokens)
+    attention_tokens = tf.keras.layers.LeakyReLU()(attention_tokens)
+    
+    return attention_tokens
   
   input_state = tf.keras.layers.Concatenate()([input_current_pos, input_closing_prices, input_closing_times, input_current_day, pda_list_m60, pda_list_d1])
   actions_m15 = process_actions(actions_m15, input_state)
@@ -208,3 +214,4 @@ def make_model():
 
   model = tf.keras.Model(inputs = [input_current_pos, input_closing_prices, input_closing_times_in, input_current_day_in, pd_arrays_m1_input, pd_arrays_m5_input, pd_arrays_m15_input, pd_arrays_m60_input, pd_arrays_d1_input, action_m1_inputs, action_m5_inputs, action_m15_inputs], outputs=x)
   return model
+model = make_model()
