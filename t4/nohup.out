@@ -545,3 +545,15 @@ updating one time
 loss: 16.285378 - expected Q values: 5.4853272 - time: 23.81571316719055
 updating one time
 Already up to date.
+[main 0e93618] .
+ 1 file changed, 13 insertions(+)
+To https://github.com/dercodeKoenig/dqn_trading_gcloudvm.git
+   b6f8bcd..0e93618  main -> main
+Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/marvineckhardt04092003/.kaggle/kaggle.json'
+Starting upload for file nohup.out
+  0%|          | 0.00/23.9k [00:00<?, ?B/s]24.1kB [00:00, 155kB/s]                    
+Upload unsuccessful: nohup.out
+400 - Bad Request - Please upload at least one file
+loss: 26.901016 - expected Q values: 5.809744 - time: 25.22391366958618
+loss: 30.826849 - expected Q values: 5.9169393 - time: 24.41941738128662
+loss: 22.885754 - expected Q values: 5.2799025 - time: 24.79901385307312
