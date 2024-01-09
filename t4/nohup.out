@@ -509,3 +509,22 @@ loss: 14.379336 - expected Q values: 4.822294 - time: 25.543761491775513
 running update in loop mode
 running update commands...
 Already up to date.
+[main 36152c3] .
+ 3 files changed, 511 insertions(+), 20537 deletions(-)
+ delete mode 100644 t4/loss.txt
+ rewrite t4/nohup.out (98%)
+ delete mode 100644 t4/qv.txt
+To https://github.com/dercodeKoenig/dqn_trading_gcloudvm.git
+   417f941..36152c3  main -> main
+Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/marvineckhardt04092003/.kaggle/kaggle.json'
+Starting upload for file nohup.out
+  0%|          | 0.00/22.0k [00:00<?, ?B/s]22.3kB [00:00, 144kB/s]                    
+Upload unsuccessful: nohup.out
+400 - Bad Request - Please upload at least one file
+sleep for 19382 seconds
+loss: 29.216623 - expected Q values: 6.601891 - time: 25.086623907089233
+loss: 14.332627 - expected Q values: 4.7535143 - time: 25.002501249313354
+loss: 13.986734 - expected Q values: 5.0064154 - time: 25.7569682598114
+loss: 10.096952 - expected Q values: 4.9298186 - time: 25.079601287841797
+loss: 5.133858 - expected Q values: 4.5533013 - time: 25.215961933135986
+loss: 10.395343 - expected Q values: 4.536916 - time: 25.79685354232788
