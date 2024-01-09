@@ -578,3 +578,17 @@ Traceback (most recent call last):
 KeyboardInterrupt
 loss: 15.216106 - expected Q values: 6.197244 - time: 25.428207635879517
 Already up to date.
+[main 602e7a5] .
+ 1 file changed, 19 insertions(+)
+To https://github.com/dercodeKoenig/dqn_trading_gcloudvm.git
+   b1b6978..602e7a5  main -> main
+Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/marvineckhardt04092003/.kaggle/kaggle.json'
+Starting upload for file nohup.out
+  0%|          | 0.00/25.5k [00:00<?, ?B/s]25.8kB [00:00, 156kB/s]                    
+Upload unsuccessful: nohup.out
+400 - Bad Request - Please upload at least one file
+updating one time
+loss: 17.22845 - expected Q values: 6.5171003 - time: 25.762935876846313
+updating one time
+Already up to date.
+loss: 24.208202 - expected Q values: 5.733899 - time: 25.70262122154236
