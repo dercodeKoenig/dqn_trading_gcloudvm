@@ -493,3 +493,30 @@ Fast-forward
  3 files changed, 425 insertions(+), 20451 deletions(-)
  delete mode 100644 t4/loss.txt
  delete mode 100644 t4/qv.txt
+[main bcc4a1e] .
+ 3 files changed, 495 insertions(+), 6650 deletions(-)
+ delete mode 100644 t3/loss.txt
+ rewrite t3/nohup.out (94%)
+ delete mode 100644 t3/qv.txt
+To https://github.com/dercodeKoenig/dqn_trading_gcloudvm.git
+   36152c3..bcc4a1e  main -> main
+Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/marvineckhardt04092003/.kaggle/kaggle.json'
+Starting upload for file nohup.out
+  0%|          | 0.00/20.9k [00:00<?, ?B/s]21.2kB [00:00, 144kB/s]                    
+Upload unsuccessful: nohup.out
+400 - Bad Request - Please upload at least one file
+loading data/parts_YM_1.o/part_008
+loss: 7.446815 - expected Q values: 1.765733 - time: 117.39444351196289
+loss: 10.552033 - expected Q values: 2.1551065 - time: 116.14310359954834
+loading data/parts_EP_1.o/part_020
+loss: 16.174086 - expected Q values: 2.6897478 - time: 119.42549967765808
+loading data/parts_YM_1.o/part_020
+loss: 8.49791 - expected Q values: 1.7012367 - time: 117.2839207649231
+loss: 6.1310034 - expected Q values: 1.8359603 - time: 121.79629421234131
+updating one time
+From https://github.com/dercodeKoenig/dqn_trading_gcloudvm
+   bcc4a1e..24aa8c5  main       -> origin/main
+Updating bcc4a1e..24aa8c5
+Fast-forward
+ t4/nohup.out | 83 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 83 insertions(+)
