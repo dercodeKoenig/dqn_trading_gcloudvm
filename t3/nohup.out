@@ -2235,3 +2235,62 @@ loss: 3.4011397 - expected Q values: 1.0690475 - time: 97.99067401885986
 loss: 2.8878126 - expected Q values: 1.184537 - time: 97.51410603523254
 loss: 4.2738447 - expected Q values: 1.4360285 - time: 97.45853900909424
 loss: 3.9836688 - expected Q values: 0.9396845 - time: 97.35809803009033
+loss: 3.606101 - expected Q values: 0.73883367 - time: 97.19305515289307
+loss: 2.9833937 - expected Q values: 0.39206588 - time: 96.84961152076721
+loss: 2.3868752 - expected Q values: -0.70292467 - time: 97.26227927207947
+loading data/parts_EP_1.o/part_021
+loss: 2.5192368 - expected Q values: -0.17768112 - time: 96.90705990791321
+loss: 2.6105728 - expected Q values: 0.6686859 - time: 96.98894786834717
+loading data/parts_ENQ_1_inverted.o/part_025
+loss: 2.1120007 - expected Q values: 0.5645317 - time: 97.16137385368347
+loss: 2.14631 - expected Q values: 0.42858315 - time: 97.08791184425354
+
+copy model weights...
+
+
+saving...
+
+loss: 2.7894106 - expected Q values: 0.40133908 - time: 102.16729664802551
+loss: 1.9829477 - expected Q values: 0.28204566 - time: 98.02130484580994
+loss: 2.571822 - expected Q values: -0.10601363 - time: 97.38290596008301
+loss: 2.941271 - expected Q values: 0.614077 - time: 97.66782641410828
+loss: 2.5259109 - expected Q values: 0.58490497 - time: 97.89628577232361
+loss: 1.7707213 - expected Q values: 0.38995865 - time: 97.9518027305603
+loss: 2.2443738 - expected Q values: -0.058511924 - time: 98.226811170578
+loss: 2.344561 - expected Q values: -0.028116398 - time: 98.01243090629578
+loss: 3.4167738 - expected Q values: 0.36821422 - time: 98.14098811149597
+loss: 2.587543 - expected Q values: 0.85200506 - time: 98.18077516555786
+loading data/parts_EP_1.o/part_008
+loss: 1.7324109 - expected Q values: 0.33327064 - time: 98.1398184299469
+loss: 0.83526367 - expected Q values: 0.1344653 - time: 98.10606455802917
+loss: 2.270529 - expected Q values: 0.6466472 - time: 98.28999447822571
+loss: 5.1810613 - expected Q values: 0.7999231 - time: 98.1084566116333
+loading data/parts_ENQ_1.o/part_044
+loading data/parts_YM_1.o/part_025
+loss: 2.9509263 - expected Q values: 0.5116155 - time: 98.0525004863739
+loss: 2.3446636 - expected Q values: 0.5091659 - time: 97.46778655052185
+loss: 1.9448192 - expected Q values: 0.15546595 - time: 97.161456823349
+loss: 2.1445265 - expected Q values: 0.4885088 - time: 97.46904134750366
+loss: 0.99102676 - expected Q values: 0.21929783 - time: 97.67056441307068
+8 - path: data/parts_ENQ_1_inverted.o/
+8 - cm: 2.4
+8 - start at parts_ENQ_1_inverted.o - 0
+loading data/parts_ENQ_1_inverted.o/part_000
+loading data/parts_YM_1.o/part_039
+loss: 2.2653792 - expected Q values: 0.19840936 - time: 97.34786343574524
+loss: 2.772778 - expected Q values: 0.52951413 - time: 97.50181579589844
+loss: 2.8628888 - expected Q values: 0.64059854 - time: 97.50980186462402
+loss: 2.8505754 - expected Q values: 0.7999764 - time: 99.84996175765991
+running update commands...
+From https://github.com/dercodeKoenig/dqn_trading_gcloudvm
+   f14829d..74ea2ad  main       -> origin/main
+Updating f14829d..74ea2ad
+Fast-forward
+ t1/loss.txt  |  40 ++++
+ t1/nohup.out | 641 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ t1/qv.txt    |  40 ++++
+ t2.jpg       | Bin 70767 -> 73292 bytes
+ t3.jpg       | Bin 66408 -> 66121 bytes
+ t4.jpg       | Bin 68445 -> 69215 bytes
+ t4/nohup.out |  73 +++++++
+ 7 files changed, 794 insertions(+)
