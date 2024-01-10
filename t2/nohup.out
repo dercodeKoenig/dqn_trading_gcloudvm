@@ -3843,3 +3843,660 @@ Fast-forward
  t4/nohup.out |  367 +++++++++++++
  t4/qv.txt    |  300 +++++++++++
  9 files changed, 5655 insertions(+)
+[main b0f9bfe] .
+ 3 files changed, 850 insertions(+)
+To https://github.com/dercodeKoenig/dqn_trading_gcloudvm.git
+   3797c26..b0f9bfe  main -> main
+Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/marvineckhardt04092003/.kaggle/kaggle.json'
+Starting upload for file nohup.out
+  0%|          | 0.00/217k [00:00<?, ?B/s]217kB [00:00, 1.52MB/s]                   
+Upload unsuccessful: nohup.out
+Skipping folder: __pycache__; use '--dir-mode' to upload folders
+Starting upload for file manager.py
+  0%|          | 0.00/45.8k [00:00<?, ?B/s]100%|██████████| 45.8k/45.8k [00:00<00:00, 65.5kB/s]
+Upload successful: manager.py (46KB)
+Starting upload for file dqn_weights.h5
+  0%|          | 0.00/31.1M [00:00<?, ?B/s] 32%|███▏      | 10.1M/31.1M [00:00<00:00, 90.7MB/s] 97%|█████████▋| 30.2M/31.1M [00:00<00:00, 87.0MB/s]100%|██████████| 31.1M/31.1M [00:01<00:00, 25.1MB/s]
+Upload successful: dqn_weights.h5 (31MB)
+Starting upload for file qv.txt
+  0%|          | 0.00/24.3k [00:00<?, ?B/s]100%|██████████| 24.3k/24.3k [00:00<00:00, 39.0kB/s]
+Upload successful: qv.txt (24KB)
+Starting upload for file dqn_training_tpu.py
+  0%|          | 0.00/11.8k [00:00<?, ?B/s]100%|██████████| 11.8k/11.8k [00:00<00:00, 16.7kB/s]
+Upload successful: dqn_training_tpu.py (12KB)
+Starting upload for file loss.txt
+  0%|          | 0.00/22.3k [00:00<?, ?B/s]100%|██████████| 22.3k/22.3k [00:00<00:00, 34.1kB/s]
+Upload successful: loss.txt (22KB)
+Skipping folder: data; use '--dir-mode' to upload folders
+Starting upload for file push_files_worker.py
+  0%|          | 0.00/1.03k [00:00<?, ?B/s]100%|██████████| 1.03k/1.03k [00:00<00:00, 1.96kB/s]
+Upload successful: push_files_worker.py (1KB)
+Starting upload for file utils.py
+  0%|          | 0.00/13.6k [00:00<?, ?B/s]100%|██████████| 13.6k/13.6k [00:00<00:00, 21.0kB/s]
+Upload successful: utils.py (14KB)
+Starting upload for file make_model.py
+  0%|          | 0.00/8.81k [00:00<?, ?B/s]100%|██████████| 8.81k/8.81k [00:00<00:00, 16.3kB/s]
+Upload successful: make_model.py (9KB)
+Dataset version is being created. Please check progress at https://www.kaggle.com/bpwqsdd/dqn-cloud-files-t2
+
+saving...
+
+loss: 9.480158 - expected Q values: 4.4388413 - time: 47.11163520812988
+loss: 1.6197416 - expected Q values: 6.4339147 - time: 46.26490926742554
+loading data/parts_EP_1.o/part_009
+loss: 9.041892 - expected Q values: 0.10143772 - time: 46.20264172554016
+loss: 3.0706155 - expected Q values: 2.6897924 - time: 46.26964259147644
+loss: 8.248127 - expected Q values: 5.5870905 - time: 45.98478555679321
+loss: 5.80622 - expected Q values: 5.7131634 - time: 46.256117820739746
+loading data/parts_ENQ_1_inverted.o/part_050
+loss: 1.7463784 - expected Q values: 5.097209 - time: 46.114882469177246
+loss: 10.137093 - expected Q values: 2.7454464 - time: 46.069313764572144
+loss: 6.6318417 - expected Q values: -1.33336 - time: 46.12887763977051
+loss: 3.074828 - expected Q values: 4.7506766 - time: 46.283753871917725
+
+copy model weights...
+
+loss: 2.8278995 - expected Q values: 4.0661893 - time: 50.22401833534241
+loss: 1.741519 - expected Q values: 4.549488 - time: 46.05561065673828
+loss: 30.994053 - expected Q values: 4.0373898 - time: 46.412397623062134
+loss: 2.9355822 - expected Q values: 2.8778172 - time: 46.09586787223816
+loss: 2.2294834 - expected Q values: 4.25189 - time: 46.061782360076904
+loss: 6.167125 - expected Q values: 2.7967224 - time: 46.01952314376831
+loading data/parts_YM_1.o/part_031
+loss: 9.010909 - expected Q values: 4.3994465 - time: 46.40829014778137
+loss: 1.9001759 - expected Q values: 5.641359 - time: 46.149906873703
+loss: 2.179095 - expected Q values: 2.8722644 - time: 45.950090646743774
+loss: 4.3473024 - expected Q values: 0.60005456 - time: 45.99771046638489
+
+saving...
+
+loss: 2.8900967 - expected Q values: 3.6178765 - time: 46.74349856376648
+loss: 1.8968146 - expected Q values: 5.038105 - time: 45.96514296531677
+loss: 3.0275922 - expected Q values: 3.845362 - time: 46.10575246810913
+loss: 17.288946 - expected Q values: 3.6544025 - time: 46.0647029876709
+loss: 2.2910676 - expected Q values: 5.1024275 - time: 46.185795068740845
+loss: 1.6351529 - expected Q values: 6.6688867 - time: 45.9552481174469
+loss: 4.868577 - expected Q values: 3.2630124 - time: 46.07452392578125
+loading data/parts_YM_1_inverted.o/part_018
+loss: 2.8134985 - expected Q values: 4.261389 - time: 46.17839789390564
+loss: 3.435006 - expected Q values: 5.3153863 - time: 46.234747648239136
+loss: 4.6175685 - expected Q values: 2.2688935 - time: 46.160966873168945
+loss: 14.630799 - expected Q values: 3.4989953 - time: 46.152263164520264
+loss: 15.064862 - expected Q values: 4.693416 - time: 46.01907420158386
+loss: 16.310476 - expected Q values: 4.674923 - time: 46.11666178703308
+loss: 2.9060955 - expected Q values: 5.241181 - time: 45.932612657547
+loss: 6.094522 - expected Q values: 4.743078 - time: 46.0325026512146
+loss: 8.871278 - expected Q values: 4.763692 - time: 46.20061421394348
+loss: 10.046721 - expected Q values: 2.8178492 - time: 46.3362238407135
+loading data/parts_EP_1.o/part_031
+loss: 2.4960394 - expected Q values: 4.9426017 - time: 46.41268968582153
+loss: 2.3915327 - expected Q values: 4.696792 - time: 46.249094009399414
+loss: 2.376658 - expected Q values: 4.9147387 - time: 46.0295569896698
+
+saving...
+
+loss: 3.8536954 - expected Q values: 2.4817185 - time: 46.83909273147583
+loss: 3.5833764 - expected Q values: 3.930569 - time: 46.67031145095825
+loss: 3.3116705 - expected Q values: 4.648873 - time: 46.08767533302307
+loss: 1.8681694 - expected Q values: 4.770234 - time: 46.32971453666687
+loss: 2.8644593 - expected Q values: 2.5085206 - time: 46.47684097290039
+loss: 3.0448902 - expected Q values: 2.5595026 - time: 46.27753663063049
+loss: 5.836472 - expected Q values: 2.8098364 - time: 46.12733221054077
+loss: 18.89539 - expected Q values: 4.0445786 - time: 46.04554343223572
+loading data/parts_EP_1_inverted.o/part_042
+loss: 18.04117 - expected Q values: 0.8255732 - time: 46.11370015144348
+loss: 3.177539 - expected Q values: 5.875534 - time: 46.11325716972351
+loss: 3.09484 - expected Q values: 3.7819424 - time: 46.412182331085205
+loss: 2.9420614 - expected Q values: 3.948953 - time: 45.99902844429016
+loss: 7.8573985 - expected Q values: 3.7802567 - time: 46.23832845687866
+loading data/parts_YM_1.o/part_005
+loss: 5.849858 - expected Q values: 1.2271825 - time: 46.304076194763184
+loss: 5.171667 - expected Q values: 4.5721006 - time: 46.21669626235962
+loss: 4.00363 - expected Q values: 4.648603 - time: 46.159276485443115
+loss: 4.5556135 - expected Q values: 0.8559886 - time: 46.19597792625427
+loss: 0.92543304 - expected Q values: 7.133721 - time: 46.1603102684021
+loading data/parts_YM_1.o/part_055
+loss: 2.9609365 - expected Q values: 5.3176527 - time: 46.08387303352356
+loss: 2.6213324 - expected Q values: 4.542102 - time: 46.16324305534363
+
+copy model weights...
+
+
+saving...
+
+loss: 2.7055807 - expected Q values: 3.905074 - time: 51.21529960632324
+loss: 3.2438416 - expected Q values: 3.2458355 - time: 46.24822759628296
+loss: 3.50324 - expected Q values: 2.3767107 - time: 46.22514891624451
+loss: 3.407901 - expected Q values: 1.8376346 - time: 46.20047307014465
+loss: 2.875326 - expected Q values: 4.9244065 - time: 46.14574694633484
+loss: 22.294827 - expected Q values: 1.8714933 - time: 45.82939839363098
+loss: 2.2193322 - expected Q values: 4.4829316 - time: 46.31558966636658
+loss: 2.2234726 - expected Q values: 5.6984386 - time: 46.15560483932495
+loss: 6.3231573 - expected Q values: 4.2201385 - time: 45.96816658973694
+loss: 2.6739967 - expected Q values: 4.8578553 - time: 46.74234938621521
+loss: 3.9278224 - expected Q values: 0.95394844 - time: 46.149882555007935
+loss: 4.7773266 - expected Q values: 3.8444312 - time: 46.23183465003967
+loss: 2.3118587 - expected Q values: 6.262353 - time: 46.16963005065918
+loading data/parts_EP_1.o/part_063
+loss: 5.363635 - expected Q values: 5.0522666 - time: 46.13524627685547
+loss: 22.343054 - expected Q values: 2.298717 - time: 46.39315915107727
+loss: 4.0102572 - expected Q values: 6.2547307 - time: 46.203802824020386
+loss: 9.944273 - expected Q values: 1.7445269 - time: 46.24628400802612
+loss: 2.5640786 - expected Q values: 3.773226 - time: 46.25257849693298
+loss: 2.3364947 - expected Q values: 4.904244 - time: 46.21967434883118
+loss: 4.1524205 - expected Q values: 3.851679 - time: 46.10807728767395
+
+saving...
+
+loss: 1.4958334 - expected Q values: 6.9416075 - time: 46.95496845245361
+loss: 7.508163 - expected Q values: 4.3226023 - time: 46.19347906112671
+loss: 6.3311424 - expected Q values: 3.7540116 - time: 45.9967257976532
+loss: 2.8027542 - expected Q values: 4.146699 - time: 46.18017768859863
+loss: 2.2473216 - expected Q values: 5.2557774 - time: 45.994163274765015
+loss: 1.3420897 - expected Q values: 7.411262 - time: 46.35784959793091
+loss: 1.488084 - expected Q values: 6.5149274 - time: 46.23639512062073
+loss: 2.554376 - expected Q values: 3.6148179 - time: 46.37908697128296
+loss: 3.6971574 - expected Q values: 3.7613807 - time: 45.96358776092529
+loss: 3.418662 - expected Q values: 3.0565634 - time: 46.19463324546814
+loss: 4.1232285 - expected Q values: 2.0981784 - time: 46.25032711029053
+loss: 2.4077868 - expected Q values: 4.9938927 - time: 46.180254220962524
+loss: 2.6159775 - expected Q values: 4.0624833 - time: 46.29750990867615
+loss: 7.372741 - expected Q values: 3.557179 - time: 46.248162031173706
+loss: 15.839477 - expected Q values: 3.7200425 - time: 46.26712083816528
+loss: 8.424555 - expected Q values: 1.3315501 - time: 46.44750499725342
+loss: 7.3074856 - expected Q values: 1.881376 - time: 46.36804676055908
+loss: 5.3965244 - expected Q values: 2.68026 - time: 46.24659085273743
+loss: 5.3420243 - expected Q values: 1.8542166 - time: 46.555503368377686
+loss: 3.3780112 - expected Q values: 1.0557016 - time: 46.09538507461548
+
+saving...
+
+loss: 9.0372095 - expected Q values: 1.5007958 - time: 46.979660511016846
+loss: 2.8472636 - expected Q values: 3.4482965 - time: 46.2014262676239
+loss: 8.971047 - expected Q values: 2.5060422 - time: 46.47735619544983
+loss: 3.9974923 - expected Q values: 3.6720145 - time: 46.199378967285156
+loss: 1.2528772 - expected Q values: 7.5437636 - time: 46.26146650314331
+loading data/parts_ENQ_1_inverted.o/part_057
+loading data/parts_EP_1.o/part_033
+loss: 5.122763 - expected Q values: 2.735603 - time: 46.373311042785645
+loss: 3.9873896 - expected Q values: 2.6899137 - time: 46.40372157096863
+loss: 2.1017513 - expected Q values: 1.4301884 - time: 46.06725764274597
+loss: 2.2446623 - expected Q values: 3.7997065 - time: 46.322545528411865
+loss: 2.1257505 - expected Q values: 4.8693523 - time: 46.32538986206055
+
+copy model weights...
+
+loss: 1.9302566 - expected Q values: 4.6591377 - time: 50.98183274269104
+loss: 3.2251348 - expected Q values: 3.3603985 - time: 45.99873328208923
+loss: 9.740628 - expected Q values: 0.91458076 - time: 46.4206326007843
+loss: 1.8670454 - expected Q values: 3.8724074 - time: 46.458215951919556
+loading data/parts_EP_1_inverted.o/part_057
+loss: 5.3542833 - expected Q values: 1.2993256 - time: 46.43340563774109
+loss: 2.0899653 - expected Q values: 4.209895 - time: 46.31240129470825
+loss: 12.655606 - expected Q values: 2.845389 - time: 46.42246460914612
+loss: 7.520236 - expected Q values: 3.3133996 - time: 46.35031747817993
+loss: 1.2515187 - expected Q values: 7.59232 - time: 46.416285037994385
+loss: 3.281682 - expected Q values: 4.132669 - time: 46.031150102615356
+
+saving...
+
+loss: 3.922712 - expected Q values: 0.7374105 - time: 46.93918061256409
+loss: 6.8495545 - expected Q values: 2.3205235 - time: 46.42068839073181
+loss: 16.563309 - expected Q values: 4.152729 - time: 46.37651610374451
+loss: 4.9986362 - expected Q values: 5.243075 - time: 46.32251954078674
+loss: 5.2446337 - expected Q values: 1.9015121 - time: 46.36638879776001
+loss: 8.0079565 - expected Q values: 2.4401357 - time: 46.41735601425171
+loss: 4.600599 - expected Q values: -0.2990139 - time: 46.77229452133179
+loss: 7.2874775 - expected Q values: 2.5722566 - time: 46.165104150772095
+loss: 4.0942492 - expected Q values: 4.5703244 - time: 46.4022159576416
+loss: 12.890166 - expected Q values: 0.17449038 - time: 46.37350416183472
+loss: 5.2309327 - expected Q values: 2.6492486 - time: 46.3306360244751
+loss: 4.5875244 - expected Q values: 2.6727958 - time: 46.30539846420288
+loss: 2.8591967 - expected Q values: 5.2283974 - time: 46.275917053222656
+loss: 1.4506023 - expected Q values: 5.6708775 - time: 46.142822265625
+loss: 0.92439634 - expected Q values: 6.5809565 - time: 46.223020792007446
+loss: 5.649868 - expected Q values: 5.359186 - time: 46.297895431518555
+loss: 2.0421789 - expected Q values: 4.7862053 - time: 46.03653860092163
+loss: 3.8461697 - expected Q values: 3.0428605 - time: 46.18993854522705
+loss: 5.2083855 - expected Q values: 2.8293347 - time: 46.105316400527954
+loss: 2.8973784 - expected Q values: 3.8592854 - time: 46.31071209907532
+
+saving...
+
+loss: 2.934017 - expected Q values: 5.2259364 - time: 46.958754539489746
+loss: 5.818218 - expected Q values: 4.0244236 - time: 46.002333879470825
+loss: 2.134313 - expected Q values: 3.9310846 - time: 46.25844860076904
+loss: 1.5547054 - expected Q values: 6.588329 - time: 46.27077269554138
+loss: 8.535138 - expected Q values: 1.3737018 - time: 46.34306502342224
+loss: 2.862868 - expected Q values: 1.8152248 - time: 46.10097050666809
+loss: 5.2762623 - expected Q values: 2.239625 - time: 46.195183753967285
+loss: 4.5487056 - expected Q values: 2.8631268 - time: 46.15255641937256
+loss: 2.8950443 - expected Q values: 2.0765457 - time: 46.14686894416809
+loss: 4.084676 - expected Q values: 2.9185076 - time: 46.18376970291138
+loss: 6.38206 - expected Q values: 2.3113794 - time: 46.33000683784485
+loss: 1.7392501 - expected Q values: 3.1886022 - time: 46.12427592277527
+loss: 10.889174 - expected Q values: 0.52575946 - time: 46.26229190826416
+loss: 13.168073 - expected Q values: -0.20462227 - time: 46.16198110580444
+loss: 10.485117 - expected Q values: 0.91837716 - time: 46.12168550491333
+loss: 1.5775626 - expected Q values: 6.3414783 - time: 47.04689908027649
+loss: 5.487335 - expected Q values: 4.375365 - time: 46.30202293395996
+loss: 1.9188359 - expected Q values: 5.288278 - time: 46.1762969493866
+loss: 1.8151664 - expected Q values: 6.215384 - time: 45.96645641326904
+loss: 7.4741783 - expected Q values: 4.3298826 - time: 45.99505043029785
+
+copy model weights...
+
+
+saving...
+
+loss: 4.541923 - expected Q values: 3.1676583 - time: 50.896029233932495
+loss: 3.1840959 - expected Q values: 4.1657143 - time: 46.17591452598572
+loss: 2.9335403 - expected Q values: 4.9182396 - time: 46.28499126434326
+loss: 1.3296769 - expected Q values: 4.639213 - time: 46.05988621711731
+loss: 2.292164 - expected Q values: 3.8445733 - time: 46.56147503852844
+loss: 5.351674 - expected Q values: 4.0965257 - time: 46.282084941864014
+loss: 1.2119371 - expected Q values: 5.880156 - time: 46.547685861587524
+loss: 2.4753158 - expected Q values: 4.0944524 - time: 46.20768904685974
+loss: 2.1581025 - expected Q values: 5.576634 - time: 46.108081579208374
+loss: 5.249298 - expected Q values: -0.14223897 - time: 46.091922760009766
+loading data/parts_ENQ_1_inverted.o/part_052
+loss: 5.1438165 - expected Q values: 4.347554 - time: 46.026901960372925
+loss: 6.151202 - expected Q values: 2.5926783 - time: 46.12460732460022
+loss: 4.6775007 - expected Q values: 3.1520004 - time: 46.15052151679993
+loss: 3.530899 - expected Q values: 3.2843256 - time: 45.87625789642334
+loss: 4.9864755 - expected Q values: 2.8880386 - time: 45.967437505722046
+loss: 12.713116 - expected Q values: 1.4474022 - time: 46.00473999977112
+loss: 5.996892 - expected Q values: 3.2896883 - time: 46.012489318847656
+loss: 16.142769 - expected Q values: 1.2876152 - time: 46.012601375579834
+loss: 14.964207 - expected Q values: 2.6346145 - time: 46.04333567619324
+loss: 3.8202229 - expected Q values: 1.6716888 - time: 46.01433753967285
+
+saving...
+
+loss: 4.4003577 - expected Q values: 0.80362964 - time: 46.90573477745056
+loss: 1.2253399 - expected Q values: 5.862527 - time: 46.30299520492554
+loss: 2.244175 - expected Q values: 4.936693 - time: 46.18744969367981
+loss: 1.9268308 - expected Q values: 4.479679 - time: 46.566893339157104
+loss: 7.742126 - expected Q values: 1.6121634 - time: 46.18394589424133
+loss: 3.5152872 - expected Q values: 2.3720467 - time: 46.06300687789917
+loss: 9.901045 - expected Q values: 3.901036 - time: 46.16989088058472
+loss: 7.301725 - expected Q values: 5.2761617 - time: 46.200624227523804
+loading data/parts_YM_1.o/part_029
+loss: 2.685678 - expected Q values: 2.8522763 - time: 46.15294909477234
+loss: 5.6067586 - expected Q values: 2.3490477 - time: 46.18884539604187
+loss: 2.1237478 - expected Q values: 4.3522716 - time: 46.12630867958069
+loading data/parts_YM_1.o/part_046
+loss: 3.1932158 - expected Q values: 2.1525626 - time: 45.980786085128784
+loss: 5.2287297 - expected Q values: -1.2105565 - time: 46.11547064781189
+loading data/parts_ENQ_1.o/part_045
+loss: 3.1409578 - expected Q values: 2.5708497 - time: 46.101311922073364
+loss: 4.2265925 - expected Q values: 3.2301235 - time: 46.24333071708679
+loss: 4.021675 - expected Q values: 1.7900414 - time: 46.29467487335205
+loading data/parts_EP_1.o/part_026
+loss: 4.565206 - expected Q values: 3.205816 - time: 46.08967399597168
+loss: 2.4463737 - expected Q values: 5.0850286 - time: 46.14811587333679
+loss: 2.8405142 - expected Q values: 2.889292 - time: 46.132737159729004
+loss: 2.814462 - expected Q values: 4.9223466 - time: 46.28319811820984
+
+saving...
+
+loss: 5.9824376 - expected Q values: 3.385217 - time: 46.88964319229126
+loss: 7.4251857 - expected Q values: 4.2620425 - time: 46.16296339035034
+loss: 4.5271053 - expected Q values: 2.7511141 - time: 45.88553071022034
+loss: 9.328549 - expected Q values: 2.5557053 - time: 46.260514974594116
+loss: 6.4347253 - expected Q values: 4.2812657 - time: 46.23419713973999
+loss: 4.7689714 - expected Q values: 3.9095 - time: 46.1968469619751
+loss: 3.4052792 - expected Q values: 2.3299708 - time: 46.31921100616455
+loss: 8.741203 - expected Q values: 3.6094527 - time: 46.03494167327881
+loss: 2.6200967 - expected Q values: 4.4207697 - time: 46.23147439956665
+loss: 3.3244195 - expected Q values: 4.2069597 - time: 46.31663537025452
+
+copy model weights...
+
+loss: 6.015918 - expected Q values: -0.6415654 - time: 50.61010670661926
+loss: 5.1347203 - expected Q values: 2.8724592 - time: 46.21674728393555
+loss: 2.1576872 - expected Q values: 3.384694 - time: 46.553420066833496
+loss: 2.0387394 - expected Q values: 4.99859 - time: 46.021684885025024
+loss: 1.4847271 - expected Q values: 6.17651 - time: 46.27080774307251
+loss: 2.1174555 - expected Q values: 5.7345552 - time: 46.11017298698425
+loss: 2.9913077 - expected Q values: 3.8362794 - time: 46.056957960128784
+loss: 2.706304 - expected Q values: 3.1789193 - time: 46.16913056373596
+loss: 3.3812268 - expected Q values: 2.2717516 - time: 46.39431047439575
+loading data/parts_ENQ_1_inverted.o/part_052
+loss: 3.7014096 - expected Q values: 4.5941224 - time: 46.19381141662598
+
+saving...
+
+loss: 1.9340553 - expected Q values: 5.638847 - time: 46.98910117149353
+loss: 2.2318804 - expected Q values: 5.086374 - time: 46.42939043045044
+loss: 2.0643988 - expected Q values: 4.867664 - time: 45.98683786392212
+loss: 5.5207887 - expected Q values: 2.6455903 - time: 46.18464159965515
+loss: 4.360153 - expected Q values: 4.053433 - time: 46.22794318199158
+loss: 2.049612 - expected Q values: 6.2491484 - time: 46.281994104385376
+loss: 2.2829366 - expected Q values: 5.6291237 - time: 46.308719635009766
+loss: 6.27824 - expected Q values: 0.8576176 - time: 46.326308488845825
+loss: 6.8769774 - expected Q values: -0.10660658 - time: 46.28565812110901
+loading data/parts_YM_1.o/part_053
+loss: 3.696395 - expected Q values: 2.0687578 - time: 46.326836585998535
+loss: 2.547527 - expected Q values: 4.7261295 - time: 46.10149002075195
+loss: 3.1853201 - expected Q values: 3.9692245 - time: 46.3108446598053
+loss: 3.1552274 - expected Q values: 2.9335928 - time: 46.29266881942749
+loading data/parts_EP_1.o/part_033
+loss: 3.0917463 - expected Q values: -0.06728885 - time: 46.28061127662659
+loss: 4.3833914 - expected Q values: 0.1590513 - time: 46.031272172927856
+loss: 2.252331 - expected Q values: 4.266793 - time: 46.118419885635376
+loss: 1.5897008 - expected Q values: 5.7850256 - time: 45.928651332855225
+loss: 1.0822443 - expected Q values: 6.958844 - time: 45.93902611732483
+loss: 2.8741822 - expected Q values: 5.575025 - time: 46.10195231437683
+loss: 3.2201746 - expected Q values: 5.2926307 - time: 46.22600317001343
+
+saving...
+
+loss: 2.999879 - expected Q values: 4.2544184 - time: 47.32367920875549
+loss: 7.615616 - expected Q values: -0.2309167 - time: 45.977078437805176
+loss: 0.9668617 - expected Q values: 6.735835 - time: 46.30325388908386
+loss: 5.281413 - expected Q values: 2.618701 - time: 46.285879611968994
+loss: 4.7098236 - expected Q values: 3.1758142 - time: 46.3425133228302
+loading data/parts_EP_1_inverted.o/part_044
+loss: 2.4679253 - expected Q values: 3.317005 - time: 46.05159306526184
+loss: 5.3335614 - expected Q values: 1.8304431 - time: 46.307095766067505
+loss: 3.611408 - expected Q values: 3.4358435 - time: 46.23161292076111
+loss: 9.354653 - expected Q values: -0.26266047 - time: 46.159605979919434
+loss: 7.712672 - expected Q values: 3.933149 - time: 46.18486499786377
+loss: 3.2130191 - expected Q values: 1.35812 - time: 46.131717920303345
+loss: 4.814156 - expected Q values: 0.887804 - time: 46.10191631317139
+loading data/parts_EP_1_inverted.o/part_033
+loss: 3.3397737 - expected Q values: 1.4446596 - time: 45.97575354576111
+loading data/parts_YM_1_inverted.o/part_017
+loss: 6.970696 - expected Q values: 1.3971788 - time: 46.20404005050659
+loss: 6.236997 - expected Q values: 2.7286823 - time: 46.3486692905426
+loss: 1.9218956 - expected Q values: 5.2940636 - time: 46.01723289489746
+loss: 2.0318139 - expected Q values: 6.2813635 - time: 46.22582459449768
+loss: 2.4724288 - expected Q values: 4.94148 - time: 46.101471185684204
+loss: 2.3681667 - expected Q values: 5.6819706 - time: 46.405324935913086
+loss: 3.5052412 - expected Q values: 4.1319213 - time: 46.21868538856506
+
+copy model weights...
+
+
+saving...
+
+loss: 4.6234593 - expected Q values: 3.7028174 - time: 51.26822304725647
+loss: 2.037148 - expected Q values: 3.7891772 - time: 46.513712644577026
+loss: 3.2699463 - expected Q values: 5.827261 - time: 46.31229090690613
+loss: 7.919538 - expected Q values: 0.5432681 - time: 46.29570174217224
+loss: 12.077422 - expected Q values: 1.7865146 - time: 46.27704167366028
+loss: 2.1064916 - expected Q values: 6.39588 - time: 46.24271893501282
+loss: 1.5831673 - expected Q values: 6.5166297 - time: 46.24817490577698
+loss: 4.8487287 - expected Q values: 5.2122774 - time: 46.24364233016968
+loss: 4.796456 - expected Q values: 5.579135 - time: 46.188432455062866
+loss: 3.5116029 - expected Q values: 3.199196 - time: 46.92361378669739
+loss: 4.2781153 - expected Q values: 2.4673536 - time: 45.99783492088318
+loss: 4.812092 - expected Q values: 1.2411244 - time: 46.15143013000488
+loss: 4.921236 - expected Q values: 4.1730523 - time: 46.20187783241272
+loss: 5.330636 - expected Q values: 4.281579 - time: 46.38464403152466
+loss: 0.7305025 - expected Q values: 7.0360036 - time: 46.23996663093567
+loss: 4.96927 - expected Q values: 3.806657 - time: 46.07671332359314
+loss: 7.75252 - expected Q values: 3.354125 - time: 46.262651443481445
+loss: 7.0818415 - expected Q values: 3.7965229 - time: 46.15952110290527
+loss: 5.948137 - expected Q values: 4.6111813 - time: 46.189332723617554
+loss: 4.646444 - expected Q values: 3.827217 - time: 46.259310245513916
+
+saving...
+
+loss: 3.9096441 - expected Q values: 2.0839403 - time: 46.91901612281799
+loss: 7.6339073 - expected Q values: 3.0839722 - time: 46.17919611930847
+loss: 5.1985226 - expected Q values: 1.7928106 - time: 46.20485973358154
+loss: 4.933383 - expected Q values: 2.2564576 - time: 46.23158407211304
+loss: 2.501709 - expected Q values: 2.217778 - time: 46.29738235473633
+loss: 3.4670987 - expected Q values: 4.298399 - time: 46.11962270736694
+loss: 3.703186 - expected Q values: 1.9437611 - time: 46.19813299179077
+loss: 1.2994094 - expected Q values: 4.2637153 - time: 46.359681129455566
+loss: 9.200049 - expected Q values: 3.2702906 - time: 46.17008447647095
+loss: 7.9171233 - expected Q values: 2.5603004 - time: 46.402421712875366
+loss: 27.227957 - expected Q values: 4.411224 - time: 46.21354842185974
+loss: 19.577406 - expected Q values: 4.3164477 - time: 46.24058175086975
+loss: 10.311404 - expected Q values: 1.6749909 - time: 46.33380103111267
+loss: 14.62581 - expected Q values: 2.9654117 - time: 46.43785786628723
+loss: 8.458888 - expected Q values: 2.0906968 - time: 46.14469909667969
+loss: 5.134973 - expected Q values: 2.9178488 - time: 46.31533765792847
+loss: 5.3700886 - expected Q values: 3.3095357 - time: 46.03350234031677
+loss: 8.365665 - expected Q values: 2.5900075 - time: 46.9856390953064
+loss: 5.1243916 - expected Q values: 4.1096215 - time: 46.23126697540283
+loss: 3.1528742 - expected Q values: 5.6956196 - time: 46.182079792022705
+
+saving...
+
+loss: 5.7280707 - expected Q values: 4.06395 - time: 46.751837730407715
+loss: 11.82377 - expected Q values: 2.7603462 - time: 46.18456029891968
+loss: 7.5980144 - expected Q values: 1.9672061 - time: 46.01473569869995
+loss: 5.643066 - expected Q values: 1.1378524 - time: 46.10824918746948
+loading data/parts_YM_1.o/part_061
+loss: 3.6898348 - expected Q values: 2.2703364 - time: 46.25334286689758
+loss: 12.557154 - expected Q values: 2.978345 - time: 46.12125849723816
+loss: 2.1099887 - expected Q values: 5.8403335 - time: 46.07558012008667
+loss: 0.78514093 - expected Q values: 7.1654334 - time: 46.388147830963135
+loss: 11.383423 - expected Q values: 0.08517334 - time: 46.395161151885986
+loss: 3.4549372 - expected Q values: 5.062955 - time: 46.231937885284424
+
+copy model weights...
+
+loss: 8.528827 - expected Q values: 2.3452435 - time: 50.2593412399292
+loss: 4.9245024 - expected Q values: 3.3163536 - time: 46.1578574180603
+loss: 5.353036 - expected Q values: 4.740811 - time: 46.21979379653931
+loss: 10.517456 - expected Q values: 0.42582217 - time: 46.15380382537842
+loss: 7.2887897 - expected Q values: 3.2889743 - time: 46.058096408843994
+loss: 10.6479845 - expected Q values: 1.7261462 - time: 46.0989089012146
+loss: 8.382665 - expected Q values: 2.6329775 - time: 46.231972217559814
+loading data/parts_ENQ_1.o/part_039
+loss: 7.3645983 - expected Q values: 2.800175 - time: 46.00903820991516
+loss: 3.8350217 - expected Q values: 2.9589016 - time: 46.30135917663574
+loading data/parts_YM_1.o/part_014
+loss: 2.3903573 - expected Q values: 5.701391 - time: 46.220240354537964
+
+saving...
+
+loss: 6.3666606 - expected Q values: 1.7977375 - time: 46.94716143608093
+loss: 2.4678972 - expected Q values: 3.930007 - time: 46.08997941017151
+loss: 2.810089 - expected Q values: 4.3280234 - time: 46.28404521942139
+loss: 7.399906 - expected Q values: 3.655898 - time: 46.114482402801514
+loss: 5.148333 - expected Q values: 3.2805185 - time: 46.23930239677429
+loss: 5.450206 - expected Q values: 5.4653387 - time: 46.46151065826416
+loss: 6.098811 - expected Q values: 2.8560712 - time: 47.05659508705139
+loss: 7.525002 - expected Q values: 2.328383 - time: 46.29927110671997
+loss: 8.97944 - expected Q values: 1.8786887 - time: 46.135228395462036
+loss: 1.9949383 - expected Q values: 6.0850744 - time: 46.02923130989075
+loss: 0.92431414 - expected Q values: 6.6571736 - time: 46.03053164482117
+loss: 1.3396147 - expected Q values: 7.017847 - time: 46.48509883880615
+loss: 10.388559 - expected Q values: 1.7237785 - time: 46.33978748321533
+loss: 4.9441137 - expected Q values: 4.130898 - time: 46.16734790802002
+loss: 7.8882947 - expected Q values: 4.778499 - time: 46.3959264755249
+loss: 4.3853254 - expected Q values: 2.4387124 - time: 46.171027183532715
+loss: 10.254991 - expected Q values: -0.3688094 - time: 46.06416606903076
+loss: 5.787159 - expected Q values: 2.1606743 - time: 46.094616651535034
+loss: 5.295866 - expected Q values: 2.8510783 - time: 47.847554206848145
+loss: 9.341201 - expected Q values: 3.31862 - time: 45.94801068305969
+
+saving...
+
+loss: 2.5844913 - expected Q values: 4.3255777 - time: 46.971386671066284
+loss: 3.5352314 - expected Q values: 4.314179 - time: 46.28998422622681
+loss: 3.9251668 - expected Q values: 3.659304 - time: 46.46411991119385
+loss: 2.0281913 - expected Q values: 5.083778 - time: 46.1463987827301
+loss: 1.1122499 - expected Q values: 7.153965 - time: 46.37538480758667
+loss: 6.03498 - expected Q values: 1.0307449 - time: 46.04032111167908
+loss: 2.2445054 - expected Q values: 3.6629395 - time: 45.94950795173645
+loss: 8.511301 - expected Q values: 2.6890306 - time: 46.18354654312134
+loss: 11.784873 - expected Q values: 0.07915077 - time: 46.26908206939697
+loss: 3.909762 - expected Q values: 4.132053 - time: 46.16342759132385
+loss: 5.3466105 - expected Q values: 2.1524258 - time: 46.45067477226257
+loss: 3.084123 - expected Q values: 4.83761 - time: 46.29243040084839
+loss: 10.692698 - expected Q values: 2.420392 - time: 46.17421579360962
+loss: 7.867114 - expected Q values: 0.50581247 - time: 46.229835748672485
+loss: 3.8256345 - expected Q values: 3.607038 - time: 46.06701183319092
+loss: 4.2064395 - expected Q values: 2.9338882 - time: 46.90875482559204
+loss: 3.7317638 - expected Q values: 3.29049 - time: 46.15016007423401
+loss: 3.6322694 - expected Q values: 3.3363953 - time: 46.38261008262634
+loss: 9.162172 - expected Q values: 1.9670012 - time: 46.35187029838562
+loading data/parts_ENQ_1.o/part_041
+loss: 4.205608 - expected Q values: 3.3532875 - time: 46.00393056869507
+loading data/parts_ENQ_1_inverted.o/part_044
+
+copy model weights...
+
+
+saving...
+
+loss: 8.144227 - expected Q values: 4.1712184 - time: 51.36625528335571
+loss: 3.3419855 - expected Q values: 4.3904095 - time: 46.274728775024414
+loss: 7.1301274 - expected Q values: 0.49201357 - time: 46.07908821105957
+loss: 4.281786 - expected Q values: 1.5239052 - time: 46.32602334022522
+loss: 2.5464697 - expected Q values: 5.1635656 - time: 46.18723273277283
+loss: 4.560633 - expected Q values: 2.5750284 - time: 46.1366662979126
+loading data/parts_YM_1.o/part_059
+loss: 2.1320493 - expected Q values: 6.601675 - time: 46.30370736122131
+loss: 3.5319178 - expected Q values: 4.525381 - time: 46.266823291778564
+loss: 4.972288 - expected Q values: 3.511819 - time: 46.12706732749939
+loss: 5.609351 - expected Q values: 3.6072216 - time: 46.250571727752686
+loss: 1.9186616 - expected Q values: 5.451739 - time: 46.316572189331055
+loss: 4.4623203 - expected Q values: 5.681919 - time: 46.298681020736694
+loss: 3.0562217 - expected Q values: 3.0650752 - time: 46.23703861236572
+loss: 3.8377597 - expected Q values: 3.2345657 - time: 46.29448938369751
+loss: 10.159057 - expected Q values: 0.80938834 - time: 46.45402979850769
+loss: 5.1530433 - expected Q values: 2.128544 - time: 46.18168497085571
+loss: 8.94894 - expected Q values: 0.41158256 - time: 46.33018159866333
+loss: 2.297725 - expected Q values: 5.4799232 - time: 46.21718239784241
+loading data/parts_ENQ_1.o/part_049
+loss: 2.0458686 - expected Q values: 5.866291 - time: 46.084983587265015
+loss: 4.357075 - expected Q values: 2.391367 - time: 46.099666595458984
+
+saving...
+
+loss: 4.0974813 - expected Q values: 4.6840134 - time: 46.93955636024475
+loss: 3.9424942 - expected Q values: 4.6498094 - time: 46.12764525413513
+loading data/parts_YM_1.o/part_039
+loss: 3.6769376 - expected Q values: 4.190176 - time: 46.022942781448364
+loss: 3.9151828 - expected Q values: 4.6601515 - time: 46.79877996444702
+loss: 3.3038485 - expected Q values: 5.716611 - time: 46.492687463760376
+loss: 6.4445715 - expected Q values: 1.548313 - time: 46.09455728530884
+loss: 5.253872 - expected Q values: 3.141478 - time: 46.417890548706055
+loss: 4.460967 - expected Q values: 3.3641877 - time: 46.23279786109924
+loss: 10.361456 - expected Q values: 4.290223 - time: 46.19108605384827
+loss: 2.7147672 - expected Q values: 4.8296223 - time: 46.17282319068909
+loss: 2.5456367 - expected Q values: 5.1228228 - time: 46.18098974227905
+loss: 4.5434713 - expected Q values: 4.239434 - time: 46.28438425064087
+loading data/parts_ENQ_1_inverted.o/part_015
+loss: 5.491852 - expected Q values: 1.4106648 - time: 46.337063789367676
+loss: 8.8551445 - expected Q values: -0.370951 - time: 46.53701210021973
+loading data/parts_EP_1_inverted.o/part_037
+loss: 3.0907905 - expected Q values: 5.597512 - time: 46.32180643081665
+loss: 3.5004058 - expected Q values: 3.9323056 - time: 46.26862359046936
+loss: 3.6715941 - expected Q values: 4.691669 - time: 46.188809633255005
+loss: 5.947728 - expected Q values: 3.7363203 - time: 46.34347486495972
+loss: 2.3804834 - expected Q values: 6.2113123 - time: 46.53591227531433
+loading data/parts_ENQ_1_inverted.o/part_047
+loss: 3.9637258 - expected Q values: 5.1579485 - time: 46.51324200630188
+
+saving...
+
+loss: 7.8353286 - expected Q values: 3.2705882 - time: 46.936667680740356
+loss: 4.360822 - expected Q values: 4.308313 - time: 46.329123973846436
+loading data/parts_ENQ_1.o/part_066
+loss: 8.681118 - expected Q values: 4.6082926 - time: 46.18824315071106
+loss: 4.408686 - expected Q values: 4.322943 - time: 46.08973407745361
+loss: 3.5422814 - expected Q values: 5.6034417 - time: 46.35525679588318
+loss: 2.8859982 - expected Q values: 3.21937 - time: 46.34118032455444
+loss: 3.9318454 - expected Q values: 4.2183943 - time: 46.302457332611084
+loss: 11.458926 - expected Q values: 1.3248755 - time: 46.44477701187134
+loss: 3.536762 - expected Q values: 5.43409 - time: 46.364803314208984
+loss: 5.550853 - expected Q values: 4.679553 - time: 46.111594915390015
+
+copy model weights...
+
+loss: 2.48414 - expected Q values: 6.528418 - time: 50.85887360572815
+loss: 5.671703 - expected Q values: 2.5749178 - time: 46.13203477859497
+loss: 4.105299 - expected Q values: 5.8352447 - time: 47.177157163619995
+loss: 2.4067438 - expected Q values: 6.1523304 - time: 46.212284326553345
+loss: 3.2236953 - expected Q values: 6.0859804 - time: 46.13332676887512
+loss: 3.2185166 - expected Q values: 4.984894 - time: 46.330023527145386
+loss: 2.7165997 - expected Q values: 5.94853 - time: 46.278663873672485
+loss: 5.972179 - expected Q values: 4.8957434 - time: 46.2244758605957
+loss: 5.349969 - expected Q values: 1.2117736 - time: 46.14570212364197
+loading data/parts_EP_1_inverted.o/part_068
+loss: 3.6984758 - expected Q values: 5.310637 - time: 46.29326033592224
+
+saving...
+
+loss: 3.8550615 - expected Q values: 5.686754 - time: 46.92835283279419
+loading data/parts_YM_1.o/part_002
+loss: 5.3655868 - expected Q values: 3.2332313 - time: 46.2093460559845
+loss: 5.058531 - expected Q values: 5.1031117 - time: 46.210586071014404
+loss: 1.9798664 - expected Q values: 5.333656 - time: 46.121734380722046
+loss: 2.9160714 - expected Q values: 4.5443234 - time: 46.201682806015015
+loss: 3.4728546 - expected Q values: 5.458388 - time: 46.36131453514099
+loss: 1.9554756 - expected Q values: 6.7043247 - time: 46.272894859313965
+loss: 3.2741764 - expected Q values: 5.0094385 - time: 46.27491283416748
+loss: 2.2590988 - expected Q values: 5.6103597 - time: 46.431997776031494
+loss: 83.81006 - expected Q values: -0.64687645 - time: 46.09590673446655
+loss: 2.3599055 - expected Q values: 4.388529 - time: 46.08871507644653
+loss: 9.340695 - expected Q values: 3.26229 - time: 45.91792345046997
+loss: 4.2539196 - expected Q values: 3.7788155 - time: 46.17567706108093
+loss: 7.3617926 - expected Q values: 1.5816655 - time: 46.09739923477173
+loss: 2.876536 - expected Q values: 4.3857975 - time: 46.25175499916077
+loss: 5.504953 - expected Q values: 7.2925153 - time: 46.355103492736816
+loss: 1.7802533 - expected Q values: 5.502081 - time: 46.43572402000427
+loss: 5.2447953 - expected Q values: 3.0299957 - time: 46.07249999046326
+loading data/parts_EP_1_inverted.o/part_050
+loss: 7.202288 - expected Q values: 2.7338972 - time: 46.156484603881836
+loss: 4.6109514 - expected Q values: 5.7223163 - time: 45.98139023780823
+
+saving...
+
+loss: 4.021073 - expected Q values: 3.5560043 - time: 47.071383476257324
+loading data/parts_EP_1.o/part_003
+loss: 3.6888027 - expected Q values: 5.8240185 - time: 46.16095161437988
+loss: 7.3913684 - expected Q values: -1.058331 - time: 46.126405477523804
+loss: 39.486794 - expected Q values: -4.1997004 - time: 45.91254186630249
+loading data/parts_ENQ_1.o/part_003
+loss: 3.8272018 - expected Q values: 5.5894136 - time: 46.12529540061951
+loss: 2.2291892 - expected Q values: 6.832483 - time: 46.31602430343628
+loss: 6.2875133 - expected Q values: 1.8103904 - time: 46.29172873497009
+loss: 6.8571224 - expected Q values: 3.9092364 - time: 46.28827381134033
+loss: 3.9918177 - expected Q values: 6.3111334 - time: 46.20823383331299
+loss: 2.6459713 - expected Q values: 3.9872103 - time: 46.07375359535217
+loss: 3.9564264 - expected Q values: 4.4565997 - time: 46.236201763153076
+loss: 3.6224973 - expected Q values: 5.101212 - time: 46.29021596908569
+loss: 3.2586474 - expected Q values: 4.6434054 - time: 46.22787284851074
+loss: 1.7126373 - expected Q values: 6.2107754 - time: 46.238542318344116
+loss: 2.2010446 - expected Q values: 6.2256403 - time: 46.24463200569153
+loss: 4.799147 - expected Q values: 3.4177086 - time: 46.25397610664368
+loss: 7.6815996 - expected Q values: 2.697692 - time: 46.13847756385803
+loss: 11.631117 - expected Q values: 1.4969171 - time: 46.40454149246216
+loss: 2.4958084 - expected Q values: 1.257528 - time: 45.95139980316162
+loading data/parts_EP_1.o/part_047
+loss: 4.7392445 - expected Q values: 4.453838 - time: 46.09318017959595
+
+copy model weights...
+
+
+saving...
+
+loss: 8.074923 - expected Q values: 2.907268 - time: 51.0957670211792
+loss: 5.897975 - expected Q values: 3.1009061 - time: 46.26411771774292
+loss: 3.7800305 - expected Q values: 4.627548 - time: 46.201491832733154
+loading data/parts_ENQ_1.o/part_013
+loading data/parts_YM_1_inverted.o/part_039
+loss: 6.5061836 - expected Q values: 3.7401142 - time: 46.12478995323181
+loss: 10.707091 - expected Q values: 1.8540518 - time: 46.182384729385376
+From https://github.com/dercodeKoenig/dqn_trading_gcloudvm
+   b0f9bfe..f722e03  main       -> origin/main
+Updating b0f9bfe..f722e03
+Fast-forward
+ t1/nohup.out |   51 +++
+ t3/loss.txt  |  250 +++++++++++
+ t3/nohup.out |  337 ++++++++++++++
+ t3/qv.txt    |  250 +++++++++++
+ t4/loss.txt  | 1150 ++++++++++++++++++++++++++++++++++++++++++++++++
+ t4/nohup.out | 1383 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ t4/qv.txt    | 1150 ++++++++++++++++++++++++++++++++++++++++++++++++
+ 7 files changed, 4571 insertions(+)
