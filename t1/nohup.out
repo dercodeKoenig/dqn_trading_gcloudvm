@@ -8740,3 +8740,54 @@ Fast-forward
  t4/nohup.out | 881 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
  t4/qv.txt    | 750 ++++++++++++++++++++++++++++++++++++++++++++++++++
  9 files changed, 3712 insertions(+)
+[main d49da1c] .
+ 1 file changed, 51 insertions(+)
+To https://github.com/dercodeKoenig/dqn_trading_gcloudvm.git
+   95c286a..d49da1c  main -> main
+Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/marvineckhardt04092003/.kaggle/kaggle.json'
+Starting upload for file dqn_training_tpu.py
+  0%|          | 0.00/11.8k [00:00<?, ?B/s]100%|██████████| 11.8k/11.8k [00:00<00:00, 16.3kB/s]
+Upload successful: dqn_training_tpu.py (12KB)
+Skipping folder: data; use '--dir-mode' to upload folders
+Starting upload for file qv.txt
+  0%|          | 0.00/61.9k [00:00<?, ?B/s]100%|██████████| 61.9k/61.9k [00:00<00:00, 82.9kB/s]
+Upload successful: qv.txt (62KB)
+Skipping folder: __pycache__; use '--dir-mode' to upload folders
+Starting upload for file utils.py
+  0%|          | 0.00/13.6k [00:00<?, ?B/s]100%|██████████| 13.6k/13.6k [00:00<00:00, 19.1kB/s]
+Upload successful: utils.py (14KB)
+Starting upload for file nohup.out
+  0%|          | 0.00/510k [00:00<?, ?B/s]511kB [00:00, 3.52MB/s]                   
+Upload unsuccessful: nohup.out
+Starting upload for file dqn_weights.h5
+  0%|          | 0.00/19.7M [00:00<?, ?B/s] 68%|██████▊   | 13.5M/19.7M [00:00<00:00, 141MB/s]100%|██████████| 19.7M/19.7M [00:01<00:00, 15.7MB/s]
+Upload successful: dqn_weights.h5 (20MB)
+Starting upload for file push_files_worker.py
+  0%|          | 0.00/1.03k [00:00<?, ?B/s]100%|██████████| 1.03k/1.03k [00:00<00:00, 1.54kB/s]
+Upload successful: push_files_worker.py (1KB)
+Starting upload for file manager.py
+  0%|          | 0.00/45.8k [00:00<?, ?B/s]100%|██████████| 45.8k/45.8k [00:00<00:00, 66.2kB/s]
+Upload successful: manager.py (46KB)
+Starting upload for file loss.txt
+  0%|          | 0.00/61.1k [00:00<?, ?B/s]100%|██████████| 61.1k/61.1k [00:00<00:00, 94.4kB/s]
+Upload successful: loss.txt (61KB)
+Starting upload for file make_model.py
+  0%|          | 0.00/8.56k [00:00<?, ?B/s]100%|██████████| 8.56k/8.56k [00:00<00:00, 12.9kB/s]
+Upload successful: make_model.py (9KB)
+Dataset version is being created. Please check progress at https://www.kaggle.com/bpwqsdd/dqn-cloud-files-t1
+sleep for 13171 seconds
+running update commands...
+From https://github.com/dercodeKoenig/dqn_trading_gcloudvm
+   d49da1c..6413c67  main       -> origin/main
+Updating d49da1c..6413c67
+Fast-forward
+ t2/loss.txt  | 480 +++++++++++++++++++++++++++++++++
+ t2/nohup.out | 657 ++++++++++++++++++++++++++++++++++++++++++++
+ t2/qv.txt    | 480 +++++++++++++++++++++++++++++++++
+ t3/loss.txt  | 250 +++++++++++++++++
+ t3/nohup.out | 337 +++++++++++++++++++++++
+ t3/qv.txt    | 250 +++++++++++++++++
+ t4/loss.txt  | 700 +++++++++++++++++++++++++++++++++++++++++++++++
+ t4/nohup.out | 869 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ t4/qv.txt    | 700 +++++++++++++++++++++++++++++++++++++++++++++++
+ 9 files changed, 4723 insertions(+)
