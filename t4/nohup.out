@@ -5016,3 +5016,18 @@ loss: 1.4973804 - expected Q values: 6.5976996 - time: 23.859281063079834
 loss: 2.0517838 - expected Q values: 5.9058876 - time: 24.504024744033813
 loss: 2.606618 - expected Q values: 6.4738617 - time: 24.762262105941772
 loss: 2.9321878 - expected Q values: 6.1029534 - time: 24.55637788772583
+2024-01-10 18:17:24.687732: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-01-10 18:17:34.934459: I tensorflow/core/tpu/tpu_initializer_helper.cc:262] Libtpu path is: libtpu.so
+updating one time
+From https://github.com/dercodeKoenig/dqn_trading_gcloudvm
+   2ecd4cc..6e5337b  main       -> origin/main
+Updating 2ecd4cc..6e5337b
+Fast-forward
+ t2.jpg       | Bin 70767 -> 73292 bytes
+ t3.jpg       | Bin 66408 -> 66121 bytes
+ t3/loss.txt  | 100 +++++++++++++++++++++++++++++++++
+ t3/nohup.out | 178 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ t3/qv.txt    | 100 +++++++++++++++++++++++++++++++++
+ t4.jpg       | Bin 68445 -> 69215 bytes
+ 6 files changed, 378 insertions(+)
