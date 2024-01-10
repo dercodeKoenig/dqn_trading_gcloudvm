@@ -2294,3 +2294,90 @@ Fast-forward
  t4.jpg       | Bin 68445 -> 69215 bytes
  t4/nohup.out |  73 +++++++
  7 files changed, 794 insertions(+)
+[main 608d4c4] .
+ 3 files changed, 159 insertions(+)
+To https://github.com/dercodeKoenig/dqn_trading_gcloudvm.git
+   74ea2ad..608d4c4  main -> main
+Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/marvineckhardt04092003/.kaggle/kaggle.json'
+Starting upload for file nohup.out
+  0%|          | 0.00/131k [00:00<?, ?B/s]131kB [00:00, 949kB/s]                    
+Upload unsuccessful: nohup.out
+Skipping folder: __pycache__; use '--dir-mode' to upload folders
+Starting upload for file manager.py
+  0%|          | 0.00/45.8k [00:00<?, ?B/s]100%|██████████| 45.8k/45.8k [00:00<00:00, 81.3kB/s]
+Upload successful: manager.py (46KB)
+Starting upload for file dqn_weights.h5
+  0%|          | 0.00/24.6M [00:00<?, ?B/s] 41%|████      | 10.1M/24.6M [00:00<00:00, 95.2MB/s]100%|██████████| 24.6M/24.6M [00:01<00:00, 20.7MB/s]
+Upload successful: dqn_weights.h5 (25MB)
+Starting upload for file qv.txt
+  0%|          | 0.00/12.0k [00:00<?, ?B/s]100%|██████████| 12.0k/12.0k [00:00<00:00, 17.8kB/s]
+Upload successful: qv.txt (12KB)
+Starting upload for file dqn_training_tpu.py
+  0%|          | 0.00/12.6k [00:00<?, ?B/s]100%|██████████| 12.6k/12.6k [00:00<00:00, 18.8kB/s]
+Upload successful: dqn_training_tpu.py (13KB)
+Starting upload for file loss.txt
+  0%|          | 0.00/11.4k [00:00<?, ?B/s]100%|██████████| 11.4k/11.4k [00:00<00:00, 21.5kB/s]
+Upload successful: loss.txt (11KB)
+Skipping folder: data; use '--dir-mode' to upload folders
+Starting upload for file push_files_worker.py
+  0%|          | 0.00/1.03k [00:00<?, ?B/s]100%|██████████| 1.03k/1.03k [00:00<00:00, 1.50kB/s]
+Upload successful: push_files_worker.py (1KB)
+Starting upload for file utils.py
+  0%|          | 0.00/13.6k [00:00<?, ?B/s]100%|██████████| 13.6k/13.6k [00:00<00:00, 20.6kB/s]
+Upload successful: utils.py (14KB)
+Starting upload for file make_model.py
+  0%|          | 0.00/9.05k [00:00<?, ?B/s]100%|██████████| 9.05k/9.05k [00:00<00:00, 13.4kB/s]
+Upload successful: make_model.py (9KB)
+Dataset version is being created. Please check progress at https://www.kaggle.com/bpwqsdd/dqn-cloud-files-t3
+sleep for 21372 seconds
+loss: 3.4617214 - expected Q values: 0.31171748 - time: 97.65634799003601
+loss: 0.9953221 - expected Q values: 0.3362895 - time: 97.58675932884216
+loss: 2.2847416 - expected Q values: 1.05401 - time: 97.46405005455017
+loss: 3.0823548 - expected Q values: 0.4684745 - time: 97.60386228561401
+loss: 10.722232 - expected Q values: 0.3948686 - time: 97.66983366012573
+loss: 2.8613641 - expected Q values: 0.32239884 - time: 97.83431434631348
+loss: 3.6997726 - expected Q values: 2.1382122 - time: 98.39999198913574
+loss: 2.2055573 - expected Q values: 0.79452395 - time: 97.82406067848206
+loading data/parts_YM_1_inverted.o/part_007
+loss: 6.588042 - expected Q values: 2.1659212 - time: 97.2129294872284
+loading data/parts_EP_1_inverted.o/part_017
+loss: 15.763192 - expected Q values: 2.5071673 - time: 97.51400303840637
+loss: 3.2803812 - expected Q values: 0.96102417 - time: 97.68522715568542
+loss: 4.199127 - expected Q values: 0.44942403 - time: 97.32199573516846
+loss: 2.6076162 - expected Q values: 1.0089842 - time: 97.50227165222168
+loss: 2.0611682 - expected Q values: 0.6380102 - time: 97.23771953582764
+loading data/parts_YM_1.o/part_031
+loss: 2.1658263 - expected Q values: -0.99957883 - time: 97.63528180122375
+loss: 14.129788 - expected Q values: 3.1107373 - time: 97.48433518409729
+loss: 7.9416704 - expected Q values: 3.8417482 - time: 97.18539047241211
+loss: 13.907788 - expected Q values: 3.9127643 - time: 97.569020986557
+loading data/parts_YM_1_inverted.o/part_011
+loss: 4.9593196 - expected Q values: 1.4683447 - time: 97.76132488250732
+loss: 2.4116323 - expected Q values: -0.31183273 - time: 98.1086859703064
+loss: 13.655447 - expected Q values: 1.0540793 - time: 98.09986567497253
+loss: 3.214639 - expected Q values: 1.1985288 - time: 97.95578098297119
+loss: 2.3898063 - expected Q values: 1.9223272 - time: 97.72883987426758
+loading data/parts_EP_1_inverted.o/part_038
+loss: 4.9142027 - expected Q values: 2.463052 - time: 98.55045962333679
+loss: 3.4463792 - expected Q values: 0.50915563 - time: 97.99798727035522
+loss: 2.3107111 - expected Q values: 0.098906934 - time: 97.73009443283081
+loss: 2.3655405 - expected Q values: 0.3453324 - time: 97.66533851623535
+
+saving...
+
+loss: 16.917551 - expected Q values: 1.5691074 - time: 98.63566446304321
+loss: 1.4548537 - expected Q values: 0.85924673 - time: 97.97641968727112
+loss: 2.4355292 - expected Q values: -1.3952255 - time: 98.37836599349976
+loading data/parts_ENQ_1.o/part_011
+loss: 2.1030486 - expected Q values: -1.5068289 - time: 98.33640956878662
+loss: 7.001146 - expected Q values: 0.13683744 - time: 97.93669319152832
+running update in loop mode
+running update commands...
+From https://github.com/dercodeKoenig/dqn_trading_gcloudvm
+   608d4c4..a966504  main       -> origin/main
+Updating 608d4c4..a966504
+Fast-forward
+ t2/loss.txt  | 440 +++++++++++++++++++++++++++++++++++++++++++
+ t2/nohup.out | 605 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ t2/qv.txt    | 440 +++++++++++++++++++++++++++++++++++++++++++
+ 3 files changed, 1485 insertions(+)
