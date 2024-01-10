@@ -8925,3 +8925,78 @@ Dataset version is being created. Please check progress at https://www.kaggle.co
 sleep for 13606 seconds
 running update commands...
 Already up to date.
+[main 57a3d36] .
+ 1 file changed, 38 insertions(+)
+To https://github.com/dercodeKoenig/dqn_trading_gcloudvm.git
+   063d738..57a3d36  main -> main
+Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/marvineckhardt04092003/.kaggle/kaggle.json'
+Starting upload for file dqn_training_tpu.py
+  0%|          | 0.00/11.8k [00:00<?, ?B/s]100%|██████████| 11.8k/11.8k [00:00<00:00, 15.5kB/s]
+Upload successful: dqn_training_tpu.py (12KB)
+Skipping folder: data; use '--dir-mode' to upload folders
+Starting upload for file qv.txt
+  0%|          | 0.00/61.9k [00:00<?, ?B/s]100%|██████████| 61.9k/61.9k [00:00<00:00, 91.8kB/s]
+Upload successful: qv.txt (62KB)
+Skipping folder: __pycache__; use '--dir-mode' to upload folders
+Starting upload for file utils.py
+  0%|          | 0.00/13.6k [00:00<?, ?B/s]100%|██████████| 13.6k/13.6k [00:00<00:00, 18.1kB/s]
+Upload successful: utils.py (14KB)
+Starting upload for file nohup.out
+  0%|          | 0.00/521k [00:00<?, ?B/s]522kB [00:00, 3.64MB/s]                   
+Upload unsuccessful: nohup.out
+Starting upload for file dqn_weights.h5
+  0%|          | 0.00/19.7M [00:00<?, ?B/s] 51%|█████     | 9.97M/19.7M [00:00<00:00, 88.3MB/s]100%|██████████| 19.7M/19.7M [00:01<00:00, 14.9MB/s]
+Upload successful: dqn_weights.h5 (20MB)
+Starting upload for file push_files_worker.py
+  0%|          | 0.00/1.03k [00:00<?, ?B/s]100%|██████████| 1.03k/1.03k [00:00<00:00, 1.62kB/s]
+Upload successful: push_files_worker.py (1KB)
+Starting upload for file manager.py
+  0%|          | 0.00/45.8k [00:00<?, ?B/s]100%|██████████| 45.8k/45.8k [00:00<00:00, 65.3kB/s]
+Upload successful: manager.py (46KB)
+Starting upload for file loss.txt
+  0%|          | 0.00/61.1k [00:00<?, ?B/s]100%|██████████| 61.1k/61.1k [00:00<00:00, 92.6kB/s]
+Upload successful: loss.txt (61KB)
+Starting upload for file make_model.py
+  0%|          | 0.00/8.56k [00:00<?, ?B/s]100%|██████████| 8.56k/8.56k [00:00<00:00, 12.7kB/s]
+Upload successful: make_model.py (9KB)
+Dataset version is being created. Please check progress at https://www.kaggle.com/bpwqsdd/dqn-cloud-files-t1
+sleep for 15222 seconds
+2024-01-10 18:17:13.829150: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-01-10 18:17:23.234092: I tensorflow/core/tpu/tpu_initializer_helper.cc:262] Libtpu path is: libtpu.so
+I0110 18:17:29.120533184   95938 ev_epoll1_linux.cc:121]     grpc epoll fd: 7
+D0110 18:17:29.120573625   95938 ev_posix.cc:141]            Using polling engine: epoll1
+D0110 18:17:29.190220998   95938 lb_policy_registry.cc:43]   registering LB policy factory for "grpclb"
+D0110 18:17:29.190443893   95938 lb_policy_registry.cc:43]   registering LB policy factory for "rls_experimental"
+D0110 18:17:29.190660837   95938 lb_policy_registry.cc:43]   registering LB policy factory for "priority_experimental"
+D0110 18:17:29.190743408   95938 lb_policy_registry.cc:43]   registering LB policy factory for "weighted_target_experimental"
+D0110 18:17:29.190757145   95938 lb_policy_registry.cc:43]   registering LB policy factory for "pick_first"
+D0110 18:17:29.190765168   95938 lb_policy_registry.cc:43]   registering LB policy factory for "round_robin"
+D0110 18:17:29.190974153   95938 lb_policy_registry.cc:43]   registering LB policy factory for "ring_hash_experimental"
+D0110 18:17:29.190991805   95938 dns_resolver_ares.cc:831]   Using ares dns resolver
+D0110 18:17:29.193152431   95938 certificate_provider_registry.cc:39] registering certificate provider factory for "file_watcher"
+D0110 18:17:29.193328604   95938 lb_policy_registry.cc:43]   registering LB policy factory for "cds_experimental"
+D0110 18:17:29.193404577   95938 lb_policy_registry.cc:43]   registering LB policy factory for "xds_cluster_impl_experimental"
+D0110 18:17:29.193493382   95938 lb_policy_registry.cc:43]   registering LB policy factory for "xds_cluster_resolver_experimental"
+D0110 18:17:29.193501351   95938 lb_policy_registry.cc:43]   registering LB policy factory for "xds_cluster_manager_experimental"
+running update in loop mode
+running update commands...
+From https://github.com/dercodeKoenig/dqn_trading_gcloudvm
+   57a3d36..cecfe75  main       -> origin/main
+Updating 57a3d36..cecfe75
+Fast-forward
+ plot_logs.py |  39 ++--
+ t1.jpg       | Bin 71858 -> 73487 bytes
+ t2.jpg       | Bin 68491 -> 73292 bytes
+ t2/loss.txt  | 440 ++++++++++++++++++++++++++++++++++++
+ t2/nohup.out | 623 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ t2/qv.txt    | 440 ++++++++++++++++++++++++++++++++++++
+ t3.jpg       | Bin 77417 -> 66121 bytes
+ t3/loss.txt  | 300 +++++++++++++++++++++++++
+ t3/nohup.out | 474 +++++++++++++++++++++++++++++++++++++++
+ t3/qv.txt    | 300 +++++++++++++++++++++++++
+ t4.jpg       | Bin 83965 -> 69215 bytes
+ t4/loss.txt  | 600 +++++++++++++++++++++++++++++++++++++++++++++++++
+ t4/nohup.out | 714 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ t4/qv.txt    | 600 +++++++++++++++++++++++++++++++++++++++++++++++++
+ 14 files changed, 4514 insertions(+), 16 deletions(-)
