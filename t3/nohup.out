@@ -2040,3 +2040,20 @@ loss: 2.891568 - expected Q values: 0.052850608 - time: 97.04079842567444
 loading data/parts_EP_1_inverted.o/part_054
 loss: 2.7040894 - expected Q values: -0.51128864 - time: 97.06594157218933
 loss: 2.6165738 - expected Q values: -0.48508504 - time: 96.6900839805603
+loss: 1.3247777 - expected Q values: -0.23729025 - time: 97.2887670993805
+loss: 2.4019248 - expected Q values: 1.2818583 - time: 97.51516962051392
+loss: 1.8387053 - expected Q values: 1.2940212 - time: 97.22538709640503
+loss: 2.3546183 - expected Q values: 0.68299997 - time: 97.08668851852417
+loss: 2.8889015 - expected Q values: 2.0515907 - time: 97.99274253845215
+running update commands...
+From https://github.com/dercodeKoenig/dqn_trading_gcloudvm
+   406aa03..784ce69  main       -> origin/main
+Updating 406aa03..784ce69
+Fast-forward
+ t2/loss.txt  | 440 +++++++++++++++++++++++++++++++++++++
+ t2/nohup.out | 623 ++++++++++++++++++++++++++++++++++++++++++++++++++++
+ t2/qv.txt    | 440 +++++++++++++++++++++++++++++++++++++
+ t4/loss.txt  | 600 ++++++++++++++++++++++++++++++++++++++++++++++++++
+ t4/nohup.out | 699 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ t4/qv.txt    | 600 ++++++++++++++++++++++++++++++++++++++++++++++++++
+ 6 files changed, 3402 insertions(+)
