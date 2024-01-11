@@ -7402,3 +7402,819 @@ Fast-forward
  t4/nohup.out |  922 +++++++++++++++++++++++++++++++
  t4/qv.txt    |  750 +++++++++++++++++++++++++
  9 files changed, 7858 insertions(+)
+[main 7dc8d41] .
+ 3 files changed, 452 insertions(+)
+To https://github.com/dercodeKoenig/dqn_trading_gcloudvm.git
+   e383ea2..7dc8d41  main -> main
+Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/marvineckhardt04092003/.kaggle/kaggle.json'
+Starting upload for file nohup.out
+  0%|          | 0.00/423k [00:00<?, ?B/s]423kB [00:00, 2.84MB/s]                   
+Upload unsuccessful: nohup.out
+Skipping folder: __pycache__; use '--dir-mode' to upload folders
+Starting upload for file manager.py
+  0%|          | 0.00/45.8k [00:00<?, ?B/s]100%|██████████| 45.8k/45.8k [00:00<00:00, 67.6kB/s]
+Upload successful: manager.py (46KB)
+Starting upload for file dqn_weights.h5
+  0%|          | 0.00/31.1M [00:00<?, ?B/s]  2%|▏         | 752k/31.1M [00:00<00:05, 5.80MB/s]  6%|▌         | 1.86M/31.1M [00:00<00:03, 8.36MB/s] 18%|█▊        | 5.67M/31.1M [00:00<00:01, 21.3MB/s] 35%|███▌      | 10.9M/31.1M [00:00<00:00, 33.8MB/s] 52%|█████▏    | 16.2M/31.1M [00:00<00:00, 40.5MB/s] 73%|███████▎  | 22.9M/31.1M [00:00<00:00, 49.3MB/s] 93%|█████████▎| 28.9M/31.1M [00:00<00:00, 53.2MB/s]100%|██████████| 31.1M/31.1M [00:01<00:00, 22.1MB/s]
+Upload successful: dqn_weights.h5 (31MB)
+Starting upload for file qv.txt
+  0%|          | 0.00/47.4k [00:00<?, ?B/s]100%|██████████| 47.4k/47.4k [00:00<00:00, 67.5kB/s]
+Upload successful: qv.txt (47KB)
+Starting upload for file dqn_training_tpu.py
+  0%|          | 0.00/11.8k [00:00<?, ?B/s]100%|██████████| 11.8k/11.8k [00:00<00:00, 17.7kB/s]
+Upload successful: dqn_training_tpu.py (12KB)
+Starting upload for file loss.txt
+  0%|          | 0.00/45.6k [00:00<?, ?B/s]100%|██████████| 45.6k/45.6k [00:00<00:00, 70.5kB/s]
+Upload successful: loss.txt (46KB)
+Skipping folder: data; use '--dir-mode' to upload folders
+Starting upload for file push_files_worker.py
+  0%|          | 0.00/1.03k [00:00<?, ?B/s]100%|██████████| 1.03k/1.03k [00:00<00:00, 1.47kB/s]
+Upload successful: push_files_worker.py (1KB)
+Starting upload for file utils.py
+  0%|          | 0.00/13.6k [00:00<?, ?B/s]100%|██████████| 13.6k/13.6k [00:00<00:00, 19.2kB/s]
+Upload successful: utils.py (14KB)
+Starting upload for file make_model.py
+  0%|          | 0.00/8.81k [00:00<?, ?B/s]100%|██████████| 8.81k/8.81k [00:00<00:00, 12.4kB/s]
+Upload successful: make_model.py (9KB)
+Dataset version is being created. Please check progress at https://www.kaggle.com/bpwqsdd/dqn-cloud-files-t2
+2024-01-11 06:12:53.122124: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-01-11 06:13:02.998791: I tensorflow/core/tpu/tpu_initializer_helper.cc:262] Libtpu path is: libtpu.so
+I0111 06:13:09.265411072    4081 ev_epoll1_linux.cc:121]     grpc epoll fd: 7
+D0111 06:13:09.265453158    4081 ev_posix.cc:141]            Using polling engine: epoll1
+D0111 06:13:09.325246415    4081 lb_policy_registry.cc:43]   registering LB policy factory for "grpclb"
+D0111 06:13:09.325645283    4081 lb_policy_registry.cc:43]   registering LB policy factory for "rls_experimental"
+D0111 06:13:09.325909866    4081 lb_policy_registry.cc:43]   registering LB policy factory for "priority_experimental"
+D0111 06:13:09.326048396    4081 lb_policy_registry.cc:43]   registering LB policy factory for "weighted_target_experimental"
+D0111 06:13:09.326060600    4081 lb_policy_registry.cc:43]   registering LB policy factory for "pick_first"
+D0111 06:13:09.326065126    4081 lb_policy_registry.cc:43]   registering LB policy factory for "round_robin"
+D0111 06:13:09.326305869    4081 lb_policy_registry.cc:43]   registering LB policy factory for "ring_hash_experimental"
+D0111 06:13:09.326329725    4081 dns_resolver_ares.cc:831]   Using ares dns resolver
+D0111 06:13:09.329321383    4081 certificate_provider_registry.cc:39] registering certificate provider factory for "file_watcher"
+D0111 06:13:09.329593933    4081 lb_policy_registry.cc:43]   registering LB policy factory for "cds_experimental"
+D0111 06:13:09.329661554    4081 lb_policy_registry.cc:43]   registering LB policy factory for "xds_cluster_impl_experimental"
+D0111 06:13:09.329770630    4081 lb_policy_registry.cc:43]   registering LB policy factory for "xds_cluster_resolver_experimental"
+D0111 06:13:09.329776685    4081 lb_policy_registry.cc:43]   registering LB policy factory for "xds_cluster_manager_experimental"
+2024-01-11 06:13:46.207835: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-01-11 06:14:02.608460: I tensorflow/compiler/xla/service/service.cc:173] XLA service 0x3f6ac00 initialized for platform TPU (this does not guarantee that XLA will be used). Devices:
+2024-01-11 06:14:02.608514: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (0): TPU, 2a886c8
+2024-01-11 06:14:02.608524: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (1): TPU, 2a886c8
+2024-01-11 06:14:02.608531: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (2): TPU, 2a886c8
+2024-01-11 06:14:02.608538: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (3): TPU, 2a886c8
+2024-01-11 06:14:02.608545: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (4): TPU, 2a886c8
+2024-01-11 06:14:02.608552: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (5): TPU, 2a886c8
+2024-01-11 06:14:02.608558: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (6): TPU, 2a886c8
+2024-01-11 06:14:02.608565: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (7): TPU, 2a886c8
+0 - path: data/parts_YM_1_inverted.o/
+0 - cm: 2.4
+1 - path: data/parts_ENQ_1_inverted.o/
+1 - cm: 2.4
+0 - start at parts_YM_1_inverted.o - 3563127
+loading data/parts_YM_1_inverted.o/part_035
+1 - start at parts_ENQ_1_inverted.o - 5310083
+loading data/parts_ENQ_1_inverted.o/part_053
+2 - path: data/parts_EP_1.o/
+2 - cm: 0.4
+2 - start at parts_EP_1.o - 4937969
+loading data/parts_EP_1.o/part_049
+3 - path: data/parts_YM_1_inverted.o/
+3 - cm: 2.4
+3 - start at parts_YM_1_inverted.o - 1324155
+loading data/parts_YM_1_inverted.o/part_013
+4 - path: data/parts_ENQ_1_inverted.o/
+4 - cm: 2.4
+4 - start at parts_ENQ_1_inverted.o - 3221656
+loading data/parts_ENQ_1_inverted.o/part_032
+5 - path: data/parts_EP_1.o/
+5 - cm: 0.4
+5 - start at parts_EP_1.o - 7475030
+loading data/parts_EP_1.o/part_074
+6 - path: data/parts_YM_1.o/
+6 - cm: 2.4
+6 - start at parts_YM_1.o - 3354866
+loading data/parts_YM_1.o/part_033
+7 - path: data/parts_EP_1_inverted.o/
+7 - cm: 0.4
+7 - start at parts_EP_1_inverted.o - 6363154
+loading data/parts_EP_1_inverted.o/part_063
+8 - path: data/parts_YM_1.o/
+8 - cm: 2.4
+8 - start at parts_YM_1.o - 6034796
+loading data/parts_YM_1.o/part_060
+9 - path: data/parts_YM_1_inverted.o/
+9 - cm: 2.4
+9 - start at parts_YM_1_inverted.o - 698438
+loading data/parts_YM_1_inverted.o/part_006
+10 - path: data/parts_YM_1_inverted.o/
+10 - cm: 2.4
+10 - start at parts_YM_1_inverted.o - 2831690
+loading data/parts_YM_1_inverted.o/part_028
+11 - path: data/parts_ENQ_1_inverted.o/
+11 - cm: 2.4
+11 - start at parts_ENQ_1_inverted.o - 3474327
+loading data/parts_ENQ_1_inverted.o/part_034
+data_get_func online
+0 - path: data/parts_ENQ_1_inverted.o/
+0 - cm: 2.4
+0 - start at parts_ENQ_1_inverted.o - 4694931
+loading data/parts_ENQ_1_inverted.o/part_046
+1 - path: data/parts_ENQ_1.o/
+1 - cm: 2.4
+1 - start at parts_ENQ_1.o - 3883078
+loading data/parts_ENQ_1.o/part_038
+2 - path: data/parts_EP_1_inverted.o/
+2 - cm: 0.4
+2 - start at parts_EP_1_inverted.o - 1433648
+loading data/parts_EP_1_inverted.o/part_014
+3 - path: data/parts_ENQ_1.o/
+3 - cm: 2.4
+3 - start at parts_ENQ_1.o - 6414143
+loading data/parts_ENQ_1.o/part_064
+4 - path: data/parts_EP_1_inverted.o/
+4 - cm: 0.4
+4 - start at parts_EP_1_inverted.o - 2091404
+loading data/parts_EP_1_inverted.o/part_020
+5 - path: data/parts_ENQ_1_inverted.o/
+5 - cm: 2.4
+5 - start at parts_ENQ_1_inverted.o - 1602647
+loading data/parts_ENQ_1_inverted.o/part_016
+6 - path: data/parts_ENQ_1.o/
+6 - cm: 2.4
+6 - start at parts_ENQ_1.o - 4781585
+loading data/parts_ENQ_1.o/part_047
+7 - path: data/parts_EP_1.o/
+7 - cm: 0.4
+7 - start at parts_EP_1.o - 7283156
+loading data/parts_EP_1.o/part_072
+8 - path: data/parts_EP_1_inverted.o/
+8 - cm: 0.4
+8 - start at parts_EP_1_inverted.o - 320940
+loading data/parts_EP_1_inverted.o/part_003
+9 - path: data/parts_EP_1_inverted.o/
+9 - cm: 0.4
+9 - start at parts_EP_1_inverted.o - 4711002
+loading data/parts_EP_1_inverted.o/part_047
+10 - path: data/parts_YM_1.o/
+10 - cm: 2.4
+10 - start at parts_YM_1.o - 4121382
+loading data/parts_YM_1.o/part_041
+11 - path: data/parts_EP_1.o/
+11 - cm: 0.4
+11 - start at parts_EP_1.o - 4210607
+loading data/parts_EP_1.o/part_042
+data_get_func online
+0 - path: data/parts_YM_1.o/
+0 - cm: 2.4
+0 - start at parts_YM_1.o - 273054
+loading data/parts_YM_1.o/part_002
+1 - path: data/parts_YM_1.o/
+1 - cm: 2.4
+1 - start at parts_YM_1.o - 1629910
+loading data/parts_YM_1.o/part_016
+2 - path: data/parts_EP_1_inverted.o/
+2 - cm: 0.4
+2 - start at parts_EP_1_inverted.o - 1068944
+loading data/parts_EP_1_inverted.o/part_010
+3 4- path: data/parts_ENQ_1_inverted.o/
+ 3 --  cm:path:  data/parts_YM_1.o/2.4
+
+4 -5 cm:  2.4
+- path: data/parts_ENQ_1_inverted.o/
+5 - cm: 32.4 
+- start at parts_ENQ_1_inverted.o - 374773
+4 - start at parts_YM_1.o - 51208420loading 
+ -data/parts_ENQ_1_inverted.o/part_003 
+start at parts_ENQ_1_inverted.o - 3291556
+loading data/parts_YM_1.o/part_012
+loading data/parts_ENQ_1_inverted.o/part_032
+6 - path: data/parts_ENQ_1_inverted.o/
+6 - cm: 2.4
+6 - start at parts_ENQ_1_inverted.o - 3059475
+loading data/parts_ENQ_1_inverted.o/part_030
+7 - path: data/parts_EP_1.o/
+7 - cm: 0.4
+7 - start at parts_EP_1.o - 4499116
+loading data/parts_EP_1.o/part_044
+8 - path: data/parts_EP_1_inverted.o/
+8 - cm: 0.4
+8 - start at parts_EP_1_inverted.o - 741997
+loading data/parts_EP_1_inverted.o/part_007
+9 - path: data/parts_YM_1.o/
+9 - cm: 2.4
+9 - start at parts_YM_1.o - 5068148
+loading data/parts_YM_1.o/part_050
+10 - path: data/parts_EP_1_inverted.o/
+10 - cm: 0.4
+10 - start at parts_EP_1_inverted.o - 4771031
+loading data/parts_EP_1_inverted.o/part_047
+11 - path: data/parts_ENQ_1_inverted.o/
+11 - cm: 2.4
+11 - start at parts_ENQ_1_inverted.o - 3577782
+loading data/parts_ENQ_1_inverted.o/part_035
+data_get_func online
+0 - path: data/parts_EP_1_inverted.o/
+0 - cm: 0.4
+0 - start at parts_EP_1_inverted.o - 1601413
+loading data/parts_EP_1_inverted.o/part_016
+1 - path: data/parts_ENQ_1.o/
+1 - cm: 2.4
+1 - start at parts_ENQ_1.o - 2756765
+loading data/parts_ENQ_1.o/part_027
+2 - path: data/parts_ENQ_1_inverted.o/
+2 - cm: 2.4
+2 - start at parts_ENQ_1_inverted.o - 6523765
+loading data/parts_ENQ_1_inverted.o/part_065
+3 - path: data/parts_EP_1.o/
+3 - cm: 0.4
+3 - start at parts_EP_1.o - 2832621
+loading data/parts_EP_1.o/part_028
+4 - path: data/parts_YM_1.o/
+4 - cm: 2.4
+4 - start at parts_YM_1.o - 4606008
+loading data/parts_YM_1.o/part_046
+5 - path: data/parts_EP_1.o/
+5 - cm: 0.4
+5 - start at parts_EP_1.o - 6556225
+loading data/parts_EP_1.o/part_065
+6 - path: data/parts_ENQ_1.o/
+6 - cm: 2.4
+6 - start at parts_ENQ_1.o - 54788
+loading data/parts_ENQ_1.o/part_000
+7 - path: data/parts_EP_1_inverted.o/
+7 - cm: 0.4
+7 - start at parts_EP_1_inverted.o - 548515
+loading data/parts_EP_1_inverted.o/part_005
+8 - path: data/parts_EP_1.o/
+8 - cm: 0.4
+8 - start at parts_EP_1.o - 6419735
+loading data/parts_EP_1.o/part_064
+9 - path: data/parts_ENQ_1_inverted.o/
+9 - cm: 2.410
+ - path: data/parts_ENQ_1_inverted.o/
+10 -11 cm: 2.4 
+9-  -path:  start atdata/parts_EP_1.o/ parts_ENQ_1_inverted.o 
+- 111683781 
+- cm: data_get_func online0.4
+
+10 - start at parts_ENQ_1_inverted.o - 5200254
+0 loading1- 11loading data/parts_ENQ_1_inverted.o/part_016 2 path:
+ -data/parts_ENQ_1_inverted.o/part_052  
+ data/parts_ENQ_1_inverted.o/-start at
+loading - 0path:parts_EP_1.o     path:-data/parts_ENQ_1_inverted.o/-data/parts_EP_1.o/part_075   
+data/parts_EP_1.o/
+cm:31155471 
+loading
+ 2.42-
+   -cm:data/parts_YM_1_inverted.o/part_036  
+3cm:2.4 
+0.4 
+-loading  path:data/parts_EP_1.o/part_031 
+data/parts_EP_1_inverted.o/4
+0 3-  -start at 5  -1parts_ENQ_1_inverted.ocm: 6    path:2---   0.4   data/parts_ENQ_1.o/path:--7
+6028824start at  data/parts_ENQ_1.o/
+ 
+
+ path: start at4parts_ENQ_1_inverted.o5   -  data/parts_YM_1_inverted.o/parts_EP_1.o- --  path:
+  -cm: 63213046cm:  data/parts_EP_1.o/ 
+ 2011054-2.4
+loading
+ 
+2.47 cm:
+ data/parts_ENQ_1_inverted.o/part_060 3-
+2.4  
+-cm:  start at parts_EP_1_inverted.o0.4loading 
+ -loadingdata/parts_EP_1.o/part_020 4 
+4534667 data/parts_ENQ_1_inverted.o/part_032
+-
+5  start at- 6 parts_ENQ_1.o start at - - parts_ENQ_1.o start at 1220672 -
+parts_YM_1_inverted.o  5173331-
+ 41460587
+ - start at parts_EP_1.o - 6869899
+loading data/parts_EP_1_inverted.o/part_045
+loading data/parts_ENQ_1.o/part_012
+loading data/parts_YM_1_inverted.o/part_041
+loading data/parts_EP_1.o/part_068
+loading data/parts_ENQ_1.o/part_051
+8 - path: data/parts_EP_1_inverted.o/
+8 - cm: 0.4
+8 - start at parts_EP_1_inverted.o - 4866736
+loading data/parts_EP_1_inverted.o/part_048
+9 - path: data/parts_ENQ_1_inverted.o/
+9 - cm: 2.4
+9 - start at parts_ENQ_1_inverted.o - 941187
+loading data/parts_ENQ_1_inverted.o/part_009
+10 - path: data/parts_ENQ_1.o/
+10 - cm: 2.4
+10 - start at parts_ENQ_1.o - 1568989
+loading data/parts_ENQ_1.o/part_015
+11 - path: data/parts_ENQ_1.o/
+11 - cm: 2.4
+11 - start at parts_ENQ_1.o - 592732
+loading data/parts_ENQ_1.o/part_005
+data_get_func online
+0 - path: data/parts_YM_1_inverted.o/
+0 - cm: 2.4
+0 - start at parts_YM_1_inverted.o - 778391
+loading data/parts_YM_1_inverted.o/part_007
+1 - path: data/parts_EP_1_inverted.o/
+1 - cm: 0.4
+1 - start at parts_EP_1_inverted.o - 5260436
+loading data/parts_EP_1_inverted.o/part_052
+2 - path: data/parts_YM_1.o/
+2 - cm: 2.4
+2 - start at parts_YM_1.o - 5878553
+loading data/parts_YM_1.o/part_058
+3 - path: data/parts_EP_1.o/
+3 - cm: 0.4
+3 - start at parts_EP_1.o - 1755053
+loading data/parts_EP_1.o/part_017
+4 - path: data/parts_EP_1_inverted.o/
+4 - cm: 0.4
+4 - start at parts_EP_1_inverted.o - 4271934
+loading data/parts_EP_1_inverted.o/part_042
+5 - path: data/parts_YM_1.o/
+5 - cm: 2.4
+5 - start at parts_YM_1.o - 4545613
+loading data/parts_YM_1.o/part_045
+6 - path: data/parts_ENQ_1_inverted.o/
+6 - cm: 2.4
+6 - start at parts_ENQ_1_inverted.o - 2280980
+loading data/parts_ENQ_1_inverted.o/part_022
+7 - path: data/parts_ENQ_1.o/
+7 - cm: 2.4
+7 - start at parts_ENQ_1.o - 893787
+loading data/parts_ENQ_1.o/part_008
+loading data/parts_YM_1_inverted.o/part_007
+8 - path: data/parts_ENQ_1_inverted.o/
+8 - cm: 2.4
+8 - start at parts_ENQ_1_inverted.o - 2846328
+loading data/parts_ENQ_1_inverted.o/part_028
+9 - path: data/parts_EP_1.o/
+9 - cm: 0.4
+9 - start at parts_EP_1.o - 1701979
+loading data/parts_EP_1.o/part_017
+10 - path: data/parts_YM_1.o/
+10 - cm: 2.4
+10 - start at parts_YM_1.o - 3243453
+loading data/parts_YM_1.o/part_032
+11 - path: data/parts_EP_1.o/
+11 - cm: 0.4
+11 - start at parts_EP_1.o - 6603986
+loading data/parts_EP_1.o/part_066
+data_get_func online
+loading data/parts_ENQ_1_inverted.o/part_033
+0 - path: data/parts_YM_1_inverted.o/
+0 - cm: 2.4
+0 - start at parts_YM_1_inverted.o - 5330395
+loading data/parts_YM_1_inverted.o/part_053
+1 - path: data/parts_ENQ_1.o/
+1 - cm: 2.4
+1 - start at parts_ENQ_1.o - 4127757
+loading data/parts_ENQ_1.o/part_041
+2 - path: data/parts_EP_1_inverted.o/
+2 - cm: 0.4
+2 - start at parts_EP_1_inverted.o - 664898
+loading data/parts_EP_1_inverted.o/part_006
+3 - path: data/parts_YM_1_inverted.o/
+3 - cm: 2.4
+3 - start at parts_YM_1_inverted.o - 95819
+loading data/parts_YM_1_inverted.o/part_000
+4 5- path: data/parts_YM_1.o/6 
+4 --   cm:7path: -  data/parts_EP_1_inverted.o/path:2.48 
+
+ data/parts_ENQ_1_inverted.o/5 --
+   path:6cm:  - data/parts_EP_1.o/9- 0.4
+ path:
+7 cm: data/parts_EP_1_inverted.o/  -
+102.4 -8cm:
+   path:11-  0.4 data/parts_EP_1.o/data_get_func online
+cm:- 
+ 4 -9 0.4path:
+5  -0
+  path:- 6data/parts_ENQ_1_inverted.o/-  start at   data/parts_YM_1.o/cm:
+1 -start at- 
+10   parts_YM_1.o 11start atparts_EP_1_inverted.o0.4path: -72  -  
+ 3-   parts_ENQ_1_inverted.o--8data/parts_YM_1_inverted.o/ 4cm: -2428786cm:  start at    5
+-  0 - cm:6
+ -  parts_EP_1.o - 6390909
+path:7316036--path:2.47    2.4-9
+    
+84921746
+-2.4-
+9   path:start atdata/parts_EP_1.o/loadingdata/parts_YM_1.o/loading10
+   path:- -   11
+  
+loadingpath:path:  -data/parts_YM_1_inverted.o/ parts_EP_1_inverted.o-data/parts_YM_1.o/part_02410data/parts_EP_1.o/part_0632
+- 1   data/parts_ENQ_1.o/start at11 loadingpath: 
+ 
+   data/parts_EP_1_inverted.o/part_073data_get_func onlineloading data/parts_YM_1.o/data/parts_ENQ_1.o/0- 
+ 
+path: -path:3--path: 
+ -
+  parts_EP_1.o
+5-4 data/parts_YM_1_inverted.o/      data/parts_YM_1.o/part_034data/parts_ENQ_1_inverted.o/part_049 -6path:    data/parts_YM_1.o/5691649data/parts_ENQ_1_inverted.o/-
+start atcm:data/parts_ENQ_1.o/
+
+cm:   --start at-
+ 
+ 
+7  
+start at-data/parts_EP_1_inverted.o/    cm:parts_ENQ_1_inverted.o8 100.4 9 2.4 7311999cm:
+parts_YM_1.ocm:   - 
+parts_YM_1_inverted.o --
+cm:
+ 11  -- 2.4-  3096958  -2.4 loading cm:2.4
+ cm:
+- 2.4
+5440399 cm: 
+cm:  5590079
+
+data/parts_EP_1_inverted.o/part_056  2.4cm:
+2.4loading
+
+ 2.42.41
+ 
+0.4
+ 2data/parts_EP_1.o/part_073
+- 
+ -start at  3start atparts_YM_1.o  loading -parts_EP_1.o -  loadingdata/parts_YM_1_inverted.o/part_030 start at-6 
+470652   data/parts_ENQ_1_inverted.o/part_054
+parts_YM_1_inverted.o4 - start at3881428-57
+ 109 
+ loading  -  parts_ENQ_1.ostart at -- 811--  data/parts_YM_1.o/part_055  4038643   loading -parts_YM_1.o
+start atstart at
+--start at start at      parts_ENQ_1.o data/parts_YM_1.o/part_004 loading-parts_ENQ_1_inverted.oparts_YM_1_inverted.o5260831start atstart at  parts_ENQ_1.o
+   
+  -data/parts_EP_1.o/part_038 2251181--parts_YM_1.oparts_EP_1_inverted.o 
+-
+    5935090 5877840loading2635784--
+677499
+ 
+  
+data/parts_YM_1_inverted.o/part_04043091666171034
+
+
+loading data/parts_ENQ_1.o/part_052
+loading data/parts_YM_1.o/part_022
+loadingloading  data/parts_YM_1_inverted.o/part_026data/parts_ENQ_1.o/part_006
+
+loadingloading loadingloading data/parts_EP_1_inverted.o/part_061  data/parts_YM_1.o/part_043
+data/parts_ENQ_1.o/part_059data/parts_ENQ_1_inverted.o/part_058
+
+
+loading data/parts_ENQ_1_inverted.o/part_035
+loading data/parts_EP_1_inverted.o/part_064
+loading data/parts_ENQ_1.o/part_039
+loading data/parts_ENQ_1_inverted.o/part_047
+loading data/parts_EP_1_inverted.o/part_021
+loading data/parts_ENQ_1.o/part_048
+loading loadingdata/parts_EP_1.o/part_073
+ data/parts_EP_1_inverted.o/part_011
+loading data/parts_YM_1.o/part_003
+loading data/parts_ENQ_1_inverted.o/part_031
+loading data/parts_ENQ_1_inverted.o/part_017
+loading data/parts_EP_1_inverted.o/part_048
+loadingloading data/parts_ENQ_1_inverted.o/part_004 data/parts_EP_1.o/part_045
+
+loading data/parts_YM_1.o/part_051
+loading data/parts_ENQ_1.o/part_028
+loading data/parts_ENQ_1.o/part_001
+loading data/parts_EP_1.o/part_066loading
+ data/parts_ENQ_1_inverted.o/part_036
+2024-01-11 06:15:13.270395: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:268] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+loading data/parts_EP_1.o/part_069
+loading data/parts_ENQ_1.o/part_052
+loading data/parts_ENQ_1.o/part_016
+loading data/parts_EP_1_inverted.o/part_049
+loading data/parts_EP_1_inverted.o/part_043
+loading data/parts_ENQ_1.o/part_009
+loading data/parts_ENQ_1.o/part_006
+loading data/parts_EP_1_inverted.o/part_053
+loading data/parts_YM_1.o/part_059
+loading data/parts_ENQ_1_inverted.o/part_023
+loading data/parts_YM_1_inverted.o/part_008
+loading data/parts_EP_1.o/part_039
+loading data/parts_EP_1_inverted.o/part_057
+loading data/parts_EP_1_inverted.o/part_007
+loading data/parts_EP_1.o/part_018
+loading data/parts_EP_1.o/part_064
+loading data/parts_YM_1_inverted.o/part_031
+loading loadingdata/parts_YM_1.o/part_056
+ loadingdata/parts_ENQ_1_inverted.o/part_059
+ data/parts_YM_1_inverted.o/part_001
+loading data/parts_YM_1.o/part_023
+loading data/parts_ENQ_1.o/part_007
+loading data/parts_ENQ_1.o/part_053
+loading data/parts_YM_1.o/part_005
+loading data/parts_EP_1_inverted.o/part_062
+2024-01-11 06:15:31.124320: I tensorflow/compiler/jit/xla_compilation_cache.cc:476] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+loading model weights...
+2024-01-11 06:17:21.120211: I tensorflow/core/tpu/graph_rewrite/encapsulate_tpu_computations_pass.cc:237] Subgraph fingerprint:2959567883229077305
+2024-01-11 06:17:24.824614: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:954] model_pruner failed: INVALID_ARGUMENT: Graph does not contain terminal node StatefulPartitionedCall.
+2024-01-11 06:17:26.783454: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:954] model_pruner failed: INVALID_ARGUMENT: Graph does not contain terminal node StatefulPartitionedCall.
+2024-01-11 06:17:30.279287: I tensorflow/core/tpu/kernels/tpu_compilation_cache_interface.cc:437] TPU host compilation cache miss: cache_key(13716464772167236099), session_name()
+2024-01-11 06:18:46.118998: I tensorflow/core/tpu/kernels/tpu_compile_op_common.cc:210] Compilation of 13716464772167236099 with session name  took 1m15.839542835s and succeeded
+2024-01-11 06:18:46.459668: I tensorflow/core/tpu/kernels/tpu_compilation_cache_interface.cc:470] TPU host compilation cache: compilation complete for cache_key(13716464772167236099), session_name(), subgraph_key(std::string(property.function_name) = "cluster_tpu_function_2959567883229077305", property.function_library_fingerprint = 14659849699095017704, property.mlir_module_fingerprint = 0, property.num_replicas = 8, topology.chip_bounds().x = 2, topology.chip_bounds().y = 2, topology.chip_bounds().z = 1, topology.wrap().x = false, topology.wrap().y = false, topology.wrap().z = false, topology.MissingChipCount() = 0, std::string(property.shapes_prefix) = "", property.guaranteed_constants_size = 0, embedding_partitions_fingerprint = "1688352644216761960")
+2024-01-11 06:18:46.459780: I tensorflow/core/tpu/kernels/tpu_compilation_cache_interface.cc:536] After adding entry for key 13716464772167236099 with session_name  cache is 1 entries (243928648 bytes),  marked for eviction 0 entries (0 bytes).
+loss: 3.3351932 - expected Q values: 11.510885 - time: 198.83422756195068
+loss: 6.7515345 - expected Q values: 10.790274 - time: 57.92309856414795
+loss: 9.818698 - expected Q values: 10.78933 - time: 56.87076473236084
+loss: 6.1431856 - expected Q values: 8.121357 - time: 58.63661217689514
+loss: 5.8705373 - expected Q values: 8.478184 - time: 58.78754472732544
+loss: 4.2417707 - expected Q values: 9.868641 - time: 58.211665630340576
+loss: 8.077696 - expected Q values: 8.003526 - time: 57.50623059272766
+loss: 3.9163013 - expected Q values: 9.145871 - time: 60.46088910102844
+loading data/parts_EP_1_inverted.o/part_006
+loss: 4.4487896 - expected Q values: 9.309446 - time: 57.02928423881531
+loss: 4.6956496 - expected Q values: 8.653661 - time: 57.19304180145264
+loss: 3.972409 - expected Q values: 9.426547 - time: 57.28506827354431
+loss: 3.9605212 - expected Q values: 9.479974 - time: 57.20215058326721
+loss: 5.489473 - expected Q values: 9.149975 - time: 58.345659494400024
+loss: 6.5042744 - expected Q values: 8.940822 - time: 57.969398736953735
+loss: 3.9540067 - expected Q values: 9.47611 - time: 59.27121353149414
+loading data/parts_YM_1.o/part_046
+loss: 7.068264 - expected Q values: 9.718091 - time: 58.36274838447571
+loss: 3.5856674 - expected Q values: 8.825342 - time: 58.19441294670105
+loss: 4.5161424 - expected Q values: 9.072598 - time: 60.29486966133118
+loss: 5.4283047 - expected Q values: 8.516722 - time: 58.29637956619263
+loading data/parts_YM_1_inverted.o/part_042
+
+saving...
+
+loss: 9.125195 - expected Q values: 8.580138 - time: 59.97603225708008
+loss: 6.849509 - expected Q values: 8.023853 - time: 58.27948808670044
+loss: 4.7584414 - expected Q values: 7.9683933 - time: 58.23372483253479
+loading data/parts_ENQ_1_inverted.o/part_029
+loss: 3.9185865 - expected Q values: 8.517599 - time: 59.62318539619446
+loss: 4.421323 - expected Q values: 10.553897 - time: 58.39421224594116
+loss: 8.437679 - expected Q values: 9.829248 - time: 59.10750937461853
+loss: 6.319157 - expected Q values: 8.213426 - time: 57.40286922454834
+loss: 4.9601903 - expected Q values: 9.772324 - time: 59.328702449798584
+loss: 4.7276707 - expected Q values: 9.172423 - time: 61.299344301223755
+loss: 4.1508045 - expected Q values: 9.034231 - time: 58.31420540809631
+loss: 6.0883784 - expected Q values: 9.03412 - time: 59.078892946243286
+loss: 5.825516 - expected Q values: 8.963977 - time: 59.27220010757446
+loss: 5.3835974 - expected Q values: 8.699658 - time: 58.27253293991089
+loading data/parts_YM_1.o/part_033
+loss: 4.820507 - expected Q values: 8.182202 - time: 56.79923129081726
+loss: 4.436306 - expected Q values: 9.285958 - time: 58.784093141555786
+loss: 6.277548 - expected Q values: 8.818386 - time: 54.319329023361206
+loss: 3.9158988 - expected Q values: 9.372861 - time: 53.810965061187744
+loss: 4.9248223 - expected Q values: 9.370402 - time: 53.02925086021423
+loss: 4.3038006 - expected Q values: 8.984311 - time: 52.16492009162903
+loss: 6.167539 - expected Q values: 9.1905365 - time: 51.92510414123535
+
+saving...
+
+loss: 5.7240386 - expected Q values: 9.552216 - time: 56.59119462966919
+loss: 4.5789537 - expected Q values: 9.8518095 - time: 53.82328915596008
+loss: 6.8662963 - expected Q values: 9.769003 - time: 50.88267922401428
+loss: 3.9575849 - expected Q values: 9.739063 - time: 49.78064012527466
+loss: 4.3457375 - expected Q values: 9.744358 - time: 49.20961856842041
+loss: 6.0059924 - expected Q values: 8.846016 - time: 46.76149129867554
+loading data/parts_EP_1.o/part_050
+loss: 5.853958 - expected Q values: 9.198945 - time: 46.10564112663269
+loss: 11.535422 - expected Q values: 7.068533 - time: 45.75171756744385
+loss: 5.5894213 - expected Q values: 6.4578485 - time: 45.57347059249878
+loss: 4.661006 - expected Q values: 5.734079 - time: 45.47696852684021
+
+copy model weights...
+
+loss: 5.242279 - expected Q values: 9.516333 - time: 50.05392575263977
+loss: 3.6867216 - expected Q values: 6.7932177 - time: 45.68463468551636
+loss: 7.0299897 - expected Q values: 9.158521 - time: 45.30585050582886
+loss: 4.311878 - expected Q values: 8.660829 - time: 45.76473593711853
+loss: 3.5223966 - expected Q values: 9.877102 - time: 45.49896430969238
+loss: 6.100004 - expected Q values: 7.1258006 - time: 45.57764911651611
+loss: 2.976291 - expected Q values: 9.973853 - time: 45.789113998413086
+loss: 4.4095874 - expected Q values: 9.829935 - time: 45.868361711502075
+loss: 7.573026 - expected Q values: 7.1476636 - time: 45.78066158294678
+loss: 4.339188 - expected Q values: 7.211566 - time: 45.57208585739136
+
+saving...
+
+loss: 2.7813122 - expected Q values: 12.055834 - time: 46.09414100646973
+loss: 3.8413267 - expected Q values: 6.430671 - time: 45.963841915130615
+loss: 6.3435564 - expected Q values: 7.373821 - time: 45.65775728225708
+loss: 3.4796708 - expected Q values: 7.5716133 - time: 45.63066101074219
+loss: 3.4860907 - expected Q values: 10.631748 - time: 45.90054154396057
+loading data/parts_EP_1_inverted.o/part_008
+loss: 3.3319542 - expected Q values: 9.766738 - time: 45.67984676361084
+loss: 9.032204 - expected Q values: 7.271667 - time: 45.47381901741028
+loss: 7.052551 - expected Q values: 7.679005 - time: 45.7123966217041
+loss: 3.8378534 - expected Q values: 8.818626 - time: 45.63098120689392
+loading data/parts_ENQ_1_inverted.o/part_055
+loss: 3.7992926 - expected Q values: 12.402872 - time: 45.75434350967407
+loss: 6.3831367 - expected Q values: 10.363483 - time: 45.73185920715332
+loss: 4.928525 - expected Q values: 10.688528 - time: 45.87395453453064
+loss: 10.485765 - expected Q values: 7.2728953 - time: 45.680625915527344
+loss: 4.175273 - expected Q values: 6.2455254 - time: 45.80441904067993
+loss: 5.4568048 - expected Q values: 7.7073913 - time: 45.49083185195923
+loss: 2.8701344 - expected Q values: 5.8791394 - time: 45.749895334243774
+loss: 2.9870875 - expected Q values: 6.8047223 - time: 45.62743020057678
+loading data/parts_ENQ_1_inverted.o/part_010
+loss: 3.996727 - expected Q values: 9.120342 - time: 45.58654594421387
+loss: 3.0549133 - expected Q values: 10.818337 - time: 45.72938323020935
+loss: 4.8828335 - expected Q values: 5.561092 - time: 45.729904651641846
+
+saving...
+
+loss: 8.763368 - expected Q values: 8.216779 - time: 46.306092739105225
+loss: 6.303357 - expected Q values: 7.013185 - time: 45.61596155166626
+loss: 5.021343 - expected Q values: 7.678301 - time: 45.7304573059082
+loss: 3.6379135 - expected Q values: 12.639538 - time: 45.70368957519531
+loss: 4.041146 - expected Q values: 8.025574 - time: 45.75808811187744
+loss: 6.1267796 - expected Q values: 7.33253 - time: 45.73717451095581
+loss: 2.8588722 - expected Q values: 6.7163243 - time: 45.769784927368164
+loss: 6.9782085 - expected Q values: 5.440147 - time: 45.8282413482666
+loss: 6.7037525 - expected Q values: 10.922507 - time: 45.80236220359802
+loss: 5.5678453 - expected Q values: 6.4841413 - time: 45.74604558944702
+loss: 3.8016412 - expected Q values: 11.737718 - time: 45.683279037475586
+loading data/parts_YM_1_inverted.o/part_041
+loss: 6.4762397 - expected Q values: 11.019279 - time: 45.75498151779175
+loss: 7.186635 - expected Q values: 8.814053 - time: 45.806570291519165
+loss: 6.2242475 - expected Q values: 7.6922326 - time: 45.87280869483948
+loading data/parts_YM_1.o/part_061
+loss: 7.493731 - expected Q values: 11.509978 - time: 45.76205587387085
+loss: 6.269782 - expected Q values: 8.958168 - time: 45.46721649169922
+loss: 4.7581506 - expected Q values: 6.952046 - time: 45.879836559295654
+loss: 8.639746 - expected Q values: 6.5523906 - time: 45.752936124801636
+loss: 4.65791 - expected Q values: 8.82904 - time: 45.99765086174011
+loss: 7.1600776 - expected Q values: 6.952327 - time: 45.73063826560974
+
+copy model weights...
+
+
+saving...
+
+loss: 8.40296 - expected Q values: 8.571652 - time: 50.96207141876221
+loss: 6.324556 - expected Q values: 7.0966387 - time: 45.71272826194763
+loss: 2.755657 - expected Q values: 10.5638895 - time: 45.578465938568115
+loading data/parts_ENQ_1.o/part_060
+loss: 4.751824 - expected Q values: 9.39999 - time: 45.61784291267395
+loss: 4.735849 - expected Q values: 7.307645 - time: 45.87330985069275
+loss: 7.101912 - expected Q values: 7.9434595 - time: 45.60714411735535
+loss: 3.6206436 - expected Q values: 8.665072 - time: 45.72235465049744
+loss: 4.359506 - expected Q values: 8.179988 - time: 45.57856869697571
+loss: 6.1441045 - expected Q values: 7.457951 - time: 45.96272277832031
+loss: 7.9065895 - expected Q values: 9.214171 - time: 45.60013270378113
+loss: 3.2959275 - expected Q values: 12.520736 - time: 45.830591917037964
+loss: 6.9943104 - expected Q values: 8.841199 - time: 45.959516763687134
+loss: 7.5066237 - expected Q values: 7.500124 - time: 45.72853636741638
+loss: 2.9910285 - expected Q values: 12.274912 - time: 45.55122685432434
+loss: 3.7601426 - expected Q values: 12.268072 - time: 45.69957184791565
+loss: 8.0880575 - expected Q values: 6.802409 - time: 45.84398913383484
+loss: 4.9446917 - expected Q values: 7.3757215 - time: 45.88860535621643
+loss: 8.930187 - expected Q values: 9.49427 - time: 45.83095407485962
+loss: 3.9642057 - expected Q values: 10.634352 - time: 45.84642171859741
+loss: 5.40061 - expected Q values: 8.705755 - time: 45.64802670478821
+
+saving...
+
+loss: 9.085015 - expected Q values: 8.157442 - time: 46.377357959747314
+loading data/parts_EP_1.o/part_029
+loss: 3.654412 - expected Q values: 10.095327 - time: 45.83855199813843
+loss: 6.828906 - expected Q values: 11.11393 - time: 45.84057831764221
+loss: 6.173379 - expected Q values: 9.354585 - time: 45.92291045188904
+loss: 6.122986 - expected Q values: 6.482201 - time: 45.79116916656494
+loss: 9.351193 - expected Q values: 9.156382 - time: 45.72004795074463
+loss: 6.6177564 - expected Q values: 9.417727 - time: 45.80875110626221
+loss: 11.010911 - expected Q values: 7.0309668 - time: 45.6861526966095
+loss: 6.9614425 - expected Q values: 7.5557556 - time: 46.22952938079834
+loading data/parts_EP_1_inverted.o/part_046
+loss: 6.243523 - expected Q values: 8.419364 - time: 45.71026587486267
+loss: 8.007698 - expected Q values: 7.7294526 - time: 45.861541509628296
+loss: 5.0239396 - expected Q values: 9.694252 - time: 45.661341190338135
+loading data/parts_YM_1_inverted.o/part_027
+loss: 7.864517 - expected Q values: 7.6758285 - time: 45.70637392997742
+loss: 7.0210457 - expected Q values: 8.629333 - time: 45.632381439208984
+loss: 4.1530004 - expected Q values: 10.744794 - time: 45.69111919403076
+loss: 15.372533 - expected Q values: 8.55624 - time: 45.77734088897705
+loss: 11.240349 - expected Q values: 8.606708 - time: 45.889861822128296
+loss: 9.313459 - expected Q values: 9.04237 - time: 45.93091011047363
+loss: 7.488563 - expected Q values: 6.971776 - time: 45.79728174209595
+loss: 6.8497686 - expected Q values: 6.1668463 - time: 45.70116376876831
+
+saving...
+
+loss: 10.925651 - expected Q values: 7.3295765 - time: 46.270546436309814
+loss: 4.763624 - expected Q values: 7.986185 - time: 45.751158714294434
+loss: 9.237449 - expected Q values: 7.4056034 - time: 45.74985909461975
+loss: 8.979993 - expected Q values: 8.967182 - time: 45.846532106399536
+loss: 3.58768 - expected Q values: 9.714863 - time: 45.78381371498108
+loss: 7.5752916 - expected Q values: 7.6956115 - time: 45.90194630622864
+loss: 4.820281 - expected Q values: 11.174015 - time: 45.99127674102783
+loss: 5.284019 - expected Q values: 10.408289 - time: 45.75907278060913
+loss: 7.060418 - expected Q values: 8.794248 - time: 45.68880748748779
+loss: 4.0556164 - expected Q values: 8.206888 - time: 45.831958532333374
+
+copy model weights...
+
+loss: 7.76149 - expected Q values: 8.626506 - time: 50.13852310180664
+loss: 5.574907 - expected Q values: 8.916861 - time: 45.49489092826843
+loss: 5.7066274 - expected Q values: 9.401862 - time: 45.67261862754822
+loss: 4.767379 - expected Q values: 8.899494 - time: 45.63816833496094
+loss: 14.753324 - expected Q values: 7.971182 - time: 45.90148663520813
+loading data/parts_EP_1_inverted.o/part_015
+loss: 6.294739 - expected Q values: 9.405211 - time: 45.902437925338745
+loss: 5.1674113 - expected Q values: 10.041947 - time: 45.961153507232666
+loading data/parts_YM_1.o/part_017
+loss: 5.330495 - expected Q values: 9.335602 - time: 46.179017305374146
+loss: 8.474092 - expected Q values: 7.2001324 - time: 45.73320651054382
+loss: 3.5472682 - expected Q values: 10.401755 - time: 45.87980604171753
+
+saving...
+
+loss: 7.6353803 - expected Q values: 9.373916 - time: 46.73180651664734
+loss: 7.406449 - expected Q values: 8.4128475 - time: 45.844452142715454
+loss: 4.765772 - expected Q values: 8.979027 - time: 45.729376792907715
+loss: 5.2227674 - expected Q values: 10.698501 - time: 45.784913539886475
+loss: 4.6629696 - expected Q values: 8.21852 - time: 45.822455644607544
+loss: 6.9701557 - expected Q values: 8.177366 - time: 45.65954661369324
+loss: 7.4258485 - expected Q values: 8.705993 - time: 45.803786754608154
+loss: 8.313229 - expected Q values: 7.2843714 - time: 45.864346981048584
+loss: 6.5158544 - expected Q values: 8.099275 - time: 45.68282914161682
+loading data/parts_YM_1_inverted.o/part_029
+loss: 5.7451277 - expected Q values: 7.137637 - time: 45.778130531311035
+loss: 7.24328 - expected Q values: 7.466958 - time: 45.5964081287384
+loss: 5.0568037 - expected Q values: 8.593057 - time: 45.668291330337524
+loss: 3.0859308 - expected Q values: 10.432213 - time: 45.907554626464844
+loss: 4.6926236 - expected Q values: 9.89669 - time: 45.80801200866699
+loss: 4.316279 - expected Q values: 10.711878 - time: 45.70184636116028
+loss: 6.048684 - expected Q values: 8.190151 - time: 45.766653537750244
+loss: 5.5840845 - expected Q values: 7.7034287 - time: 45.55057382583618
+loss: 10.021402 - expected Q values: 6.8603272 - time: 45.6613450050354
+loss: 4.5856395 - expected Q values: 7.568941 - time: 45.81187462806702
+loading data/parts_YM_1.o/part_025
+loss: 10.63403 - expected Q values: 7.6172414 - time: 45.67309832572937
+
+saving...
+
+loss: 5.179254 - expected Q values: 7.6120076 - time: 46.421199798583984
+loss: 3.6872637 - expected Q values: 9.649343 - time: 45.846904039382935
+loading data/parts_ENQ_1.o/part_042
+loading data/parts_YM_1_inverted.o/part_054
+loss: 3.6932087 - expected Q values: 10.710592 - time: 46.098310232162476
+loss: 11.019483 - expected Q values: 7.9691424 - time: 45.678664445877075
+loss: 3.3598154 - expected Q values: 10.366181 - time: 45.719560623168945
+loss: 5.7238784 - expected Q values: 8.798174 - time: 45.777206897735596
+loss: 8.377733 - expected Q values: 7.6703386 - time: 46.05769872665405
+loss: 3.1769583 - expected Q values: 10.815951 - time: 45.83248949050903
+loss: 4.7546263 - expected Q values: 10.4067335 - time: 45.64099621772766
+loss: 7.123671 - expected Q values: 8.590246 - time: 45.70648217201233
+loss: 5.782894 - expected Q values: 9.280808 - time: 45.597825050354004
+loss: 21.173573 - expected Q values: 10.690312 - time: 45.85499906539917
+loss: 6.05099 - expected Q values: 8.003853 - time: 45.7130401134491
+loss: 3.4116907 - expected Q values: 10.779759 - time: 45.919658184051514
+loss: 3.1751466 - expected Q values: 9.04274 - time: 45.42664551734924
+loss: 4.693946 - expected Q values: 8.137024 - time: 45.93486022949219
+loss: 3.0063922 - expected Q values: 9.360386 - time: 45.8683602809906
+loss: 5.727036 - expected Q values: 10.955083 - time: 45.595752477645874
+loading data/parts_ENQ_1_inverted.o/part_061
+loss: 5.182184 - expected Q values: 9.151028 - time: 45.81211495399475
+loss: 5.725547 - expected Q values: 7.3604283 - time: 45.939059019088745
+
+copy model weights...
+
+
+saving...
+
+loss: 6.058696 - expected Q values: 7.0967827 - time: 50.422054052352905
+loss: 7.51003 - expected Q values: 7.496713 - time: 45.78792643547058
+loss: 4.453846 - expected Q values: 8.968214 - time: 45.640209674835205
+loss: 6.312668 - expected Q values: 8.89471 - time: 45.694806814193726
+loss: 6.7813153 - expected Q values: 9.948825 - time: 45.8147349357605
+loss: 7.7055297 - expected Q values: 8.661606 - time: 45.82623600959778
+loss: 2.3716924 - expected Q values: 12.485957 - time: 45.941736936569214
+loss: 3.5821311 - expected Q values: 10.6757765 - time: 45.75186252593994
+loss: 4.290042 - expected Q values: 7.0028315 - time: 45.789493560791016
+loss: 4.2075343 - expected Q values: 10.28107 - time: 45.726980209350586
+loss: 2.9188032 - expected Q values: 11.548174 - time: 45.68641138076782
+loss: 4.293282 - expected Q values: 9.547103 - time: 45.63945960998535
+loss: 3.122827 - expected Q values: 11.598017 - time: 45.724066972732544
+loss: 4.391367 - expected Q values: 9.1306505 - time: 45.915691614151
+loss: 4.082539 - expected Q values: 10.394881 - time: 46.215760231018066
+loss: 5.7294145 - expected Q values: 9.374056 - time: 46.024134397506714
+loss: 3.065279 - expected Q values: 10.411703 - time: 45.91334319114685
+loss: 4.565164 - expected Q values: 9.26046 - time: 45.75566577911377
+loss: 3.5187333 - expected Q values: 9.470581 - time: 45.88280367851257
+loss: 5.741435 - expected Q values: 9.785035 - time: 45.710543394088745
+
+saving...
+
+loss: 3.6342978 - expected Q values: 10.692322 - time: 46.406049489974976
+From https://github.com/dercodeKoenig/dqn_trading_gcloudvm
+   7dc8d41..36ff7a4  main       -> origin/main
+Updating 7dc8d41..36ff7a4
+Fast-forward
+ t1/loss.txt  | 600 ++++++++++++++++++++++++++++++++++++
+ t1/nohup.out | 802 +++++++++++++++++++++++++++++++++++++++++++++++++
+ t1/qv.txt    | 600 ++++++++++++++++++++++++++++++++++++
+ t3/loss.txt  | 200 ++++++++++++
+ t3/nohup.out | 269 +++++++++++++++++
+ t3/qv.txt    | 200 ++++++++++++
+ t4/loss.txt  | 800 ++++++++++++++++++++++++++++++++++++++++++++++++
+ t4/nohup.out | 968 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ t4/qv.txt    | 800 ++++++++++++++++++++++++++++++++++++++++++++++++
+ 9 files changed, 5239 insertions(+)
