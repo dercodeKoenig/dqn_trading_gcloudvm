@@ -14,7 +14,7 @@ def get_values(fn):
          
     return lines
 
-avg_n=50
+avg_n=500
 k=2
 
 def plot_logs(losses, qs, name):

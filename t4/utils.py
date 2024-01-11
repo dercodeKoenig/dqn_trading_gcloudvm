@@ -37,22 +37,22 @@ def get_inputs_from_ret(ret, x):
     
     input_close_scaled, input_time_scaled
     
-    active_pd_arrays_m1 = deque(maxlen = 256)
-    active_pd_arrays_m5 = deque(maxlen = 256)
-    active_pd_arrays_m15 = deque(maxlen = 256)
-    active_pd_arrays_m60 = deque(maxlen = 512)
-    active_pd_arrays_d1 = deque(maxlen = 512)
+    active_pd_arrays_m1 = deque(maxlen = 1024)
+    active_pd_arrays_m5 = deque(maxlen = 1024)
+    active_pd_arrays_m15 = deque(maxlen = 1024)
+    active_pd_arrays_m60 = deque(maxlen = 1024)
+    active_pd_arrays_d1 = deque(maxlen = 1024)
     
-    actions_m1 = deque(maxlen = 256)
-    for _ in range(256):
+    actions_m1 = deque(maxlen = 1024)
+    for _ in range(1024):
         actions_m1.append([0, 0, 0, 0, 0])
 
-    actions_m5 = deque(maxlen = 256)
-    for _ in range(256):
+    actions_m5 = deque(maxlen = 1024)
+    for _ in range(1024):
         actions_m5.append([0, 0, 0, 0, 0])
         
-    actions_m15 = deque(maxlen = 256)
-    for _ in range(256):
+    actions_m15 = deque(maxlen = 1024)
+    for _ in range(1024):
         actions_m15.append([0, 0, 0, 0, 0])
     
     for i in ret[1]:

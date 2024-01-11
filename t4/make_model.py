@@ -3,7 +3,7 @@
 import tensorflow as tf
 
 #config
-batch_size = 64
+batch_size = 32
 gamma = 0.995
 learning_rate=0.000002
 num_data_generation_threads = 12
@@ -106,9 +106,9 @@ def make_model():
 
 
 
-  action_m1_inputs = tf.keras.layers.Input(shape=(256,5))
-  action_m5_inputs = tf.keras.layers.Input(shape=(256,5))
-  action_m15_inputs = tf.keras.layers.Input(shape=(256,5))
+  action_m1_inputs = tf.keras.layers.Input(shape=(1024,5))
+  action_m5_inputs = tf.keras.layers.Input(shape=(1024,5))
+  action_m15_inputs = tf.keras.layers.Input(shape=(1024,5))
 
   embed_action_type = tf.keras.layers.Embedding(18,6)
 
@@ -162,7 +162,7 @@ def make_model():
   tx_embed_len = 8
   tx_embed_units = 32
     
-  pos_embedding = PositionEmbedding(256+tx_embed_len, tx_embed_units)
+  
 
   def embed_information(input_state):
       input_state = tf.keras.layers.Dense(512, activation = "relu")(input_state)
@@ -178,7 +178,7 @@ def make_model():
     actions = tf.keras.layers.LeakyReLU()(actions)
     input_state_tx = embed_information(additional_info)
     actions = tf.keras.layers.Concatenate(axis=1)([input_state_tx, actions])
-    actions = pos_embedding(actions)
+    actions = PositionEmbedding(1024+tx_embed_len, tx_embed_units)(actions)
     actions = TransformerBlock(tx_embed_units, 6, 256)(actions)
     actions = TransformerBlock(tx_embed_units, 6, 256)(actions)
     attention_tokens = actions[::,0:tx_embed_len]
