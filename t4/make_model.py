@@ -3,7 +3,7 @@
 import tensorflow as tf
 
 #config
-batch_size = 32
+batch_size = 16
 gamma = 0.995
 learning_rate=0.000002
 num_data_generation_threads = 12
@@ -179,8 +179,10 @@ def make_model():
     input_state_tx = embed_information(additional_info)
     actions = tf.keras.layers.Concatenate(axis=1)([input_state_tx, actions])
     actions = PositionEmbedding(1024+tx_embed_len, tx_embed_units)(actions)
-    actions = TransformerBlock(tx_embed_units, 6, 256)(actions)
-    actions = TransformerBlock(tx_embed_units, 6, 256)(actions)
+    actions = TransformerBlock(tx_embed_units, 12, 256)(actions)
+    actions = TransformerBlock(tx_embed_units, 12, 256)(actions)
+    actions = TransformerBlock(tx_embed_units, 12, 256)(actions)
+    actions = TransformerBlock(tx_embed_units, 12, 256)(actions)
     attention_tokens = actions[::,0:tx_embed_len]
     attention_tokens = tf.keras.layers.Flatten()(attention_tokens)
     attention_tokens = tf.keras.layers.Dense(128)(attention_tokens)
