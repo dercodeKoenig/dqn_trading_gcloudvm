@@ -1,3 +1,8 @@
+#########################################
+# this version is including no position #
+#########################################
+
+
 from manager import *
 from utils import *
 from make_model import *
@@ -13,11 +18,11 @@ import time
 import os
 
 num_model_inputs = 3+5+3+1
-n_actions = 2
+n_actions = 3
 m1 = np.eye(n_actions, dtype="float32")
 batch_q_size = 512
 data_q_maxlen = 128
-target_model_sync = 5000
+target_model_sync = 2000
 
 save_freq = 20 # save after x epochs
 
@@ -100,6 +105,11 @@ def threaded_data_generation(q,num):
                         pair = (inp_long, 0, current_close*-1 - scaled_cm,0,new_state)
                         q.put(pair)
                         
+                        # new neutral holding    
+                        new_state = [0]+inp
+                        pair = (inp_long, 2, 0 - scaled_cm / 2,0,new_state)
+                        q.put(pair)
+                        
                     #prev short holding:
                         # new long holding    
                         new_state = [1]+inp
@@ -109,6 +119,11 @@ def threaded_data_generation(q,num):
                         # new short holding    
                         new_state = [-1]+inp
                         pair = (inp_short, 0, current_close*-1,0,new_state)
+                        q.put(pair)
+                        
+                        # new neutral holding    
+                        new_state = [0]+inp
+                        pair = (inp_short, 2, 0 - scaled_cm / 2,0,new_state)
                         q.put(pair)
                         
                         
@@ -122,6 +137,11 @@ def threaded_data_generation(q,num):
                         # new short holding    
                         new_state = [-1]+inp
                         pair = (inp_neutral, 0, current_close*-1 - scaled_cm / 2,0,new_state)
+                        q.put(pair)
+                        
+                        # new neutral holding    
+                        new_state = [0]+inp
+                        pair = (inp_neutral, 2, 0, 0, new_state)
                         q.put(pair)
                         
                         
