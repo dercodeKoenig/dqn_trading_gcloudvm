@@ -69,9 +69,9 @@ def MHDMoY_to_minutes(m,h,d,mo,y):
 class manager:
     
     def __init__(self):
-        self.m1_candles = deque(maxlen = 100)
-        self.m5_candles = deque(maxlen = 100)
-        self.m15_candles = deque(maxlen = 100)
+        self.m1_candles = deque(maxlen = 500)
+        self.m5_candles = deque(maxlen = 500)
+        self.m15_candles = deque(maxlen = 500)
         self.m60_candles = deque(maxlen = 1000)  # no action history needs to be computed here
         self.d1_candles = deque(maxlen = 1000)   # no action history needs to be computed here
 
@@ -81,9 +81,9 @@ class manager:
         self.m60_pda = deque(maxlen=1)
         self.d1_pda = deque(maxlen=1)
         
-        self.action_history_m1 = deque(maxlen = 256)
-        self.action_history_m5 = deque(maxlen = 256)
-        self.action_history_m15 = deque(maxlen = 256)
+        self.action_history_m1 = deque(maxlen = 1024)
+        self.action_history_m5 = deque(maxlen = 1024)
+        self.action_history_m15 = deque(maxlen = 1024)
         
         self.nymidnight_price = 0
         pass
@@ -106,7 +106,7 @@ class manager:
         candle.comp_minutes()
         self.m1_candles.append(candle)
         
-        if scan:
+        if True:
             self.detect_pd_arrays("m1")
         
         
@@ -117,7 +117,7 @@ class manager:
             last_hour = self.m5_candles[-1].t[3]
             minute_rounded = int(candle_minute/5) * 5
             if minute_rounded != last_minute or candle_hour != last_hour:
-                if scan:
+                if True:
                     self.detect_pd_arrays("m5")
                     update_action_m5 = True
                 c = candle_class(candle.o,candle.h,candle.l,candle.c,candle.t)
@@ -127,7 +127,7 @@ class manager:
                 self.m5_candles[-1].h = max(candle.h, self.m5_candles[-1].h)
                 self.m5_candles[-1].l = min(candle.l, self.m5_candles[-1].l)
         else:
-            if scan:
+            if True:
                 self.detect_pd_arrays("m5")
                 update_action_m5 = True
             c = candle_class(candle.o,candle.h,candle.l,candle.c,candle.t)
@@ -140,7 +140,7 @@ class manager:
             last_hour = self.m15_candles[-1].t[3]
             minute_rounded = int(candle_minute/15) * 15
             if minute_rounded != last_minute or candle_hour != last_hour:
-                if scan:
+                if True:
                     self.detect_pd_arrays("m15")
                     update_action_m15 = True
                 c = candle_class(candle.o,candle.h,candle.l,candle.c,candle.t)
@@ -150,7 +150,7 @@ class manager:
                 self.m15_candles[-1].h = max(candle.h, self.m15_candles[-1].h)
                 self.m15_candles[-1].l = min(candle.l, self.m15_candles[-1].l)
         else:
-            if scan:
+            if True:
                 self.detect_pd_arrays("m15")
                 update_action_m15 = True
             c = candle_class(candle.o,candle.h,candle.l,candle.c,candle.t)
@@ -162,7 +162,7 @@ class manager:
             last_hour = self.m60_candles[-1].t[3]
             
             if candle_hour != last_hour:
-                if scan:
+                if True:
                     self.detect_pd_arrays("m60")
                     update_action_m60 = True
                 c = candle_class(candle.o,candle.h,candle.l,candle.c,candle.t)
@@ -172,7 +172,7 @@ class manager:
                 self.m60_candles[-1].h = max(candle.h, self.m60_candles[-1].h)
                 self.m60_candles[-1].l = min(candle.l, self.m60_candles[-1].l)
         else:
-            if scan:
+            if True:
                 self.detect_pd_arrays("m60")
                 update_action_m60 = True
             c = candle_class(candle.o,candle.h,candle.l,candle.c,candle.t)
@@ -184,7 +184,7 @@ class manager:
             last_candle_hour = self.m1_candles[-2].t[3]
             #print(candle_hour)
             if candle_hour != last_candle_hour and candle_hour == 18:
-                if scan:
+                if True:
                     self.detect_pd_arrays("d1")
                     update_action_d1 = True
                 c = candle_class(candle.o,candle.h,candle.l,candle.c,candle.t)
@@ -194,7 +194,7 @@ class manager:
                 self.d1_candles[-1].h = max(candle.h, self.d1_candles[-1].h)
                 self.d1_candles[-1].l = min(candle.l, self.d1_candles[-1].l)
         else:
-            if scan:
+            if True:
                 self.detect_pd_arrays("d1")
                 update_action_d1 = True
             c = candle_class(candle.o,candle.h,candle.l,candle.c,candle.t)
@@ -231,7 +231,7 @@ class manager:
 
     def detect_pd_arrays(self, tf):
         if tf == "m1":
-            self.m1_pda = deque(maxlen = 100)
+            self.m1_pda = deque(maxlen = 1000)
             if len(self.m1_candles) > 5:
                 for i in range(1,len(self.m1_candles)-1):
                     if self.m1_candles[i].h > self.m1_candles[i-1].h and self.m1_candles[i].h > self.m1_candles[i+1].h:
@@ -253,7 +253,7 @@ class manager:
                         pda = pd_array("m1", x, self.m1_candles[i].t)
                         self.m1_pda.append(pda)
         if tf =="m5":
-            self.m5_pda = deque(maxlen = 100)
+            self.m5_pda = deque(maxlen = 1000)
             if len(self.m5_candles) > 5:
                 for i in range(1,len(self.m5_candles)-1):
                     if self.m5_candles[i].h > self.m5_candles[i-1].h and self.m5_candles[i].h > self.m5_candles[i+1].h:
@@ -275,7 +275,7 @@ class manager:
                         pda = pd_array("m5", x, self.m5_candles[i].t)
                         self.m5_pda.append(pda)
         if tf == "m15":
-            self.m15_pda = deque(maxlen = 100)
+            self.m15_pda = deque(maxlen = 1000)
             if len(self.m15_candles) > 5:
                 for i in range(1,len(self.m15_candles)-1):
                     if self.m15_candles[i].h > self.m15_candles[i-1].h and self.m15_candles[i].h > self.m15_candles[i+1].h:
@@ -357,7 +357,7 @@ class manager:
         
         if tf == "m5":
             
-            self.action_history_m5 = deque(maxlen = 256)
+            self.action_history_m5 = deque(maxlen = 1024)
             for i in range(len(self.m5_candles)):
                 for pd_index, o in enumerate(self.pd_copy):
 
@@ -476,7 +476,7 @@ class manager:
         
         if tf == "m15":
             
-            self.action_history_m15 = deque(maxlen = 256)
+            self.action_history_m15 = deque(maxlen = 1024)
             for i in range(len(self.m15_candles)):
                 for pd_index, o in enumerate(self.pd_copy):
                     
@@ -598,7 +598,7 @@ class manager:
 
         if tf == "m1":
             
-            self.action_history_m1 = deque(maxlen = 256)
+            self.action_history_m1 = deque(maxlen = 1024)
             for i in range(len(self.m1_candles)):
                 for pd_index,o in enumerate(self.pd_copy):
 
