@@ -22,9 +22,9 @@ n_actions = 3
 m1 = np.eye(n_actions, dtype="float32")
 batch_q_size = 512
 data_q_maxlen = 128
-target_model_sync = 10000
+target_model_sync = 2000
 
-save_freq = 50 # save after x epochs
+save_freq = 20 # save after x epochs
 
 
 verb = False
@@ -148,7 +148,7 @@ def threaded_data_generation(q,num):
                     last_state = inp
                 else:
                     ret = x.push_m1_candle(candles[i], scan = False)
-             
+                
 
 
 def data_get_func(data_qs, batch_q):

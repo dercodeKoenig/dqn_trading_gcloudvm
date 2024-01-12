@@ -1,14 +1,14 @@
-## tx - bert-like large
+## tx - bert-like small
 
 import tensorflow as tf
 
 #config
-batch_size = 192
-gamma = 0.995
-learning_rate=0.000002
+batch_size = 16
+gamma = 0.98
+learning_rate=0.00002
 num_data_generation_threads = 12
 batch_generation_threads = 8
-memory_size = 300_000
+memory_size = 80_000
 ep_len = 100
 
 
@@ -106,9 +106,9 @@ def make_model():
 
 
 
-  action_m1_inputs = tf.keras.layers.Input(shape=(256,5))
-  action_m5_inputs = tf.keras.layers.Input(shape=(256,5))
-  action_m15_inputs = tf.keras.layers.Input(shape=(256,5))
+  action_m1_inputs = tf.keras.layers.Input(shape=(1024,5))
+  action_m5_inputs = tf.keras.layers.Input(shape=(1024,5))
+  action_m15_inputs = tf.keras.layers.Input(shape=(1024,5))
 
   embed_action_type = tf.keras.layers.Embedding(18,6)
 
@@ -162,7 +162,7 @@ def make_model():
   tx_embed_len = 8
   tx_embed_units = 32
     
-  pos_embedding = PositionEmbedding(256+tx_embed_len, tx_embed_units)
+  
 
   def embed_information(input_state):
       input_state = tf.keras.layers.Dense(512, activation = "relu")(input_state)
@@ -178,16 +178,18 @@ def make_model():
     actions = tf.keras.layers.LeakyReLU()(actions)
     input_state_tx = embed_information(additional_info)
     actions = tf.keras.layers.Concatenate(axis=1)([input_state_tx, actions])
-    actions = pos_embedding(actions)
-    actions = TransformerBlock(tx_embed_units, 12, 256)(actions)
-    actions = TransformerBlock(tx_embed_units, 12, 256)(actions)
-    actions = TransformerBlock(tx_embed_units, 12, 256)(actions)
-    actions = TransformerBlock(tx_embed_units, 12, 256)(actions)
+    actions = PositionEmbedding(1024+tx_embed_len, tx_embed_units)(actions)
+    actions = TransformerBlock(tx_embed_units, 16, 256)(actions)
+    actions = TransformerBlock(tx_embed_units, 16, 256)(actions)
+    actions = TransformerBlock(tx_embed_units, 16, 256)(actions)
+    actions = TransformerBlock(tx_embed_units, 16, 256)(actions)
+    actions = TransformerBlock(tx_embed_units, 16, 256)(actions)
+    actions = TransformerBlock(tx_embed_units, 16, 256)(actions)
     attention_tokens = actions[::,0:tx_embed_len]
     attention_tokens = tf.keras.layers.Flatten()(attention_tokens)
-    attention_tokens = tf.keras.layers.Dense(128)(attention_tokens)
+    attention_tokens = tf.keras.layers.Dense(256)(attention_tokens)
     attention_tokens = tf.keras.layers.LeakyReLU()(attention_tokens)
-    attention_tokens = tf.keras.layers.Dense(128)(attention_tokens)
+    attention_tokens = tf.keras.layers.Dense(256)(attention_tokens)
     attention_tokens = tf.keras.layers.LeakyReLU()(attention_tokens)
     
     return attention_tokens
@@ -202,7 +204,7 @@ def make_model():
   dense_input = tf.keras.layers.Concatenate()([input_current_pos, input_closing_prices, input_closing_times, input_current_day, pda_list_m60, pda_list_d1, pda_list_m15, pda_list_m5, pda_list_m1, actions_m1, actions_m5, actions_m15])
   
 
-  x = tf.keras.layers.Dense(1024)(dense_input)
+  x = tf.keras.layers.Dense(2048)(dense_input)
   x = tf.keras.layers.LeakyReLU()(x)
     
   x = tf.keras.layers.Dense(1024)(x)
