@@ -106,7 +106,7 @@ class manager:
         candle.comp_minutes()
         self.m1_candles.append(candle)
         
-        if True:
+        if scan:
             self.detect_pd_arrays("m1")
         
         
