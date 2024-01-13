@@ -145,7 +145,7 @@ def threaded_data_generation(q,num):
                         
                     last_state = inp
                 else:
-                    ret = x.push_m1_candle(candles[i], scan = False)
+                    ret = x.push_m1_candle(candles[i])
                 
 
 
