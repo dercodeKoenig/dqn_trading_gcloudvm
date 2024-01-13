@@ -267,7 +267,7 @@ def main():
     except Exception as e:
         print(e)
      
-    tf.keras.utils.plot_model(model)
+    #tf.keras.utils.plot_model(model)
     
     
     @tf.function()
