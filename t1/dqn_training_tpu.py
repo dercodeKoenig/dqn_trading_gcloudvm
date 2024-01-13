@@ -262,8 +262,8 @@ def main():
 
     print("loading model weights...")
     try:
-        model.load_weights("dqn_weights.weights.h5")
-        target_model.load_weights("dqn_weights.weights.h5")
+        model.load_weights("dqn_weights.h5")
+        target_model.load_weights("dqn_weights.h5")
     except Exception as e:
         print(e)
      
