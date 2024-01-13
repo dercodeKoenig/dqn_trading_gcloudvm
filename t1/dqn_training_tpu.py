@@ -1,3 +1,8 @@
+#########################################
+# this version is including no position #
+#########################################
+
+
 from manager import *
 from utils import *
 from make_model import *
@@ -12,14 +17,11 @@ from collections import deque
 import time
 import os
 
-num_model_inputs = 3+5+3+1
-n_actions = 2
+num_model_inputs = 3+3+1
+n_actions = 3
 m1 = np.eye(n_actions, dtype="float32")
 batch_q_size = 512
 data_q_maxlen = 128
-target_model_sync = 5000
-
-save_freq = 20 # save after x epochs
 
 
 verb = False
@@ -30,10 +32,11 @@ if len(argv) == 2:
         verb = True
        
        
+
 def threaded_data_generation(q,num):
     first_run = True
     while True:
-        data_dir = "data/"
+        data_dir = "/kaggle/input/us-index-cfd-data/"
         parts = [("parts_EP_1.o/", 0.4), ("parts_EP_1_inverted.o/", 0.4), ("parts_ENQ_1.o/", 2.4), ("parts_ENQ_1_inverted.o/", 2.4), ("parts_YM_1.o/", 2.4), ("parts_YM_1_inverted.o/", 2.4)]
         c = random.choice(parts)
         path = data_dir+c[0]
@@ -100,6 +103,11 @@ def threaded_data_generation(q,num):
                         pair = (inp_long, 0, current_close*-1 - scaled_cm,0,new_state)
                         q.put(pair)
                         
+                        # new neutral holding    
+                        new_state = [0]+inp
+                        pair = (inp_long, 2, 0 - scaled_cm / 2,0,new_state)
+                        q.put(pair)
+                        
                     #prev short holding:
                         # new long holding    
                         new_state = [1]+inp
@@ -109,6 +117,11 @@ def threaded_data_generation(q,num):
                         # new short holding    
                         new_state = [-1]+inp
                         pair = (inp_short, 0, current_close*-1,0,new_state)
+                        q.put(pair)
+                        
+                        # new neutral holding    
+                        new_state = [0]+inp
+                        pair = (inp_short, 2, 0 - scaled_cm / 2,0,new_state)
                         q.put(pair)
                         
                         
@@ -122,6 +135,11 @@ def threaded_data_generation(q,num):
                         # new short holding    
                         new_state = [-1]+inp
                         pair = (inp_neutral, 0, current_close*-1 - scaled_cm / 2,0,new_state)
+                        q.put(pair)
+                        
+                        # new neutral holding    
+                        new_state = [0]+inp
+                        pair = (inp_neutral, 2, 0, 0, new_state)
                         q.put(pair)
                         
                         
@@ -146,23 +164,11 @@ def data_get_func(data_qs, batch_q):
                     has_items = True
                     nn+=1
                     #print("get_item",len(ssrtm_memory), nn)
-                    if nn > batch_size * 1:
+                    if nn > batch_size * 4:
                         has_items = False
                         #break
 
                     p = data_q.get()
-
-                    p[0][4] = np.concatenate((p[0][4][0],p[0][4][1]))
-                    p[0][5] = np.concatenate((p[0][5][0],p[0][5][1]))
-                    p[0][6] = np.concatenate((p[0][6][0],p[0][6][1]))
-                    p[0][7] = np.concatenate((p[0][7][0],p[0][7][1]))
-                    p[0][8] = np.concatenate((p[0][8][0],p[0][8][1]))
-
-                    p[4][4] = np.concatenate((p[4][4][0],p[4][4][1]))
-                    p[4][5] = np.concatenate((p[4][5][0],p[4][5][1]))
-                    p[4][6] = np.concatenate((p[4][6][0],p[4][6][1]))
-                    p[4][7] = np.concatenate((p[4][7][0],p[4][7][1]))
-                    p[4][8] = np.concatenate((p[4][8][0],p[4][8][1]))
 
                     ssrtm_memory.append(p)
             if has_items == False:
@@ -219,11 +225,14 @@ def filesave(filename, value):
 def main():
 
 
-    
-    cluster_resolver = tf.distribute.cluster_resolver.TPUClusterResolver(tpu="local")
-    tf.config.experimental_connect_to_cluster(cluster_resolver)
-    tf.tpu.experimental.initialize_tpu_system(cluster_resolver)
-    strategy = tf.distribute.TPUStrategy(cluster_resolver)
+    try:
+        cluster_resolver = tf.distribute.cluster_resolver.TPUClusterResolver(tpu="local")
+        tf.config.experimental_connect_to_cluster(cluster_resolver)
+        tf.tpu.experimental.initialize_tpu_system(cluster_resolver)
+        strategy = tf.distribute.TPUStrategy(cluster_resolver)
+    except:
+        print("use gpu strategy")
+        strategy = tf.distribute.MirroredStrategy()
     
     
     batch_q = Queue()
@@ -238,12 +247,12 @@ def main():
             data_qs.append(data_q)
             p = Process(target = threaded_data_generation, args = (data_q, i), daemon = True)
             p.start()
-            time.sleep(0.05)
+            time.sleep(0.1)
 
     
         p = Process(target = data_get_func, args = (data_qs, batch_q), daemon = True)
         p.start()
-        time.sleep(0.05)
+        time.sleep(0.1)
 
 
     with strategy.scope():
@@ -253,12 +262,14 @@ def main():
 
     print("loading model weights...")
     try:
-        model.load_weights("dqn_weights.h5")
-        target_model.load_weights("dqn_weights.h5")
+        model.load_weights("dqn_weights.weights.h5")
+        target_model.load_weights("dqn_weights.weights.h5")
     except Exception as e:
         print(e)
-        
-
+     
+    tf.keras.utils.plot_model(model)
+    
+    
     @tf.function()
     def get_target_q(next_states, rewards, terminals):
             estimated_q_values_next = target_model(next_states)
@@ -338,7 +349,7 @@ def main():
                     for q in q_mean:
                         filesave("qv.txt", q)
                         q_mean = []
-                    model.save_weights("dqn_weights.h5")
+                    model.save_weights("dqn_weights.weights.h5")
         
          
         if not verb:
