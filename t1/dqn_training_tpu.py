@@ -36,7 +36,7 @@ if len(argv) == 2:
 def threaded_data_generation(q,num):
     first_run = True
     while True:
-        data_dir = "/kaggle/input/us-index-cfd-data/"
+        data_dir = "data/"
         parts = [("parts_EP_1.o/", 0.4), ("parts_EP_1_inverted.o/", 0.4), ("parts_ENQ_1.o/", 2.4), ("parts_ENQ_1_inverted.o/", 2.4), ("parts_YM_1.o/", 2.4), ("parts_YM_1_inverted.o/", 2.4)]
         c = random.choice(parts)
         path = data_dir+c[0]
