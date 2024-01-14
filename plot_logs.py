@@ -55,3 +55,9 @@ try:
 	qs = get_values("t4/qv.txt")
 	plot_logs(losses, qs, "t4.jpg")
 except:pass
+
+try:
+	losses = get_values("t5/loss.txt")
+	qs = get_values("t5/qv.txt")
+	plot_logs(losses, qs, "t5.jpg")
+except:pass
