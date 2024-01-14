@@ -349,7 +349,7 @@ def main():
                     for q in q_mean:
                         filesave("qv.txt", q)
                         q_mean = []
-                    model.save_weights("dqn_weights.weights.h5")
+                    model.save_weights("dqn_weights.h5")
         
          
         if not verb:
