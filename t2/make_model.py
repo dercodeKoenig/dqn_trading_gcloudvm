@@ -81,11 +81,6 @@ def make_model():
       return input_state_tx
   
   def process_chart(chart, additional_info):
-    
-  
-    
-    chart = tf.keras.layers.Dense(tx_embed_units)(chart)
-    chart = tf.keras.layers.LeakyReLU()(chart)
     input_state_tx = embed_information(additional_info)
     chart = tf.keras.layers.Concatenate(axis=1)([input_state_tx, chart])
    
