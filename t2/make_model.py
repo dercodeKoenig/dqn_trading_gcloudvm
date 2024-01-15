@@ -71,7 +71,7 @@ def make_model():
   input_closing_times = tf.keras.layers.Flatten()(input_closing_times)
   
 
-    gru_units = 256
+  gru_units = 256
 
   def embed_information(input_state):
       input_state = tf.keras.layers.Dense(256, activation = "relu")(input_state)
