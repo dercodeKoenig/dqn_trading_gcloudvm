@@ -1,0 +1,743 @@
+2024-01-15 14:36:21.873331: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-01-15 14:36:22.050841: I tensorflow/core/tpu/tpu_initializer_helper.cc:262] Libtpu path is: libtpu.so
+I0115 14:36:22.184254962   14108 ev_epoll1_linux.cc:121]     grpc epoll fd: 7
+D0115 14:36:22.184280040   14108 ev_posix.cc:141]            Using polling engine: epoll1
+D0115 14:36:22.184319233   14108 lb_policy_registry.cc:43]   registering LB policy factory for "grpclb"
+D0115 14:36:22.184333847   14108 lb_policy_registry.cc:43]   registering LB policy factory for "rls_experimental"
+D0115 14:36:22.184343424   14108 lb_policy_registry.cc:43]   registering LB policy factory for "priority_experimental"
+D0115 14:36:22.184347641   14108 lb_policy_registry.cc:43]   registering LB policy factory for "weighted_target_experimental"
+D0115 14:36:22.184351755   14108 lb_policy_registry.cc:43]   registering LB policy factory for "pick_first"
+D0115 14:36:22.184355840   14108 lb_policy_registry.cc:43]   registering LB policy factory for "round_robin"
+D0115 14:36:22.184364829   14108 lb_policy_registry.cc:43]   registering LB policy factory for "ring_hash_experimental"
+D0115 14:36:22.184379996   14108 dns_resolver_ares.cc:831]   Using ares dns resolver
+D0115 14:36:22.184404347   14108 certificate_provider_registry.cc:39] registering certificate provider factory for "file_watcher"
+D0115 14:36:22.184413342   14108 lb_policy_registry.cc:43]   registering LB policy factory for "cds_experimental"
+D0115 14:36:22.184418039   14108 lb_policy_registry.cc:43]   registering LB policy factory for "xds_cluster_impl_experimental"
+D0115 14:36:22.184427928   14108 lb_policy_registry.cc:43]   registering LB policy factory for "xds_cluster_resolver_experimental"
+D0115 14:36:22.184432073   14108 lb_policy_registry.cc:43]   registering LB policy factory for "xds_cluster_manager_experimental"
+2024-01-15 14:36:23.683667: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-01-15 14:36:29.148229: I tensorflow/compiler/xla/service/service.cc:173] XLA service 0x2387200 initialized for platform TPU (this does not guarantee that XLA will be used). Devices:
+2024-01-15 14:36:29.148289: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (0): TPU, 2a886c8
+2024-01-15 14:36:29.148313: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (1): TPU, 2a886c8
+2024-01-15 14:36:29.148321: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (2): TPU, 2a886c8
+2024-01-15 14:36:29.148329: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (3): TPU, 2a886c8
+2024-01-15 14:36:29.148349: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (4): TPU, 2a886c8
+2024-01-15 14:36:29.148356: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (5): TPU, 2a886c8
+2024-01-15 14:36:29.148363: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (6): TPU, 2a886c8
+2024-01-15 14:36:29.148370: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (7): TPU, 2a886c8
+0 - path: data/parts_EP_1.o/
+0 - cm: 0.4
+0 - start at parts_EP_1.o - 5729360
+loading data/parts_EP_1.o/part_057
+1 - path: data/parts_ENQ_1.o/
+1 - cm: 2.4
+1 - start at parts_ENQ_1.o - 2601635
+loading data/parts_ENQ_1.o/part_026
+2 - path: data/parts_EP_1.o/
+2 - cm: 0.4
+2 - start at parts_EP_1.o - 6219187
+loading data/parts_EP_1.o/part_062
+3 - path: data/parts_EP_1_inverted.o/
+3 - cm: 0.4
+3 - start at parts_EP_1_inverted.o - 5182996
+loading data/parts_EP_1_inverted.o/part_051
+4 - path: data/parts_YM_1.o/
+4 - cm: 2.4
+4 - start at parts_YM_1.o - 31141
+loading data/parts_YM_1.o/part_000
+5 - path: data/parts_ENQ_1_inverted.o/
+5 - cm: 2.4
+5 - start at parts_ENQ_1_inverted.o - 5020359
+loading data/parts_ENQ_1_inverted.o/part_050
+6 - path: data/parts_YM_1_inverted.o/
+6 - cm: 2.4
+6 - start at parts_YM_1_inverted.o - 3083207
+loading data/parts_YM_1_inverted.o/part_030
+7 - path: data/parts_YM_1_inverted.o/
+7 - cm: 2.4
+7 - start at parts_YM_1_inverted.o - 3733566
+loading data/parts_YM_1_inverted.o/part_037
+8 - path: data/parts_ENQ_1_inverted.o/
+8 - cm: 2.4
+8 - start at parts_ENQ_1_inverted.o - 1424727
+loading data/parts_ENQ_1_inverted.o/part_014
+9 - path: data/parts_EP_1.o/
+9 - cm: 0.4
+9 - start at parts_EP_1.o - 5921901
+loading data/parts_EP_1.o/part_059
+10 - path: data/parts_YM_1_inverted.o/
+10 - cm: 2.4
+10 - start at parts_YM_1_inverted.o - 5129678
+loading data/parts_YM_1_inverted.o/part_051
+11 - path: data/parts_EP_1.o/
+11 - cm: 0.4
+11 - start at parts_EP_1.o - 6180743
+loading data/parts_EP_1.o/part_061
+data_get_func online
+0 - path: data/parts_ENQ_1.o/
+0 - cm: 2.4
+0 - start at parts_ENQ_1.o - 5848587
+loading data/parts_ENQ_1.o/part_058
+1 - path: data/parts_ENQ_1.o/
+1 - cm: 2.4
+1 - start at parts_ENQ_1.o - 1661807
+loading data/parts_ENQ_1.o/part_016
+2 - path: data/parts_ENQ_1.o/
+2 - cm: 2.4
+2 - start at parts_ENQ_1.o - 4399158
+loading data/parts_ENQ_1.o/part_043
+3 - path: data/parts_YM_1.o/
+3 - cm: 2.4
+3 - start at parts_YM_1.o - 3153927
+loading data/parts_YM_1.o/part_031
+4 - path: data/parts_EP_1.o/
+4 - cm: 0.4
+4 - start at parts_EP_1.o - 2185282
+loading data/parts_EP_1.o/part_021
+5 - path: data/parts_ENQ_1.o/
+5 - cm: 2.4
+5 - start at parts_ENQ_1.o - 2184639
+loading data/parts_ENQ_1.o/part_021
+6 - path: data/parts_ENQ_1_inverted.o/
+6 - cm: 2.4
+6 - start at parts_ENQ_1_inverted.o - 3917494
+loading data/parts_ENQ_1_inverted.o/part_039
+7 - path: data/parts_EP_1.o/
+7 - cm: 0.4
+7 - start at parts_EP_1.o - 987544
+loading data/parts_EP_1.o/part_009
+8 - path: data/parts_EP_1.o/
+8 - cm: 0.4
+8 - start at parts_EP_1.o - 4311084
+loading data/parts_EP_1.o/part_043
+9 - path: data/parts_ENQ_1_inverted.o/
+9 - cm: 2.4
+9 - start at parts_ENQ_1_inverted.o - 2163779
+loading data/parts_ENQ_1_inverted.o/part_021
+10 - path: data/parts_YM_1.o/
+10 - cm: 2.4
+10 - start at parts_YM_1.o - 5369475
+loading data/parts_YM_1.o/part_053
+11 - path: data/parts_ENQ_1_inverted.o/
+11 - cm: 2.4
+11 - start at parts_ENQ_1_inverted.o - 5970447
+loading data/parts_ENQ_1_inverted.o/part_059
+data_get_func online
+0 - path: data/parts_ENQ_1.o/
+0 - cm: 2.4
+0 - start at parts_ENQ_1.o - 4499007
+loading data/parts_ENQ_1.o/part_044
+1 - path: data/parts_ENQ_1_inverted.o/
+1 - cm: 2.4
+1 - start at parts_ENQ_1_inverted.o - 1628753
+loading data/parts_ENQ_1_inverted.o/part_016
+2 - path: data/parts_ENQ_1.o/
+2 - cm: 2.4
+2 - start at parts_ENQ_1.o - 3111324
+loading data/parts_ENQ_1.o/part_031
+3 - path: data/parts_EP_1_inverted.o/
+3 - cm: 0.4
+3 - start at parts_EP_1_inverted.o - 6030452
+loading data/parts_EP_1_inverted.o/part_060
+4 - path: data/parts_YM_1.o/
+4 - cm: 2.4
+4 - start at parts_YM_1.o - 4834701
+loading data/parts_YM_1.o/part_048
+5 - path: data/parts_ENQ_1_inverted.o/
+5 - cm: 2.4
+5 - start at parts_ENQ_1_inverted.o - 1598883
+loading data/parts_ENQ_1_inverted.o/part_015
+6 - path: data/parts_YM_1.o/
+6 - cm: 2.4
+6 - start at parts_YM_1.o - 3013274
+loading data/parts_YM_1.o/part_030
+7 - path: data/parts_ENQ_1_inverted.o/
+7 - cm: 2.4
+7 - start at parts_ENQ_1_inverted.o - 2715121
+loading data/parts_ENQ_1_inverted.o/part_027
+8 - path: data/parts_EP_1.o/
+8 - cm: 0.4
+8 - start at parts_EP_1.o - 2517902
+loading data/parts_EP_1.o/part_025
+9 - path: data/parts_EP_1.o/
+9 - cm: 0.4
+9 - start at parts_EP_1.o - 6332781
+loading data/parts_EP_1.o/part_063
+10 - path: data/parts_YM_1.o/
+10 - cm: 2.4
+10 - start at parts_YM_1.o - 1437262
+loading data/parts_YM_1.o/part_014
+11 - path: data/parts_YM_1_inverted.o/
+11 - cm: 2.4
+11 - start at parts_YM_1_inverted.o - 418123
+loading data/parts_YM_1_inverted.o/part_004
+data_get_func online
+0 - path: data/parts_ENQ_1_inverted.o/
+0 - cm: 2.4
+0 - start at parts_ENQ_1_inverted.o - 6514721
+loading data/parts_ENQ_1_inverted.o/part_065
+1 - path: data/parts_EP_1.o/
+1 - cm: 0.4
+1 - start at parts_EP_1.o - 665549
+loading data/parts_EP_1.o/part_006
+2 - path: data/parts_EP_1.o/
+2 - cm: 0.4
+2 - start at parts_EP_1.o - 912552
+loading data/parts_EP_1.o/part_009
+3 - path: data/parts_EP_1.o/
+3 - cm: 0.4
+3 - start at parts_EP_1.o - 1509692
+loading data/parts_EP_1.o/part_015
+4 - path: data/parts_YM_1_inverted.o/
+4 - cm: 2.4
+4 - start at parts_YM_1_inverted.o - 1832150
+loading data/parts_YM_1_inverted.o/part_018
+5 - path: data/parts_EP_1.o/
+5 - cm: 0.4
+5 - start at parts_EP_1.o - 5309221
+loading data/parts_EP_1.o/part_053
+6 - path: data/parts_EP_1.o/
+6 - cm: 0.4
+6 - start at parts_EP_1.o - 4983332
+loading data/parts_EP_1.o/part_049
+7 - path: data/parts_ENQ_1_inverted.o/
+7 - cm: 2.4
+7 - start at parts_ENQ_1_inverted.o - 3483034
+loading data/parts_ENQ_1_inverted.o/part_034
+8 - path: data/parts_EP_1.o/
+8 - cm: 0.4
+8 - start at parts_EP_1.o - 586914
+loading data/parts_EP_1.o/part_005
+9 - path: data/parts_ENQ_1_inverted.o/
+9 - cm: 2.4
+9 - start at parts_ENQ_1_inverted.o - 4631663
+loading data/parts_ENQ_1_inverted.o/part_046
+10 - path: data/parts_YM_1_inverted.o/
+10 - cm: 2.4
+10 - start at parts_YM_1_inverted.o - 5694676
+loading data/parts_YM_1_inverted.o/part_056
+11 - path: data/parts_EP_1.o/
+11 - cm: 0.4
+11 - start at parts_EP_1.o - 1526109
+loading data/parts_EP_1.o/part_015
+data_get_func online
+0 - path: data/parts_YM_1.o/
+0 - cm: 2.4
+0 - start at parts_YM_1.o - 3645144
+loading data/parts_YM_1.o/part_036
+1 - path: data/parts_EP_1.o/
+1 - cm: 0.4
+1 - start at parts_EP_1.o - 3483308
+loading data/parts_EP_1.o/part_034
+2 - path: data/parts_YM_1_inverted.o/
+2 - cm: 2.4
+2 - start at parts_YM_1_inverted.o - 2167304
+loading data/parts_YM_1_inverted.o/part_021
+3 - path: data/parts_ENQ_1_inverted.o/
+3 - cm: 2.4
+3 - start at parts_ENQ_1_inverted.o - 1826077
+loading data/parts_ENQ_1_inverted.o/part_018
+4 - path: data/parts_ENQ_1.o/
+4 - cm: 2.4
+4 - start at parts_ENQ_1.o - 3485966
+loading data/parts_ENQ_1.o/part_034
+5 - path: data/parts_ENQ_1.o/
+5 - cm: 2.4
+5 - start at parts_ENQ_1.o - 448477
+loading data/parts_ENQ_1.o/part_004
+6 - path: data/parts_EP_1.o/
+6 - cm: 0.4
+6 - start at parts_EP_1.o - 755218
+loading data/parts_EP_1.o/part_007
+7 - path: data/parts_EP_1_inverted.o/
+7 - cm: 0.4
+7 - start at parts_EP_1_inverted.o - 2742803
+loading data/parts_EP_1_inverted.o/part_027
+8 - path: data/parts_ENQ_1.o/
+8 - cm: 2.4
+8 - start at parts_ENQ_1.o - 1600711
+loading data/parts_ENQ_1.o/part_016
+9 - path: data/parts_ENQ_1.o/
+9 - cm: 2.4
+9 - start at parts_ENQ_1.o - 2037763
+loading data/parts_ENQ_1.o/part_020
+10 - path: data/parts_ENQ_1.o/
+10 - cm: 2.4
+10 - start at parts_ENQ_1.o - 6001943
+loading data/parts_ENQ_1.o/part_060
+11 - path: data/parts_ENQ_1_inverted.o/
+11 - cm: 2.4
+11 - start at parts_ENQ_1_inverted.o - 407943
+loading data/parts_ENQ_1_inverted.o/part_004
+data_get_func online
+0 - path: data/parts_EP_1.o/
+0 - cm: 0.4
+0 - start at parts_EP_1.o - 2650148
+loading data/parts_EP_1.o/part_026
+1 - path: data/parts_YM_1.o/
+1 - cm: 2.4
+1 - start at parts_YM_1.o - 4245936
+loading data/parts_YM_1.o/part_042
+2 - path: data/parts_ENQ_1_inverted.o/
+2 - cm: 2.4
+2 - start at parts_ENQ_1_inverted.o - 1418665
+loading data/parts_ENQ_1_inverted.o/part_014
+3 - path: data/parts_YM_1_inverted.o/
+3 - cm: 2.4
+3 - start at parts_YM_1_inverted.o - 520389
+loading data/parts_YM_1_inverted.o/part_005
+4 - path: data/parts_YM_1_inverted.o/
+4 - cm: 2.4
+4 - start at parts_YM_1_inverted.o - 4325152
+loading data/parts_YM_1_inverted.o/part_043
+5 - path: data/parts_ENQ_1.o/
+5 - cm: 2.4
+5 - start at parts_ENQ_1.o - 608096
+loading data/parts_ENQ_1.o/part_006
+6 - path: data/parts_ENQ_1_inverted.o/
+6 - cm: 2.4
+6 - start at parts_ENQ_1_inverted.o - 4122441
+loading data/parts_ENQ_1_inverted.o/part_041
+7 - path: data/parts_EP_1.o/
+7 - cm: 0.4
+7 - start at parts_EP_1.o - 1022137
+loading data/parts_EP_1.o/part_010
+8 - path: data/parts_YM_1.o/
+8 - cm: 2.4
+8 - start at parts_YM_1.o - 3148237
+loading data/parts_YM_1.o/part_031
+9 - path: data/parts_ENQ_1_inverted.o/
+9 - cm: 2.4
+9 - start at parts_ENQ_1_inverted.o - 1786441
+loading data/parts_ENQ_1_inverted.o/part_017
+10 - path: data/parts_YM_1_inverted.o/
+10 - cm: 2.4
+10 - start at parts_YM_1_inverted.o - 1718218
+loading data/parts_YM_1_inverted.o/part_017
+11 - path: data/parts_YM_1_inverted.o/
+11 - cm: 2.4
+11 - start at parts_YM_1_inverted.o - 2406958
+loading data/parts_YM_1_inverted.o/part_024
+data_get_func online
+0 - path: data/parts_YM_1_inverted.o/
+0 - cm: 2.4
+0 - start at parts_YM_1_inverted.o - 4018655
+loading data/parts_YM_1_inverted.o/part_040
+1 - path: data/parts_ENQ_1_inverted.o/
+1 - cm: 2.4
+1 - start at parts_ENQ_1_inverted.o - 1246390
+loading data/parts_ENQ_1_inverted.o/part_012
+2 - path: data/parts_YM_1_inverted.o/
+2 - cm: 2.4
+2 - start at parts_YM_1_inverted.o - 617508
+loading data/parts_YM_1_inverted.o/part_006
+3 - path: data/parts_ENQ_1.o/
+3 - cm: 2.4
+3 - start at parts_ENQ_1.o - 5943585
+loading data/parts_ENQ_1.o/part_059
+4 - path: data/parts_ENQ_1.o/
+4 - cm: 2.4
+4 - start at parts_ENQ_1.o - 5014524
+loading data/parts_ENQ_1.o/part_050
+5 - path: data/parts_EP_1.o/
+5 - cm: 0.4
+5 - start at parts_EP_1.o - 3980663
+loading data/parts_EP_1.o/part_039
+6 - path: data/parts_YM_1_inverted.o/
+6 - cm: 2.4
+6 - start at parts_YM_1_inverted.o - 385295
+loading data/parts_YM_1_inverted.o/part_003
+7 - path: data/parts_EP_1_inverted.o/
+7 - cm: 0.4
+7 - start at parts_EP_1_inverted.o - 170186
+loading data/parts_EP_1_inverted.o/part_001
+8 - path: data/parts_EP_1_inverted.o/
+8 - cm: 0.4
+8 - start at parts_EP_1_inverted.o - 4212737
+loading data/parts_EP_1_inverted.o/part_042
+9 - path: data/parts_ENQ_1.o/
+9 - cm: 2.4
+9 - start at parts_ENQ_1.o - 1039577
+loading data/parts_ENQ_1.o/part_010
+10 - path: data/parts_YM_1.o/
+10 - cm: 2.4
+10 - start at parts_YM_1.o - 4079026
+loading data/parts_YM_1.o/part_040
+11 - path: data/parts_ENQ_1_inverted.o/
+11 - cm: 2.4
+11 - start at parts_ENQ_1_inverted.o - 1515899
+loading data/parts_ENQ_1_inverted.o/part_015
+data_get_func online
+0 - path: data/parts_YM_1.o/
+0 - cm: 2.4
+0 - start at parts_YM_1.o - 3543162
+loading data/parts_YM_1.o/part_035
+1 - path: data/parts_ENQ_1_inverted.o/
+1 - cm: 2.4
+1 - start at parts_ENQ_1_inverted.o - 2487363
+loading data/parts_ENQ_1_inverted.o/part_024
+2 - path: data/parts_EP_1.o/
+2 - cm: 0.4
+2 - start at parts_EP_1.o - 6258977
+loading data/parts_EP_1.o/part_062
+3 - path: data/parts_YM_1_inverted.o/
+3 - cm: 2.4
+3 - start at parts_YM_1_inverted.o - 4942969
+loading data/parts_YM_1_inverted.o/part_049
+4 - path: data/parts_ENQ_1.o/
+4 - cm: 2.4
+4 - start at parts_ENQ_1.o - 4572377
+loading data/parts_ENQ_1.o/part_045
+5 - path: data/parts_YM_1.o/
+5 - cm: 2.4
+5 - start at parts_YM_1.o - 4296049
+loading data/parts_YM_1.o/part_042
+6 - path: data/parts_ENQ_1.o/
+6 - cm: 2.4
+6 - start at parts_ENQ_1.o - 4290846
+loading data/parts_ENQ_1.o/part_042
+7 - path: data/parts_EP_1_inverted.o/
+7 - cm: 0.4
+7 - start at parts_EP_1_inverted.o - 5573497
+loading data/parts_EP_1_inverted.o/part_055
+8 - path: data/parts_ENQ_1_inverted.o/
+8 - cm: 2.4
+8 - start at parts_ENQ_1_inverted.o - 4711702
+loading data/parts_ENQ_1_inverted.o/part_047
+9 - path: data/parts_YM_1_inverted.o/
+9 - cm: 2.4
+9 - start at parts_YM_1_inverted.o - 3692203
+loading data/parts_YM_1_inverted.o/part_036
+10 - path: data/parts_YM_1_inverted.o/
+10 - cm: 2.4
+10 - start at parts_YM_1_inverted.o - 1306342
+loading data/parts_YM_1_inverted.o/part_013
+11 - path: data/parts_EP_1_inverted.o/
+11 - cm: 0.4
+11 - start at parts_EP_1_inverted.o - 3518624
+loading data/parts_EP_1_inverted.o/part_035
+data_get_func online
+2024-01-15 14:37:35.906588: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:268] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+2024-01-15 14:37:36.038694: I tensorflow/compiler/jit/xla_compilation_cache.cc:476] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+loading data/parts_ENQ_1.o/part_044
+loading data/parts_ENQ_1_inverted.o/part_022
+loading data/parts_EP_1_inverted.o/part_052
+loading data/parts_YM_1.o/part_032
+loading data/parts_ENQ_1_inverted.o/part_060
+loading data/parts_EP_1.o/part_062
+loading data/parts_EP_1.o/part_022
+loading data/parts_EP_1.o/part_010
+loading data/parts_ENQ_1.o/part_045
+loading data/parts_YM_1_inverted.o/part_031
+loading data/parts_YM_1.o/part_054
+loading data/parts_YM_1_inverted.o/part_022
+loading data/parts_ENQ_1.o/part_022
+loading data/parts_ENQ_1.o/part_017
+loading data/parts_ENQ_1_inverted.o/part_016
+loading data/parts_EP_1.o/part_050
+loading data/parts_ENQ_1_inverted.o/part_018
+loading data/parts_ENQ_1_inverted.o/part_035
+loading data/parts_EP_1.o/part_040
+loading data/parts_EP_1.o/part_008
+loading data/parts_YM_1_inverted.o/part_004
+loading data/parts_YM_1_inverted.o/part_057
+loading data/parts_EP_1.o/part_006
+loading data/parts_EP_1.o/part_007
+loading data/parts_EP_1.o/part_035
+loading data/parts_EP_1.o/part_027
+loading data/parts_ENQ_1.o/part_035
+loading data/parts_ENQ_1.o/part_043
+Model: "model"
+__________________________________________________________________________________________________
+ Layer (type)                   Output Shape         Param #     Connected to                     
+==================================================================================================
+ input_7 (InputLayer)           [(None, 1)]          0           []                               
+                                                                                                  
+ input_6 (InputLayer)           [(None, 1)]          0           []                               
+                                                                                                  
+ embedding (Embedding)          multiple             11520       ['tf.__operators__.getitem_4[0][0
+                                                                 ]',                              
+                                                                  'tf.__operators__.getitem_9[0][0
+                                                                 ]',                              
+                                                                  'tf.__operators__.getitem_14[0][
+                                                                 0]',                             
+                                                                  'input_7[0][0]']                
+                                                                                                  
+ embedding_1 (Embedding)        (None, 1, 3)         21          ['input_6[0][0]']                
+                                                                                                  
+ input_5 (InputLayer)           [(None, 1)]          0           []                               
+                                                                                                  
+ input_4 (InputLayer)           [(None, 1)]          0           []                               
+                                                                                                  
+ flatten_1 (Flatten)            (None, 8)            0           ['embedding[3][0]']              
+                                                                                                  
+ flatten (Flatten)              (None, 3)            0           ['embedding_1[0][0]']            
+                                                                                                  
+ concatenate_3 (Concatenate)    (None, 13)           0           ['input_5[0][0]',                
+                                                                  'input_4[0][0]',                
+                                                                  'flatten_1[0][0]',              
+                                                                  'flatten[0][0]']                
+                                                                                                  
+ dense (Dense)                  (None, 256)          3584        ['concatenate_3[0][0]']          
+                                                                                                  
+ input_1 (InputLayer)           [(None, 500, 5)]     0           []                               
+                                                                                                  
+ dense_1 (Dense)                (None, 256)          65792       ['dense[0][0]']                  
+                                                                                                  
+ tf.__operators__.getitem (Slic  (None, 500)         0           ['input_1[0][0]']                
+ ingOpLambda)                                                                                     
+                                                                                                  
+ tf.__operators__.getitem_1 (Sl  (None, 500)         0           ['input_1[0][0]']                
+ icingOpLambda)                                                                                   
+                                                                                                  
+ tf.__operators__.getitem_2 (Sl  (None, 500)         0           ['input_1[0][0]']                
+ icingOpLambda)                                                                                   
+                                                                                                  
+ tf.__operators__.getitem_3 (Sl  (None, 500)         0           ['input_1[0][0]']                
+ icingOpLambda)                                                                                   
+                                                                                                  
+ tf.__operators__.getitem_4 (Sl  (None, 500)         0           ['input_1[0][0]']                
+ icingOpLambda)                                                                                   
+                                                                                                  
+ dense_2 (Dense)                (None, 12)           3084        ['dense_1[0][0]']                
+                                                                                                  
+ reshape (Reshape)              (None, 500, 1)       0           ['tf.__operators__.getitem[0][0]'
+                                                                 ]                                
+                                                                                                  
+ reshape_1 (Reshape)            (None, 500, 1)       0           ['tf.__operators__.getitem_1[0][0
+                                                                 ]']                              
+                                                                                                  
+ reshape_2 (Reshape)            (None, 500, 1)       0           ['tf.__operators__.getitem_2[0][0
+                                                                 ]']                              
+                                                                                                  
+ reshape_3 (Reshape)            (None, 500, 1)       0           ['tf.__operators__.getitem_3[0][0
+                                                                 ]']                              
+                                                                                                  
+ reshape_12 (Reshape)           (None, 1, 12)        0           ['dense_2[0][0]']                
+                                                                                                  
+ concatenate (Concatenate)      (None, 500, 12)      0           ['reshape[0][0]',                
+                                                                  'reshape_1[0][0]',              
+                                                                  'reshape_2[0][0]',              
+                                                                  'reshape_3[0][0]',              
+                                                                  'embedding[0][0]']              
+                                                                                                  
+ concatenate_4 (Concatenate)    (None, 501, 12)      0           ['reshape_12[0][0]',             
+                                                                  'concatenate[0][0]']            
+                                                                                                  
+ gru (GRU)                      (None, 501, 128)     54528       ['concatenate_4[0][0]']          
+                                                                                                  
+ gru_1 (GRU)                    (None, 501, 128)     99072       ['gru[0][0]']                    
+                                                                                                  
+ gru_2 (GRU)                    (None, 501, 128)     99072       ['gru_1[0][0]']                  
+                                                                                                  
+ gru_3 (GRU)                    (None, 501, 128)     99072       ['gru_2[0][0]']                  
+                                                                                                  
+ gru_4 (GRU)                    (None, 501, 128)     99072       ['gru_3[0][0]']                  
+                                                                                                  
+ gru_5 (GRU)                    (None, 256)          296448      ['gru_4[0][0]']                  
+                                                                                                  
+ concatenate_5 (Concatenate)    (None, 269)          0           ['input_5[0][0]',                
+                                                                  'input_4[0][0]',                
+                                                                  'flatten_1[0][0]',              
+                                                                  'flatten[0][0]',                
+                                                                  'gru_5[0][0]']                  
+                                                                                                  
+ dense_3 (Dense)                (None, 256)          69120       ['concatenate_5[0][0]']          
+                                                                                                  
+ input_2 (InputLayer)           [(None, 500, 5)]     0           []                               
+                                                                                                  
+ dense_4 (Dense)                (None, 256)          65792       ['dense_3[0][0]']                
+                                                                                                  
+ tf.__operators__.getitem_5 (Sl  (None, 500)         0           ['input_2[0][0]']                
+ icingOpLambda)                                                                                   
+                                                                                                  
+ tf.__operators__.getitem_6 (Sl  (None, 500)         0           ['input_2[0][0]']                
+ icingOpLambda)                                                                                   
+                                                                                                  
+ tf.__operators__.getitem_7 (Sl  (None, 500)         0           ['input_2[0][0]']                
+ icingOpLambda)                                                                                   
+                                                                                                  
+ tf.__operators__.getitem_8 (Sl  (None, 500)         0           ['input_2[0][0]']                
+ icingOpLambda)                                                                                   
+                                                                                                  
+ tf.__operators__.getitem_9 (Sl  (None, 500)         0           ['input_2[0][0]']                
+ icingOpLambda)                                                                                   
+                                                                                                  
+ dense_5 (Dense)                (None, 12)           3084        ['dense_4[0][0]']                
+                                                                                                  
+ reshape_4 (Reshape)            (None, 500, 1)       0           ['tf.__operators__.getitem_5[0][0
+                                                                 ]']                              
+                                                                                                  
+ reshape_5 (Reshape)            (None, 500, 1)       0           ['tf.__operators__.getitem_6[0][0
+                                                                 ]']                              
+                                                                                                  
+ reshape_6 (Reshape)            (None, 500, 1)       0           ['tf.__operators__.getitem_7[0][0
+                                                                 ]']                              
+                                                                                                  
+ reshape_7 (Reshape)            (None, 500, 1)       0           ['tf.__operators__.getitem_8[0][0
+                                                                 ]']                              
+                                                                                                  
+ reshape_13 (Reshape)           (None, 1, 12)        0           ['dense_5[0][0]']                
+                                                                                                  
+ concatenate_1 (Concatenate)    (None, 500, 12)      0           ['reshape_4[0][0]',              
+                                                                  'reshape_5[0][0]',              
+                                                                  'reshape_6[0][0]',              
+                                                                  'reshape_7[0][0]',              
+                                                                  'embedding[1][0]']              
+                                                                                                  
+ concatenate_6 (Concatenate)    (None, 501, 12)      0           ['reshape_13[0][0]',             
+                                                                  'concatenate_1[0][0]']          
+                                                                                                  
+ gru_6 (GRU)                    (None, 501, 128)     54528       ['concatenate_6[0][0]']          
+                                                                                                  
+ gru_7 (GRU)                    (None, 501, 128)     99072       ['gru_6[0][0]']                  
+                                                                                                  
+ gru_8 (GRU)                    (None, 501, 128)     99072       ['gru_7[0][0]']                  
+                                                                                                  
+ gru_9 (GRU)                    (None, 501, 128)     99072       ['gru_8[0][0]']                  
+                                                                                                  
+ gru_10 (GRU)                   (None, 501, 128)     99072       ['gru_9[0][0]']                  
+                                                                                                  
+ gru_11 (GRU)                   (None, 256)          296448      ['gru_10[0][0]']                 
+                                                                                                  
+ concatenate_7 (Concatenate)    (None, 525)          0           ['input_5[0][0]',                
+                                                                  'input_4[0][0]',                
+                                                                  'flatten_1[0][0]',              
+                                                                  'flatten[0][0]',                
+                                                                  'gru_5[0][0]',                  
+                                                                  'gru_11[0][0]']                 
+                                                                                                  
+ dense_6 (Dense)                (None, 256)          134656      ['concatenate_7[0][0]']          
+                                                                                                  
+ input_3 (InputLayer)           [(None, 500, 5)]     0           []                               
+                                                                                                  
+ dense_7 (Dense)                (None, 256)          65792       ['dense_6[0][0]']                
+                                                                                                  
+ tf.__operators__.getitem_10 (S  (None, 500)         0           ['input_3[0][0]']                
+ licingOpLambda)                                                                                  
+                                                                                                  
+ tf.__operators__.getitem_11 (S  (None, 500)         0           ['input_3[0][0]']                
+ licingOpLambda)                                                                                  
+                                                                                                  
+ tf.__operators__.getitem_12 (S  (None, 500)         0           ['input_3[0][0]']                
+ licingOpLambda)                                                                                  
+                                                                                                  
+ tf.__operators__.getitem_13 (S  (None, 500)         0           ['input_3[0][0]']                
+ licingOpLambda)                                                                                  
+                                                                                                  
+ tf.__operators__.getitem_14 (S  (None, 500)         0           ['input_3[0][0]']                
+ licingOpLambda)                                                                                  
+                                                                                                  
+ dense_8 (Dense)                (None, 12)           3084        ['dense_7[0][0]']                
+                                                                                                  
+ reshape_8 (Reshape)            (None, 500, 1)       0           ['tf.__operators__.getitem_10[0][
+                                                                 0]']                             
+                                                                                                  
+ reshape_9 (Reshape)            (None, 500, 1)       0           ['tf.__operators__.getitem_11[0][
+                                                                 0]']                             
+                                                                                                  
+ reshape_10 (Reshape)           (None, 500, 1)       0           ['tf.__operators__.getitem_12[0][
+                                                                 0]']                             
+                                                                                                  
+ reshape_11 (Reshape)           (None, 500, 1)       0           ['tf.__operators__.getitem_13[0][
+                                                                 0]']                             
+                                                                                                  
+ reshape_14 (Reshape)           (None, 1, 12)        0           ['dense_8[0][0]']                
+                                                                                                  
+ concatenate_2 (Concatenate)    (None, 500, 12)      0           ['reshape_8[0][0]',              
+                                                                  'reshape_9[0][0]',              
+                                                                  'reshape_10[0][0]',             
+                                                                  'reshape_11[0][0]',             
+                                                                  'embedding[2][0]']              
+                                                                                                  
+ concatenate_8 (Concatenate)    (None, 501, 12)      0           ['reshape_14[0][0]',             
+                                                                  'concatenate_2[0][0]']          
+                                                                                                  
+ gru_12 (GRU)                   (None, 501, 128)     54528       ['concatenate_8[0][0]']          
+                                                                                                  
+ gru_13 (GRU)                   (None, 501, 128)     99072       ['gru_12[0][0]']                 
+                                                                                                  
+ gru_14 (GRU)                   (None, 501, 128)     99072       ['gru_13[0][0]']                 
+                                                                                                  
+ gru_15 (GRU)                   (None, 501, 128)     99072       ['gru_14[0][0]']                 
+                                                                                                  
+ gru_16 (GRU)                   (None, 501, 128)     99072       ['gru_15[0][0]']                 
+                                                                                                  
+ gru_17 (GRU)                   (None, 256)          296448      ['gru_16[0][0]']                 
+                                                                                                  
+ concatenate_9 (Concatenate)    (None, 768)          0           ['gru_5[0][0]',                  
+                                                                  'gru_11[0][0]',                 
+                                                                  'gru_17[0][0]']                 
+                                                                                                  
+ dense_9 (Dense)                (None, 1024)         787456      ['concatenate_9[0][0]']          
+                                                                                                  
+ leaky_re_lu (LeakyReLU)        (None, 1024)         0           ['dense_9[0][0]']                
+                                                                                                  
+ dense_10 (Dense)               (None, 1024)         1049600     ['leaky_re_lu[0][0]']            
+                                                                                                  
+ leaky_re_lu_1 (LeakyReLU)      (None, 1024)         0           ['dense_10[0][0]']               
+                                                                                                  
+ dense_11 (Dense)               (None, 1024)         1049600     ['leaky_re_lu_1[0][0]']          
+                                                                                                  
+ leaky_re_lu_2 (LeakyReLU)      (None, 1024)         0           ['dense_11[0][0]']               
+                                                                                                  
+ dense_12 (Dense)               (None, 3)            3075        ['leaky_re_lu_2[0][0]']          
+                                                                                                  
+==================================================================================================
+Total params: 5,557,052
+Trainable params: 5,557,052
+Non-trainable params: 0
+__________________________________________________________________________________________________
+loading model weights...
+loading data/parts_YM_1_inverted.o/part_037
+loading data/parts_ENQ_1.o/part_046
+loading data/parts_YM_1.o/part_041
+loading data/parts_EP_1.o/part_063
+loading data/parts_ENQ_1_inverted.o/part_025
+loading data/parts_YM_1.o/part_043
+loading data/parts_EP_1_inverted.o/part_002
+loading data/parts_EP_1_inverted.o/part_056
+2024-01-15 14:38:29.219716: I tensorflow/core/tpu/graph_rewrite/encapsulate_tpu_computations_pass.cc:237] Subgraph fingerprint:8712007549994068184
+2024-01-15 14:38:30.088910: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:954] model_pruner failed: INVALID_ARGUMENT: Graph does not contain terminal node StatefulPartitionedCall.
+2024-01-15 14:38:30.995815: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:954] model_pruner failed: INVALID_ARGUMENT: Graph does not contain terminal node StatefulPartitionedCall.
+2024-01-15 14:38:32.160475: I tensorflow/core/tpu/kernels/tpu_compilation_cache_interface.cc:437] TPU host compilation cache miss: cache_key(5167350151175601013), session_name()
+2024-01-15 14:38:45.500358: I tensorflow/core/tpu/kernels/tpu_compile_op_common.cc:210] Compilation of 5167350151175601013 with session name  took 13.339761228s and succeeded
+2024-01-15 14:38:45.554709: I tensorflow/core/tpu/kernels/tpu_compilation_cache_interface.cc:470] TPU host compilation cache: compilation complete for cache_key(5167350151175601013), session_name(), subgraph_key(std::string(property.function_name) = "cluster_tpu_function_8712007549994068184", property.function_library_fingerprint = 8643225698390143421, property.mlir_module_fingerprint = 0, property.num_replicas = 8, topology.chip_bounds().x = 2, topology.chip_bounds().y = 2, topology.chip_bounds().z = 1, topology.wrap().x = false, topology.wrap().y = false, topology.wrap().z = false, topology.MissingChipCount() = 0, std::string(property.shapes_prefix) = "", property.guaranteed_constants_size = 0, embedding_partitions_fingerprint = "1688352644216761960")
+2024-01-15 14:38:45.554790: I tensorflow/core/tpu/kernels/tpu_compilation_cache_interface.cc:536] After adding entry for key 5167350151175601013 with session_name  cache is 1 entries (66924060 bytes),  marked for eviction 0 entries (0 bytes).
+loss: 0.39280716 - expected Q values: -0.90743697 - time: 104.854172706604
+loss: 0.78470767 - expected Q values: -1.1769673 - time: 62.82828402519226
+loss: 0.5841318 - expected Q values: -1.075239 - time: 62.95503115653992
+loading data/parts_ENQ_1.o/part_059
+loading data/parts_ENQ_1.o/part_005
+loss: 0.49238223 - expected Q values: -0.9955607 - time: 61.27445316314697
+loss: 0.776659 - expected Q values: -1.2117963 - time: 62.512043714523315
+loading data/parts_YM_1.o/part_032
+loss: 0.43794444 - expected Q values: -0.85679126 - time: 62.589332580566406
+loss: 0.61067927 - expected Q values: -0.9872581 - time: 61.619813442230225
+loss: 0.736772 - expected Q values: -1.2128276 - time: 62.94499349594116
+loss: 0.8678429 - expected Q values: -1.2250943 - time: 62.2811439037323
+
+copy model weights...
+
+loss: 1.2414243 - expected Q values: -1.3823181 - time: 64.56824851036072
+loading data/parts_ENQ_1_inverted.o/part_013
+loss: 0.62934786 - expected Q values: -1.3937716 - time: 62.00224590301514
+loading data/parts_YM_1.o/part_043
+loss: 0.6373946 - expected Q values: -1.432714 - time: 66.0048143863678
+loss: 0.75138414 - expected Q values: -1.6621841 - time: 62.12821054458618
+loss: 0.7553676 - expected Q values: -1.6684291 - time: 62.34130072593689
+loss: 0.81093407 - expected Q values: -1.7355086 - time: 62.63463807106018
+loss: 0.7705332 - expected Q values: -1.6366491 - time: 62.041921615600586
+loading data/parts_YM_1.o/part_037
+loss: 0.31775752 - expected Q values: -0.99913496 - time: 61.917521953582764
+loss: 0.6774657 - expected Q values: -1.5679069 - time: 62.17055320739746
+loss: 0.7655406 - expected Q values: -1.6776941 - time: 62.02221083641052
+
+copy model weights...
+
+
+saving...
+
+loss: 0.6253311 - expected Q values: -1.4591504 - time: 63.1565682888031
