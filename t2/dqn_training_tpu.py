@@ -259,7 +259,7 @@ def main():
         model = make_model()
         target_model = make_model()
         optimizer = tf.keras.optimizers.Adam(learning_rate = learning_rate)
-
+    model.summary()
     print("loading model weights...")
     try:
         model.load_weights("dqn_weights.h5")

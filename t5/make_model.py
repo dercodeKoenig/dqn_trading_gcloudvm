@@ -179,4 +179,4 @@ def make_model():
   model = tf.keras.Model(inputs = [input_current_pos, input_closing_prices, input_closing_times_in, input_current_day_in, input_m1, input_m5, input_m15], outputs=x)
   return model
 
-make_model()
+#make_model()
