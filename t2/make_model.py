@@ -77,7 +77,7 @@ def make_model():
       input_state = tf.keras.layers.Dense(256, activation = "relu")(input_state)
       input_state = tf.keras.layers.Dense(256, activation = "relu")(input_state)
       input_state_tx = tf.keras.layers.Dense(gru_units, activation = "relu")(input_state)
-      input_state_tx = tf.keras.layers.Reshape((-1,gru_units))(input_state_tx)
+      input_state_tx = tf.keras.layers.Reshape((-1,12))(input_state_tx)
       return input_state_tx
   
   def process_chart(chart, additional_info):
