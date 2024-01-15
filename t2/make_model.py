@@ -4,7 +4,7 @@
 import tensorflow as tf
 
 #config
-batch_size = 32
+batch_size = 64
 gamma = 0.995
 learning_rate=0.00002
 num_data_generation_threads = 12
@@ -71,7 +71,7 @@ def make_model():
   input_closing_times = tf.keras.layers.Flatten()(input_closing_times)
   
 
-  gru_units = 256
+  gru_units = 128
 
   def embed_information(input_state):
       input_state = tf.keras.layers.Dense(256, activation = "relu")(input_state)
@@ -89,12 +89,8 @@ def make_model():
     x = tf.keras.layers.GRU(gru_units, return_sequences=True)(x)
     x = tf.keras.layers.GRU(gru_units, return_sequences=True)(x)
     x = tf.keras.layers.GRU(gru_units, return_sequences=True)(x)
-    x = tf.keras.layers.GRU(gru_units, return_sequences=True)(x)
-    x = tf.keras.layers.GRU(gru_units, return_sequences=True)(x)
-    x = tf.keras.layers.GRU(gru_units, return_sequences=True)(x)
-    x = tf.keras.layers.GRU(gru_units, return_sequences=True)(x)
     
-    x = tf.keras.layers.GRU(1024, return_sequences=False)(x)
+    x = tf.keras.layers.GRU(256, return_sequences=False)(x)
     
     
     return x
