@@ -89,11 +89,7 @@ class match_time_cor_market:
         
 
 
-#def threaded_data_generation(q,num):
-if True:
-    q = Queue()
-    num = 0
-    
+def threaded_data_generation(q,num):
     #first_run = True
     first_run = True
     while True:
