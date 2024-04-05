@@ -7,8 +7,8 @@ import tensorflow as tf
 batch_size = 32
 gamma = 0.995
 learning_rate=0.00005
-num_data_generation_threads = 4 #12
-batch_generation_threads = 1    #8
+num_data_generation_threads = 1 #12
+batch_generation_threads = 4    #8
 memory_size = 50_000
 ep_len = 100
 
@@ -110,8 +110,8 @@ def make_model():
     positions = PositionEmbedding(c_len+tx_embed_len, tx_units)(pos_z)
     positions = tf.keras.layers.Dense(pos_embed_units)(positions)
     chart = tf.keras.layers.Concatenate()([positions, chart])
-    chart = TransformerBlock(total_units, 24, 256)(chart)
-    chart = TransformerBlock(total_units, 24, 256)(chart)
+    chart = TransformerBlock(total_units, 4, 256)(chart)
+    #chart = TransformerBlock(total_units, 24, 256)(chart)
     #chart = TransformerBlock(total_units, 24, 256)(chart)
     #chart = TransformerBlock(total_units, 24, 256)(chart)
     #chart = TransformerBlock(total_units, 24, 256)(chart)

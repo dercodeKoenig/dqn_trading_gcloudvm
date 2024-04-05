@@ -372,49 +372,8 @@ def main():
 
     def tpu_data_get_func(_n):
         return batch_q.get()
-    
-    counter = 0
-    counter_total = 0
-    loss_mean = []
-    q_mean = []
-    while True:
-        counter += 1
-        t0 = time.time()
-        if verb:
-            progbar = tf.keras.utils.Progbar(ep_len)
-        losses = []
-        qs = []
-        if verb:
-            bq_pv = batch_q.qsize() / batch_q_size * 100
-            print("num ready batches:", bq_pv, "%", "(good)" if bq_pv >= 100 else "")
-        for i in range(ep_len):
-            
-            if batch_q.qsize() >= 8:
-                counter_total += 1
-                
-                distributed_values = (strategy.experimental_distribute_values_from_function(tpu_data_get_func))
-                loss, qv = strategy.reduce(tf.distribute.ReduceOp.MEAN, strategy.run(tstep, args = (distributed_values,)), axis = None)
-                
-                losses.append(loss.numpy())
-                qs.append(qv.numpy())
-                if verb:
-                    progbar.update(i+1, values = [("loss", loss), ("qv", qv)])
-                    
-                if counter_total % target_model_sync == 0:   
-                    print("\ncopy model weights...\n")
-                    target_model.set_weights(model.get_weights())        
-                
-            
-            else:
-                time.sleep(1)
-                print("waiting for batch generation...")
-
-            
+    def save_data():
         
-        loss_mean.append(np.mean(losses))
-        q_mean.append(np.mean(qs))
-        
-        if counter % save_freq == 0:
                     print("\nsaving...\n")
                     for l in loss_mean:
                         filesave("loss.txt", l)        
@@ -423,12 +382,60 @@ def main():
                         filesave("qv.txt", q)
                         q_mean = []
                     model.save_weights("dqn_weights.h5")
-        
-         
-        if not verb:
-            print("loss:", np.mean(losses), "- expected Q values:", np.mean(qs), "- time:", time.time() - t0)
-        
+    counter = 0
+    counter_total = 0
+    loss_mean = []
+    q_mean = []
+    while True:
+        try:
+            counter += 1
+            t0 = time.time()
+            if verb:
+                progbar = tf.keras.utils.Progbar(ep_len)
+            losses = []
+            qs = []
+            if verb:
+                bq_pv = batch_q.qsize() / batch_q_size * 100
+                print("num ready batches:", bq_pv, "%", "(good)" if bq_pv >= 100 else "")
+            for i in range(ep_len):
+                
+                if batch_q.qsize() >= 8:
+                    counter_total += 1
+                    
+                    distributed_values = (strategy.experimental_distribute_values_from_function(tpu_data_get_func))
+                    loss, qv = strategy.reduce(tf.distribute.ReduceOp.MEAN, strategy.run(tstep, args = (distributed_values,)), axis = None)
+                    
+                    losses.append(loss.numpy())
+                    qs.append(qv.numpy())
+                    if verb:
+                        progbar.update(i+1, values = [("loss", loss), ("qv", qv)])
+                        
+                    if counter_total % target_model_sync == 0:   
+                        print("\ncopy model weights...\n")
+                        target_model.set_weights(model.get_weights())        
+                    
+                
+                else:
+                    time.sleep(1)
+                    print("waiting for batch generation...")
+    
+                
             
+            loss_mean.append(np.mean(losses))
+            q_mean.append(np.mean(qs))
+            
+            if counter % save_freq == 0:
+                save_data()
+            
+             
+            if not verb:
+                print("loss:", np.mean(losses), "- expected Q values:", np.mean(qs), "- time:", time.time() - t0)
+            
+        except Exception as e:
+            print(e)
+            save_data()
+            print("exiting....")
+            return
 
 if __name__ == "__main__":
     main()
