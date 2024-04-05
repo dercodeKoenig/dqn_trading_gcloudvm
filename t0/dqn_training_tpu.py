@@ -23,14 +23,17 @@ n_actions = 3
 m1 = np.eye(n_actions, dtype="float32")
 batch_q_size = 512
 data_q_maxlen = 128
-
+timeout_seconds = -1
+start_time = time.time()
 
 verb = False
 import sys
 argv = sys.argv
-if len(argv) == 2:
+if len(argv) >= 2:
     if argv[1] == "v":
         verb = True
+if len(argv) >= 3:
+    timeout_seconds = int(argv[2])
        
        
 parts = [("parts_EP_1.o/", "parts_ENQ_1.o/", 0.4), ("parts_EP_1_inverted.o/", "parts_ENQ_1_inverted.o/", 0.4), ("parts_ENQ_1.o/", "parts_EP_1.o/", 1.9), ("parts_ENQ_1_inverted.o/", "parts_EP_1_inverted.o/", 1.9)]
@@ -415,7 +418,13 @@ def main():
             loss_mean.append(np.mean(losses))
             q_mean.append(np.mean(qs))
             
-            if counter % save_freq == 0:
+            td = False
+            if timeout_seconds > 0:
+                if time.time() - start_time > timeout_seconds:
+                    td = True
+                
+            
+            if counter % save_freq == 0 || td:
                     print("\nsaving...\n")
                     for l in loss_mean:
                         filesave("loss.txt", l)        
@@ -425,7 +434,7 @@ def main():
                         q_mean = []
                     model.save_weights("dqn_weights.h5")
             
-             
+            if td:return
             if not verb:
                 print("loss:", np.mean(losses), "- expected Q values:", np.mean(qs), "- time:", time.time() - t0)
             

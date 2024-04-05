@@ -33,7 +33,7 @@ def plot_logs(losses, qs, name):
     plt.savefig(name)
             
 try:
-	losses = get_values("t0/loss.txt")
-	qs = get_values("t0/qv.txt")
+	losses = get_values("loss.txt")
+	qs = get_values("qv.txt")
 	plot_logs(losses, qs, "t0.jpg")
 except:pass
