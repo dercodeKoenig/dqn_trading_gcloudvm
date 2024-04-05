@@ -424,7 +424,7 @@ def main():
                     td = True
                 
             
-            if counter % save_freq == 0 || td:
+            if counter % save_freq == 0 or td:
                     print("\nsaving...\n")
                     for l in loss_mean:
                         filesave("loss.txt", l)        
