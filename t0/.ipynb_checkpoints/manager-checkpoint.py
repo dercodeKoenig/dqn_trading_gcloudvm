@@ -36,11 +36,12 @@ def MHDMoY_to_minutes(m,h,d,mo,y):
 class manager:
     
     def __init__(self):
-        self.m1_candles = deque(maxlen = 500)
-        self.m5_candles = deque(maxlen = 500)
-        self.m15_candles = deque(maxlen = 500)
-        self.m60_candles = deque(maxlen = 1000)  # no action history needs to be computed here
-        self.d1_candles = deque(maxlen = 1000)   # no action history needs to be computed here
+        l = 120
+        self.m1_candles = deque(maxlen = l)
+        self.m5_candles = deque(maxlen = l)
+        self.m15_candles = deque(maxlen = l)
+        self.m60_candles = deque(maxlen = 1000)  
+        self.d1_candles = deque(maxlen = 1000)   
 
       
         

@@ -33,31 +33,7 @@ def plot_logs(losses, qs, name):
     plt.savefig(name)
             
 try:
-	losses = get_values("t1/loss.txt")
-	qs = get_values("t1/qv.txt")
+	losses = get_values("t0/loss.txt")
+	qs = get_values("t0/qv.txt")
 	plot_logs(losses, qs, "t1.jpg")
-except:pass
-
-try:
-	losses = get_values("t2/loss.txt")
-	qs = get_values("t2/qv.txt")
-	plot_logs(losses, qs, "t2.jpg")
-except:pass
-
-try:
-	losses = get_values("t3/loss.txt")
-	qs = get_values("t3/qv.txt")
-	plot_logs(losses, qs, "t3.jpg")
-except:pass
-
-try:
-	losses = get_values("t4/loss.txt")
-	qs = get_values("t4/qv.txt")
-	plot_logs(losses, qs, "t4.jpg")
-except:pass
-
-try:
-	losses = get_values("t5/loss.txt")
-	qs = get_values("t5/qv.txt")
-	plot_logs(losses, qs, "t5.jpg")
 except:pass
