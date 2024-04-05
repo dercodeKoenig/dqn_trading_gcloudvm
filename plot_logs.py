@@ -35,5 +35,5 @@ def plot_logs(losses, qs, name):
 try:
 	losses = get_values("t0/loss.txt")
 	qs = get_values("t0/qv.txt")
-	plot_logs(losses, qs, "t1.jpg")
+	plot_logs(losses, qs, "t0.jpg")
 except:pass
