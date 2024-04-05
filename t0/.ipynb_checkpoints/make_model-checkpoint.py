@@ -8,7 +8,7 @@ batch_size = 32
 gamma = 0.995
 learning_rate=0.00005
 num_data_generation_threads = 1 #12
-batch_generation_threads = 2    #8
+batch_generation_threads = 8    #8
 memory_size = 50_000
 ep_len = 100
 
