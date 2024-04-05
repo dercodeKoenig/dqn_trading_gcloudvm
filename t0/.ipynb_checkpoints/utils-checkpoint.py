@@ -35,7 +35,6 @@ class PositionalEncoding_Layer():
         div_term = np.exp(np.arange(0.0, float(d_model), 2.0, dtype=np.float32) * -(np.log(1000.0) / float(d_model)))
         pe[:, 0::2] = np.sin(position * div_term)
         pe[:, 1::2] = np.cos(position * div_term)
-        pe = np.convert_to_tensor(pe, dtype=np.float32)
         pe = np.expand_dims(pe, axis=0)
         return pe
     # batch_size, seq_max_len, dim
@@ -69,7 +68,7 @@ def get_inputs_from_ret(ret, x):
         m15_sin_array.append([l,t])
         m15_sin_array.append([c,t])
         
-    m15_sin_outputs = pe_layer([x[0] for x in m15_sin_array], len(m15_sin_array), 32).numpy()[0]
+    m15_sin_outputs = pe_layer([x[0] for x in m15_sin_array], len(m15_sin_array), 32)[0]
     t_info = []
     for i in range(int(len(m15_sin_outputs) / 4)):
         t = m15_sin_outputs[i][1]
@@ -96,7 +95,7 @@ def get_inputs_from_ret(ret, x):
         m5_sin_array.append([l,t])
         m5_sin_array.append([c,t])
         
-    m5_sin_outputs = pe_layer([x[0] for x in m5_sin_array], len(m5_sin_array), 32).numpy()[0]
+    m5_sin_outputs = pe_layer([x[0] for x in m5_sin_array], len(m5_sin_array), 32)[0]
     t_info = []
     for i in range(int(len(m5_sin_outputs) / 4)):
         t = m5_sin_outputs[i][1]
@@ -123,7 +122,7 @@ def get_inputs_from_ret(ret, x):
         m1_sin_array.append([l,t])
         m1_sin_array.append([c,t])
         
-    m1_sin_outputs = pe_layer([x[0] for x in m1_sin_array], len(m1_sin_array), 32).numpy()[0]
+    m1_sin_outputs = pe_layer([x[0] for x in m1_sin_array], len(m1_sin_array), 32)[0]
     t_info = []
     for i in range(int(len(m1_sin_outputs) / 4)):
         t = m1_sin_outputs[i][1]

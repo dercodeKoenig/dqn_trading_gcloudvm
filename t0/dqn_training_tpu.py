@@ -162,7 +162,7 @@ def threaded_data_generation(q,num):
                         inp_short = [-1]+last_state
                         inp_neutral = [0]+last_state
 
-                        print("push data...")
+                        #print("push data...")
             
                         
                         
