@@ -387,7 +387,6 @@ def main():
     loss_mean = []
     q_mean = []
     while True:
-        try:
             counter += 1
             t0 = time.time()
             if verb:
@@ -431,11 +430,6 @@ def main():
             if not verb:
                 print("loss:", np.mean(losses), "- expected Q values:", np.mean(qs), "- time:", time.time() - t0)
             
-        except Exception as e:
-            print(e)
-            save_data()
-            print("exiting....")
-            return
 
 if __name__ == "__main__":
     main()
