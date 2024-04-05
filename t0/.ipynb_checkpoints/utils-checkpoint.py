@@ -25,7 +25,7 @@ def scale_timeofday(t):
     return (t[3]*60+t[4])#+(t[5])*60*24
 
 
-import tensorflow as tf
+#import tensorflow as tf
 class PositionalEncoding_Layer():
     def __init__(self):
         pass
@@ -35,8 +35,8 @@ class PositionalEncoding_Layer():
         div_term = np.exp(np.arange(0.0, float(d_model), 2.0, dtype=np.float32) * -(np.log(1000.0) / float(d_model)))
         pe[:, 0::2] = np.sin(position * div_term)
         pe[:, 1::2] = np.cos(position * div_term)
-        pe = tf.convert_to_tensor(pe, dtype=tf.float32)
-        pe = tf.expand_dims(pe, axis=0)
+        pe = np.convert_to_tensor(pe, dtype=np.float32)
+        pe = np.expand_dims(pe, axis=0)
         return pe
     # batch_size, seq_max_len, dim
     def __call__(self, inputs, max_len, inputs_dim):
