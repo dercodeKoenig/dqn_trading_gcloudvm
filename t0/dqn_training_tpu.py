@@ -372,16 +372,8 @@ def main():
 
     def tpu_data_get_func(_n):
         return batch_q.get()
-    def save_data():
-        
-                    print("\nsaving...\n")
-                    for l in loss_mean:
-                        filesave("loss.txt", l)        
-                        loss_mean = []
-                    for q in q_mean:
-                        filesave("qv.txt", q)
-                        q_mean = []
-                    model.save_weights("dqn_weights.h5")
+    
+    
     counter = 0
     counter_total = 0
     loss_mean = []
@@ -424,7 +416,14 @@ def main():
             q_mean.append(np.mean(qs))
             
             if counter % save_freq == 0:
-                save_data()
+                    print("\nsaving...\n")
+                    for l in loss_mean:
+                        filesave("loss.txt", l)        
+                        loss_mean = []
+                    for q in q_mean:
+                        filesave("qv.txt", q)
+                        q_mean = []
+                    model.save_weights("dqn_weights.h5")
             
              
             if not verb:
