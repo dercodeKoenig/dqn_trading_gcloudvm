@@ -36,7 +36,7 @@ if len(argv) >= 3:
     timeout_seconds = int(argv[2])
        
        
-parts = [("parts_EP_1.o/", "parts_ENQ_1.o/", 0.4), ("parts_EP_1_inverted.o/", "parts_ENQ_1_inverted.o/", 0.4), ("parts_ENQ_1.o/", "parts_EP_1.o/", 1.9), ("parts_ENQ_1_inverted.o/", "parts_EP_1_inverted.o/", 1.9)]
+parts = [("parts_EP_1.o/", "parts_ENQ_1.o/", 0.2), ("parts_EP_1_inverted.o/", "parts_ENQ_1_inverted.o/", 0.2), ("parts_ENQ_1.o/", "parts_EP_1.o/", 0.9), ("parts_ENQ_1_inverted.o/", "parts_EP_1_inverted.o/", 0.9)]
 
 
 class match_time_cor_market:
