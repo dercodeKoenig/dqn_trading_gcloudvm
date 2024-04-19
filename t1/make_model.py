@@ -7,8 +7,8 @@ import tensorflow as tf
 batch_size = 32
 gamma = 0.99
 learning_rate=0.00005
-num_data_generation_threads = 24
-batch_generation_threads = 2
+num_data_generation_threads = 8
+batch_generation_threads = 6
 #num_data_generation_threads = 1
 #batch_generation_threads = 4
 memory_size = 50_000
@@ -64,7 +64,7 @@ class PositionEmbedding(layers.Layer):
 def make_model():
 
   tx_units = 32+5
-  c_len = 120*4
+  c_len = 60*4
   chart_m15 = tf.keras.layers.Input(shape = (c_len,tx_units))
   chart_m5 = tf.keras.layers.Input(shape = (c_len,tx_units))
   chart_m1 = tf.keras.layers.Input(shape = (c_len,tx_units))

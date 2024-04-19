@@ -36,7 +36,7 @@ def MHDMoY_to_minutes(m,h,d,mo,y):
 class manager:
     
     def __init__(self):
-        l = 120
+        l = 60
         self.m1_candles = deque(maxlen = l)
         self.m5_candles = deque(maxlen = l)
         self.m15_candles = deque(maxlen = l)
