@@ -17,7 +17,6 @@ ep_len = 100
 
 num_model_inputs = 3+3+1+4
 n_actions = 3
-m1 = np.eye(n_actions, dtype="float32")
 batch_q_size = 512
 data_q_maxlen = 128
 target_model_sync = 5000

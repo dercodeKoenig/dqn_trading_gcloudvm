@@ -34,6 +34,7 @@ if len(argv) >= 3:
 parts = [("parts_EP_1.o/", "parts_ENQ_1.o/", 0.2), ("parts_EP_1_inverted.o/", "parts_ENQ_1_inverted.o/", 0.2), ("parts_ENQ_1.o/", "parts_EP_1.o/", 0.9), ("parts_ENQ_1_inverted.o/", "parts_EP_1_inverted.o/", 0.9)]
 
 
+m1 = np.eye(n_actions, dtype="float32")
 class match_time_cor_market:
     def __init__ (self,path):
         self.path = path
