@@ -4,11 +4,11 @@
 import tensorflow as tf
 
 #config
-batch_size = 32
+batch_size = 128
 gamma = 0.99
 learning_rate=0.00005
 num_data_generation_threads = 8
-batch_generation_threads = 6
+batch_generation_threads = 8
 #num_data_generation_threads = 1
 #batch_generation_threads = 4
 memory_size = 50_000
