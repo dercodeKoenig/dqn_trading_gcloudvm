@@ -11,7 +11,7 @@ num_data_generation_threads = 8
 batch_generation_threads = 8
 #num_data_generation_threads = 1
 #batch_generation_threads = 4
-memory_size = 50_000
+memory_size = 30_000
 ep_len = 100
 
 
